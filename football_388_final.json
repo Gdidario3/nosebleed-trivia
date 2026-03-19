@@ -1,0 +1,4658 @@
+[
+  {
+    "q": "The 'Immaculate Reception' occurred during a 1972 AFC Divisional playoff game between the Pittsburgh Steelers and which team?",
+    "a": "Oakland Raiders",
+    "choices": [
+      "Oakland Raiders",
+      "Miami Dolphins",
+      "Cleveland Browns",
+      "Cincinnati Bengals"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "How many points is a safety worth in the NFL?",
+    "a": "2",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "6"
+    ],
+    "sport": "football",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Which NFL stadium is known as 'The Frozen Tundra'?",
+    "a": "Lambeau Field",
+    "choices": [
+      "Lambeau Field",
+      "Soldier Field",
+      "MetLife Stadium",
+      "Arrowhead Stadium"
+    ],
+    "sport": "football",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Which coach has the most Super Bowl wins as a head coach?",
+    "a": "Bill Belichick",
+    "choices": [
+      "Bill Belichick",
+      "Chuck Noll",
+      "Joe Gibbs",
+      "Bill Walsh"
+    ],
+    "sport": "football",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Which NFL team was the first to paint a logo on their helmets?",
+    "a": "Los Angeles Rams",
+    "choices": [
+      "Los Angeles Rams",
+      "Chicago Bears",
+      "Green Bay Packers",
+      "New York Giants"
+    ],
+    "sport": "football",
+    "difficulty": "hard"
+  },
+  {
+    "q": "In Super Bowl XLII, which receiver caught the famous helmet catch to help the Giants upset the undefeated Patriots?",
+    "a": "David Tyree",
+    "choices": [
+      "David Tyree",
+      "Plaxico Burress",
+      "Amani Toomer",
+      "Jeremy Shockey"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "What is the name of the rule that prohibits defenders from hitting a quarterback below the knees?",
+    "a": "The Brady Rule",
+    "choices": [
+      "The Brady Rule",
+      "The Manning Rule",
+      "The Roughing Rule",
+      "The Favre Rule"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Which undrafted free agent became a Hall of Fame wide receiver after signing with the San Francisco 49ers?",
+    "a": "Jerry Rice",
+    "choices": [
+      "Jerry Rice",
+      "Randy Moss",
+      "Terrell Owens",
+      "Cris Carter"
+    ],
+    "sport": "football",
+    "difficulty": "hard"
+  },
+  {
+    "q": "The 'Ice Bowl' in 1967 was played between the Green Bay Packers and which team?",
+    "a": "Dallas Cowboys",
+    "choices": [
+      "Dallas Cowboys",
+      "Chicago Bears",
+      "Minnesota Vikings",
+      "Detroit Lions"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Which NFL franchise moved from Baltimore to Indianapolis in 1984?",
+    "a": "Colts",
+    "choices": [
+      "Colts",
+      "Ravens",
+      "Browns",
+      "Steelers"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "How many players are on the field for each team during a standard NFL play?",
+    "a": "11",
+    "choices": [
+      "9",
+      "10",
+      "11",
+      "12"
+    ],
+    "sport": "football",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Which quarterback threw for 5 touchdowns in his NFL debut, a record at the time?",
+    "a": "Patrick Mahomes",
+    "choices": [
+      "Patrick Mahomes",
+      "Deshaun Watson",
+      "Josh Allen",
+      "Lamar Jackson"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "The New Orleans Saints' first Super Bowl win came in Super Bowl XLIV against which team?",
+    "a": "Indianapolis Colts",
+    "choices": [
+      "Indianapolis Colts",
+      "Minnesota Vikings",
+      "New England Patriots",
+      "San Diego Chargers"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Which city hosted the first outdoor Super Bowl played in cold weather conditions (Super Bowl XLVIII)?",
+    "a": "East Rutherford, New Jersey",
+    "choices": [
+      "East Rutherford, New Jersey",
+      "Chicago, Illinois",
+      "Minneapolis, Minnesota",
+      "Denver, Colorado"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "What controversial call in the 2018 NFC Championship game led to the NFL changing its helmet-contact rule?",
+    "a": "A missed pass interference and helmet-to-helmet call against the Rams",
+    "choices": [
+      "A missed pass interference and helmet-to-helmet call against the Rams",
+      "A false start that ended the Saints drive",
+      "A reversed fumble call against the Saints",
+      "An incorrect roughing the passer penalty"
+    ],
+    "sport": "football",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Which running back holds the NFL single-season rushing record with 2,105 yards?",
+    "a": "Eric Dickerson",
+    "choices": [
+      "Eric Dickerson",
+      "Barry Sanders",
+      "Adrian Peterson",
+      "Emmitt Smith"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "The Seattle Seahawks' Legion of Boom secondary was anchored by cornerback Richard Sherman and which safety?",
+    "a": "Earl Thomas",
+    "choices": [
+      "Earl Thomas",
+      "Kam Chancellor",
+      "Brandon Browner",
+      "Byron Maxwell"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Which NFL team originally played as the Boston Patriots before moving to Foxborough?",
+    "a": "New England Patriots",
+    "choices": [
+      "New England Patriots",
+      "New York Jets",
+      "Buffalo Bills",
+      "Miami Dolphins"
+    ],
+    "sport": "football",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Kurt Warner went from stocking grocery shelves to winning Super Bowl XXXIV with which team?",
+    "a": "St. Louis Rams",
+    "choices": [
+      "St. Louis Rams",
+      "Arizona Cardinals",
+      "New York Giants",
+      "Minnesota Vikings"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "What is the distance in yards between the goal posts in the NFL?",
+    "a": "18.5 yards",
+    "choices": [
+      "15 yards",
+      "18.5 yards",
+      "20 yards",
+      "23.5 yards"
+    ],
+    "sport": "football",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Which receiver caught the game-winning touchdown in Super Bowl XLIX to give the Patriots a comeback win over the Seahawks?",
+    "a": "Julian Edelman",
+    "choices": [
+      "Julian Edelman",
+      "Rob Gronkowski",
+      "Danny Amendola",
+      "Brandon LaFell"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "The 'Hail Mary' touchdown pass by Roger Staubach in the 1975 playoffs was thrown to which receiver?",
+    "a": "Drew Pearson",
+    "choices": [
+      "Drew Pearson",
+      "Bob Hayes",
+      "Golden Richards",
+      "Butch Johnson"
+    ],
+    "sport": "football",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Which NFL team plays home games at Arrowhead Stadium?",
+    "a": "Kansas City Chiefs",
+    "choices": [
+      "Kansas City Chiefs",
+      "Denver Broncos",
+      "Las Vegas Raiders",
+      "Los Angeles Chargers"
+    ],
+    "sport": "football",
+    "difficulty": "easy"
+  },
+  {
+    "q": "The 'Minneapolis Miracle' in the 2017 NFC Divisional playoffs featured a last-second touchdown by which Vikings receiver?",
+    "a": "Stefon Diggs",
+    "choices": [
+      "Stefon Diggs",
+      "Adam Thielen",
+      "Kyle Rudolph",
+      "Cordarrelle Patterson"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "What year did the NFL introduce the two-point conversion option?",
+    "a": "1994",
+    "choices": [
+      "1988",
+      "1991",
+      "1994",
+      "1998"
+    ],
+    "sport": "football",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Which player famously declared 'I'm going to Disney World!' after winning Super Bowl XXI?",
+    "a": "Phil Simms",
+    "choices": [
+      "Phil Simms",
+      "Joe Montana",
+      "Jim McMahon",
+      "Doug Williams"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Peyton Manning holds the record for most touchdown passes in a single season with how many?",
+    "a": "55",
+    "choices": [
+      "49",
+      "51",
+      "55",
+      "58"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Which NFL team is nicknamed 'Da Bears' by fans and media?",
+    "a": "Chicago Bears",
+    "choices": [
+      "Chicago Bears",
+      "Denver Broncos",
+      "Carolina Panthers",
+      "Detroit Lions"
+    ],
+    "sport": "football",
+    "difficulty": "easy"
+  },
+  {
+    "q": "The 'Tuck Rule' game in the 2001 AFC playoffs controversially benefited which team?",
+    "a": "New England Patriots",
+    "choices": [
+      "New England Patriots",
+      "Baltimore Ravens",
+      "Pittsburgh Steelers",
+      "Tennessee Titans"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Which running back rushed for 296 yards in a single game, setting an NFL record in 1977?",
+    "a": "Walter Payton",
+    "choices": [
+      "Walter Payton",
+      "O.J. Simpson",
+      "Earl Campbell",
+      "Tony Dorsett"
+    ],
+    "sport": "football",
+    "difficulty": "hard"
+  },
+  {
+    "q": "What is the name of the trophy awarded to the Super Bowl champion?",
+    "a": "Vince Lombardi Trophy",
+    "choices": [
+      "Vince Lombardi Trophy",
+      "Pete Rozelle Trophy",
+      "George Halas Trophy",
+      "Paul Brown Trophy"
+    ],
+    "sport": "football",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Which team defeated the Buffalo Bills in four consecutive Super Bowls, all losses, from 1991 to 1994?",
+    "a": "The Bills lost all four",
+    "choices": [
+      "The Bills lost all four",
+      "The Bills won two of four",
+      "The Bills won one of four",
+      "The Bills won three of four"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Antonio Brown's brother Desmond Brown also played in the NFL. Which position did Antonio Brown primarily play?",
+    "a": "Wide Receiver",
+    "choices": [
+      "Wide Receiver",
+      "Running Back",
+      "Cornerback",
+      "Tight End"
+    ],
+    "sport": "football",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Which father-son duo both played quarterback in the NFL, with the father winning a Super Bowl with the 49ers?",
+    "a": "Steve and Matt Beuerlein",
+    "choices": [
+      "Steve and Matt Beuerlein",
+      "Archie and Peyton Manning",
+      "Bob and Brian Griese",
+      "Jack and Jeff Kemp"
+    ],
+    "sport": "football",
+    "difficulty": "hard"
+  },
+  {
+    "q": "The NFL's 'Rooney Rule' requires teams to interview at least one minority candidate for which type of position?",
+    "a": "Head coach",
+    "choices": [
+      "Head coach",
+      "General Manager",
+      "Starting quarterback",
+      "Offensive coordinator"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Which team holds the record for the most consecutive wins in NFL regular season play?",
+    "a": "New England Patriots (21 games)",
+    "choices": [
+      "New England Patriots (21 games)",
+      "Chicago Bears (18 games)",
+      "San Francisco 49ers (18 games)",
+      "Green Bay Packers (19 games)"
+    ],
+    "sport": "football",
+    "difficulty": "hard"
+  },
+  {
+    "q": "At which London stadium did the NFL regularly play international games starting in 2007?",
+    "a": "Wembley Stadium",
+    "choices": [
+      "Wembley Stadium",
+      "Tottenham Hotspur Stadium",
+      "The Emirates",
+      "Old Trafford"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "What halftime show featured a famous wardrobe malfunction during Super Bowl XXXVIII?",
+    "a": "Janet Jackson and Justin Timberlake",
+    "choices": [
+      "Janet Jackson and Justin Timberlake",
+      "Britney Spears and Prince",
+      "Beyonce and Jay-Z",
+      "Madonna and Nicki Minaj"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Which team moved from San Diego to Los Angeles ahead of the 2017 NFL season?",
+    "a": "Chargers",
+    "choices": [
+      "Chargers",
+      "Raiders",
+      "Rams",
+      "49ers"
+    ],
+    "sport": "football",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Doug Williams made history in Super Bowl XXII as the first Black starting quarterback to win the Super Bowl. Which team did he play for?",
+    "a": "Washington Redskins",
+    "choices": [
+      "Washington Redskins",
+      "Denver Broncos",
+      "Los Angeles Raiders",
+      "Miami Dolphins"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "What is the term for when a team scores a touchdown on a kickoff return?",
+    "a": "Kickoff return touchdown",
+    "choices": [
+      "Kickoff return touchdown",
+      "Punt return score",
+      "Special teams six",
+      "Return score"
+    ],
+    "sport": "football",
+    "difficulty": "easy"
+  },
+  {
+    "q": "The 'The Drive' by John Elway in the 1986 AFC Championship game covered how many yards?",
+    "a": "98 yards",
+    "choices": [
+      "75 yards",
+      "87 yards",
+      "98 yards",
+      "102 yards"
+    ],
+    "sport": "football",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Which NFL team is named after a poem by Edgar Allan Poe that references a bird?",
+    "a": "Baltimore Ravens",
+    "choices": [
+      "Baltimore Ravens",
+      "Philadelphia Eagles",
+      "Atlanta Falcons",
+      "Seattle Seahawks"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Brett Favre played for four NFL teams. Which team did he start his career with?",
+    "a": "Atlanta Falcons",
+    "choices": [
+      "Atlanta Falcons",
+      "Green Bay Packers",
+      "Minnesota Vikings",
+      "New York Jets"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Which stadium is known as 'The Swamp' due to its extremely loud crowd noise?",
+    "a": "CenturyLink Field (Lumen Field)",
+    "choices": [
+      "CenturyLink Field (Lumen Field)",
+      "Arrowhead Stadium",
+      "Mercedes-Benz Stadium",
+      "Superdome"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "What rule change was introduced after a helmet-to-helmet hit on wide receiver Darryl Stingley left him paralyzed in 1978?",
+    "a": "Restrictions on hitting defenseless receivers",
+    "choices": [
+      "Restrictions on hitting defenseless receivers",
+      "The horse-collar tackle rule",
+      "The roughing the kicker rule",
+      "The chop block rule"
+    ],
+    "sport": "football",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Which defensive player set the NFL record with 22.5 sacks in a single season?",
+    "a": "Michael Strahan",
+    "choices": [
+      "Michael Strahan",
+      "Reggie White",
+      "Lawrence Taylor",
+      "Derrick Thomas"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "The Kansas City Chiefs were originally known by what name when they played in Dallas?",
+    "a": "Dallas Texans",
+    "choices": [
+      "Dallas Texans",
+      "Dallas Cowboys",
+      "Texas Longhorns",
+      "Dallas Oilers"
+    ],
+    "sport": "football",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Which player caught the most touchdown passes in a single season with 23?",
+    "a": "Randy Moss",
+    "choices": [
+      "Randy Moss",
+      "Jerry Rice",
+      "Marvin Harrison",
+      "Antonio Brown"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "What was the score of the most lopsided Super Bowl victory, Super Bowl XLVIII?",
+    "a": "43-8",
+    "choices": [
+      "35-10",
+      "38-14",
+      "43-8",
+      "45-3"
+    ],
+    "sport": "football",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Which coach led the Chicago Bears to their only Super Bowl championship after the 1985 season?",
+    "a": "Mike Ditka",
+    "choices": [
+      "Mike Ditka",
+      "Buddy Ryan",
+      "George Halas",
+      "Jim Finks"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "The Houston Oilers eventually became which current NFL franchise after relocating?",
+    "a": "Tennessee Titans",
+    "choices": [
+      "Tennessee Titans",
+      "Jacksonville Jaguars",
+      "Baltimore Ravens",
+      "Carolina Panthers"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Which kicker hit a 66-yard field goal in 2021, setting the NFL record for the longest field goal?",
+    "a": "Matt Prater",
+    "choices": [
+      "Matt Prater",
+      "Justin Tucker",
+      "Graham Gano",
+      "Sebastian Janikowski"
+    ],
+    "sport": "football",
+    "difficulty": "hard"
+  },
+  {
+    "q": "What was the name of the play where the Miami Dolphins lateraled the ball multiple times to score a touchdown against the New York Jets in 2018?",
+    "a": "The Miami Miracle",
+    "choices": [
+      "The Miami Miracle",
+      "The Wildcat Special",
+      "The Dolphin Flip",
+      "The Last Lateral"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Which team completed the only perfect season in NFL history going 17-0 including the Super Bowl in 1972-73?",
+    "a": "Miami Dolphins",
+    "choices": [
+      "Miami Dolphins",
+      "Chicago Bears",
+      "San Francisco 49ers",
+      "New England Patriots"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "How many seconds are on the play clock in the NFL between plays?",
+    "a": "40 seconds",
+    "choices": [
+      "25 seconds",
+      "30 seconds",
+      "35 seconds",
+      "40 seconds"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Which legendary broadcaster's voice is most associated with Monday Night Football from 1970 to 1983?",
+    "a": "Howard Cosell",
+    "choices": [
+      "Howard Cosell",
+      "Al Michaels",
+      "Frank Gifford",
+      "Don Meredith"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "The 'Music City Miracle' in the 2000 AFC Wild Card game involved a lateral pass by which player?",
+    "a": "Lorenzo Neal to Frank Wycheck to Kevin Dyson",
+    "choices": [
+      "Lorenzo Neal to Frank Wycheck to Kevin Dyson",
+      "Eddie George to Steve McNair",
+      "Neil O'Donnell to Yancey Thigpen",
+      "Chris Johnson to Kerry Collins"
+    ],
+    "sport": "football",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Which wide receiver famously walked a tightrope on a balance beam at training camp to promote his agility?",
+    "a": "Dez Bryant",
+    "choices": [
+      "Dez Bryant",
+      "Antonio Brown",
+      "Odell Beckham Jr.",
+      "Chad Johnson"
+    ],
+    "sport": "football",
+    "difficulty": "hard"
+  },
+  {
+    "q": "What team did Joe Montana play for in the final season of his career?",
+    "a": "Kansas City Chiefs",
+    "choices": [
+      "Kansas City Chiefs",
+      "San Francisco 49ers",
+      "Denver Broncos",
+      "Dallas Cowboys"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Which tight end caught a record 1,377 receiving yards in a single season as a tight end in 2011?",
+    "a": "Rob Gronkowski",
+    "choices": [
+      "Rob Gronkowski",
+      "Jimmy Graham",
+      "Tony Gonzalez",
+      "Shannon Sharpe"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "What is the name of the Dallas Cowboys' mascot?",
+    "a": "Rowdy",
+    "choices": [
+      "Rowdy",
+      "Tex",
+      "Star",
+      "Blaze"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Which player was passed over by 30 NFL teams and 5 rounds of drafting before being selected by the New England Patriots as Tom Brady?",
+    "a": "Tom Brady (6th round, pick 199)",
+    "choices": [
+      "Tom Brady (6th round, pick 199)",
+      "Tom Brady (5th round, pick 150)",
+      "Tom Brady (7th round, pick 218)",
+      "Tom Brady (4th round, pick 120)"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Which running back holds the NFL career rushing yards record?",
+    "a": "Emmitt Smith",
+    "choices": [
+      "Emmitt Smith",
+      "Walter Payton",
+      "Barry Sanders",
+      "Frank Gore"
+    ],
+    "sport": "football",
+    "difficulty": "easy"
+  },
+  {
+    "q": "In what year did the NFL introduce the salary cap?",
+    "a": "1994",
+    "choices": [
+      "1988",
+      "1991",
+      "1994",
+      "1997"
+    ],
+    "sport": "football",
+    "difficulty": "hard"
+  },
+  {
+    "q": "The 'Fail Mary' game in 2012 involved replacement referees making a controversial call during a game between the Seattle Seahawks and which team?",
+    "a": "Green Bay Packers",
+    "choices": [
+      "Green Bay Packers",
+      "Detroit Lions",
+      "Chicago Bears",
+      "Minnesota Vikings"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Who was the first quarterback to throw for 5,000 yards in a single NFL season?",
+    "a": "Dan Marino",
+    "choices": [
+      "Dan Marino",
+      "Joe Montana",
+      "Warren Moon",
+      "John Elway"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Tight end Tony Gonzalez retired with how many career receiving touchdowns?",
+    "a": "111",
+    "choices": [
+      "94",
+      "103",
+      "111",
+      "119"
+    ],
+    "sport": "football",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Which team holds the record for the most consecutive playoff appearances in NFL history?",
+    "a": "New England Patriots (11 consecutive from 2009-2019)",
+    "choices": [
+      "New England Patriots (11 consecutive from 2009-2019)",
+      "Dallas Cowboys (9 consecutive)",
+      "San Francisco 49ers (10 consecutive)",
+      "Pittsburgh Steelers (9 consecutive)"
+    ],
+    "sport": "football",
+    "difficulty": "hard"
+  },
+  {
+    "q": "What is the name of the annual rivalry game between the Green Bay Packers and Chicago Bears?",
+    "a": "The oldest rivalry in the NFL",
+    "choices": [
+      "The oldest rivalry in the NFL",
+      "The Ice Bowl Rivalry",
+      "The Midwest Classic",
+      "The Northern Showdown"
+    ],
+    "sport": "football",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Which defensive back was known as 'Night Train' and played a key role for the Los Angeles Rams in the 1950s?",
+    "a": "Dick 'Night Train' Lane",
+    "choices": [
+      "Dick 'Night Train' Lane",
+      "Emlen Tunnell",
+      "Jack Butler",
+      "Yale Lary"
+    ],
+    "sport": "football",
+    "difficulty": "hard"
+  },
+  {
+    "q": "The Baltimore Ravens were originally the Cleveland Browns franchise that relocated in what year?",
+    "a": "1996",
+    "choices": [
+      "1993",
+      "1995",
+      "1996",
+      "1999"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Who returned an interception 100 yards for a touchdown in Super Bowl XLIV to help the Colts rally?",
+    "a": "Tracy Porter (for the Saints, not the Colts)",
+    "choices": [
+      "Tracy Porter (for the Saints, not the Colts)",
+      "Reggie Wayne for the Colts",
+      "Dwight Freeney for the Colts",
+      "Bob Sanders for the Colts"
+    ],
+    "sport": "football",
+    "difficulty": "hard"
+  },
+  {
+    "q": "The Tampa Bay Buccaneers' original uniform colors were which combination?",
+    "a": "Orange and white",
+    "choices": [
+      "Orange and white",
+      "Red and pewter",
+      "Purple and gold",
+      "Blue and silver"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Deion Sanders played both NFL football and MLB baseball simultaneously. What baseball team did he play for during the 1992 World Series?",
+    "a": "Atlanta Braves",
+    "choices": [
+      "Atlanta Braves",
+      "New York Yankees",
+      "Oakland Athletics",
+      "Toronto Blue Jays"
+    ],
+    "sport": "football",
+    "difficulty": "hard"
+  },
+  {
+    "q": "What is the maximum number of players an NFL team can have on its active roster on game day?",
+    "a": "48",
+    "choices": [
+      "45",
+      "46",
+      "48",
+      "53"
+    ],
+    "sport": "football",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Which quarterback led the greatest comeback in Super Bowl history, overcoming a 28-3 deficit in Super Bowl LI?",
+    "a": "Tom Brady",
+    "choices": [
+      "Tom Brady",
+      "Eli Manning",
+      "Aaron Rodgers",
+      "Peyton Manning"
+    ],
+    "sport": "football",
+    "difficulty": "easy"
+  },
+  {
+    "q": "The 'Philly Special' trick play in Super Bowl LII was a touchdown pass thrown by which player?",
+    "a": "Nick Foles",
+    "choices": [
+      "Nick Foles",
+      "Carson Wentz",
+      "Corey Clement",
+      "Zach Ertz"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Which linebacker holds the NFL record for most sacks in a single game with 7 sacks?",
+    "a": "Derrick Thomas",
+    "choices": [
+      "Derrick Thomas",
+      "Lawrence Taylor",
+      "Reggie White",
+      "Bruce Smith"
+    ],
+    "sport": "football",
+    "difficulty": "hard"
+  },
+  {
+    "q": "The term 'blitz' in football originally referred to what?",
+    "a": "A tactic to send extra defenders at the quarterback",
+    "choices": [
+      "A tactic to send extra defenders at the quarterback",
+      "A type of no-huddle offense",
+      "A defensive zone coverage scheme",
+      "A special teams trick play"
+    ],
+    "sport": "football",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Which team did the Las Vegas Raiders play as before moving to Oakland, then back to Oakland, then to Las Vegas?",
+    "a": "Los Angeles Raiders",
+    "choices": [
+      "Los Angeles Raiders",
+      "San Diego Raiders",
+      "San Francisco Raiders",
+      "Sacramento Raiders"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "What was the first Super Bowl to go into overtime?",
+    "a": "Super Bowl LI",
+    "choices": [
+      "Super Bowl XLIII",
+      "Super Bowl XLVII",
+      "Super Bowl LI",
+      "Super Bowl LIV"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Which wide receiver legally changed his last name to his jersey number 'Ochocinco'?",
+    "a": "Chad Johnson",
+    "choices": [
+      "Chad Johnson",
+      "Terrell Owens",
+      "Randy Moss",
+      "Keyshawn Johnson"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "The Pittsburgh Steelers' 'Steel Curtain' defense of the 1970s was anchored by which defensive lineman?",
+    "a": "Mean Joe Greene",
+    "choices": [
+      "Mean Joe Greene",
+      "Jack Lambert",
+      "Jack Ham",
+      "Mel Blount"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "What unique design element distinguishes the Pittsburgh Steelers helmet from all other NFL teams?",
+    "a": "Logo only on one side of the helmet",
+    "choices": [
+      "Logo only on one side of the helmet",
+      "No facemask color",
+      "Stars instead of stripes",
+      "Black only on the back"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Which quarterback famously came back from ACL surgery to lead the Denver Broncos to a Super Bowl appearance in the 1998 season?",
+    "a": "John Elway",
+    "choices": [
+      "John Elway",
+      "Brian Griese",
+      "Bobby Brister",
+      "Bubby Brister"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "What is the name of the penalty for a defensive player illegally touching the football carrier's face mask?",
+    "a": "Face mask penalty",
+    "choices": [
+      "Face mask penalty",
+      "Personal foul",
+      "Roughing the runner",
+      "Unnecessary roughness"
+    ],
+    "sport": "football",
+    "difficulty": "easy"
+  },
+  {
+    "q": "The NFL changed kickoff rules in 2011 to move the kickoff line from the 30-yard line to which yard line to increase touchbacks?",
+    "a": "35-yard line",
+    "choices": [
+      "32-yard line",
+      "33-yard line",
+      "35-yard line",
+      "38-yard line"
+    ],
+    "sport": "football",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Which linebacker famously played in 236 consecutive games, a record for a defensive player?",
+    "a": "Clay Matthews Sr.",
+    "choices": [
+      "Clay Matthews Sr.",
+      "Junior Seau",
+      "Ray Lewis",
+      "Brian Urlacher"
+    ],
+    "sport": "football",
+    "difficulty": "hard"
+  },
+  {
+    "q": "The Gatorade bath given to coaches after wins is thought to have originated at which team's training facility?",
+    "a": "New York Giants",
+    "choices": [
+      "New York Giants",
+      "Chicago Bears",
+      "San Francisco 49ers",
+      "Miami Dolphins"
+    ],
+    "sport": "football",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Which team's fight song is called 'Hail to the Redskins' (now updated)?",
+    "a": "Washington Commanders",
+    "choices": [
+      "Washington Commanders",
+      "Kansas City Chiefs",
+      "Cleveland Browns",
+      "Atlanta Falcons"
+    ],
+    "sport": "football",
+    "difficulty": "easy"
+  },
+  {
+    "q": "In what country was the first NFL regular season international game played outside North America?",
+    "a": "United Kingdom",
+    "choices": [
+      "United Kingdom",
+      "Germany",
+      "Mexico",
+      "Japan"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Quarterback Joe Namath famously 'guaranteed' a Super Bowl win before Super Bowl III. Which heavily favored team did he predict a win over?",
+    "a": "Baltimore Colts",
+    "choices": [
+      "Baltimore Colts",
+      "Green Bay Packers",
+      "Dallas Cowboys",
+      "Minnesota Vikings"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "What does the NFL's 'IR' designation stand for?",
+    "a": "Injured Reserve",
+    "choices": [
+      "Injured Reserve",
+      "Inactive Roster",
+      "Internal Review",
+      "Ineligible Receiver"
+    ],
+    "sport": "football",
+    "difficulty": "easy"
+  },
+  {
+    "q": "The 'Boz' was the nickname of which controversial linebacker drafted by the Seattle Seahawks in 1987?",
+    "a": "Brian Bosworth",
+    "choices": [
+      "Brian Bosworth",
+      "Ken Norton Jr.",
+      "Fredd Young",
+      "David Wyman"
+    ],
+    "sport": "football",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Which team did Tom Brady join after leaving the New England Patriots in 2020?",
+    "a": "Tampa Bay Buccaneers",
+    "choices": [
+      "Tampa Bay Buccaneers",
+      "Las Vegas Raiders",
+      "Tennessee Titans",
+      "Los Angeles Chargers"
+    ],
+    "sport": "football",
+    "difficulty": "easy"
+  },
+  {
+    "q": "The 'Ghost to the Post' play in the 1977 AFC playoffs featured a catch by which Raiders receiver?",
+    "a": "Dave Casper",
+    "choices": [
+      "Dave Casper",
+      "Fred Biletnikoff",
+      "Cliff Branch",
+      "Morris Bradshaw"
+    ],
+    "sport": "football",
+    "difficulty": "hard"
+  },
+  {
+    "q": "The NFL Pro Bowl was moved from Hawaii to which location in 2010 before returning to Hawaii?",
+    "a": "Miami, Florida",
+    "choices": [
+      "Miami, Florida",
+      "Orlando, Florida",
+      "Phoenix, Arizona",
+      "Las Vegas, Nevada"
+    ],
+    "sport": "football",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Which quarterback shares the same last name as a famous inventor, and was drafted by the Cleveland Browns in 2018?",
+    "a": "Baker Mayfield",
+    "choices": [
+      "Baker Mayfield",
+      "Lamar Jackson",
+      "Sam Darnold",
+      "Josh Rosen"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Who coached the San Francisco 49ers to three Super Bowl titles in the 1980s?",
+    "a": "Bill Walsh",
+    "choices": [
+      "Bill Walsh",
+      "George Seifert",
+      "John Madden",
+      "Don Shula"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "In a 'Wildcat' formation, who typically takes the snap?",
+    "a": "A running back or receiver",
+    "choices": [
+      "A running back or receiver",
+      "The center",
+      "A tight end",
+      "The punter"
+    ],
+    "sport": "football",
+    "difficulty": "easy"
+  },
+  {
+    "q": "What was the first NFL team to win back-to-back Super Bowls?",
+    "a": "Green Bay Packers (Super Bowls I and II)",
+    "choices": [
+      "Green Bay Packers (Super Bowls I and II)",
+      "Miami Dolphins (VII and VIII)",
+      "Pittsburgh Steelers (IX and X)",
+      "Dallas Cowboys (XII and XIII)"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "The 'Snow Bowl' in 1982 was played in whiteout conditions and involved the New England Patriots and which opponent?",
+    "a": "Miami Dolphins",
+    "choices": [
+      "Miami Dolphins",
+      "Oakland Raiders",
+      "New York Jets",
+      "Cleveland Browns"
+    ],
+    "sport": "football",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Which cornerback was known as 'Primetime' and played for the Cowboys, 49ers, and Falcons among other teams?",
+    "a": "Deion Sanders",
+    "choices": [
+      "Deion Sanders",
+      "Rod Woodson",
+      "Darrell Green",
+      "Charles Woodson"
+    ],
+    "sport": "football",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Quarterback Daunte Culpepper had a massive 2004 season throwing for how many touchdowns?",
+    "a": "39",
+    "choices": [
+      "32",
+      "35",
+      "39",
+      "43"
+    ],
+    "sport": "football",
+    "difficulty": "hard"
+  },
+  {
+    "q": "The 'Fog Bowl' in 1988 saw which two teams play in near-zero visibility conditions in Chicago?",
+    "a": "Chicago Bears and Philadelphia Eagles",
+    "choices": [
+      "Chicago Bears and Philadelphia Eagles",
+      "Chicago Bears and Minnesota Vikings",
+      "Chicago Bears and Green Bay Packers",
+      "Chicago Bears and Los Angeles Rams"
+    ],
+    "sport": "football",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Which player holds the record for most career passing yards in NFL history?",
+    "a": "Tom Brady",
+    "choices": [
+      "Tom Brady",
+      "Peyton Manning",
+      "Brett Favre",
+      "Drew Brees"
+    ],
+    "sport": "football",
+    "difficulty": "easy"
+  },
+  {
+    "q": "What team did the Arizona Cardinals play for before moving to Arizona?",
+    "a": "St. Louis Cardinals",
+    "choices": [
+      "St. Louis Cardinals",
+      "Chicago Cardinals",
+      "Memphis Cardinals",
+      "Dallas Cardinals"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Who caught the 'Catch' from Joe Montana in the 1982 NFC Championship game to defeat the Dallas Cowboys?",
+    "a": "Dwight Clark",
+    "choices": [
+      "Dwight Clark",
+      "Charlie Young",
+      "Russ Francis",
+      "Freddie Solomon"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Which team retired jersey number 12 to honor their entire fan base, known as the '12th Man'?",
+    "a": "Seattle Seahawks",
+    "choices": [
+      "Seattle Seahawks",
+      "Kansas City Chiefs",
+      "New Orleans Saints",
+      "Buffalo Bills"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "What is the name of the zone in the end zone beyond which a kick through the uprights scores a field goal?",
+    "a": "The end zone",
+    "choices": [
+      "The end zone",
+      "The red zone",
+      "The scoring zone",
+      "The target zone"
+    ],
+    "sport": "football",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Which franchise has appeared in the most Super Bowls without winning one?",
+    "a": "Buffalo Bills (4 times)",
+    "choices": [
+      "Buffalo Bills (4 times)",
+      "Minnesota Vikings (4 times)",
+      "Cincinnati Bengals (3 times)",
+      "Los Angeles Chargers (1 time)"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "The 'Holy Roller' play in 1978 involved the Oakland Raiders illegally batting the ball to score a touchdown against which team?",
+    "a": "San Diego Chargers",
+    "choices": [
+      "San Diego Chargers",
+      "Seattle Seahawks",
+      "Denver Broncos",
+      "Kansas City Chiefs"
+    ],
+    "sport": "football",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Which NFL team was nicknamed the 'Greatest Show on Turf' in the late 1990s and early 2000s?",
+    "a": "St. Louis Rams",
+    "choices": [
+      "St. Louis Rams",
+      "Minnesota Vikings",
+      "Indianapolis Colts",
+      "Kansas City Chiefs"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "How many points is an extra point worth after a touchdown in the current NFL scoring system?",
+    "a": "1",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "6"
+    ],
+    "sport": "football",
+    "difficulty": "easy"
+  },
+  {
+    "q": "What piece of equipment became mandatory for all NFL players starting in 1943?",
+    "a": "Helmets",
+    "choices": [
+      "Helmets",
+      "Shoulder pads",
+      "Mouthguards",
+      "Knee pads"
+    ],
+    "sport": "football",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Which current NFL team is named after a classic country song about a boll weevil-like creature?",
+    "a": "Carolina Panthers",
+    "choices": [
+      "Carolina Panthers",
+      "Tennessee Titans",
+      "Houston Texans",
+      "Jacksonville Jaguars"
+    ],
+    "sport": "football",
+    "difficulty": "hard"
+  },
+  {
+    "q": "The Super Bowl halftime show featuring Prince in 2007 famously took place in which weather conditions?",
+    "a": "Heavy rain",
+    "choices": [
+      "Heavy rain",
+      "Freezing snow",
+      "Extreme heat",
+      "Dense fog"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Which running back was known as 'The Bus' for the Pittsburgh Steelers?",
+    "a": "Jerome Bettis",
+    "choices": [
+      "Jerome Bettis",
+      "Franco Harris",
+      "Rocky Bleier",
+      "Barry Foster"
+    ],
+    "sport": "football",
+    "difficulty": "easy"
+  },
+  {
+    "q": "The NFL's 'Scouting Combine' takes place in which city?",
+    "a": "Indianapolis",
+    "choices": [
+      "Indianapolis",
+      "Dallas",
+      "New York",
+      "Phoenix"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Which quarterback engineered a comeback from 32 points down in an NFL game, the biggest in regular season history?",
+    "a": "Frank Reich (with the Bills in 1993)",
+    "choices": [
+      "Frank Reich (with the Bills in 1993)",
+      "Joe Montana (with the 49ers)",
+      "John Elway (with the Broncos)",
+      "Dan Marino (with the Dolphins)"
+    ],
+    "sport": "football",
+    "difficulty": "hard"
+  },
+  {
+    "q": "What rule was named after wide receiver George Halas regarding uniform numbers?",
+    "a": "There is no rule named after Halas for numbers",
+    "choices": [
+      "There is no rule named after Halas for numbers",
+      "Linemen must wear 50-79",
+      "Wide receivers must wear 10-19",
+      "Running backs must wear 20-49"
+    ],
+    "sport": "football",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Randy Moss set the record for most receiving touchdowns in a single season with 23 in what year?",
+    "a": "2007",
+    "choices": [
+      "2003",
+      "2005",
+      "2007",
+      "2010"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Which team was the first expansion franchise added to the NFL in the 1960s AFL merger era?",
+    "a": "Miami Dolphins (1966)",
+    "choices": [
+      "Miami Dolphins (1966)",
+      "New Orleans Saints (1967)",
+      "Atlanta Falcons (1966)",
+      "Cincinnati Bengals (1968)"
+    ],
+    "sport": "football",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Which offensive lineman is nicknamed 'The Sheriff' and was known for communicating offensive line calls?",
+    "a": "Peyton Manning (quarterback, not lineman)",
+    "choices": [
+      "Peyton Manning (quarterback, not lineman)",
+      "Orlando Pace",
+      "Jonathan Ogden",
+      "Walter Jones"
+    ],
+    "sport": "football",
+    "difficulty": "hard"
+  },
+  {
+    "q": "What team did John Madden coach to a Super Bowl championship?",
+    "a": "Oakland Raiders",
+    "choices": [
+      "Oakland Raiders",
+      "San Francisco 49ers",
+      "Dallas Cowboys",
+      "Pittsburgh Steelers"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "The 'Butkus Award' is given annually to the top linebacker in college football, named after which NFL legend?",
+    "a": "Dick Butkus",
+    "choices": [
+      "Dick Butkus",
+      "Ray Nitschke",
+      "Jack Lambert",
+      "Chuck Bednarik"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Which team made NFL history by signing the first female coach to a full-time position?",
+    "a": "Arizona Cardinals (Jen Welter in 2015)",
+    "choices": [
+      "Arizona Cardinals (Jen Welter in 2015)",
+      "San Francisco 49ers (2016)",
+      "New York Giants (2018)",
+      "Las Vegas Raiders (2020)"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Jim Brown retired at age 29 while at the peak of his career. What was the reason he gave?",
+    "a": "To pursue an acting career",
+    "choices": [
+      "To pursue an acting career",
+      "Injury forced his retirement",
+      "Financial disputes with team ownership",
+      "He wanted to focus on civil rights work"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Which college team was nicknamed the 'Pipeline to the Pros' for producing so many NFL offensive linemen in the 2000s?",
+    "a": "Nebraska",
+    "choices": [
+      "Nebraska",
+      "Ohio State",
+      "Alabama",
+      "USC"
+    ],
+    "sport": "football",
+    "difficulty": "hard"
+  },
+  {
+    "q": "What was Vince Lombardi's record in NFL Championship games and Super Bowls combined?",
+    "a": "9-1",
+    "choices": [
+      "7-2",
+      "8-1",
+      "9-1",
+      "10-0"
+    ],
+    "sport": "football",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Which team's mascot is a 'Buccaneer' themed pirate, and what is that mascot's name?",
+    "a": "Captain Fear (Tampa Bay Buccaneers)",
+    "choices": [
+      "Captain Fear (Tampa Bay Buccaneers)",
+      "Long John (Jacksonville Jaguars)",
+      "Pirate Pete (Oakland Raiders)",
+      "Jolly Roger (New England Patriots)"
+    ],
+    "sport": "football",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Al Michaels famously asked 'Do you believe in miracles?' during which sporting event, and he later called NFL games?",
+    "a": "1980 Winter Olympics hockey (Miracle on Ice)",
+    "choices": [
+      "1980 Winter Olympics hockey (Miracle on Ice)",
+      "1986 World Series Game 6",
+      "The 1999 NFL playoffs",
+      "The 2001 World Series"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Which running back rushed for 100 or more yards in a game a record 77 times in his career?",
+    "a": "Barry Sanders",
+    "choices": [
+      "Barry Sanders",
+      "Emmitt Smith",
+      "Walter Payton",
+      "LaDainian Tomlinson"
+    ],
+    "sport": "football",
+    "difficulty": "hard"
+  },
+  {
+    "q": "What is the name of the award given to the NFL's best defensive player each season?",
+    "a": "NFL Defensive Player of the Year",
+    "choices": [
+      "NFL Defensive Player of the Year",
+      "Butkus Trophy",
+      "Chuck Bednarik Award",
+      "Ray Lewis Award"
+    ],
+    "sport": "football",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Lawrence Taylor's sack of Joe Theismann in 1985 resulted in which type of injury?",
+    "a": "A compound fracture of the tibia and fibula",
+    "choices": [
+      "A compound fracture of the tibia and fibula",
+      "A torn ACL",
+      "A dislocated shoulder",
+      "A broken collarbone"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Which NFL team's training facility is named 'The Star' and is located in Frisco, Texas?",
+    "a": "Dallas Cowboys",
+    "choices": [
+      "Dallas Cowboys",
+      "Houston Texans",
+      "Dallas Texans (old team)",
+      "San Antonio Spurs (not NFL)"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "What was the original name of the New England Patriots when they were founded in 1960?",
+    "a": "Boston Patriots",
+    "choices": [
+      "Boston Patriots",
+      "New England Patriots",
+      "Massachusetts Patriots",
+      "Bay State Patriots"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Which undrafted wide receiver from the 1990s became the NFL's all-time leader in receiving yards for a time?",
+    "a": "Jerry Rice (though he was drafted 16th overall)",
+    "choices": [
+      "Jerry Rice (though he was drafted 16th overall)",
+      "Wes Welker",
+      "Tony Holt",
+      "Isaac Bruce"
+    ],
+    "sport": "football",
+    "difficulty": "hard"
+  },
+  {
+    "q": "What is the minimum number of yards an offensive team must advance in four downs to earn a new set of downs?",
+    "a": "10 yards",
+    "choices": [
+      "5 yards",
+      "7 yards",
+      "10 yards",
+      "15 yards"
+    ],
+    "sport": "football",
+    "difficulty": "easy"
+  },
+  {
+    "q": "The Houston Texans entered the NFL as an expansion team in what year?",
+    "a": "2002",
+    "choices": [
+      "1999",
+      "2000",
+      "2002",
+      "2004"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Which player is known as 'The Mailman' in the NBA but shares a nickname concept with which NFL player known for 'delivering' blocks?",
+    "a": "There is no direct NFL equivalent",
+    "choices": [
+      "There is no direct NFL equivalent",
+      "Kevin Mawae",
+      "Orlando Pace",
+      "Jonathan Ogden"
+    ],
+    "sport": "football",
+    "difficulty": "hard"
+  },
+  {
+    "q": "The 'Lambeau Leap' tradition was started by which Packers player when he jumped into the stands after a touchdown?",
+    "a": "LeRoy Butler",
+    "choices": [
+      "LeRoy Butler",
+      "Sterling Sharpe",
+      "Robert Brooks",
+      "Antonio Freeman"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "In Super Bowl XLIII, which player scored the go-ahead touchdown with 35 seconds remaining for the Steelers?",
+    "a": "Santonio Holmes",
+    "choices": [
+      "Santonio Holmes",
+      "Hines Ward",
+      "Nate Washington",
+      "Willie Parker"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Which team holds the record for most turnovers in a single Super Bowl, with 9 in Super Bowl V?",
+    "a": "Both teams combined (Dallas Cowboys and Baltimore Colts)",
+    "choices": [
+      "Both teams combined (Dallas Cowboys and Baltimore Colts)",
+      "The Dallas Cowboys alone",
+      "The Miami Dolphins",
+      "The Green Bay Packers"
+    ],
+    "sport": "football",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Who was the first player to rush for over 2,000 yards in a single NFL season?",
+    "a": "O.J. Simpson",
+    "choices": [
+      "O.J. Simpson",
+      "Earl Campbell",
+      "Walter Payton",
+      "Tony Dorsett"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Which coach led the New York Giants to two Super Bowl victories in the 1980s?",
+    "a": "Bill Parcells",
+    "choices": [
+      "Bill Parcells",
+      "Tom Landry",
+      "Chuck Noll",
+      "Dan Reeves"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "The 'West Coast Offense' was pioneered by which offensive mastermind?",
+    "a": "Bill Walsh",
+    "choices": [
+      "Bill Walsh",
+      "Don Coryell",
+      "Sid Gillman",
+      "Paul Brown"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Which kicker set the NFL record for most career points scored?",
+    "a": "Morten Andersen",
+    "choices": [
+      "Morten Andersen",
+      "Gary Anderson",
+      "Adam Vinatieri",
+      "John Carney"
+    ],
+    "sport": "football",
+    "difficulty": "hard"
+  },
+  {
+    "q": "What is the term for an offensive player illegally moving before the snap?",
+    "a": "False start",
+    "choices": [
+      "False start",
+      "Offsides",
+      "Encroachment",
+      "Illegal motion"
+    ],
+    "sport": "football",
+    "difficulty": "easy"
+  },
+  {
+    "q": "In which year did the NFL officially merge with the AFL to become one unified league?",
+    "a": "1970",
+    "choices": [
+      "1966",
+      "1968",
+      "1970",
+      "1972"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Which player scored six touchdowns in a single Super Bowl, setting a still-standing record?",
+    "a": "Jerry Rice (Super Bowl XXIX)",
+    "choices": [
+      "Jerry Rice (Super Bowl XXIX)",
+      "Emmitt Smith (Super Bowl XXVIII)",
+      "Thurman Thomas (Super Bowl XXVI)",
+      "John Stallworth (Super Bowl XIII)"
+    ],
+    "sport": "football",
+    "difficulty": "hard"
+  },
+  {
+    "q": "The 'Cardiac Pack' nickname referred to which team's habit of winning games dramatically in the late 1970s?",
+    "a": "Green Bay Packers",
+    "choices": [
+      "Green Bay Packers",
+      "San Francisco 49ers",
+      "Dallas Cowboys",
+      "Pittsburgh Steelers"
+    ],
+    "sport": "football",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Which offensive lineman was nicknamed 'The Pancake Master' by his teammates for flattening defenders?",
+    "a": "Larry Allen",
+    "choices": [
+      "Larry Allen",
+      "Will Shields",
+      "Bruce Matthews",
+      "Randall McDaniel"
+    ],
+    "sport": "football",
+    "difficulty": "hard"
+  },
+  {
+    "q": "What was the first Super Bowl to be played indoors?",
+    "a": "Super Bowl IX in New Orleans",
+    "choices": [
+      "Super Bowl IX in New Orleans",
+      "Super Bowl VI in New Orleans",
+      "Super Bowl XII in New Orleans",
+      "Super Bowl XV in New Orleans"
+    ],
+    "sport": "football",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Which linebacker wore number 99 for the New York Giants and was known for his sideline-to-sideline speed in the 1980s?",
+    "a": "Lawrence Taylor",
+    "choices": [
+      "Lawrence Taylor",
+      "Carl Banks",
+      "Harry Carson",
+      "Gary Reasons"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Which team has the most losses in Super Bowl history?",
+    "a": "New England Patriots (5 losses)",
+    "choices": [
+      "New England Patriots (5 losses)",
+      "Denver Broncos (4 losses)",
+      "Dallas Cowboys (3 losses)",
+      "Minnesota Vikings (4 losses)"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Which receiver set a single-game record with 336 receiving yards in a 2000 Monday Night Football game?",
+    "a": "Flipper Anderson",
+    "choices": [
+      "Flipper Anderson",
+      "Jerry Rice",
+      "Torry Holt",
+      "Isaac Bruce"
+    ],
+    "sport": "football",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Eli Manning and Peyton Manning are brothers. Which team did their father Archie Manning play for during his NFL career?",
+    "a": "New Orleans Saints",
+    "choices": [
+      "New Orleans Saints",
+      "Denver Broncos",
+      "Indianapolis Colts",
+      "New York Giants"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Which offensive coordinator popularized the 'Air Coryell' vertical passing offense with the San Diego Chargers?",
+    "a": "Don Coryell",
+    "choices": [
+      "Don Coryell",
+      "Norm Van Brocklin",
+      "Chuck Noll",
+      "Bud Grant"
+    ],
+    "sport": "football",
+    "difficulty": "hard"
+  },
+  {
+    "q": "The Pittsburgh Steelers' Terrible Towel tradition was created by which radio broadcaster?",
+    "a": "Myron Cope",
+    "choices": [
+      "Myron Cope",
+      "Bill Hillgrove",
+      "Jim Rooker",
+      "Lanny Frattare"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Which team signed quarterback Michael Vick after his release from prison following his dog-fighting conviction?",
+    "a": "Philadelphia Eagles",
+    "choices": [
+      "Philadelphia Eagles",
+      "New York Jets",
+      "Pittsburgh Steelers",
+      "Minnesota Vikings"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "What was the result of the 'Heidi Game' in 1968 when NBC cut away from the Raiders-Jets game to air the film 'Heidi'?",
+    "a": "The Raiders scored two touchdowns in the final minute and won",
+    "choices": [
+      "The Raiders scored two touchdowns in the final minute and won",
+      "The Jets won in overtime",
+      "The game ended in a tie",
+      "The Raiders lost after leading"
+    ],
+    "sport": "football",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Which team set the NFL record for the most rushing yards in a single game with 426 yards?",
+    "a": "Los Angeles Rams (in 1951)",
+    "choices": [
+      "Los Angeles Rams (in 1951)",
+      "Chicago Bears (in 1943)",
+      "Dallas Cowboys (in 1968)",
+      "Kansas City Chiefs (in 1978)"
+    ],
+    "sport": "football",
+    "difficulty": "hard"
+  },
+  {
+    "q": "What is the name of the punt-return position that signals for a fair catch in the NFL?",
+    "a": "Punt returner",
+    "choices": [
+      "Punt returner",
+      "Safety",
+      "Gunner",
+      "Jammer"
+    ],
+    "sport": "football",
+    "difficulty": "easy"
+  },
+  {
+    "q": "The 'Annexation of Puerto Rico' was a trick play used by which fictional Pop Warner team in the movie 'Little Giants'?",
+    "a": "The Little Giants",
+    "choices": [
+      "The Little Giants",
+      "The Mighty Ducks",
+      "The Bad News Bears",
+      "The Icelandic Vikings"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Which NFL team's colors are officially 'Gotham Green' and black?",
+    "a": "New York Jets",
+    "choices": [
+      "New York Jets",
+      "Philadelphia Eagles",
+      "Seattle Seahawks",
+      "New York Giants"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "What is the distance from the line of scrimmage to the front of the end zone?",
+    "a": "0 yards (the end zone begins at the goal line)",
+    "choices": [
+      "0 yards (the end zone begins at the goal line)",
+      "5 yards",
+      "10 yards",
+      "20 yards"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Which quarterback famously tore his Achilles tendon at age 40 and came back to win games later that season?",
+    "a": "Tom Brady (in 2008, though the injury was his ACL, not Achilles)",
+    "choices": [
+      "Tom Brady (in 2008, though the injury was his ACL, not Achilles)",
+      "Peyton Manning at age 38",
+      "Brett Favre at age 40",
+      "Drew Brees at age 41"
+    ],
+    "sport": "football",
+    "difficulty": "hard"
+  },
+  {
+    "q": "The Green Bay Packers are unique among NFL franchises because they are owned by whom?",
+    "a": "Public shareholders (community ownership)",
+    "choices": [
+      "Public shareholders (community ownership)",
+      "The city of Green Bay",
+      "The state of Wisconsin",
+      "A single billionaire family"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Which Super Bowl featured the lowest-scoring first half in Super Bowl history, with both teams combining for only 3 points?",
+    "a": "Super Bowl LIII (Patriots vs. Rams, 3-0 at halftime)",
+    "choices": [
+      "Super Bowl LIII (Patriots vs. Rams, 3-0 at halftime)",
+      "Super Bowl V (Colts vs. Cowboys, 6-0)",
+      "Super Bowl IX (Steelers vs. Vikings, 2-0)",
+      "Super Bowl XLVIII (Seahawks vs. Broncos)"
+    ],
+    "sport": "football",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Which wide receiver was known for his 'RAC' (run after catch) ability and is considered one of the greatest ever for his yards after contact?",
+    "a": "Wes Welker",
+    "choices": [
+      "Wes Welker",
+      "Steve Smith Sr.",
+      "Anquan Boldin",
+      "Brandon Marshall"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "The NFL's current overtime rules for the playoffs require that both teams have a possession unless what occurs first?",
+    "a": "A touchdown on the opening drive",
+    "choices": [
+      "A touchdown on the opening drive",
+      "A field goal on the opening drive",
+      "A safety on the opening drive",
+      "A fumble on the opening drive"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Which head coach has the most career wins in NFL history?",
+    "a": "Don Shula",
+    "choices": [
+      "Don Shula",
+      "Bill Belichick",
+      "Tom Landry",
+      "George Halas"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "What city did the Rams play in between Los Angeles and their return to Los Angeles in 2016?",
+    "a": "St. Louis",
+    "choices": [
+      "St. Louis",
+      "Cleveland",
+      "Baltimore",
+      "Oakland"
+    ],
+    "sport": "football",
+    "difficulty": "easy"
+  },
+  {
+    "q": "The 'Body Bag Game' in 1990 saw five Philadelphia Eagles players carted off with injuries against which opponent?",
+    "a": "Washington Redskins",
+    "choices": [
+      "Washington Redskins",
+      "Dallas Cowboys",
+      "New York Giants",
+      "Chicago Bears"
+    ],
+    "sport": "football",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Which receiver caught more than 200 receptions in a two-year span for the Detroit Lions?",
+    "a": "Herman Moore",
+    "choices": [
+      "Herman Moore",
+      "Calvin Johnson",
+      "Barry Sanders",
+      "Charlie Joiner"
+    ],
+    "sport": "football",
+    "difficulty": "hard"
+  },
+  {
+    "q": "What is the maximum number of seconds the offense has to snap the ball before receiving a delay-of-game penalty?",
+    "a": "40 seconds from the end of the previous play",
+    "choices": [
+      "40 seconds from the end of the previous play",
+      "30 seconds from the end of the previous play",
+      "25 seconds after the ball is set",
+      "45 seconds from the end of the previous play"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Which kicker made the most consecutive extra points in NFL history?",
+    "a": "Stephen Gostkowski",
+    "choices": [
+      "Stephen Gostkowski",
+      "Adam Vinatieri",
+      "Mike Vanderjagt",
+      "Jason Elam"
+    ],
+    "sport": "football",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Antonio Gates became an elite NFL tight end despite having played which sport in college instead of football?",
+    "a": "Basketball",
+    "choices": [
+      "Basketball",
+      "Baseball",
+      "Soccer",
+      "Track and Field"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "The 'Bountygate' scandal in 2012 rocked which NFL franchise?",
+    "a": "New Orleans Saints",
+    "choices": [
+      "New Orleans Saints",
+      "New England Patriots",
+      "Baltimore Ravens",
+      "Pittsburgh Steelers"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Which coach famously led the 1985 Chicago Bears to a near-perfect season and invented the '46 Defense'?",
+    "a": "Buddy Ryan (the defensive coordinator who created the 46)",
+    "choices": [
+      "Buddy Ryan (the defensive coordinator who created the 46)",
+      "Mike Ditka",
+      "George Halas",
+      "Jim Finks"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "What year did the NFL expand to 32 teams with the addition of the Houston Texans?",
+    "a": "2002",
+    "choices": [
+      "1999",
+      "2000",
+      "2002",
+      "2004"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Which wide receiver owns the single-game record for receiving yards with 336 yards?",
+    "a": "Flipper Anderson (1989)",
+    "choices": [
+      "Flipper Anderson (1989)",
+      "Jerry Rice (1995)",
+      "Calvin Johnson (2011)",
+      "Brandon Marshall (2009)"
+    ],
+    "sport": "football",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Calvin Johnson set the single-season receiving yards record in 2012 with how many yards?",
+    "a": "1,964",
+    "choices": [
+      "1,848",
+      "1,887",
+      "1,964",
+      "2,105"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Which undrafted player became a perennial All-Pro and is considered one of the greatest linebackers of the modern era?",
+    "a": "James Harrison",
+    "choices": [
+      "James Harrison",
+      "Patrick Willis",
+      "DeMarcus Ware",
+      "Von Miller"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "What was the name of the AFL team that became the Kansas City Chiefs?",
+    "a": "Dallas Texans",
+    "choices": [
+      "Dallas Texans",
+      "Kansas City Blues",
+      "Missouri Mavericks",
+      "Heartland Stallions"
+    ],
+    "sport": "football",
+    "difficulty": "hard"
+  },
+  {
+    "q": "What is the depth of the end zone in an NFL field?",
+    "a": "10 yards",
+    "choices": [
+      "5 yards",
+      "8 yards",
+      "10 yards",
+      "15 yards"
+    ],
+    "sport": "football",
+    "difficulty": "easy"
+  },
+  {
+    "q": "The 'Philly Special' play in Super Bowl LII is notable because the touchdown was thrown by an offensive player who is primarily a what?",
+    "a": "Quarterback (Nick Foles)",
+    "choices": [
+      "Quarterback (Nick Foles)",
+      "Running back (Corey Clement)",
+      "Tight end (Zach Ertz)",
+      "Wide receiver (Alshon Jeffery)"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Which team's loss of a 32-point lead against the Buffalo Bills in 1993 stands as the largest blown lead in NFL playoff history?",
+    "a": "Houston Oilers",
+    "choices": [
+      "Houston Oilers",
+      "Dallas Cowboys",
+      "Miami Dolphins",
+      "Kansas City Chiefs"
+    ],
+    "sport": "football",
+    "difficulty": "hard"
+  },
+  {
+    "q": "The NFL adopted the instant replay challenge system in what year after briefly using it and then discarding it?",
+    "a": "1999",
+    "choices": [
+      "1993",
+      "1996",
+      "1999",
+      "2002"
+    ],
+    "sport": "football",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Marcus Allen ran for a 74-yard touchdown in Super Bowl XVIII using a cutback that is considered one of the greatest runs in Super Bowl history. He played for which team?",
+    "a": "Los Angeles Raiders",
+    "choices": [
+      "Los Angeles Raiders",
+      "Kansas City Chiefs",
+      "Oakland Raiders",
+      "San Diego Chargers"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Which receiver recorded 22 consecutive games with a receiving touchdown, an NFL record?",
+    "a": "Jerry Rice",
+    "choices": [
+      "Jerry Rice",
+      "Randy Moss",
+      "Marvin Harrison",
+      "Torry Holt"
+    ],
+    "sport": "football",
+    "difficulty": "hard"
+  },
+  {
+    "q": "The mascot of the Philadelphia Eagles is named what?",
+    "a": "Swoop",
+    "choices": [
+      "Swoop",
+      "Philly",
+      "Eagle Eye",
+      "Ben Franklin"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Which player famously asked to be traded from the Oakland Raiders by writing a letter to ownership that was published in a newspaper?",
+    "a": "Khalil Mack",
+    "choices": [
+      "Khalil Mack",
+      "Antonio Brown",
+      "Charles Woodson",
+      "Tim Brown"
+    ],
+    "sport": "football",
+    "difficulty": "hard"
+  },
+  {
+    "q": "What historic play-calling decision by Pete Carroll in Super Bowl XLIX has been called the 'worst call in Super Bowl history'?",
+    "a": "Throwing a slant pass at the 1-yard line instead of running with Marshawn Lynch",
+    "choices": [
+      "Throwing a slant pass at the 1-yard line instead of running with Marshawn Lynch",
+      "Punting on fourth and one at midfield",
+      "Calling a timeout before a field goal attempt",
+      "Kicking a field goal instead of going for it on fourth and short"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Which NFL city has hosted the most Super Bowls?",
+    "a": "Miami, Florida",
+    "choices": [
+      "Miami, Florida",
+      "New Orleans, Louisiana",
+      "Los Angeles, California",
+      "Tampa, Florida"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "The 1958 NFL Championship Game between the Baltimore Colts and New York Giants is often called what?",
+    "a": "The Greatest Game Ever Played",
+    "choices": [
+      "The Greatest Game Ever Played",
+      "The Ice Bowl",
+      "The Fog Bowl",
+      "The Mud Bowl"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Which quarterback threw six interceptions in a single Super Bowl, which is the record for most interceptions in a Super Bowl?",
+    "a": "Rich Gannon (Super Bowl XXXVII)",
+    "choices": [
+      "Rich Gannon (Super Bowl XXXVII)",
+      "Jim Kelly (Super Bowl XXVIII)",
+      "Craig Morton (Super Bowl XII)",
+      "Ron Jaworski (Super Bowl XV)"
+    ],
+    "sport": "football",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Which AFC team plays their home games at Hard Rock Stadium?",
+    "a": "Miami Dolphins",
+    "choices": [
+      "Miami Dolphins",
+      "Jacksonville Jaguars",
+      "Tampa Bay Buccaneers",
+      "Carolina Panthers"
+    ],
+    "sport": "football",
+    "difficulty": "easy"
+  },
+  {
+    "q": "The 'No Fun League' nickname for the NFL often refers to its strict enforcement of what?",
+    "a": "Touchdown celebration rules",
+    "choices": [
+      "Touchdown celebration rules",
+      "Player uniform regulations",
+      "Fan conduct policies",
+      "Media access restrictions"
+    ],
+    "sport": "football",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Walter Payton's nickname was 'Sweetness.' How many career rushing yards did he retire with?",
+    "a": "16,726",
+    "choices": [
+      "14,853",
+      "15,269",
+      "16,726",
+      "17,418"
+    ],
+    "sport": "football",
+    "difficulty": "hard"
+  },
+  {
+    "q": "The first Super Bowl game was played in which city?",
+    "a": "Los Angeles",
+    "choices": [
+      "Los Angeles",
+      "Miami",
+      "New Orleans",
+      "Dallas"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Which team beat the San Francisco 49ers in Super Bowl XXIII on a last-minute touchdown drive led by Joe Montana?",
+    "a": "The 49ers won that game",
+    "choices": [
+      "The 49ers won that game",
+      "Cincinnati Bengals",
+      "Denver Broncos",
+      "Seattle Seahawks"
+    ],
+    "sport": "football",
+    "difficulty": "hard"
+  },
+  {
+    "q": "In Super Bowl XXIII, Joe Montana drove the 49ers 92 yards in the final minutes to win the game. The touchdown was caught by which receiver?",
+    "a": "John Taylor",
+    "choices": [
+      "John Taylor",
+      "Jerry Rice",
+      "Roger Craig",
+      "Mike Wilson"
+    ],
+    "sport": "football",
+    "difficulty": "hard"
+  },
+  {
+    "q": "The 'Bottlegate' incident in 2001 occurred when Cleveland Browns fans threw bottles onto the field after a controversial officiating call in a game against which team?",
+    "a": "Jacksonville Jaguars",
+    "choices": [
+      "Jacksonville Jaguars",
+      "Pittsburgh Steelers",
+      "Baltimore Ravens",
+      "Tennessee Titans"
+    ],
+    "sport": "football",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Which retired coach is known for the television video game franchise that bears his name?",
+    "a": "John Madden",
+    "choices": [
+      "John Madden",
+      "Don Shula",
+      "Tom Landry",
+      "Vince Lombardi"
+    ],
+    "sport": "football",
+    "difficulty": "easy"
+  },
+  {
+    "q": "What significant rule change was made to protect quarterbacks from low hits after Carson Palmer suffered a knee injury in the 2005 playoffs?",
+    "a": "Lowering the helmet-to-knee contact rules on quarterbacks was strengthened",
+    "choices": [
+      "Lowering the helmet-to-knee contact rules on quarterbacks was strengthened",
+      "Quarterbacks were given a 'protected zone' in the pocket",
+      "Defenders were banned from all contact below the waist on passers",
+      "A 10-yard penalty was added for any low hit on a quarterback"
+    ],
+    "sport": "football",
+    "difficulty": "hard"
+  },
+  {
+    "q": "The 'Butkus-Nagurski Trophy' is awarded to which type of player in college football?",
+    "a": "Best linebacker",
+    "choices": [
+      "Best linebacker",
+      "Best defensive back",
+      "Best defensive end",
+      "Best defensive lineman"
+    ],
+    "sport": "football",
+    "difficulty": "hard"
+  },
+  {
+    "q": "What is the minimum width of the NFL playing field in yards?",
+    "a": "53.3 yards",
+    "choices": [
+      "45 yards",
+      "50 yards",
+      "53.3 yards",
+      "60 yards"
+    ],
+    "sport": "football",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Which NFL team was the first to reach 400 wins in franchise history?",
+    "a": "Chicago Bears",
+    "choices": [
+      "Chicago Bears",
+      "Green Bay Packers",
+      "New York Giants",
+      "Pittsburgh Steelers"
+    ],
+    "sport": "football",
+    "difficulty": "hard"
+  },
+  {
+    "q": "The 'Doomsday Defense' was the nickname of which NFL team's defensive unit in the 1970s?",
+    "a": "Dallas Cowboys",
+    "choices": [
+      "Dallas Cowboys",
+      "Pittsburgh Steelers",
+      "Minnesota Vikings",
+      "Los Angeles Rams"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Which player famously wore Zubaz pants to team meetings and was known for his eccentric personality as a defensive end?",
+    "a": "Charles Martin",
+    "choices": [
+      "Charles Martin",
+      "Reggie White",
+      "Clyde Simmons",
+      "Jerome Brown"
+    ],
+    "sport": "football",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Deion Sanders and Bo Jackson are celebrated for two-sport careers. Bo Jackson played for which NFL team while also playing MLB?",
+    "a": "Los Angeles Raiders",
+    "choices": [
+      "Los Angeles Raiders",
+      "Kansas City Chiefs",
+      "Tampa Bay Buccaneers",
+      "Seattle Seahawks"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "What was the lowest-scoring Super Bowl game in history?",
+    "a": "Super Bowl LIII (13-3, Patriots over Rams)",
+    "choices": [
+      "Super Bowl LIII (13-3, Patriots over Rams)",
+      "Super Bowl IX (16-6, Steelers over Vikings)",
+      "Super Bowl III (16-7, Jets over Colts)",
+      "Super Bowl V (16-13, Colts over Cowboys)"
+    ],
+    "sport": "football",
+    "difficulty": "hard"
+  },
+  {
+    "q": "What was the name of the revolutionary 'No Huddle' offense popularized by the Buffalo Bills in the late 1980s and early 1990s?",
+    "a": "The K-Gun offense",
+    "choices": [
+      "The K-Gun offense",
+      "The Air Coryell",
+      "The Run and Shoot",
+      "The West Coast Offense"
+    ],
+    "sport": "football",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Which team retired Bart Starr's number 15?",
+    "a": "Green Bay Packers",
+    "choices": [
+      "Green Bay Packers",
+      "Minnesota Vikings",
+      "Dallas Cowboys",
+      "Chicago Bears"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "The Philadelphia Eagles went on a Super Bowl run in 2017-18. Who was their starting quarterback for most of that season before getting injured?",
+    "a": "Carson Wentz",
+    "choices": [
+      "Carson Wentz",
+      "Nick Foles",
+      "Sam Bradford",
+      "Chase Daniel"
+    ],
+    "sport": "football",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Which coach led the Denver Broncos to Super Bowl victories after the 1997 and 1998 seasons?",
+    "a": "Mike Shanahan",
+    "choices": [
+      "Mike Shanahan",
+      "Dan Reeves",
+      "Wade Phillips",
+      "John Fox"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "The New York Titans were the original name of which current AFL/NFL franchise?",
+    "a": "New York Jets",
+    "choices": [
+      "New York Jets",
+      "New York Giants",
+      "New York Stars",
+      "New York Knights"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "What year did the Dallas Cowboys earn the nickname 'America's Team'?",
+    "a": "1978",
+    "choices": [
+      "1971",
+      "1975",
+      "1978",
+      "1982"
+    ],
+    "sport": "football",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Which defensive back famously intercepted a pass in the end zone with seconds left to preserve a Seahawks Super Bowl win in Super Bowl XLVIII?",
+    "a": "Malcolm Smith",
+    "choices": [
+      "Malcolm Smith",
+      "Richard Sherman",
+      "Earl Thomas",
+      "Kam Chancellor"
+    ],
+    "sport": "football",
+    "difficulty": "hard"
+  },
+  {
+    "q": "At which venue did the New York Giants and Dallas Cowboys play the famous Thanksgiving 'Triplets' era showdowns in the 1990s?",
+    "a": "Texas Stadium (Irving, Texas)",
+    "choices": [
+      "Texas Stadium (Irving, Texas)",
+      "AT&T Stadium (Arlington, Texas)",
+      "Cotton Bowl (Dallas)",
+      "Yankee Stadium (New York)"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "The first NFL game played in Germany took place in which city in 2022?",
+    "a": "Munich",
+    "choices": [
+      "Munich",
+      "Berlin",
+      "Hamburg",
+      "Frankfurt"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Which receiver set the record for most receiving yards in a single game by a rookie?",
+    "a": "Justin Jefferson (2020)",
+    "choices": [
+      "Justin Jefferson (2020)",
+      "Randy Moss (1998)",
+      "Odell Beckham Jr. (2014)",
+      "Anquan Boldin (2003)"
+    ],
+    "sport": "football",
+    "difficulty": "hard"
+  },
+  {
+    "q": "What is the length of a standard NFL football field from end zone to end zone?",
+    "a": "120 yards",
+    "choices": [
+      "100 yards",
+      "110 yards",
+      "120 yards",
+      "130 yards"
+    ],
+    "sport": "football",
+    "difficulty": "easy"
+  },
+  {
+    "q": "The 'Triplets' nickname referred to which three offensive players on the Dallas Cowboys in the 1990s?",
+    "a": "Troy Aikman, Emmitt Smith, and Michael Irvin",
+    "choices": [
+      "Troy Aikman, Emmitt Smith, and Michael Irvin",
+      "Roger Staubach, Tony Dorsett, and Drew Pearson",
+      "Don Meredith, Don Perkins, and Bob Hayes",
+      "Tony Romo, Miles Austin, and Marion Barber"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Legendary NFL referee Ed Hochuli was known for what distinctive physical characteristic?",
+    "a": "His muscular physique and bulging biceps",
+    "choices": [
+      "His muscular physique and bulging biceps",
+      "His bright red hair",
+      "His exceptionally tall height",
+      "His long grey beard"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Which cornerback intercepted a pass from quarterback Eli Manning in the end zone in Super Bowl XLVI to deny a touchdown?",
+    "a": "Kyle Arrington",
+    "choices": [
+      "Kyle Arrington",
+      "Aqib Talib",
+      "Devin McCourty",
+      "Sterling Moore"
+    ],
+    "sport": "football",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Which stadium was nicknamed the 'Vet' and was known for its AstroTurf that players called a carpet?",
+    "a": "Veterans Stadium (Philadelphia)",
+    "choices": [
+      "Veterans Stadium (Philadelphia)",
+      "Three Rivers Stadium (Pittsburgh)",
+      "Riverfront Stadium (Cincinnati)",
+      "Municipal Stadium (Cleveland)"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Quarterback Drew Brees set the NFL record for most career passing yards by breaking whose record?",
+    "a": "Brett Favre",
+    "choices": [
+      "Brett Favre",
+      "Peyton Manning",
+      "Dan Marino",
+      "John Elway"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "The 'Prevent Defense' is a strategy employed late in games to prevent what?",
+    "a": "Long passing plays that could result in quick scores",
+    "choices": [
+      "Long passing plays that could result in quick scores",
+      "Running plays up the middle",
+      "Short timing routes",
+      "Field goal attempts"
+    ],
+    "sport": "football",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Quarterback Dan Marino retired without ever winning what?",
+    "a": "A Super Bowl",
+    "choices": [
+      "A Super Bowl",
+      "A Pro Bowl selection",
+      "An AFC Championship",
+      "An MVP award"
+    ],
+    "sport": "football",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Which two teams played in the first Monday Night Football game in 1970?",
+    "a": "New York Jets vs. Cleveland Browns",
+    "choices": [
+      "New York Jets vs. Cleveland Browns",
+      "Dallas Cowboys vs. Pittsburgh Steelers",
+      "Kansas City Chiefs vs. Miami Dolphins",
+      "Green Bay Packers vs. Minnesota Vikings"
+    ],
+    "sport": "football",
+    "difficulty": "hard"
+  },
+  {
+    "q": "In which season did the NFL introduce Thursday Night Football as a regular part of the schedule?",
+    "a": "2006",
+    "choices": [
+      "2002",
+      "2004",
+      "2006",
+      "2008"
+    ],
+    "sport": "football",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Which linebacker was known as 'The Minister of Defense' and retired as the NFL's all-time sack leader at the time?",
+    "a": "Reggie White",
+    "choices": [
+      "Reggie White",
+      "Lawrence Taylor",
+      "Bruce Smith",
+      "Derrick Thomas"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "The 'Fun Bunch' was a group of receivers for which NFL team in the early 1980s known for their group endzone celebrations?",
+    "a": "Washington Redskins",
+    "choices": [
+      "Washington Redskins",
+      "San Diego Chargers",
+      "Oakland Raiders",
+      "Dallas Cowboys"
+    ],
+    "sport": "football",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Lamar Jackson won the MVP award in back-to-back seasons (2019 and 2023). Which team does he play for?",
+    "a": "Baltimore Ravens",
+    "choices": [
+      "Baltimore Ravens",
+      "Kansas City Chiefs",
+      "Cleveland Browns",
+      "Cincinnati Bengals"
+    ],
+    "sport": "football",
+    "difficulty": "easy"
+  },
+  {
+    "q": "The 'Purple People Eaters' was the nickname of which team's fearsome defensive line in the 1960s and 70s?",
+    "a": "Minnesota Vikings",
+    "choices": [
+      "Minnesota Vikings",
+      "Baltimore Ravens",
+      "Los Angeles Rams",
+      "Dallas Cowboys"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "What is the official term for when a quarterback drops to one knee immediately after the snap to run out the clock?",
+    "a": "Taking a knee",
+    "choices": [
+      "Taking a knee",
+      "Spiking the ball",
+      "Quarterback sneak",
+      "Intentional grounding"
+    ],
+    "sport": "football",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Which player scored two touchdowns in the final minutes of a Super Bowl and finished with 215 receiving yards in Super Bowl XXIX?",
+    "a": "Jerry Rice",
+    "choices": [
+      "Jerry Rice",
+      "John Taylor",
+      "Ricky Watters",
+      "Brent Jones"
+    ],
+    "sport": "football",
+    "difficulty": "hard"
+  },
+  {
+    "q": "The Seattle Seahawks' 2013 championship team featured a dominant running back nicknamed 'Beast Mode.' What is his real name?",
+    "a": "Marshawn Lynch",
+    "choices": [
+      "Marshawn Lynch",
+      "Thomas Rawls",
+      "Christine Michael",
+      "Fred Jackson"
+    ],
+    "sport": "football",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Which team completed an undefeated regular season in 2007 but then lost the Super Bowl to the New York Giants?",
+    "a": "New England Patriots",
+    "choices": [
+      "New England Patriots",
+      "Indianapolis Colts",
+      "San Diego Chargers",
+      "Green Bay Packers"
+    ],
+    "sport": "football",
+    "difficulty": "easy"
+  },
+  {
+    "q": "The 'Wildcat' formation became widely used in the NFL after the Miami Dolphins ran it effectively against which team in 2008?",
+    "a": "New England Patriots",
+    "choices": [
+      "New England Patriots",
+      "New York Jets",
+      "Buffalo Bills",
+      "Pittsburgh Steelers"
+    ],
+    "sport": "football",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Which defensive player intercepted a pass and returned it 100 yards for a touchdown in Super Bowl XLIV?",
+    "a": "Tracy Porter",
+    "choices": [
+      "Tracy Porter",
+      "Jonathan Vilma",
+      "Darren Sharper",
+      "Roman Harper"
+    ],
+    "sport": "football",
+    "difficulty": "hard"
+  },
+  {
+    "q": "George Halas, a founder of the NFL, was known by what nickname?",
+    "a": "Papa Bear",
+    "choices": [
+      "Papa Bear",
+      "The Old Man",
+      "The Patriarch",
+      "Iron George"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Which head coach has the most career regular season wins without ever winning a Super Bowl?",
+    "a": "Marty Schottenheimer",
+    "choices": [
+      "Marty Schottenheimer",
+      "Dan Reeves",
+      "Wade Phillips",
+      "Hank Stram"
+    ],
+    "sport": "football",
+    "difficulty": "hard"
+  },
+  {
+    "q": "LaDainian Tomlinson scored how many touchdowns in his record-breaking 2006 season?",
+    "a": "28",
+    "choices": [
+      "24",
+      "26",
+      "28",
+      "31"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Which player was known as 'The Fridge' and scored a Super Bowl XX touchdown as an offensive lineman used as a fullback?",
+    "a": "William Perry",
+    "choices": [
+      "William Perry",
+      "Dan Hampton",
+      "Richard Dent",
+      "Steve McMichael"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "What was the first dome stadium to host a Super Bowl?",
+    "a": "Louisiana Superdome (Super Bowl XII)",
+    "choices": [
+      "Louisiana Superdome (Super Bowl XII)",
+      "Georgia Dome (Super Bowl XXVIII)",
+      "Hubert H. Humphrey Metrodome (Super Bowl XXVI)",
+      "Silverdome (Super Bowl XVI)"
+    ],
+    "sport": "football",
+    "difficulty": "hard"
+  },
+  {
+    "q": "The 'Bear Bryant Rule' in college football was indirectly related to which pro coaching approach in the NFL?",
+    "a": "Limiting live contact in preseason practices",
+    "choices": [
+      "Limiting live contact in preseason practices",
+      "Requiring minimum game time for rookies",
+      "Rotating quarterbacks in the first half",
+      "Mandatory two-a-day practice sessions"
+    ],
+    "sport": "football",
+    "difficulty": "hard"
+  },
+  {
+    "q": "The 'Pick Six' play happens when a defensive player intercepts a pass and does what?",
+    "a": "Returns it for a touchdown",
+    "choices": [
+      "Returns it for a touchdown",
+      "Falls down at the spot of the catch",
+      "Laterals the ball to a teammate",
+      "Kicks it away for a touchback"
+    ],
+    "sport": "football",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Which quarterback came off the bench in Super Bowl LIII and led the Patriots' only scoring drive, which ended in a touchdown run?",
+    "a": "Tom Brady (was the starter the entire game)",
+    "choices": [
+      "Tom Brady (was the starter the entire game)",
+      "Brian Hoyer",
+      "Jimmy Garoppolo",
+      "Jacoby Brissett"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "What is the name of the New York Jets' famous rivalry with the New England Patriots sometimes called?",
+    "a": "AFC East Rivalry",
+    "choices": [
+      "AFC East Rivalry",
+      "The Cold War",
+      "Spygate Derby",
+      "The Highway Rivalry"
+    ],
+    "sport": "football",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Which team began playing at Allegiant Stadium when it opened in 2020?",
+    "a": "Las Vegas Raiders",
+    "choices": [
+      "Las Vegas Raiders",
+      "Los Angeles Rams",
+      "Los Angeles Chargers",
+      "Arizona Cardinals"
+    ],
+    "sport": "football",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Bob Griese led which team to two consecutive Super Bowl victories in Super Bowls VII and VIII?",
+    "a": "Miami Dolphins",
+    "choices": [
+      "Miami Dolphins",
+      "Pittsburgh Steelers",
+      "Dallas Cowboys",
+      "Minnesota Vikings"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "The 'Comeback Kid' nickname was associated with which quarterback for his ability to rally from fourth-quarter deficits?",
+    "a": "John Elway",
+    "choices": [
+      "John Elway",
+      "Joe Montana",
+      "Roger Staubach",
+      "Dan Marino"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Which team wore throwback uniforms that were so difficult to read that players had trouble seeing jersey numbers, prompting a rule change?",
+    "a": "Denver Broncos (orange-only Color Rush uniforms)",
+    "choices": [
+      "Denver Broncos (orange-only Color Rush uniforms)",
+      "Cleveland Browns (brown on brown)",
+      "Cincinnati Bengals (all orange)",
+      "Tampa Bay Buccaneers (creamsicle throwbacks)"
+    ],
+    "sport": "football",
+    "difficulty": "hard"
+  },
+  {
+    "q": "The Arizona Cardinals relocated from which midwestern city to Arizona?",
+    "a": "St. Louis",
+    "choices": [
+      "St. Louis",
+      "Chicago",
+      "Kansas City",
+      "Indianapolis"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Which player's jersey number 34 is retired by the Chicago Bears in honor of his legendary career?",
+    "a": "Walter Payton",
+    "choices": [
+      "Walter Payton",
+      "Jim McMahon",
+      "Mike Ditka",
+      "Gale Sayers"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "What was the halftime entertainment at Super Bowl LVI in 2022, widely praised as one of the best ever?",
+    "a": "Dr. Dre, Snoop Dogg, Eminem, Mary J. Blige, Kendrick Lamar, and 50 Cent",
+    "choices": [
+      "Dr. Dre, Snoop Dogg, Eminem, Mary J. Blige, Kendrick Lamar, and 50 Cent",
+      "Jay-Z, Beyonce, Shakira, and Jennifer Lopez",
+      "Bruno Mars, Coldplay, and Beyonce",
+      "Lady Gaga and Katy Perry"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Which team holds the NFL record for most consecutive home wins?",
+    "a": "New England Patriots (with 31 consecutive home wins from 2006 to 2011)",
+    "choices": [
+      "New England Patriots (with 31 consecutive home wins from 2006 to 2011)",
+      "San Francisco 49ers (29 consecutive)",
+      "Kansas City Chiefs (27 consecutive)",
+      "Green Bay Packers (25 consecutive)"
+    ],
+    "sport": "football",
+    "difficulty": "hard"
+  },
+  {
+    "q": "The 'Dolphins' perfect season in 1972 included a victory over the Washington Redskins in Super Bowl VII. What was the score?",
+    "a": "14-7",
+    "choices": [
+      "14-7",
+      "17-0",
+      "21-3",
+      "24-7"
+    ],
+    "sport": "football",
+    "difficulty": "hard"
+  },
+  {
+    "q": "The Super Bowl MVP has been awarded to a member of the losing team how many times?",
+    "a": "0 times",
+    "choices": [
+      "0 times",
+      "1 time",
+      "2 times",
+      "3 times"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Which cornerback is known for the quote 'I'm the best cornerback in the game' after tipping a pass to himself in the 2013 NFC Championship?",
+    "a": "Richard Sherman",
+    "choices": [
+      "Richard Sherman",
+      "Darrelle Revis",
+      "Charles Woodson",
+      "Patrick Peterson"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "How many teams does the NFL have as of the 2023 season?",
+    "a": "32",
+    "choices": [
+      "28",
+      "30",
+      "32",
+      "34"
+    ],
+    "sport": "football",
+    "difficulty": "easy"
+  },
+  {
+    "q": "The 'End Around' is a play where which type of player takes a handoff and runs to the outside?",
+    "a": "A wide receiver",
+    "choices": [
+      "A wide receiver",
+      "A tight end",
+      "A running back",
+      "A fullback"
+    ],
+    "sport": "football",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Which team had a player score on a 99-yard touchdown run, the longest in NFL history?",
+    "a": "Multiple teams have had 99-yard TD runs",
+    "choices": [
+      "Multiple teams have had 99-yard TD runs",
+      "Only the Dallas Cowboys",
+      "Only the Pittsburgh Steelers",
+      "Only the Miami Dolphins"
+    ],
+    "sport": "football",
+    "difficulty": "hard"
+  },
+  {
+    "q": "What is the traditional color of the referee's flag thrown for a penalty in the NFL?",
+    "a": "Yellow",
+    "choices": [
+      "Red",
+      "Yellow",
+      "White",
+      "Blue"
+    ],
+    "sport": "football",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Which team's running back gained 1,000 yards in a season despite missing the first several games with injury, a remarkable comeback?",
+    "a": "Priest Holmes (2002, Kansas City Chiefs)",
+    "choices": [
+      "Priest Holmes (2002, Kansas City Chiefs)",
+      "Jamal Anderson (1998, Atlanta Falcons)",
+      "Chris Johnson (2009, Tennessee Titans)",
+      "Barry Sanders (1997, Detroit Lions)"
+    ],
+    "sport": "football",
+    "difficulty": "hard"
+  },
+  {
+    "q": "What does it mean when a quarterback 'audibles' at the line of scrimmage?",
+    "a": "Changes the called play based on the defensive formation",
+    "choices": [
+      "Changes the called play based on the defensive formation",
+      "Calls a timeout without a timeout remaining",
+      "Signals a spike play to stop the clock",
+      "Switches from a shotgun to under-center formation"
+    ],
+    "sport": "football",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Which receiver made a one-handed catch against the Dallas Cowboys in 2014 that became one of the most celebrated plays in recent memory?",
+    "a": "Odell Beckham Jr.",
+    "choices": [
+      "Odell Beckham Jr.",
+      "Antonio Brown",
+      "Dez Bryant",
+      "Julio Jones"
+    ],
+    "sport": "football",
+    "difficulty": "easy"
+  },
+  {
+    "q": "What unusual pre-game tradition does the Minnesota Vikings use, involving a Viking horn?",
+    "a": "Blowing a large Viking horn at the start of the game",
+    "choices": [
+      "Blowing a large Viking horn at the start of the game",
+      "A mock Viking ship entering the field",
+      "A ceremonial ax-throwing contest",
+      "Players wearing Viking helmets during warmups"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "In the famous 'Miracle at the Meadowlands' play in 1978, which team fumbled a snap and handed the Philadelphia Eagles a key win?",
+    "a": "New York Giants",
+    "choices": [
+      "New York Giants",
+      "Dallas Cowboys",
+      "Washington Redskins",
+      "Chicago Bears"
+    ],
+    "sport": "football",
+    "difficulty": "hard"
+  },
+  {
+    "q": "The Pittsburgh Steelers have won the most Super Bowls of any franchise. How many have they won?",
+    "a": "6",
+    "choices": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "sport": "football",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Who are the brothers that both played in the NFL as offensive linemen and both reached the Pro Bowl?",
+    "a": "Gary and Bruce Matthews",
+    "choices": [
+      "Gary and Bruce Matthews",
+      "Jake and Jon Long",
+      "Jordan and Josh Mailata",
+      "Ricky and Mark Seals"
+    ],
+    "sport": "football",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Which NFL team is named after a character from a J.R.R. Tolkien novel?",
+    "a": "No NFL team is named after a Tolkien character",
+    "choices": [
+      "No NFL team is named after a Tolkien character",
+      "Oakland Raiders",
+      "Pittsburgh Steelers",
+      "New England Patriots"
+    ],
+    "sport": "football",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Which franchise had four different starting quarterbacks in four consecutive weeks during the 2021 season?",
+    "a": "Carolina Panthers",
+    "choices": [
+      "Carolina Panthers",
+      "San Francisco 49ers",
+      "Denver Broncos",
+      "Indianapolis Colts"
+    ],
+    "sport": "football",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Which team holds the NFL record for the highest single-game score in NFL history, scoring 72 points in 1966?",
+    "a": "Washington Redskins",
+    "choices": [
+      "Washington Redskins",
+      "Chicago Bears",
+      "Los Angeles Rams",
+      "Green Bay Packers"
+    ],
+    "sport": "football",
+    "difficulty": "hard"
+  },
+  {
+    "q": "How many challenges does an NFL head coach receive per game?",
+    "a": "2 (with a third if both are successful)",
+    "choices": [
+      "1",
+      "2 (with a third if both are successful)",
+      "3",
+      "4"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Which team was excluded from hosting the Super Bowl for many years due to not having a retractable roof or being in a warm-weather city?",
+    "a": "Green Bay Packers",
+    "choices": [
+      "Green Bay Packers",
+      "Buffalo Bills",
+      "New England Patriots",
+      "Pittsburgh Steelers"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "The 'Fog Bowl' game in 1988 was decided by which team's victory?",
+    "a": "Chicago Bears",
+    "choices": [
+      "Chicago Bears",
+      "Philadelphia Eagles",
+      "New York Giants",
+      "Los Angeles Rams"
+    ],
+    "sport": "football",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Which team traded 5 draft picks and star players to move up and select Eric Fisher in the 2013 NFL Draft?",
+    "a": "Kansas City Chiefs",
+    "choices": [
+      "Kansas City Chiefs",
+      "Cleveland Browns",
+      "Jacksonville Jaguars",
+      "Oakland Raiders"
+    ],
+    "sport": "football",
+    "difficulty": "hard"
+  },
+  {
+    "q": "The Seahawks/Broncos Super Bowl XLVIII set a record for the quickest Super Bowl score. How did Denver's safety happen?",
+    "a": "A botched snap sailed into the end zone and out of bounds",
+    "choices": [
+      "A botched snap sailed into the end zone and out of bounds",
+      "Peyton Manning tripped while dropping back to pass",
+      "A blocked punt resulted in a Seattle touchdown",
+      "A fumbled handoff in the end zone was ruled a safety"
+    ],
+    "sport": "football",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Which team played home games at Municipal Stadium in Cleveland from 1932 to 1995?",
+    "a": "Cleveland Browns",
+    "choices": [
+      "Cleveland Browns",
+      "Baltimore Ravens",
+      "Pittsburgh Steelers",
+      "Cincinnati Bengals"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "What team employs a player known as the 'gunner' on kickoff coverage units?",
+    "a": "All NFL teams use gunners on kickoff coverage units",
+    "choices": [
+      "All NFL teams use gunners on kickoff coverage units",
+      "Only AFC teams use gunners",
+      "Only NFC teams use gunners",
+      "Only teams with dome stadiums use gunners"
+    ],
+    "sport": "football",
+    "difficulty": "easy"
+  },
+  {
+    "q": "The 'Hog' nickname was given to the offensive line of which NFL team in the 1980s?",
+    "a": "Washington Redskins",
+    "choices": [
+      "Washington Redskins",
+      "Chicago Bears",
+      "New York Giants",
+      "San Francisco 49ers"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "The first NFL game to be streamed exclusively online was a Thursday Night Football game in what year?",
+    "a": "2015",
+    "choices": [
+      "2012",
+      "2014",
+      "2015",
+      "2018"
+    ],
+    "sport": "football",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Former NFLer Jim Brown is widely considered the greatest running back of all time. He played for which team his entire career?",
+    "a": "Cleveland Browns",
+    "choices": [
+      "Cleveland Browns",
+      "Dallas Cowboys",
+      "Los Angeles Rams",
+      "Chicago Bears"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "What is the name of the zone between the 20-yard line and the opponent's end zone in football strategy?",
+    "a": "Red Zone",
+    "choices": [
+      "Red Zone",
+      "Gold Zone",
+      "Scoring Zone",
+      "Critical Zone"
+    ],
+    "sport": "football",
+    "difficulty": "easy"
+  },
+  {
+    "q": "The Buffalo Bills famously had a season where they won a playoff game despite losing their starting quarterback. Who was the backup who led them in 1993?",
+    "a": "Frank Reich",
+    "choices": [
+      "Frank Reich",
+      "Jim Kelly",
+      "Todd Collins",
+      "Rob Johnson"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Which receiver is remembered for catching a touchdown despite having no catches in the previous 59 regular season games, a Super Bowl winner?",
+    "a": "David Tyree (Super Bowl XLII, though the helmet catch was not a TD)",
+    "choices": [
+      "David Tyree (Super Bowl XLII, though the helmet catch was not a TD)",
+      "John Taylor (Super Bowl XXIII)",
+      "Butch Johnson (Super Bowl XII)",
+      "Ricky Sanders (Super Bowl XXII)"
+    ],
+    "sport": "football",
+    "difficulty": "hard"
+  },
+  {
+    "q": "The New England Patriots' 'Deflategate' controversy involved accusations about which aspect of the game?",
+    "a": "Footballs being deliberately under-inflated to be easier to grip",
+    "choices": [
+      "Footballs being deliberately under-inflated to be easier to grip",
+      "Illegally filming opposing teams' practices",
+      "Using a banned quarterback wrist coach device",
+      "Running ineligible receiver formations"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Which Hall of Fame quarterback was known for always wearing short sleeves in cold weather to intimidate opponents?",
+    "a": "Brett Favre",
+    "choices": [
+      "Brett Favre",
+      "Jim Kelly",
+      "Troy Aikman",
+      "Steve Young"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "The 'Flea Flicker' trick play involves what sequence of events?",
+    "a": "A handoff to a running back who laterals back to the quarterback who then throws deep",
+    "choices": [
+      "A handoff to a running back who laterals back to the quarterback who then throws deep",
+      "A direct snap to a wide receiver who passes to the quarterback",
+      "A backward pass from center to the punter who kicks the ball",
+      "A snap to the fullback who blocks and then receives a pass"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Which NFL receiver caught touchdowns in a record six consecutive Super Bowl appearances?",
+    "a": "No player has accomplished this",
+    "choices": [
+      "No player has accomplished this",
+      "Jerry Rice",
+      "John Stallworth",
+      "Lynn Swann"
+    ],
+    "sport": "football",
+    "difficulty": "hard"
+  },
+  {
+    "q": "What does a team give up when they are penalized for intentional grounding?",
+    "a": "A loss of down and yards back to the spot of the foul",
+    "choices": [
+      "A loss of down and yards back to the spot of the foul",
+      "A 15-yard penalty only",
+      "Only a loss of down",
+      "Automatic first down for the defense"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Which player was nicknamed 'All Day' and wore number 28 for the Minnesota Vikings?",
+    "a": "Adrian Peterson",
+    "choices": [
+      "Adrian Peterson",
+      "Cris Carter",
+      "Randy Moss",
+      "Daunte Culpepper"
+    ],
+    "sport": "football",
+    "difficulty": "easy"
+  },
+  {
+    "q": "What team issued a statement calling Colin Kaepernick a starter after he became the first to kneel during the national anthem?",
+    "a": "No team - Kaepernick was not named starter after his protest began",
+    "choices": [
+      "No team - Kaepernick was not named starter after his protest began",
+      "San Francisco 49ers",
+      "Oakland Raiders",
+      "Seattle Seahawks"
+    ],
+    "sport": "football",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Which Super Bowl featured Beyonce's legendary halftime show that many consider the greatest ever?",
+    "a": "Super Bowl XLVII",
+    "choices": [
+      "Super Bowl XLVII",
+      "Super Bowl XLVIII",
+      "Super Bowl 50",
+      "Super Bowl LII"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "The 'Wild Card' round was added to the NFL playoff format in what decade?",
+    "a": "1970s",
+    "choices": [
+      "1960s",
+      "1970s",
+      "1980s",
+      "1990s"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Which team made history by winning Super Bowl LV in the home stadium of the Tampa Bay Buccaneers, Raymond James Stadium?",
+    "a": "Tampa Bay Buccaneers",
+    "choices": [
+      "Tampa Bay Buccaneers",
+      "Kansas City Chiefs",
+      "New England Patriots",
+      "Green Bay Packers"
+    ],
+    "sport": "football",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Which offensive scheme was associated with the 'Run and Shoot' offense popularized by the Houston Oilers in the late 1980s?",
+    "a": "Four wide receiver sets with a mobile quarterback",
+    "choices": [
+      "Four wide receiver sets with a mobile quarterback",
+      "Three tight end sets with a power running game",
+      "Two tight ends and a fullback in I-formation",
+      "Five lineman sets with no backs"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "What record does Tom Brady hold in terms of NFL MVP awards?",
+    "a": "3 NFL MVP awards",
+    "choices": [
+      "2 NFL MVP awards",
+      "3 NFL MVP awards",
+      "4 NFL MVP awards",
+      "5 NFL MVP awards"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Jerome 'The Bus' Bettis won his first Super Bowl ring in Super Bowl XL. The game was played in which city - his hometown?",
+    "a": "Detroit",
+    "choices": [
+      "Detroit",
+      "Pittsburgh",
+      "Philadelphia",
+      "Houston"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Linebacker Junior Seau played for the Chargers, Dolphins, and Patriots before his death in 2012. His number retired by which team?",
+    "a": "San Diego Chargers (number 55)",
+    "choices": [
+      "San Diego Chargers (number 55)",
+      "Miami Dolphins (number 55)",
+      "New England Patriots (number 50)",
+      "Los Angeles Rams (number 99)"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "The 'Holy Roller' play was so controversial it led the NFL to create a rule prohibiting what action in the final two minutes?",
+    "a": "Offensive players batting or advancing a fumbled ball",
+    "choices": [
+      "Offensive players batting or advancing a fumbled ball",
+      "Defensive players returning fumbles beyond the 20-yard line",
+      "Any fumble in the end zone being returned",
+      "Quarterbacks throwing the ball away intentionally in the final two minutes"
+    ],
+    "sport": "football",
+    "difficulty": "hard"
+  },
+  {
+    "q": "The 'Red Right 88' play is considered one of the worst clock management calls in NFL history. Which team was involved?",
+    "a": "Cleveland Browns",
+    "choices": [
+      "Cleveland Browns",
+      "Pittsburgh Steelers",
+      "Oakland Raiders",
+      "Miami Dolphins"
+    ],
+    "sport": "football",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Which future Hall of Fame quarterback was selected in the third round of the 1983 NFL Draft, behind Jim Kelly and others?",
+    "a": "Dan Marino",
+    "choices": [
+      "Dan Marino",
+      "John Elway",
+      "Tony Eason",
+      "Ken O'Brien"
+    ],
+    "sport": "football",
+    "difficulty": "hard"
+  },
+  {
+    "q": "The 'Buffalo Range' or 'Thunderstruck' has become an iconic entrance song for which team's defensive players?",
+    "a": "San Diego/Los Angeles Chargers",
+    "choices": [
+      "San Diego/Los Angeles Chargers",
+      "Oakland Raiders",
+      "Pittsburgh Steelers",
+      "Denver Broncos"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Which head coach wrote the book 'Finding a Way to Win' about his coaching philosophy?",
+    "a": "Bill Parcells",
+    "choices": [
+      "Bill Parcells",
+      "Bill Belichick",
+      "Don Shula",
+      "Tom Landry"
+    ],
+    "sport": "football",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Which NFL team famously wore all-white uniforms and helmets for their entire history until the 1960s?",
+    "a": "Cleveland Browns",
+    "choices": [
+      "Cleveland Browns",
+      "Dallas Cowboys",
+      "Chicago Bears",
+      "Green Bay Packers"
+    ],
+    "sport": "football",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Which cornerback's contract with the New York Jets was referred to as 'Revis Island' because opposing receivers rarely caught passes on his side?",
+    "a": "Darrelle Revis",
+    "choices": [
+      "Darrelle Revis",
+      "Antonio Cromartie",
+      "Lito Sheppard",
+      "Kyle Wilson"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "The 'Herschel Walker Trade' in 1989 sent Walker to the Minnesota Vikings from which team and resulted in multiple Super Bowl wins for the trading team?",
+    "a": "Dallas Cowboys",
+    "choices": [
+      "Dallas Cowboys",
+      "Atlanta Falcons",
+      "Pittsburgh Steelers",
+      "San Francisco 49ers"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "In a standard NFL game, the quarterback is protected from sacks by the offensive line. If the defense gets to the quarterback behind the line of scrimmage, it is called what?",
+    "a": "A sack",
+    "choices": [
+      "A sack",
+      "A tackle for loss",
+      "A quarterback hurry",
+      "An incompletion"
+    ],
+    "sport": "football",
+    "difficulty": "easy"
+  },
+  {
+    "q": "The Denver Broncos' John Elway threw how many interceptions in the famous 'Snowplow Game' in 1982?",
+    "a": "Elway was not on the Broncos in 1982 - he was drafted in 1983",
+    "choices": [
+      "Elway was not on the Broncos in 1982 - he was drafted in 1983",
+      "3 interceptions",
+      "5 interceptions",
+      "2 interceptions"
+    ],
+    "sport": "football",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Which team won the most games in the 2000s decade (2000-2009)?",
+    "a": "New England Patriots",
+    "choices": [
+      "New England Patriots",
+      "Indianapolis Colts",
+      "Pittsburgh Steelers",
+      "Philadelphia Eagles"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Which safety played on a record four Super Bowl champion teams as a starter?",
+    "a": "Charles Haley (won 5, but as a DE)",
+    "choices": [
+      "Charles Haley (won 5, but as a DE)",
+      "Rodney Harrison",
+      "Tedy Bruschi",
+      "Adam Vinatieri"
+    ],
+    "sport": "football",
+    "difficulty": "hard"
+  },
+  {
+    "q": "The 'Wildcat' formation uses a direct snap to a non-quarterback ball carrier. Which school's high school team originated the term 'Wildcat' for a direct-snap formation?",
+    "a": "Numerous schools claim origin; the term became famous via the Miami Dolphins' 2008 use",
+    "choices": [
+      "Numerous schools claim origin; the term became famous via the Miami Dolphins' 2008 use",
+      "Arkansas Razorbacks in 2007",
+      "Kansas State Wildcats in 2004",
+      "Michigan Wolverines in 2005"
+    ],
+    "sport": "football",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Which position wears the number 0 in a special NFL exemption occasionally granted?",
+    "a": "No position - 0 is not an officially allowed number in the NFL",
+    "choices": [
+      "No position - 0 is not an officially allowed number in the NFL",
+      "Kicker",
+      "Wide receiver",
+      "Cornerback"
+    ],
+    "sport": "football",
+    "difficulty": "hard"
+  },
+  {
+    "q": "The game between the New York Giants and San Francisco 49ers in the 1981 NFC playoffs featured 'The Catch' by Dwight Clark. What was the score that sent the 49ers to their first Super Bowl?",
+    "a": "28-27",
+    "choices": [
+      "21-17",
+      "24-21",
+      "28-27",
+      "31-28"
+    ],
+    "sport": "football",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Which Super Bowl became known as the 'Blackout Bowl' due to a power outage at the stadium?",
+    "a": "Super Bowl XLVII",
+    "choices": [
+      "Super Bowl XLVII",
+      "Super Bowl XLIII",
+      "Super Bowl XLIX",
+      "Super Bowl LI"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "What nickname was given to the San Francisco 49ers' dominant team during the Montana/Walsh era of the 1980s?",
+    "a": "There was no formal nickname, but they were often called the 'Dynasty 49ers'",
+    "choices": [
+      "There was no formal nickname, but they were often called the 'Dynasty 49ers'",
+      "The 'Gold Rush'",
+      "The 'Bay Bombers'",
+      "The 'West Coast Warriors'"
+    ],
+    "sport": "football",
+    "difficulty": "hard"
+  },
+  {
+    "q": "The NFL draft lottery concept (order of picks based on record) was introduced to promote competitive balance. Which pick spot is considered the most valuable outside of the first pick?",
+    "a": "Second overall pick",
+    "choices": [
+      "Second overall pick",
+      "Third overall pick",
+      "32nd pick (end of first round)",
+      "65th pick (start of third round)"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Which running back scored the winning touchdown in Super Bowl LVII to give the Kansas City Chiefs the victory?",
+    "a": "Jerick McKinnon",
+    "choices": [
+      "Jerick McKinnon",
+      "Patrick Mahomes",
+      "Travis Kelce",
+      "Isiah Pacheco"
+    ],
+    "sport": "football",
+    "difficulty": "hard"
+  },
+  {
+    "q": "The Pittsburgh Steelers' offensive line in the 1970s included future Hall of Famers. Which center anchored that line?",
+    "a": "Mike Webster",
+    "choices": [
+      "Mike Webster",
+      "Jon Kolb",
+      "Sam Davis",
+      "Ted Petersen"
+    ],
+    "sport": "football",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Who is the only player to be selected to the Pro Bowl at two different positions in his career?",
+    "a": "Deion Sanders (cornerback and kick returner)",
+    "choices": [
+      "Deion Sanders (cornerback and kick returner)",
+      "Chuck Bednarik (linebacker and center)",
+      "Bo Jackson (running back and wide receiver)",
+      "Ray Nitschke (linebacker and safety)"
+    ],
+    "sport": "football",
+    "difficulty": "hard"
+  },
+  {
+    "q": "The phrase 'Any Given Sunday' in football refers to what concept?",
+    "a": "The idea that any team can beat any other team on any given day",
+    "choices": [
+      "The idea that any team can beat any other team on any given day",
+      "The tradition of NFL games on Sundays",
+      "A rule about home field advantage",
+      "The practice of resting starters late in the season"
+    ],
+    "sport": "football",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Which team drafted both father and son Bo and Nick Scarbrough?",
+    "a": "No team drafted both",
+    "choices": [
+      "No team drafted both",
+      "Dallas Cowboys",
+      "New England Patriots",
+      "New York Giants"
+    ],
+    "sport": "football",
+    "difficulty": "hard"
+  },
+  {
+    "q": "The 'Greatest Game Ever Played' in 1958 was the first NFL Championship game to go into overtime. Which team won in sudden death?",
+    "a": "Baltimore Colts",
+    "choices": [
+      "Baltimore Colts",
+      "New York Giants",
+      "Chicago Bears",
+      "Green Bay Packers"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "The NFL's 'personal seat license' system allows teams to charge fans for the right to what?",
+    "a": "Purchase season tickets",
+    "choices": [
+      "Purchase season tickets",
+      "Enter the stadium early",
+      "Park in premium lots",
+      "Meet players after games"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "The New York Giants' Eli Manning won two Super Bowl MVPs. In which Super Bowls?",
+    "a": "Super Bowl XLII and Super Bowl XLVI",
+    "choices": [
+      "Super Bowl XLII and Super Bowl XLVI",
+      "Super Bowl XLI and Super Bowl XLVIII",
+      "Super Bowl XLIII and Super Bowl XLIX",
+      "Super Bowl XLIV and Super Bowl L"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "The Seattle Seahawks began playing at what is now called Lumen Field in what year?",
+    "a": "2002",
+    "choices": [
+      "1999",
+      "2000",
+      "2002",
+      "2005"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Which franchise moved from Oakland to Las Vegas ahead of the 2020 season?",
+    "a": "Raiders",
+    "choices": [
+      "Raiders",
+      "Chiefs",
+      "Chargers",
+      "Broncos"
+    ],
+    "sport": "football",
+    "difficulty": "easy"
+  },
+  {
+    "q": "The term 'going for it on fourth down' refers to the offensive team doing what instead of punting or kicking?",
+    "a": "Running a play to try to gain a first down or score",
+    "choices": [
+      "Running a play to try to gain a first down or score",
+      "Substituting a specialist kicker",
+      "Taking a delay of game penalty intentionally",
+      "Using a timeout before the play"
+    ],
+    "sport": "football",
+    "difficulty": "easy"
+  },
+  {
+    "q": "The New England Patriots' 'Spygate' scandal involved them doing what during games in 2007?",
+    "a": "Illegally filming opposing teams' defensive signals from the sideline",
+    "choices": [
+      "Illegally filming opposing teams' defensive signals from the sideline",
+      "Wearing radio receivers hidden in helmets to intercept play calls",
+      "Placing sensors in opposing team's ball bags to deflate footballs",
+      "Hacking into opposing teams' headset communications"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "What year did the NFL change its overtime rules to give both teams a possession opportunity in the playoffs?",
+    "a": "2022 (for all games starting in 2022)",
+    "choices": [
+      "2015",
+      "2018",
+      "2020",
+      "2022 (for all games starting in 2022)"
+    ],
+    "sport": "football",
+    "difficulty": "hard"
+  },
+  {
+    "q": "The 'Deacon Jones' move, named for the Rams defensive end, is what type of pass rush technique?",
+    "a": "The head slap (now banned)",
+    "choices": [
+      "The head slap (now banned)",
+      "The spin move",
+      "The bull rush",
+      "The swim move"
+    ],
+    "sport": "football",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Which team was called the 'Greatest Show on Turf' during their dynasty run of 1999 to 2001?",
+    "a": "St. Louis Rams",
+    "choices": [
+      "St. Louis Rams",
+      "Kansas City Chiefs",
+      "Minnesota Vikings",
+      "Indianapolis Colts"
+    ],
+    "sport": "football",
+    "difficulty": "easy"
+  },
+  {
+    "q": "The Dallas Cowboys' home stadium opened in 2009 and is officially named what?",
+    "a": "AT&T Stadium",
+    "choices": [
+      "AT&T Stadium",
+      "Jerry World",
+      "Cowboys Stadium",
+      "Texas Stadium"
+    ],
+    "sport": "football",
+    "difficulty": "easy"
+  },
+  {
+    "q": "A safety can be scored when the offense does what inside their own end zone?",
+    "a": "Is tackled, goes out of bounds, or commits a foul with possession inside their own end zone",
+    "choices": [
+      "Is tackled, goes out of bounds, or commits a foul with possession inside their own end zone",
+      "Throws an incomplete pass in the end zone",
+      "Fumbles the ball through the back of the end zone",
+      "Calls a timeout while the ball is inside the 1-yard line"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Which Hall of Fame receiver famously said 'I love me some me' during a training camp showdown with the Dallas Cowboys?",
+    "a": "Terrell Owens",
+    "choices": [
+      "Terrell Owens",
+      "Randy Moss",
+      "Chad Johnson",
+      "Antonio Brown"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Linebacker Lawrence Taylor was considered a game-changer when drafted in 1981. Who was considered his college teammate rival drafted the same year?",
+    "a": "Cornelius Bennett",
+    "choices": [
+      "Cornelius Bennett",
+      "Gary Reasons",
+      "Carl Banks",
+      "Pepper Johnson"
+    ],
+    "sport": "football",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Which team plays their home games at NRG Stadium?",
+    "a": "Houston Texans",
+    "choices": [
+      "Houston Texans",
+      "Dallas Cowboys",
+      "Tennessee Titans",
+      "Indianapolis Colts"
+    ],
+    "sport": "football",
+    "difficulty": "easy"
+  },
+  {
+    "q": "The 'Four Verticals' passing concept sends all four receivers straight downfield. What is the primary purpose of this play?",
+    "a": "To stretch the defense vertically and create deep passing lanes",
+    "choices": [
+      "To stretch the defense vertically and create deep passing lanes",
+      "To clear the middle for a quarterback draw play",
+      "To set up a reverse to a wide receiver",
+      "To confuse the defense with multiple crossing routes"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Which team's name change from 'Washington Redskins' to 'Washington Football Team' and eventually 'Washington Commanders' happened in what year?",
+    "a": "2020 (Washington Football Team), 2022 (Washington Commanders)",
+    "choices": [
+      "2020 (Washington Football Team), 2022 (Washington Commanders)",
+      "2019 (Washington Football Team), 2021 (Washington Commanders)",
+      "2018 (Washington Football Team), 2020 (Washington Commanders)",
+      "2021 (Washington Football Team), 2023 (Washington Commanders)"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Which player became the first rookie to win the NFL MVP award?",
+    "a": "No rookie has ever won the NFL MVP award",
+    "choices": [
+      "No rookie has ever won the NFL MVP award",
+      "Eric Dickerson (1983)",
+      "Cam Newton (2011)",
+      "Patrick Mahomes (2018)"
+    ],
+    "sport": "football",
+    "difficulty": "hard"
+  },
+  {
+    "q": "What term describes a planned play fake where the quarterback pretends to hand off before keeping or passing the ball?",
+    "a": "Play action",
+    "choices": [
+      "Play action",
+      "Option play",
+      "Counter run",
+      "Misdirection"
+    ],
+    "sport": "football",
+    "difficulty": "easy"
+  },
+  {
+    "q": "The New Orleans Saints got their franchise name from which famous jazz musical element of New Orleans culture?",
+    "a": "The Saints Go Marching In (a famous New Orleans jazz standard)",
+    "choices": [
+      "The Saints Go Marching In (a famous New Orleans jazz standard)",
+      "The French Quarter art district",
+      "The Bourbon Street celebration culture",
+      "The Catholic heritage of New Orleans"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Bo Jackson retired from football due to a hip injury suffered in a 1991 playoff game against which team?",
+    "a": "Cincinnati Bengals",
+    "choices": [
+      "Cincinnati Bengals",
+      "Los Angeles Raiders",
+      "Seattle Seahawks",
+      "Denver Broncos"
+    ],
+    "sport": "football",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Which wide receiver was passed over so many times in the 1985 NFL Draft that he was selected in the 16th round?",
+    "a": "Jerry Rice (actually the 16th pick, not 16th round - drafts had fewer rounds then)",
+    "choices": [
+      "Jerry Rice (actually the 16th pick, not 16th round - drafts had fewer rounds then)",
+      "John Taylor",
+      "Mike Wilson",
+      "Russ Francis"
+    ],
+    "sport": "football",
+    "difficulty": "hard"
+  },
+  {
+    "q": "What is the name of the formation where the quarterback lines up directly under center?",
+    "a": "Under center",
+    "choices": [
+      "Under center",
+      "Shotgun",
+      "Pistol",
+      "Wildcat"
+    ],
+    "sport": "football",
+    "difficulty": "easy"
+  },
+  {
+    "q": "The iconic Monday Night Football theme song was composed by which musician?",
+    "a": "Johnny Pearson",
+    "choices": [
+      "Johnny Pearson",
+      "John Williams",
+      "Henry Mancini",
+      "Lalo Schifrin"
+    ],
+    "sport": "football",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Which AFC team has never appeared in a Super Bowl?",
+    "a": "Cleveland Browns",
+    "choices": [
+      "Cleveland Browns",
+      "Jacksonville Jaguars",
+      "Houston Texans",
+      "Cincinnati Bengals"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "In what decade did the Dallas Cowboys earn three Super Bowl titles in four years?",
+    "a": "1990s",
+    "choices": [
+      "1970s",
+      "1980s",
+      "1990s",
+      "2000s"
+    ],
+    "sport": "football",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Which defensive player holds the record for the most career interceptions in NFL history?",
+    "a": "Paul Krause",
+    "choices": [
+      "Paul Krause",
+      "Rod Woodson",
+      "Dick 'Night Train' Lane",
+      "Emlen Tunnell"
+    ],
+    "sport": "football",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Which team's quarterback kneeled for the national anthem, sparking a nationwide debate about player protests?",
+    "a": "San Francisco 49ers (Colin Kaepernick)",
+    "choices": [
+      "San Francisco 49ers (Colin Kaepernick)",
+      "Seattle Seahawks (Russell Wilson)",
+      "Baltimore Ravens (Joe Flacco)",
+      "New York Giants (Eli Manning)"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "The New England Patriots drafted Tom Brady with pick number 199 in the 2000 NFL Draft. In what round was he selected?",
+    "a": "6th round",
+    "choices": [
+      "4th round",
+      "5th round",
+      "6th round",
+      "7th round"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "The 'Sack Exchange' was the nickname of which team's dominant defensive line in the early 1980s?",
+    "a": "New York Jets",
+    "choices": [
+      "New York Jets",
+      "New York Giants",
+      "Pittsburgh Steelers",
+      "Miami Dolphins"
+    ],
+    "sport": "football",
+    "difficulty": "hard"
+  },
+  {
+    "q": "What is the name of the penalty when a defensive player moves into the neutral zone and contacts an offensive player before the snap?",
+    "a": "Encroachment",
+    "choices": [
+      "Encroachment",
+      "False start",
+      "Offsides",
+      "Neutral zone infraction"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "The Baltimore Ravens were named after which famous literary work set in Baltimore?",
+    "a": "Edgar Allan Poe's poem 'The Raven'",
+    "choices": [
+      "Edgar Allan Poe's poem 'The Raven'",
+      "F. Scott Fitzgerald's 'The Great Gatsby'",
+      "H.L. Mencken's essays about Baltimore",
+      "John Barth's 'The Sot-Weed Factor'"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Which quarterback set the record for the most passing yards in a single game with 554 yards?",
+    "a": "Norm Van Brocklin (1951)",
+    "choices": [
+      "Norm Van Brocklin (1951)",
+      "Dan Marino (1984)",
+      "Peyton Manning (2004)",
+      "Drew Brees (2016)"
+    ],
+    "sport": "football",
+    "difficulty": "hard"
+  },
+  {
+    "q": "The 'Cincinnati Kid' or 'The Bengal Tiger' was a nickname for which star running back in the 1980s for the Bengals?",
+    "a": "James Brooks",
+    "choices": [
+      "James Brooks",
+      "Ickey Woods",
+      "Pete Johnson",
+      "Larry Kinnebrew"
+    ],
+    "sport": "football",
+    "difficulty": "hard"
+  },
+  {
+    "q": "The Philadelphia Eagles host a unique fan section called 'The Nest' at their stadium. What is the name of their home field?",
+    "a": "Lincoln Financial Field",
+    "choices": [
+      "Lincoln Financial Field",
+      "Veterans Stadium",
+      "Citizens Bank Park",
+      "South Philly Stadium"
+    ],
+    "sport": "football",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Coach Tony Dungy became the first Black head coach to win a Super Bowl. Which team did he coach to that victory?",
+    "a": "Indianapolis Colts",
+    "choices": [
+      "Indianapolis Colts",
+      "Tampa Bay Buccaneers",
+      "Minnesota Vikings",
+      "Pittsburgh Steelers"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "What unique feature of Heinz Field in Pittsburgh, Pennsylvania causes the field to sometimes flood during games?",
+    "a": "Its location at the confluence of the Allegheny and Monongahela rivers",
+    "choices": [
+      "Its location at the confluence of the Allegheny and Monongahela rivers",
+      "A defective drainage system installed in 2001",
+      "An underground spring beneath the playing surface",
+      "Its low elevation relative to the Ohio River"
+    ],
+    "sport": "football",
+    "difficulty": "hard"
+  },
+  {
+    "q": "The Super Bowl halftime performer who appeared in two consecutive halftime shows (2023 and 2024) is which artist?",
+    "a": "Rihanna (2023) and Usher (2024) - no artist appeared back-to-back",
+    "choices": [
+      "Rihanna (2023) and Usher (2024) - no artist appeared back-to-back",
+      "Taylor Swift appeared in both 2023 and 2024",
+      "Bruno Mars appeared in both 2023 and 2024",
+      "Beyonce appeared in both 2023 and 2024"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "The football play 'Power I-formation' uses which backfield alignment?",
+    "a": "Quarterback, fullback, and running back lined up in a straight line",
+    "choices": [
+      "Quarterback, fullback, and running back lined up in a straight line",
+      "Two running backs side by side behind the quarterback",
+      "One running back offset to the right of the quarterback",
+      "A single back directly behind the quarterback in shotgun"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "The Washington Football Team changed its name to 'Washington Commanders' in which year?",
+    "a": "2022",
+    "choices": [
+      "2020",
+      "2021",
+      "2022",
+      "2023"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "In the 2023 Super Bowl LVII, Travis Kelce's brother Jason Kelce played for which opposing team?",
+    "a": "Philadelphia Eagles",
+    "choices": [
+      "Philadelphia Eagles",
+      "Buffalo Bills",
+      "Miami Dolphins",
+      "New York Giants"
+    ],
+    "sport": "football",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Peyton Manning's brother Eli Manning played for the New York Giants. Which team drafted Eli only to trade him to the Giants?",
+    "a": "San Diego Chargers",
+    "choices": [
+      "San Diego Chargers",
+      "Cleveland Browns",
+      "Oakland Raiders",
+      "Washington Redskins"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "The Pro Football Hall of Fame is located in which Ohio city?",
+    "a": "Canton",
+    "choices": [
+      "Canton",
+      "Cleveland",
+      "Columbus",
+      "Cincinnati"
+    ],
+    "sport": "football",
+    "difficulty": "easy"
+  },
+  {
+    "q": "The 'Run and Shoot' offense is characterized by what main feature?",
+    "a": "No huddle, multiple wide receivers with no tight end",
+    "choices": [
+      "No huddle, multiple wide receivers with no tight end",
+      "Three running backs on every play",
+      "A mobile quarterback who often scrambles",
+      "Three tight end sets with a fullback"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "The 'Fearsome Foursome' was the nickname of which team's dominant defensive line in the 1960s?",
+    "a": "Los Angeles Rams",
+    "choices": [
+      "Los Angeles Rams",
+      "Minnesota Vikings",
+      "Pittsburgh Steelers",
+      "Dallas Cowboys"
+    ],
+    "sport": "football",
+    "difficulty": "hard"
+  },
+  {
+    "q": "The first Super Bowl's most valuable player was Bart Starr, who played for which team?",
+    "a": "Green Bay Packers",
+    "choices": [
+      "Green Bay Packers",
+      "Kansas City Chiefs",
+      "Dallas Cowboys",
+      "Oakland Raiders"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Which player was dubbed 'Megatron' due to his enormous size and dominant play as a wide receiver?",
+    "a": "Calvin Johnson",
+    "choices": [
+      "Calvin Johnson",
+      "Plaxico Burress",
+      "Brandon Marshall",
+      "Anquan Boldin"
+    ],
+    "sport": "football",
+    "difficulty": "easy"
+  },
+  {
+    "q": "The 'Icky Shuffle' was an iconic touchdown celebration performed by which Cincinnati Bengals player in 1988?",
+    "a": "Ickey Woods",
+    "choices": [
+      "Ickey Woods",
+      "James Brooks",
+      "Boomer Esiason",
+      "Eddie Brown"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Which team, known for its defense, was given the nickname 'The No-Fly Zone' in the 2015 season?",
+    "a": "Denver Broncos",
+    "choices": [
+      "Denver Broncos",
+      "Seattle Seahawks",
+      "New England Patriots",
+      "New York Jets"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "What is the official name of the scoring play when a team throws the ball into the end zone and a receiver catches it?",
+    "a": "Touchdown via pass reception",
+    "choices": [
+      "Touchdown via pass reception",
+      "Aerial touchdown",
+      "Passing score",
+      "End zone catch"
+    ],
+    "sport": "football",
+    "difficulty": "easy"
+  },
+  {
+    "q": "The famous Immaculate Reception catch in 1972 was made by Franco Harris after the ball deflected off which player?",
+    "a": "Frenchy Fuqua (and possibly Jack Tatum)",
+    "choices": [
+      "Frenchy Fuqua (and possibly Jack Tatum)",
+      "John Stallworth",
+      "Lynn Swann",
+      "Rocky Bleier"
+    ],
+    "sport": "football",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Which NFL Hall of Famer played 20 seasons for the Kansas City Chiefs and is considered one of the greatest tight ends ever?",
+    "a": "Tony Gonzalez",
+    "choices": [
+      "Tony Gonzalez",
+      "Shannon Sharpe",
+      "Ozzie Newsome",
+      "Ben Coates"
+    ],
+    "sport": "football",
+    "difficulty": "easy"
+  },
+  {
+    "q": "The 'Dime' defense in football refers to a formation with how many defensive backs?",
+    "a": "6",
+    "choices": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "What was the controversial call during a 2021 playoff game where a roughing-the-passer flag led to a key drive for the Cincinnati Bengals against the Raiders?",
+    "a": "A roughing call on defensive end Maxx Crosby that extended a Bengals drive",
+    "choices": [
+      "A roughing call on defensive end Maxx Crosby that extended a Bengals drive",
+      "A pass interference call against the Raiders secondary",
+      "An illegal contact call against Denzel Perryman",
+      "A helmet-to-helmet call on Derek Carr"
+    ],
+    "sport": "football",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Adrian Peterson rushed for 296 yards in a single game. Which team did he play for in that record-breaking performance?",
+    "a": "Minnesota Vikings",
+    "choices": [
+      "Minnesota Vikings",
+      "Oklahoma Sooners",
+      "New Orleans Saints",
+      "Arizona Cardinals"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "The Bengals' 'Who Dey' chant is a reference to which rallying cry?",
+    "a": "Who dey think gonna beat dem Bengals?",
+    "choices": [
+      "Who dey think gonna beat dem Bengals?",
+      "Who dey think they are messing with the Bengals?",
+      "Who dey coming for our title?",
+      "Who dey afraid of the orange and black?"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "The first Super Bowl game played at a retractable-roof stadium took place at which venue in 2017?",
+    "a": "NRG Stadium in Houston",
+    "choices": [
+      "NRG Stadium in Houston",
+      "US Bank Stadium in Minneapolis",
+      "AT&T Stadium in Arlington",
+      "State Farm Stadium in Glendale"
+    ],
+    "sport": "football",
+    "difficulty": "hard"
+  },
+  {
+    "q": "In 1994, two 49ers quarterbacks won the Super Bowl that season - Steve Young was the starter. Who was the backup?",
+    "a": "Elvis Grbac",
+    "choices": [
+      "Elvis Grbac",
+      "Steve Bono",
+      "Rick Mirer",
+      "Dave Krieg"
+    ],
+    "sport": "football",
+    "difficulty": "hard"
+  },
+  {
+    "q": "The 'Nickel' defense formation is named after the coin because it uses how many defensive backs?",
+    "a": "5",
+    "choices": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "sport": "football",
+    "difficulty": "medium"
+  }
+]

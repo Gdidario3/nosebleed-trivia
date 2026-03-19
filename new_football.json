@@ -1,0 +1,156 @@
+[
+  {
+    "q": "I hold the NFL record with 7 Super Bowl titles as a quarterback. Who am I?",
+    "a": "Tom Brady",
+    "choices": ["Tom Brady", "Joe Montana", "Peyton Manning", "Terry Bradshaw"],
+    "sport": "football",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Known as 'The Greatest Show on Turf,' this quarterback won Super Bowl XXXIV with the Rams after going undrafted. Name him.",
+    "a": "Kurt Warner",
+    "choices": ["Kurt Warner", "Marc Bulger", "Trent Green", "Sam Bradford"],
+    "sport": "football",
+    "difficulty": "easy"
+  },
+  {
+    "q": "I rushed for 2,105 yards in a single season with the Los Angeles Rams in 1984, setting a record that stood for nearly two decades. Who am I?",
+    "a": "Eric Dickerson",
+    "choices": ["Eric Dickerson", "Barry Sanders", "Walter Payton", "Emmitt Smith"],
+    "sport": "football",
+    "difficulty": "easy"
+  },
+  {
+    "q": "This wide receiver holds the NFL career record with 1,549 receptions. Name him.",
+    "a": "Jerry Rice",
+    "choices": ["Jerry Rice", "Larry Fitzgerald", "Tony Gonzalez", "Marvin Harrison"],
+    "sport": "football",
+    "difficulty": "easy"
+  },
+  {
+    "q": "I was the head coach of the Green Bay Packers for the first two Super Bowls, both victories. The Super Bowl trophy is named after me. Who am I?",
+    "a": "Vince Lombardi",
+    "choices": ["Vince Lombardi", "Tom Landry", "Don Shula", "Paul Brown"],
+    "sport": "football",
+    "difficulty": "easy"
+  },
+  {
+    "q": "This running back averaged 5.2 yards per carry over his career with the Cleveland Browns from 1957 to 1965, retiring at age 29. Name him.",
+    "a": "Jim Brown",
+    "choices": ["Jim Brown", "Gale Sayers", "Earl Campbell", "O.J. Simpson"],
+    "sport": "football",
+    "difficulty": "easy"
+  },
+  {
+    "q": "I threw for 5,477 yards in a single season with the New England Patriots in 2011, setting a franchise record. Who am I?",
+    "a": "Tom Brady",
+    "choices": ["Tom Brady", "Drew Bledsoe", "Mac Jones", "Matt Cassel"],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This quarterback threw for 55 touchdowns in a single season with the Indianapolis Colts in 2013, setting the single-season record at the time. Name him.",
+    "a": "Peyton Manning",
+    "choices": ["Peyton Manning", "Andrew Luck", "Philip Rivers", "Drew Brees"],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Known as the 'Immaculate Reception,' Franco Harris made his legendary catch in a 1972 playoff game while playing for which team?",
+    "a": "Pittsburgh Steelers",
+    "choices": ["Pittsburgh Steelers", "Oakland Raiders", "Dallas Cowboys", "Miami Dolphins"],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "I set the NFL record with 48 consecutive regular-season starts for a quarterback with the Miami Dolphins and never won a Super Bowl despite reaching two. Who am I?",
+    "a": "Dan Marino",
+    "choices": ["Dan Marino", "Bob Griese", "Ryan Tannehill", "Jay Fiedler"],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This head coach won 6 Super Bowls with the New England Patriots, the most by any head coach in NFL history. Name him.",
+    "a": "Bill Belichick",
+    "choices": ["Bill Belichick", "Chuck Noll", "Bill Walsh", "Tom Landry"],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "I caught 'The Catch' from Joe Montana in the 1981 NFC Championship Game against the Dallas Cowboys. Who am I?",
+    "a": "Dwight Clark",
+    "choices": ["Dwight Clark", "Jerry Rice", "John Taylor", "Freddie Solomon"],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This quarterback led the largest Super Bowl comeback in history, overcoming a 25-point deficit in Super Bowl LI. Name him.",
+    "a": "Tom Brady",
+    "choices": ["Tom Brady", "Peyton Manning", "Aaron Rodgers", "Drew Brees"],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "I hold the NFL career rushing record with 18,355 yards, all with the Dallas Cowboys. Who am I?",
+    "a": "Emmitt Smith",
+    "choices": ["Emmitt Smith", "Walter Payton", "Barry Sanders", "Frank Gore"],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This Kansas City Chiefs quarterback threw for 5,250 yards and 50 touchdowns in his first season as a starter in 2018. Name him.",
+    "a": "Patrick Mahomes",
+    "choices": ["Patrick Mahomes", "Alex Smith", "Trent Green", "Len Dawson"],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "I am the only player in NFL history to rush for over 2,000 yards in a 14-game season, doing so with the Buffalo Bills in 1973. Who am I?",
+    "a": "O.J. Simpson",
+    "choices": ["O.J. Simpson", "Jim Brown", "Earl Campbell", "Walter Payton"],
+    "sport": "football",
+    "difficulty": "medium"
+  },
+  {
+    "q": "David Tyree made his famous 'Helmet Catch' in Super Bowl XLII while playing for which team?",
+    "a": "New York Giants",
+    "choices": ["New York Giants", "New England Patriots", "Philadelphia Eagles", "Dallas Cowboys"],
+    "sport": "football",
+    "difficulty": "hard"
+  },
+  {
+    "q": "This quarterback threw for 71,940 career passing yards, all with the same franchise, making him the all-time leader for a single team at the time of his retirement. Name him.",
+    "a": "Drew Brees",
+    "choices": ["Drew Brees", "Peyton Manning", "Brett Favre", "Philip Rivers"],
+    "sport": "football",
+    "difficulty": "hard"
+  },
+  {
+    "q": "I coached the 1972 Miami Dolphins to the only perfect season in NFL history, going 17-0. Who am I?",
+    "a": "Don Shula",
+    "choices": ["Don Shula", "Jimmy Johnson", "Bill Walsh", "Chuck Noll"],
+    "sport": "football",
+    "difficulty": "hard"
+  },
+  {
+    "q": "This defensive end holds the NFL single-season sack record with 22.5 sacks, set in 2001 while playing for the New York Giants. Name him.",
+    "a": "Michael Strahan",
+    "choices": ["Michael Strahan", "Lawrence Taylor", "Reggie White", "Bruce Smith"],
+    "sport": "football",
+    "difficulty": "hard"
+  },
+  {
+    "q": "I am the only wide receiver in NFL history to record 1,000 or more receiving yards in 11 consecutive seasons, doing so with the Minnesota Vikings and Arizona Cardinals. Who am I?",
+    "a": "Larry Fitzgerald",
+    "choices": ["Larry Fitzgerald", "Randy Moss", "Terrell Owens", "Calvin Johnson"],
+    "sport": "football",
+    "difficulty": "hard"
+  },
+  {
+    "q": "This San Francisco 49ers head coach invented the 'West Coast Offense' and won three Super Bowls. Name him.",
+    "a": "Bill Walsh",
+    "choices": ["Bill Walsh", "George Seifert", "Mike Holmgren", "Steve Mariucci"],
+    "sport": "football",
+    "difficulty": "hard"
+  }
+]

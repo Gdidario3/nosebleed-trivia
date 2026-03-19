@@ -1,0 +1,1153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Guess the Player — Nosebleed Sports</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800;900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #070A10;
+    --card: #0F1420;
+    --raised: #181E2E;
+    --t1: #F0F4FF;
+    --t2: #C8D4E8;
+    --t3: #A0AEBF;
+    --t4: #7A8CA4;
+    --t5: #546478;
+    --border: rgba(255,255,255,0.07);
+    --hoops: #FF2D4B;
+    --puck: #00B8F0;
+    --footy: #00D966;
+    --grid: #FF8C00;
+    --ball: #9B5CF6;
+    --tennis: #E8D44D;
+    --f1: #E8102D;
+    --golf: #2DD4BF;
+  }
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    background: var(--bg);
+    color: var(--t1);
+    font-family: 'Inter', sans-serif;
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+
+  /* Header */
+  .site-header {
+    padding: 20px 24px 0;
+    max-width: 720px;
+    margin: 0 auto;
+  }
+  .back-link {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: var(--t4);
+    text-decoration: none;
+    transition: color 0.15s;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+  }
+  .back-link:hover { color: var(--t2); }
+  .page-title {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 52px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    line-height: 1;
+    margin-top: 10px;
+  }
+  .page-title span {
+    background: linear-gradient(135deg, #FFD700, #FF8C00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  .page-sub {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--t4);
+    margin-top: 4px;
+    margin-bottom: 28px;
+  }
+
+  /* Shared card */
+  .g-card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+  }
+  .g-card::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 1px;
+    background: linear-gradient(90deg, transparent 0%, rgba(255,255,255,0.2) 40%, rgba(255,255,255,0.35) 50%, rgba(255,255,255,0.2) 60%, transparent 100%);
+  }
+
+  /* Diff pills */
+  .diff-easy   { background: rgba(74,222,128,.15); color: #4ade80; border: 1px solid rgba(74,222,128,.3); }
+  .diff-medium { background: rgba(250,204,21,.15); color: #facc15; border: 1px solid rgba(250,204,21,.3); }
+  .diff-hard   { background: rgba(248,113,113,.15); color: #f87171; border: 1px solid rgba(248,113,113,.3); }
+
+  .pill {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    padding: 3px 10px;
+    border-radius: 20px;
+    display: inline-block;
+  }
+
+  /* ═══ LOBBY ═══ */
+  .lobby { max-width: 720px; margin: 0 auto; padding: 0 20px 80px; }
+
+  .mode-card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 20px;
+    padding: 28px 28px 24px;
+    margin-bottom: 16px;
+    cursor: pointer;
+    transition: all 0.18s;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+    overflow: hidden;
+  }
+  .mode-card::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 2px;
+    opacity: 0;
+    transition: opacity 0.18s;
+  }
+  .mode-card:hover { border-color: rgba(255,255,255,0.14); transform: translateY(-2px); box-shadow: 0 10px 30px rgba(0,0,0,0.4); }
+  .mode-card:hover::before { opacity: 1; }
+  .mode-card.blitz::before { background: linear-gradient(90deg, #FF8C00, #FFD700); }
+  .mode-card.classic::before { background: linear-gradient(90deg, #60a5fa, #a78bfa); }
+  .mode-icon { font-size: 40px; flex-shrink: 0; }
+  .mode-info { flex: 1; }
+  .mode-name {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 28px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: var(--t1);
+  }
+  .mode-desc { font-size: 13px; color: var(--t3); margin-top: 3px; line-height: 1.5; }
+  .mode-badge {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 5px 14px;
+    border-radius: 30px;
+    flex-shrink: 0;
+  }
+  .mode-card.blitz .mode-badge { background: rgba(255,140,0,.2); color: #FF8C00; border: 1px solid rgba(255,140,0,.4); }
+  .mode-card.classic .mode-badge { background: rgba(96,165,250,.15); color: #60a5fa; border: 1px solid rgba(96,165,250,.35); }
+
+  .lobby-section-label {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    color: var(--t4);
+    margin: 24px 0 10px;
+  }
+  .sport-pill-row { display: flex; flex-wrap: wrap; gap: 8px; }
+  .sport-pill {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+    padding: 8px 18px;
+    border-radius: 50px;
+    border: 1.5px solid rgba(255,255,255,0.1);
+    background: rgba(255,255,255,0.04);
+    color: var(--t3);
+    cursor: pointer;
+    transition: all 0.16s;
+  }
+  .sport-pill:hover { color: var(--t1); border-color: rgba(255,255,255,0.2); background: rgba(255,255,255,0.07); }
+  .sport-pill.active { color: #FFD700; border-color: #FF8C00; background: rgba(255,140,0,.14); box-shadow: 0 0 14px rgba(255,140,0,.2); }
+
+  /* ═══ ACTIVE GAME ═══ */
+  .game-wrap { max-width: 720px; margin: 0 auto; padding: 0 20px 80px; display: none; }
+
+  /* HUD */
+  .hud {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 20px;
+    background: rgba(255,255,255,0.03);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 14px 20px;
+  }
+  .hud-stat { text-align: left; }
+  .hud-stat.right { text-align: right; }
+  .hud-stat .val {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 34px;
+    font-weight: 900;
+    line-height: 1;
+    display: block;
+  }
+  .hud-stat .lbl {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: var(--t4);
+    display: block;
+    margin-top: 1px;
+  }
+  .hud-stat .streak-line { font-size: 12px; color: #FF8C00; margin-top: 2px; display: block; min-height: 16px; }
+
+  /* Timer ring */
+  .timer-wrap { position: relative; width: 84px; height: 84px; flex-shrink: 0; }
+  .timer-wrap svg { transform: rotate(-90deg); }
+  .timer-bg { fill: none; stroke: rgba(255,255,255,0.06); stroke-width: 7; }
+  .timer-ring { fill: none; stroke: #FF8C00; stroke-width: 7; stroke-linecap: round; transition: stroke-dashoffset 1s linear, stroke 0.3s; }
+  .timer-num {
+    position: absolute; top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 26px; font-weight: 900;
+    color: var(--t1);
+  }
+
+  /* Player card */
+  .player-card {
+    background: linear-gradient(160deg, #0F1420 0%, #0D1829 100%);
+    border: 1px solid rgba(255,255,255,0.08);
+    border-radius: 20px;
+    padding: 28px 26px 22px;
+    margin-bottom: 18px;
+    position: relative;
+    overflow: hidden;
+    min-height: 200px;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.4);
+  }
+  .player-card::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 1px;
+    background: linear-gradient(90deg, transparent 0%, rgba(255,255,255,0.22) 30%, rgba(255,255,255,0.4) 50%, rgba(255,255,255,0.22) 70%, transparent 100%);
+  }
+  .card-meta { display: flex; gap: 8px; align-items: center; margin-bottom: 14px; flex-wrap: wrap; }
+  .sport-badge {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 11px; font-weight: 700;
+    letter-spacing: 1.5px; text-transform: uppercase;
+    padding: 3px 10px; border-radius: 20px;
+    border: 1px solid rgba(255,255,255,0.12);
+    background: rgba(255,255,255,0.05);
+    color: var(--t3);
+  }
+  .clues-list { list-style: none; display: flex; flex-direction: column; gap: 10px; }
+  .clue-item {
+    display: flex; gap: 12px; align-items: flex-start;
+    font-size: 16px; color: var(--t2); line-height: 1.45;
+  }
+  .clue-num {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 11px; font-weight: 800;
+    letter-spacing: 1px;
+    background: rgba(255,255,255,0.07);
+    border-radius: 50%;
+    width: 22px; height: 22px;
+    display: flex; align-items: center; justify-content: center;
+    flex-shrink: 0;
+    color: var(--t4);
+    margin-top: 1px;
+  }
+
+  .feedback-overlay {
+    position: absolute; top: 0; left: 0; right: 0; bottom: 0;
+    display: flex; align-items: center; justify-content: center;
+    border-radius: 20px;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 52px; font-weight: 900;
+    opacity: 0; pointer-events: none;
+    transition: opacity 0.08s;
+    flex-direction: column; gap: 4px;
+  }
+  .feedback-overlay.show { opacity: 1; }
+  .feedback-overlay.correct { background: rgba(34,197,94,.2); color: #4ade80; }
+  .feedback-overlay.wrong { background: rgba(239,68,68,.2); color: #f87171; }
+  .feedback-reveal { font-size: 20px; font-weight: 700; color: var(--t2); letter-spacing: 0.5px; }
+
+  /* Answer grid */
+  .answer-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+  .ans-btn {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 17px; font-weight: 700;
+    padding: 16px 14px;
+    border-radius: 14px;
+    border: 1.5px solid rgba(255,255,255,0.1);
+    background: rgba(255,255,255,0.04);
+    color: var(--t2);
+    cursor: pointer;
+    transition: all 0.15s;
+    text-align: left;
+    line-height: 1.3;
+    letter-spacing: 0.2px;
+    position: relative;
+    overflow: hidden;
+  }
+  .ans-btn:hover:not(:disabled) { border-color: rgba(255,255,255,0.22); background: rgba(255,255,255,0.08); color: var(--t1); transform: translateY(-2px); }
+  .ans-btn:active:not(:disabled) { transform: scale(0.97); }
+  .ans-btn:disabled { opacity: 0.6; cursor: default; }
+  .ans-btn.correct-flash { background: rgba(34,197,94,.2) !important; border-color: #4ade80 !important; color: #4ade80 !important; }
+  .ans-btn.wrong-flash { background: rgba(239,68,68,.18) !important; border-color: #f87171 !important; color: #f87171 !important; }
+  .ans-btn .pts-badge {
+    position: absolute; top: 6px; right: 8px;
+    font-size: 10px; font-weight: 800; letter-spacing: 0.5px;
+    opacity: 0.6;
+  }
+
+  /* Classic mode: reveal clue button */
+  .reveal-clue-btn {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 14px; font-weight: 700; letter-spacing: 1px; text-transform: uppercase;
+    padding: 10px 22px; border-radius: 50px;
+    border: 1.5px solid rgba(255,255,255,0.12);
+    background: transparent; color: var(--t3);
+    cursor: pointer; transition: all 0.15s;
+    margin-bottom: 14px;
+    display: block;
+  }
+  .reveal-clue-btn:hover { border-color: rgba(255,255,255,0.22); color: var(--t1); }
+  .reveal-clue-btn:disabled { opacity: 0.3; cursor: default; }
+
+  /* Classic score bar */
+  .classic-info {
+    display: flex; gap: 10px; align-items: center; margin-bottom: 18px;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 14px; font-weight: 700; letter-spacing: 0.5px;
+    color: var(--t3);
+  }
+  .classic-q-counter { color: var(--t4); }
+  .classic-pts-live { color: #FFD700; }
+
+  /* ═══ RESULTS ═══ */
+  .results-wrap { max-width: 720px; margin: 0 auto; padding: 0 20px 80px; display: none; }
+  .results-card { padding: 40px 32px 32px; }
+  .results-card::before {
+    height: 3px !important;
+    background: linear-gradient(90deg, #FF2D4B, #FF8C00, #FFD700, #00D966, #00B8F0) !important;
+  }
+  .res-eyebrow { font-family:'Barlow Condensed',sans-serif; font-size:12px; font-weight:700; letter-spacing:3px; text-transform:uppercase; color:var(--t4); margin-bottom:6px; }
+  .res-score { font-family:'Barlow Condensed',sans-serif; font-size:92px; font-weight:900; line-height:1; background:linear-gradient(135deg,#FFD700,#FF8C00); -webkit-background-clip:text; -webkit-text-fill-color:transparent; background-clip:text; filter:drop-shadow(0 0 20px rgba(255,140,0,.4)); }
+  .res-score-label { font-family:'Barlow Condensed',sans-serif; font-size:18px; letter-spacing:2px; text-transform:uppercase; color:var(--t3); margin-bottom:24px; }
+  .res-stats { display:flex; gap:10px; margin-bottom:22px; flex-wrap:wrap; }
+  .res-stat { background:rgba(255,255,255,.05); border:1px solid var(--border); border-radius:14px; padding:14px 20px; flex:1; min-width:80px; text-align:center; }
+  .res-stat .v { font-family:'Barlow Condensed',sans-serif; font-size:30px; font-weight:900; display:block; line-height:1; }
+  .res-stat .l { font-family:'Barlow Condensed',sans-serif; font-size:10px; font-weight:700; letter-spacing:1.5px; text-transform:uppercase; color:var(--t4); display:block; margin-top:3px; }
+  .res-grade { font-family:'Barlow Condensed',sans-serif; font-size:20px; font-weight:800; letter-spacing:1px; padding:10px 26px; border-radius:50px; display:inline-block; margin-bottom:22px; }
+  .share-box { background:rgba(255,255,255,.04); border:1px solid var(--border); border-radius:12px; padding:14px 16px; font-family:'Inter',monospace; font-size:13px; color:var(--t2); line-height:1.65; white-space:pre-wrap; word-break:break-word; margin-bottom:12px; }
+  .copy-btn { font-family:'Barlow Condensed',sans-serif; font-size:14px; font-weight:700; letter-spacing:1px; text-transform:uppercase; padding:9px 22px; border-radius:10px; border:1px solid var(--border); background:rgba(255,255,255,.06); color:var(--t2); cursor:pointer; transition:all .18s; margin-bottom:20px; }
+  .copy-btn:hover { background:rgba(255,255,255,.1); color:var(--t1); }
+  .action-row { display:flex; gap:12px; flex-wrap:wrap; }
+  .btn-primary { font-family:'Barlow Condensed',sans-serif; font-size:18px; font-weight:800; letter-spacing:1.5px; text-transform:uppercase; padding:14px 36px; border-radius:50px; border:none; cursor:pointer; background:linear-gradient(135deg,#FF8C00,#FFD700); color:#0A0D14; box-shadow:0 4px 20px rgba(255,140,0,.35); transition:all .18s; }
+  .btn-primary:hover { transform:translateY(-2px); box-shadow:0 8px 28px rgba(255,140,0,.5); }
+  .btn-secondary { font-family:'Barlow Condensed',sans-serif; font-size:18px; font-weight:700; letter-spacing:1px; text-transform:uppercase; padding:14px 28px; border-radius:50px; border:1.5px solid rgba(255,255,255,.15); background:transparent; color:var(--t2); cursor:pointer; transition:all .18s; }
+  .btn-secondary:hover { border-color:rgba(255,255,255,.3); color:var(--t1); }
+
+  @media(max-width:600px){
+    .answer-grid { grid-template-columns:1fr; }
+    .hud { padding:12px 14px; gap:8px; }
+    .hud-stat .val { font-size:28px; }
+    .res-score { font-size:72px; }
+    .results-card { padding:28px 20px 24px; }
+  }
+</style>
+</head>
+<body>
+
+<div class="site-header">
+  <a class="back-link" href="index.html">← Trivia Hub</a>
+  <div class="page-title">Guess the <span>Player</span></div>
+  <div class="page-sub">Identify the athlete from clues — how fast are you?</div>
+</div>
+
+<!-- ═══ LOBBY ═══ -->
+<div class="lobby" id="lobby">
+
+  <div class="mode-card blitz" onclick="startMode('blitz')">
+    <div class="mode-icon">⚡</div>
+    <div class="mode-info">
+      <div class="mode-name">60 Second Blitz</div>
+      <div class="mode-desc">Clock is ticking. Identify as many players as you can in 60 seconds. Easy = 1pt, Medium = 2pts, Hard = 3pts.</div>
+    </div>
+    <div class="mode-badge">⚡ 60 SEC</div>
+  </div>
+
+  <div class="mode-card classic" onclick="startMode('classic')">
+    <div class="mode-icon">🏆</div>
+    <div class="mode-info">
+      <div class="mode-name">Classic Mode</div>
+      <div class="mode-desc">Start with 1 clue. Reveal more clues for hints, but fewer points. 10 players per game.</div>
+    </div>
+    <div class="mode-badge">10 ROUNDS</div>
+  </div>
+
+  <div class="lobby-section-label">Sport</div>
+  <div class="sport-pill-row" id="lobby-sport-row"></div>
+
+</div>
+
+<!-- ═══ GAME ═══ -->
+<div class="game-wrap" id="game-wrap">
+
+  <!-- Classic info bar -->
+  <div class="classic-info" id="classic-info" style="display:none;">
+    <span class="classic-q-counter" id="classic-counter">Round 1 / 10</span>
+    <span style="color:var(--t5)">|</span>
+    <span class="classic-pts-live" id="classic-pts-live">0 pts</span>
+  </div>
+
+  <!-- HUD (blitz only) -->
+  <div class="hud" id="blitz-hud" style="display:none;">
+    <div class="hud-stat">
+      <span class="val" id="hud-pts" style="color:#FFD700">0</span>
+      <span class="lbl">Points</span>
+      <span class="streak-line" id="hud-streak"></span>
+    </div>
+    <div class="timer-wrap">
+      <svg width="84" height="84" viewBox="0 0 84 84">
+        <circle class="timer-bg" cx="42" cy="42" r="35"/>
+        <circle class="timer-ring" id="timer-ring" cx="42" cy="42" r="35"
+          stroke-dasharray="219.9" stroke-dashoffset="0"/>
+      </svg>
+      <div class="timer-num" id="timer-num">60</div>
+    </div>
+    <div class="hud-stat right">
+      <span class="val" id="hud-answered" style="color:var(--t2)">0</span>
+      <span class="lbl">Answered</span>
+    </div>
+  </div>
+
+  <!-- Player card -->
+  <div class="player-card g-card" id="player-card">
+    <div class="card-meta" id="card-meta"></div>
+    <div class="reveal-clue-btn" id="reveal-clue-wrap" style="display:none;">
+      <button class="reveal-clue-btn" id="reveal-clue-btn" onclick="revealNextClue()">👁 Reveal Next Clue (–1 pt)</button>
+    </div>
+    <ul class="clues-list" id="clues-list"></ul>
+    <div class="feedback-overlay" id="feedback-overlay"></div>
+  </div>
+
+  <!-- Answer choices -->
+  <div class="answer-grid" id="answer-grid"></div>
+
+</div>
+
+<!-- ═══ RESULTS ═══ -->
+<div class="results-wrap" id="results-wrap">
+  <div class="g-card results-card">
+    <div class="res-eyebrow">FINAL SCORE</div>
+    <div class="res-score" id="res-score">0</div>
+    <div class="res-score-label" id="res-label">POINTS IN 60 SECONDS</div>
+    <div class="res-stats">
+      <div class="res-stat"><span class="v" id="res-correct" style="color:#4ade80">0</span><span class="l">Correct</span></div>
+      <div class="res-stat"><span class="v" id="res-wrong"   style="color:#f87171">0</span><span class="l">Missed</span></div>
+      <div class="res-stat"><span class="v" id="res-total"   style="color:var(--t2)">0</span><span class="l">Answered</span></div>
+      <div class="res-stat" id="res-streak-box"><span class="v" id="res-streak" style="color:#FFD700">0</span><span class="l">Best Streak</span></div>
+    </div>
+    <div class="res-grade" id="res-grade"></div>
+    <div class="share-box" id="share-box"></div>
+    <button class="copy-btn" onclick="copyResult()">📋 Copy Result</button>
+  </div>
+  <div class="action-row" style="margin-top:16px;">
+    <button class="btn-primary" id="play-again-btn" onclick="playAgain()">⚡ Play Again</button>
+    <button class="btn-secondary" onclick="goLobby()">Change Mode</button>
+  </div>
+</div>
+
+<script>
+/* ═══════════════════════════════════════
+   PLAYER DATABASE
+   Each player: name, sport, difficulty,
+   clues[3] (easy→medium→hard ≈ obvious→vague),
+   decoys[3] (from same sport)
+═══════════════════════════════════════ */
+const PLAYERS = [
+  // ── BASKETBALL ──────────────────────
+  { name:"Michael Jordan",   sport:"basketball", diff:"easy",
+    clues:["Won 6 NBA championships with the Chicago Bulls","Known as 'His Airness' and wore jersey #23","Averaged 30.1 points per game — the highest career average in NBA history"],
+    decoys:["LeBron James","Kobe Bryant","Magic Johnson"] },
+
+  { name:"LeBron James",     sport:"basketball", diff:"easy",
+    clues:["The NBA's all-time leading scorer","Won championships with three different franchises","Known as 'King James,' went straight from high school to the pros"],
+    decoys:["Michael Jordan","Kevin Durant","Carmelo Anthony"] },
+
+  { name:"Kobe Bryant",      sport:"basketball", diff:"easy",
+    clues:["Spent his entire 20-year career with the Los Angeles Lakers","Nicknamed 'The Black Mamba'","Scored 81 points in a single game against the Toronto Raptors"],
+    decoys:["LeBron James","Michael Jordan","Vince Carter"] },
+
+  { name:"Magic Johnson",    sport:"basketball", diff:"easy",
+    clues:["Won 5 NBA titles as the engine of the 'Showtime' Lakers","A 6'9\" point guard who revolutionized the position","His rivalry with a Boston Celtics legend defined 1980s basketball"],
+    decoys:["Larry Bird","Isiah Thomas","Charles Barkley"] },
+
+  { name:"Larry Bird",       sport:"basketball", diff:"easy",
+    clues:["Led the Boston Celtics to three NBA championships in the 1980s","Known as 'The Hick from French Lick,' Indiana native","Three-time consecutive league MVP"],
+    decoys:["Magic Johnson","Paul Pierce","Kevin McHale"] },
+
+  { name:"Shaquille O'Neal", sport:"basketball", diff:"easy",
+    clues:["Won four NBA championships — three with the Lakers, one with the Heat","Called 'The Diesel' or 'Shaq,' a 7'1\" dominant center","Was so good that opponents would intentionally foul him to stop him"],
+    decoys:["Patrick Ewing","David Robinson","Hakeem Olajuwon"] },
+
+  { name:"Wilt Chamberlain", sport:"basketball", diff:"medium",
+    clues:["Scored 100 points in a single NBA game — a record that still stands","Averaged 50.4 points per game for an entire season","Holds the NBA record for career rebounds"],
+    decoys:["Bill Russell","Kareem Abdul-Jabbar","Bob Pettit"] },
+
+  { name:"Kareem Abdul-Jabbar", sport:"basketball", diff:"medium",
+    clues:["Famous for the unstoppable 'skyhook' shot","Won 6 NBA MVP awards — the most ever","Held the all-time NBA scoring record for nearly 40 years"],
+    decoys:["Wilt Chamberlain","Bill Walton","Willis Reed"] },
+
+  { name:"Tim Duncan",       sport:"basketball", diff:"easy",
+    clues:["Won 5 NBA championships — all with the San Antonio Spurs","Nicknamed 'The Big Fundamental' for his textbook fundamentals","Considered the greatest power forward in NBA history"],
+    decoys:["Kevin Garnett","Dirk Nowitzki","Chris Webber"] },
+
+  { name:"Stephen Curry",    sport:"basketball", diff:"easy",
+    clues:["Holds the all-time record for three-pointers made in NBA history","Won four NBA championships with the Golden State Warriors","Nicknamed 'Chef Curry' — famous for his pre-game shooting warmup"],
+    decoys:["Klay Thompson","Damian Lillard","James Harden"] },
+
+  { name:"Kevin Durant",     sport:"basketball", diff:"easy",
+    clues:["A 7-footer who moves and shoots like a guard","Won two NBA titles with the Golden State Warriors","Known for the nickname 'KD' — one of the most prolific scorers ever"],
+    decoys:["Giannis Antetokounmpo","LeBron James","Paul George"] },
+
+  { name:"Giannis Antetokounmpo", sport:"basketball", diff:"easy",
+    clues:["Nicknamed 'The Greek Freak,' grew up in Athens, Greece","Won the 2021 NBA championship with the Milwaukee Bucks","Back-to-back regular season MVP in 2019 and 2020"],
+    decoys:["Luka Doncic","Nikola Jokic","Pascal Siakam"] },
+
+  { name:"Hakeem Olajuwon",  sport:"basketball", diff:"medium",
+    clues:["His post move is literally called 'The Dream Shake'","Won back-to-back NBA championships with the Houston Rockets","In the same draft class: Michael Jordan was picked 3rd, this player was picked 1st"],
+    decoys:["Patrick Ewing","David Robinson","Shaquille O'Neal"] },
+
+  { name:"Allen Iverson",    sport:"basketball", diff:"medium",
+    clues:["Nicknamed 'The Answer' — famous for crossing over Michael Jordan as a rookie","Won the MVP award in 2001, leading his team to the Finals","Played his best years with the Philadelphia 76ers"],
+    decoys:["Gilbert Arenas","Tracy McGrady","Vince Carter"] },
+
+  { name:"Dirk Nowitzki",    sport:"basketball", diff:"medium",
+    clues:["A 7-foot German who revolutionized the power forward position with his shooting","Led the Dallas Mavericks to their only NBA championship in 2011","His signature move: a one-legged fadeaway jumper impossible to block"],
+    decoys:["Tony Parker","Steve Nash","Kevin Garnett"] },
+
+  { name:"Nikola Jokic",     sport:"basketball", diff:"medium",
+    clues:["A center from Serbia who passes and facilitates like a point guard","Three-time NBA MVP with the Denver Nuggets","Was selected with the 41st pick in the 2014 draft — considered one of the greatest draft steals ever"],
+    decoys:["Kristaps Porzingis","Joel Embiid","Rudy Gobert"] },
+
+  { name:"Charles Barkley",  sport:"basketball", diff:"easy",
+    clues:["Famous for saying 'I am not a role model' in a Nike commercial","Won the 1993 MVP but never won an NBA championship","Nicknamed 'Sir Charles' and 'The Round Mound of Rebound' — now a TNT analyst"],
+    decoys:["Patrick Ewing","Clyde Drexler","Dominique Wilkins"] },
+
+  { name:"John Stockton",    sport:"basketball", diff:"medium",
+    clues:["Holds the all-time NBA records for both career assists AND career steals","Spent his entire 19-year career with the Utah Jazz","Famous pick-and-roll partnership with his running mate 'The Mailman'"],
+    decoys:["Jason Kidd","Gary Payton","Mark Price"] },
+
+  { name:"Karl Malone",      sport:"basketball", diff:"medium",
+    clues:["Nicknamed 'The Mailman' — 'because he always delivers'","Second all-time NBA scorer but never won a championship","Spent most of his career as John Stockton's partner in Utah"],
+    decoys:["Charles Barkley","Patrick Ewing","Mitch Richmond"] },
+
+  { name:"Kawhi Leonard",    sport:"basketball", diff:"medium",
+    clues:["Nicknamed 'The Claw' for his massive hands and suffocating defense","Won championships with two different teams — the Spurs and the Raptors","His 2019 buzzer-beater against the 76ers is one of the most famous shots in playoff history"],
+    decoys:["Jimmy Butler","Paul George","Andre Iguodala"] },
+
+  // ── FOOTBALL ────────────────────────
+  { name:"Tom Brady",        sport:"football", diff:"easy",
+    clues:["Won 7 Super Bowls — more than any franchise in history","Was drafted in the 6th round, 199th overall, in the 2000 NFL Draft","Played for the Patriots for 20 years before winning a Super Bowl with Tampa Bay"],
+    decoys:["Peyton Manning","Joe Montana","Aaron Rodgers"] },
+
+  { name:"Jerry Rice",       sport:"football", diff:"easy",
+    clues:["The NFL's all-time leader in receiving yards, touchdowns, and receptions","Won three Super Bowls with the San Francisco 49ers","Was drafted out of Mississippi Valley State — a small HBCU — in 1985"],
+    decoys:["Randy Moss","Terrell Owens","Cris Carter"] },
+
+  { name:"Joe Montana",      sport:"football", diff:"easy",
+    clues:["Won 4 Super Bowls without ever throwing an interception in the big game","Nicknamed 'Joe Cool' for his unflappable composure under pressure","Led the San Francisco 49ers and is considered by many the greatest quarterback ever"],
+    decoys:["Steve Young","Dan Marino","Roger Staubach"] },
+
+  { name:"Barry Sanders",    sport:"football", diff:"medium",
+    clues:["Retired early at age 30 despite being just 1,457 yards from the all-time rushing record","His jaw-dropping jukes made him arguably the most elusive runner ever","Played his entire career with the Detroit Lions, who never reached a Super Bowl"],
+    decoys:["Walter Payton","Emmitt Smith","Eric Dickerson"] },
+
+  { name:"Peyton Manning",   sport:"football", diff:"easy",
+    clues:["Won two Super Bowls — one with the Colts, one with the Broncos","Five-time NFL MVP — the most in history at the time","Famous for his elaborate pre-snap audibles at the line of scrimmage"],
+    decoys:["Brett Favre","Dan Marino","Philip Rivers"] },
+
+  { name:"Patrick Mahomes",  sport:"football", diff:"easy",
+    clues:["Has won multiple Super Bowls with the Kansas City Chiefs","Named league MVP in just his second season as a starter","Is the son of a former MLB pitcher and attended Texas Tech"],
+    decoys:["Josh Allen","Lamar Jackson","Justin Herbert"] },
+
+  { name:"Walter Payton",    sport:"football", diff:"medium",
+    clues:["Nicknamed 'Sweetness' — held the all-time rushing record for nearly 20 years","Won one Super Bowl with the 1985 Chicago Bears, considered one of the greatest teams ever","Known for his punishing running style and off-field dedication to training"],
+    decoys:["Jim Brown","Barry Sanders","Earl Campbell"] },
+
+  { name:"Lawrence Taylor",  sport:"football", diff:"medium",
+    clues:["Considered the greatest defensive player in NFL history","His relentless pass rush forced the NFL to create the 'roughing the passer' rule","Won two Super Bowls as a New York Giants linebacker — wore #56"],
+    decoys:["Reggie White","Dick Butkus","Ray Lewis"] },
+
+  { name:"Randy Moss",       sport:"football", diff:"medium",
+    clues:["Said 'Straight cash, homie' in a post-game interview","Set the NFL single-season touchdown record in 2007 with 23 receiving TDs","Was drafted 21st overall in 1998 — teams passed on him due to 'character concerns'"],
+    decoys:["Terrell Owens","Marvin Harrison","Chad Johnson"] },
+
+  { name:"Lamar Jackson",    sport:"football", diff:"easy",
+    clues:["Won the Heisman Trophy at Louisville, becoming the first sophomore to win it","The first player to win NFL MVP unanimously twice","Baltimore Ravens quarterback known for his electric rushing ability"],
+    decoys:["Kyler Murray","Josh Allen","Jalen Hurts"] },
+
+  { name:"Emmitt Smith",     sport:"football", diff:"medium",
+    clues:["The NFL's all-time leading rusher with 18,355 career yards","Won three Super Bowls and a Super Bowl MVP with the Dallas Cowboys","Won Dancing with the Stars after retiring — a beloved cultural figure"],
+    decoys:["Barry Sanders","LaDainian Tomlinson","Earl Campbell"] },
+
+  { name:"Ray Lewis",        sport:"football", diff:"medium",
+    clues:["His pre-game dance entrance became one of the most iconic rituals in NFL history","Won two Super Bowls with the Baltimore Ravens as their defensive anchor","The most feared linebacker of the 2000s — a two-time Defensive Player of the Year"],
+    decoys:["Brian Urlacher","Junior Seau","London Fletcher"] },
+
+  // ── BASEBALL ────────────────────────
+  { name:"Babe Ruth",        sport:"baseball", diff:"easy",
+    clues:["Hit 714 home runs — a record that stood for nearly 40 years","Nicknamed 'The Sultan of Swat' and 'The Great Bambino'","Won 4 World Series with the New York Yankees after being traded from the Red Sox"],
+    decoys:["Lou Gehrig","Joe DiMaggio","Hank Aaron"] },
+
+  { name:"Willie Mays",      sport:"baseball", diff:"medium",
+    clues:["His over-the-shoulder basket catch in the 1954 World Series is simply called 'The Catch'","Nicknamed 'The Say Hey Kid' — played most of his career in New York and San Francisco","Hit 660 home runs — many considered him the greatest all-around player ever"],
+    decoys:["Mickey Mantle","Hank Aaron","Roberto Clemente"] },
+
+  { name:"Hank Aaron",       sport:"baseball", diff:"medium",
+    clues:["Broke Babe Ruth's home run record in 1974, hitting #715 amid death threats","Nicknamed 'Hammerin' Hank' — hit 755 career home runs","Spent most of his career with the Milwaukee and Atlanta Braves"],
+    decoys:["Willie Mays","Ernie Banks","Willie McCovey"] },
+
+  { name:"Mike Trout",       sport:"baseball", diff:"medium",
+    clues:["Has played his entire career with the Angels — from New Jersey, nickname 'The Millville Meteor'","A three-time AL MVP — widely considered the best player of his generation","Has never played in a World Series despite being considered a generational talent"],
+    decoys:["Bryce Harper","Mookie Betts","Aaron Judge"] },
+
+  { name:"Derek Jeter",      sport:"baseball", diff:"easy",
+    clues:["The Yankees captain — won five World Series rings in New York","Hit 'The Flip' in the 2001 playoffs and dove into the stands at Fenway for a catch","Retired with 3,465 career hits — nicknamed 'Mr. November'"],
+    decoys:["Alex Rodriguez","Cal Ripken Jr.","David Jeter"] },
+
+  { name:"Shohei Ohtani",    sport:"baseball", diff:"easy",
+    clues:["The only player in modern history to be a legitimate star as BOTH a pitcher AND hitter","Signed a $700 million contract with the Dodgers in 2023 — the richest in sports history","From Japan — wore #17 for the Angels before moving to Los Angeles"],
+    decoys:["Ichiro Suzuki","Masahiro Tanaka","Yu Darvish"] },
+
+  { name:"Ken Griffey Jr.",  sport:"baseball", diff:"medium",
+    clues:["Wore his baseball cap backwards, capturing the imagination of a generation","Hit 630 home runs — elected to the Hall of Fame with 99.3% of the vote","Nicknamed 'The Kid' — played most famously for the Seattle Mariners"],
+    decoys:["Frank Thomas","Jim Thome","Barry Bonds"] },
+
+  { name:"Nolan Ryan",       sport:"baseball", diff:"medium",
+    clues:["Threw 7 no-hitters — a record that will likely never be broken","Struck out 5,714 batters — the all-time record by a massive margin","Threw over 100 mph well into his 40s — one of the last great power pitchers"],
+    decoys:["Roger Clemens","Sandy Koufax","Bob Gibson"] },
+
+  { name:"Ted Williams",     sport:"baseball", diff:"hard",
+    clues:["The last player to hit .400 for a full season — hit .406 in 1941","Missed nearly five peak seasons serving as a fighter pilot in WWII and Korea","Nicknamed 'The Splendid Splinter' — hit .344 lifetime, a career OBP of .482"],
+    decoys:["Joe DiMaggio","Stan Musial","Pete Rose"] },
+
+  { name:"Pedro Martinez",   sport:"baseball", diff:"hard",
+    clues:["His 2000 season: 1.74 ERA, 284 strikeouts — arguably the most dominant pitching season ever","From the Dominican Republic — helped break the Red Sox curse with the 2004 World Series win","Won three Cy Young Awards, two with Boston, one with Montreal"],
+    decoys:["Randy Johnson","Greg Maddux","Tom Glavine"] },
+
+  // ── HOCKEY ──────────────────────────
+  { name:"Wayne Gretzky",    sport:"hockey", diff:"easy",
+    clues:["Scored more goals than any other player — AND has more assists than anyone else's total points","Jersey #99 is the only number retired across the entire NHL","Nicknamed 'The Great One' — widely considered the greatest athlete in any sport by some metrics"],
+    decoys:["Mario Lemieux","Bobby Orr","Gordie Howe"] },
+
+  { name:"Mario Lemieux",    sport:"hockey", diff:"easy",
+    clues:["Nicknamed 'Le Magnifique' — considered the only player who could rival Gretzky","Won two Stanley Cups with the Pittsburgh Penguins","Overcame Hodgkin's lymphoma mid-career and still returned to win a scoring title"],
+    decoys:["Wayne Gretzky","Brett Hull","Jaromir Jagr"] },
+
+  { name:"Bobby Orr",        sport:"hockey", diff:"medium",
+    clues:["Considered the greatest defenseman in NHL history — forever changed the position","Won eight consecutive Norris Trophies as the league's best defenseman","His flying goal to win the 1970 Stanley Cup is hockey's most iconic image"],
+    decoys:["Larry Robinson","Denis Potvin","Ray Bourque"] },
+
+  { name:"Sidney Crosby",    sport:"hockey", diff:"easy",
+    clues:["Won three Stanley Cups as captain of the Pittsburgh Penguins","Scored the gold medal-winning goal for Canada at the 2010 Olympics","Nicknamed 'Sid the Kid' — drafted first overall in 2005"],
+    decoys:["Evgeni Malkin","Alex Ovechkin","John Tavares"] },
+
+  { name:"Alex Ovechkin",    sport:"hockey", diff:"easy",
+    clues:["Broke Wayne Gretzky's all-time NHL goal-scoring record","Has scored more power-play goals from 'his office' (left circle) than anyone in history","Finally won his first Stanley Cup with the Washington Capitals in 2018"],
+    decoys:["Ilya Kovalchuk","Jaromir Jagr","Brendan Shanahan"] },
+
+  { name:"Connor McDavid",   sport:"hockey", diff:"easy",
+    clues:["Considered the fastest skater in the world — repeatedly clocked at the NHL All-Star skills competition","Has never won the Stanley Cup despite winning virtually every individual award","The Edmonton Oilers captain — drafted first overall in 2015"],
+    decoys:["Nathan MacKinnon","Auston Matthews","Leon Draisaitl"] },
+
+  { name:"Martin Brodeur",   sport:"hockey", diff:"medium",
+    clues:["Holds the NHL records for most wins and most shutouts by a goaltender","Won three Stanley Cups with the New Jersey Devils","Revolutionized the position by handling the puck like a third defenseman"],
+    decoys:["Patrick Roy","Dominik Hasek","Henrik Lundqvist"] },
+
+  { name:"Patrick Roy",      sport:"hockey", diff:"medium",
+    clues:["Won four Stanley Cups — two with Montreal, two with Colorado","His performance in the 1986 playoffs as a rookie redefined what a goalie could do","Famous for talking to his goalposts — and for demanding a trade from Montreal live on TV"],
+    decoys:["Dominik Hasek","Martin Brodeur","Ed Belfour"] },
+
+  { name:"Gordie Howe",      sport:"hockey", diff:"medium",
+    clues:["Nicknamed 'Mr. Hockey' — played in the NHL in five different decades","Won four Stanley Cups with the Detroit Red Wings","His physical and skilled game gave birth to the 'Gordie Howe Hat Trick': a goal, an assist, and a fight"],
+    decoys:["Rocket Richard","Jean Beliveau","Stan Mikita"] },
+
+  { name:"Mark Messier",     sport:"hockey", diff:"medium",
+    clues:["Guaranteed a Game 6 win in the 1994 Eastern Conference Finals and delivered a hat trick","Won six Stanley Cups — one with Edmonton alongside Gretzky, one captaining the Rangers in 1994","Nicknamed 'The Messiah' in New York for ending the Rangers' 54-year Cup drought"],
+    decoys:["Wayne Gretzky","Pat Quinn","Brett Hull"] },
+
+  // ── SOCCER ──────────────────────────
+  { name:"Lionel Messi",     sport:"soccer", diff:"easy",
+    clues:["Won 8 Ballon d'Or awards — the most in history","Led Argentina to the 2022 World Cup title, completing his legendary career","Spent the bulk of his career at FC Barcelona before moving to Miami"],
+    decoys:["Cristiano Ronaldo","Neymar Jr.","Ronaldinho"] },
+
+  { name:"Cristiano Ronaldo", sport:"soccer", diff:"easy",
+    clues:["Has scored over 900 professional goals — the most in history","Won 5 Ballon d'Or awards and Champions League titles with three different clubs","Born in Madeira, Portugal — his full name honors US President Ronald Reagan"],
+    decoys:["Lionel Messi","Zlatan Ibrahimovic","Luka Modric"] },
+
+  { name:"Pelé",             sport:"soccer", diff:"easy",
+    clues:["Won the World Cup THREE times with Brazil — the only player to do so","Scored over 1,000 goals in official matches — a feat disputed by FIFA but celebrated globally","Considered the greatest footballer ever by many — broke through at the 1958 World Cup aged 17"],
+    decoys:["Ronaldo R9","Zico","Garrincha"] },
+
+  { name:"Diego Maradona",   sport:"soccer", diff:"easy",
+    clues:["Scored two goals in a single World Cup quarter-final: 'The Hand of God' and 'The Goal of the Century'","Led Argentina to the 1986 World Cup title in Mexico — considered the greatest individual World Cup performance","His number 10 shirt at Napoli was retired; he's considered a god in Naples"],
+    decoys:["Roberto Baggio","Gabriel Batistuta","Ronaldo R9"] },
+
+  { name:"Ronaldo R9",       sport:"soccer", diff:"medium",
+    clues:["Nicknamed 'The Phenomenon' — scored twice in the 2002 World Cup Final to win it for Brazil","His career was derailed by mysterious seizures and injuries — yet he won two World Cups and three FIFA Best awards","Different person from the Portuguese CR7 — this Ronaldo is Brazilian"],
+    decoys:["Rivaldo","Ronaldinho","Kaká"] },
+
+  { name:"Zinedine Zidane",  sport:"soccer", diff:"medium",
+    clues:["His volley in the 2002 Champions League Final is considered the greatest goal in the competition's history","Headbutted Marco Materazzi in the 2006 World Cup Final — his last act as a professional","Later won three consecutive Champions Leagues as MANAGER of Real Madrid"],
+    decoys:["Thierry Henry","Patrick Vieira","David Beckham"] },
+
+  { name:"Ronaldinho",       sport:"soccer", diff:"medium",
+    clues:["Made Real Madrid fans applaud him at the Bernabeu during a 2005 El Clasico performance","Known for the 'elastico' and no-look passes — considered the most naturally gifted player of his era","Famously nutmegged the entire Brazilian youth team during an interview once"],
+    decoys:["Kaká","Roberto Carlos","Adriano"] },
+
+  { name:"Thierry Henry",    sport:"soccer", diff:"medium",
+    clues:["Arsenal's all-time top scorer — part of the 2003-04 'Invincibles' team that went unbeaten all season","Won the 1998 World Cup and 2000 Euros with France","Famous for his left-arm celebration pointing into the air after scoring"],
+    decoys:["Patrick Vieira","Robert Pires","Didier Drogba"] },
+
+  { name:"Kylian Mbappe",    sport:"soccer", diff:"easy",
+    clues:["Won the World Cup with France in 2018 at age 19 — became the second teenager to score in a final after Pelé","The most expensive transfer in history when he moved to Real Madrid in 2024","Described as the fastest player of his generation — plays striker"],
+    decoys:["Erling Haaland","Vinicius Jr.","Antoine Griezmann"] },
+
+  { name:"Erling Haaland",   sport:"soccer", diff:"easy",
+    clues:["Scored 36 Premier League goals in his first season — shattering the single-season record","Norwegian striker known for his robotic goal-celebration and extraordinary scoring rate","Moved to Manchester City in 2022 where he partnered with Kevin De Bruyne"],
+    decoys:["Harry Kane","Robert Lewandowski","Romelu Lukaku"] },
+
+  // ── TENNIS ──────────────────────────
+  { name:"Roger Federer",    sport:"tennis", diff:"easy",
+    clues:["Won 20 Grand Slam singles titles — the record when he retired in 2022","Famous for his elegant one-handed backhand and called 'The Maestro'","Holds the record for 237 consecutive weeks as World No. 1"],
+    decoys:["Rafael Nadal","Novak Djokovic","Pete Sampras"] },
+
+  { name:"Rafael Nadal",     sport:"tennis", diff:"easy",
+    clues:["Won 14 French Open titles — more than anyone has ever won a single Grand Slam","Nicknamed 'The King of Clay' — his extreme topspin forehand is his signature weapon","Is actually naturally right-handed but plays left-handed at the advice of his coach"],
+    decoys:["Roger Federer","Novak Djokovic","Guillermo Coria"] },
+
+  { name:"Novak Djokovic",   sport:"tennis", diff:"easy",
+    clues:["Holds the record for most career Grand Slam titles at 24 — and most weeks at No. 1","Known for his extraordinary flexibility and elite return of serve","Was deported from Australia in 2022 over vaccination status before returning to win there"],
+    decoys:["Rafael Nadal","Andy Murray","Marat Safin"] },
+
+  { name:"Serena Williams",  sport:"tennis", diff:"easy",
+    clues:["Won 23 Grand Slam singles titles — the Open Era record at the time of her retirement","Won the 2017 Australian Open while pregnant with her daughter Olympia","Famous for her powerful serve and was married to Reddit co-founder Alexis Ohanian"],
+    decoys:["Venus Williams","Steffi Graf","Maria Sharapova"] },
+
+  { name:"Steffi Graf",      sport:"tennis", diff:"medium",
+    clues:["The only player to complete the 'Golden Slam' — winning all four Grand Slams AND Olympic gold in the same year (1988)","Her 22 Grand Slam titles were the women's record for decades","Is married to Andre Agassi"],
+    decoys:["Monica Seles","Martina Navratilova","Chris Evert"] },
+
+  { name:"Pete Sampras",     sport:"tennis", diff:"medium",
+    clues:["Won 7 Wimbledon titles and 14 Grand Slams total — held the men's record for years","His serve-and-volley game on grass was considered the most dominant of the 1990s","Ended his career at the 2002 US Open by beating his longtime rival Andre Agassi in the final"],
+    decoys:["Andre Agassi","Boris Becker","Jim Courier"] },
+
+  { name:"Carlos Alcaraz",   sport:"tennis", diff:"medium",
+    clues:["Became the youngest World No. 1 in ATP history — achieved it at age 19","Burst onto the scene in 2022 winning the US Open in just his fifth Grand Slam appearance","Spanish — often compared to Rafael Nadal in clay court dominance"],
+    decoys:["Jannik Sinner","Holger Rune","Frances Tiafoe"] },
+
+  // ── FORMULA 1 ───────────────────────
+  { name:"Michael Schumacher", sport:"f1", diff:"easy",
+    clues:["Won 7 Formula 1 World Championships — tied with Lewis Hamilton for the most ever","Won five consecutive championships from 2000 to 2004 with Ferrari","Was seriously injured in a skiing accident in the French Alps in December 2013"],
+    decoys:["Ayrton Senna","Alain Prost","Sebastian Vettel"] },
+
+  { name:"Lewis Hamilton",   sport:"f1", diff:"easy",
+    clues:["Tied with Michael Schumacher at 7 World Championships — holds records for wins and pole positions","Was the first Black driver to race in Formula 1 — grew up in Stevenage, England","Famous for his fashion sense and social activism off the track"],
+    decoys:["Nico Rosberg","Valtteri Bottas","George Russell"] },
+
+  { name:"Ayrton Senna",     sport:"f1", diff:"easy",
+    clues:["Won 3 World Championships with McLaren in 1988, 1990, and 1991","His famous rivalries with Alain Prost defined an era — they twice collided at the Japanese Grand Prix","Tragically died in a crash at Imola during the 1994 San Marino Grand Prix"],
+    decoys:["Alain Prost","Nigel Mansell","Gilles Villeneuve"] },
+
+  { name:"Max Verstappen",   sport:"f1", diff:"easy",
+    clues:["Won four consecutive World Championships from 2021 to 2024 with Red Bull Racing","Became F1's youngest race winner when he won the 2016 Spanish Grand Prix at 18","His father Jos Verstappen also competed in Formula 1"],
+    decoys:["Lando Norris","Carlos Sainz","Charles Leclerc"] },
+
+  { name:"Sebastian Vettel", sport:"f1", diff:"medium",
+    clues:["Won four consecutive championships with Red Bull Racing from 2010 to 2013","Was the youngest World Champion at the time he won his first title in 2010","Became known for naming his cars — retired from racing in 2022 to focus on environmental causes"],
+    decoys:["Jenson Button","Fernando Alonso","Mark Webber"] },
+
+  { name:"Alain Prost",      sport:"f1", diff:"medium",
+    clues:["Nicknamed 'The Professor' for his calculating, cerebral driving style","Won four World Championships — his rivalry with Ayrton Senna at McLaren is F1's greatest","French driver who is second in all-time race wins for many years"],
+    decoys:["Nigel Mansell","Niki Lauda","Nelson Piquet"] },
+
+  { name:"Niki Lauda",       sport:"f1", diff:"medium",
+    clues:["Suffered near-fatal burns in a fiery crash at the Nurburgring in 1976 — returned to racing just six weeks later","Won two World Championships with Ferrari and one with McLaren","His 1976 season and rivalry with James Hunt became the 2013 film 'Rush'"],
+    decoys:["James Hunt","Emerson Fittipaldi","Jody Scheckter"] },
+
+  { name:"Fernando Alonso",  sport:"f1", diff:"medium",
+    clues:["Won back-to-back World Championships in 2005 and 2006 with Renault — youngest champion at the time","A fierce competitor who has tried (and failed) to add a third title for nearly 20 years","Spanish driver who also competed in the Indianapolis 500 and Le Mans 24 Hours"],
+    decoys:["Michael Schumacher","Kimi Raikkonen","Felipe Massa"] },
+
+  // ── GOLF ────────────────────────────
+  { name:"Tiger Woods",      sport:"golf", diff:"easy",
+    clues:["Won 15 major championships — second all-time — and 82 PGA Tour events (tied for most ever)","Transformed golf into a mainstream sport — introduced a new level of athleticism to the game","His 2019 Masters win after years of personal and physical struggles is considered one of sport's greatest comebacks"],
+    decoys:["Phil Mickelson","Rory McIlroy","Jack Nicklaus"] },
+
+  { name:"Jack Nicklaus",    sport:"golf", diff:"medium",
+    clues:["Won 18 major championships — the most in golf history, his record has stood for 50+ years","Nicknamed 'The Golden Bear' — he and Arnold Palmer defined 1960s golf","Won the Masters at age 46 in 1986 — still the oldest Masters champion ever"],
+    decoys:["Arnold Palmer","Gary Player","Lee Trevino"] },
+
+  { name:"Rory McIlroy",     sport:"golf", diff:"medium",
+    clues:["Won four major championships — and famously collapsed at the 2011 Masters before recovering to win the US Open that same year","Northern Irish golfer who completed the Career Grand Slam at the 2025 Masters","Long-drive powerhouse known for his rhythmic swing"],
+    decoys:["Jordan Spieth","Justin Thomas","Dustin Johnson"] },
+
+  // ── OLYMPICS ────────────────────────
+  { name:"Usain Bolt",       sport:"olympics", diff:"easy",
+    clues:["Won three consecutive Olympic golds in both the 100m and 200m sprint","Set world records in both events — 9.58 seconds (100m) and 19.19 seconds (200m)","Jamaican sprinter known for his 'lightning bolt' celebration pose"],
+    decoys:["Yohan Blake","Asafa Powell","Justin Gatlin"] },
+
+  { name:"Michael Phelps",   sport:"olympics", diff:"easy",
+    clues:["Won 23 Olympic gold medals — the most by any athlete in history","Competed in five Olympic Games and won a medal at every single one","Nicknamed 'The Baltimore Bullet' — his 6'7\" wingspan exceeds his height"],
+    decoys:["Mark Spitz","Ian Thorpe","Ryan Lochte"] },
+
+  { name:"Simone Biles",     sport:"olympics", diff:"easy",
+    clues:["Has more World Championship gold medals than any other gymnast in history","Withdrew from the 2020 Tokyo team final citing mental health — returned to win gold in Paris 2024","Has multiple gymnastics skills officially named after her (Biles I, Biles II, etc.)"],
+    decoys:["Aly Raisman","Nadia Comaneci","Nastia Liukin"] },
+];
+
+/* ═══ STATE ═══ */
+let mode = 'blitz';
+let selectedSport = 'all';
+let queue = [];
+let qIdx = 0;
+let pts = 0;
+let correct = 0;
+let wrong = 0;
+let streak = 0;
+let bestStreak = 0;
+let answered = 0;
+let timeLeft = 60;
+let timerHandle = null;
+let gameActive = false;
+let cluesRevealed = 1;
+let classicPts = 0;
+
+const CIRC = 219.9;
+const SPORT_LABELS = {
+  all: '🏆 All', basketball: '🏀 Basketball', football: '🏈 Football',
+  baseball: '⚾ Baseball', hockey: '🏒 Hockey', soccer: '⚽ Soccer',
+  tennis: '🎾 Tennis', f1: '🏎 F1', golf: '⛳ Golf', olympics: '🏅 Olympics'
+};
+
+/* ═══ LOBBY SETUP ═══ */
+function buildLobby() {
+  const row = document.getElementById('lobby-sport-row');
+  const sports = ['all','basketball','football','baseball','hockey','soccer','tennis','f1','golf','olympics'];
+  row.innerHTML = '';
+  sports.forEach(s => {
+    const btn = document.createElement('button');
+    btn.className = 'sport-pill' + (selectedSport === s ? ' active' : '');
+    btn.textContent = SPORT_LABELS[s];
+    btn.onclick = () => { selectedSport = s; buildLobby(); };
+    row.appendChild(btn);
+  });
+}
+
+function startMode(m) {
+  mode = m;
+  // Build shuffled queue
+  let pool = PLAYERS.filter(p => selectedSport === 'all' || p.sport === selectedSport);
+  if (pool.length < 4) { alert('Not enough players for this sport yet — try All Sports!'); return; }
+  pool = shuffle(pool);
+  if (mode === 'classic') pool = pool.slice(0, 10);
+  queue = pool;
+  qIdx = 0;
+  pts = 0; correct = 0; wrong = 0; streak = 0; bestStreak = 0; answered = 0; classicPts = 0;
+  cluesRevealed = mode === 'classic' ? 1 : 2;
+
+  document.getElementById('lobby').style.display = 'none';
+  document.getElementById('results-wrap').style.display = 'none';
+  document.getElementById('game-wrap').style.display = 'block';
+
+  document.getElementById('blitz-hud').style.display = mode === 'blitz' ? 'grid' : 'none';
+  document.getElementById('classic-info').style.display = mode === 'classic' ? 'flex' : 'none';
+  document.getElementById('reveal-clue-wrap').style.display = mode === 'classic' ? 'block' : 'none';
+
+  if (mode === 'blitz') {
+    timeLeft = 60;
+    gameActive = true;
+    renderHUD();
+    renderQuestion();
+    timerHandle = setInterval(tick, 1000);
+  } else {
+    renderQuestion();
+    updateClassicInfo();
+  }
+}
+
+/* ═══ QUESTION RENDER ═══ */
+function renderQuestion() {
+  const p = queue[qIdx % queue.length];
+  const ptVal = {easy:1, medium:2, hard:3}[p.diff] || 1;
+
+  // Meta
+  const meta = document.getElementById('card-meta');
+  meta.innerHTML = `<span class="pill diff-${p.diff}">+${ptVal} pt${ptVal>1?'s':''}</span><span class="sport-badge">${SPORT_LABELS[p.sport]||p.sport}</span>`;
+
+  // Clues
+  const list = document.getElementById('clues-list');
+  list.innerHTML = '';
+  const count = mode === 'blitz' ? 2 : cluesRevealed;
+  for (let i = 0; i < Math.min(count, p.clues.length); i++) {
+    const li = document.createElement('li');
+    li.className = 'clue-item';
+    li.innerHTML = `<span class="clue-num">${i+1}</span><span>${p.clues[i]}</span>`;
+    list.appendChild(li);
+  }
+
+  // Feedback overlay
+  const fb = document.getElementById('feedback-overlay');
+  fb.className = 'feedback-overlay';
+  fb.innerHTML = '';
+
+  // Reveal clue btn
+  const revBtn = document.getElementById('reveal-clue-btn');
+  if (revBtn) {
+    revBtn.disabled = cluesRevealed >= p.clues.length;
+    revBtn.textContent = cluesRevealed >= p.clues.length
+      ? '👁 All Clues Revealed'
+      : `👁 Reveal Clue ${cluesRevealed+1} of ${p.clues.length} (–1 pt)`;
+  }
+
+  // Answer choices
+  buildChoices(p);
+}
+
+function buildChoices(p) {
+  const grid = document.getElementById('answer-grid');
+  grid.innerHTML = '';
+
+  // Build options: correct + decoys, shuffled
+  const opts = shuffle([p.name, ...p.decoys.slice(0,3)]);
+  opts.forEach(name => {
+    const btn = document.createElement('button');
+    btn.className = 'ans-btn';
+    btn.textContent = name;
+    btn.onclick = () => handleAnswer(name, p, btn);
+    grid.appendChild(btn);
+  });
+}
+
+function handleAnswer(chosen, player, btn) {
+  if (!gameActive && mode === 'blitz') return;
+  const isCorrect = chosen === player.name;
+  const ptVal = mode === 'blitz' ? {easy:1,medium:2,hard:3}[player.diff]||1
+    : Math.max(1, {easy:3,medium:3,hard:3}[player.diff] - (cluesRevealed - 1));
+
+  // Disable all buttons
+  document.querySelectorAll('.ans-btn').forEach(b => { b.disabled = true; });
+
+  // Flash chosen button
+  btn.classList.add(isCorrect ? 'correct-flash' : 'wrong-flash');
+
+  // Feedback overlay
+  const fb = document.getElementById('feedback-overlay');
+  if (isCorrect) {
+    pts += ptVal; classicPts += ptVal;
+    correct++; streak++;
+    if (streak > bestStreak) bestStreak = streak;
+    fb.innerHTML = `+${ptVal}!`;
+    fb.className = 'feedback-overlay correct show';
+  } else {
+    wrong++; streak = 0;
+    fb.innerHTML = `✗<span class="feedback-reveal">${player.name}</span>`;
+    fb.className = 'feedback-overlay wrong show';
+    // Also highlight correct
+    document.querySelectorAll('.ans-btn').forEach(b => {
+      if (b.textContent === player.name) b.classList.add('correct-flash');
+    });
+  }
+  answered++;
+
+  if (mode === 'blitz') {
+    renderHUD();
+    setTimeout(() => {
+      if (!gameActive) return;
+      qIdx++;
+      cluesRevealed = 2;
+      renderQuestion();
+    }, 500);
+  } else {
+    updateClassicInfo();
+    setTimeout(() => {
+      qIdx++;
+      if (qIdx >= Math.min(10, queue.length)) { endGame(); return; }
+      cluesRevealed = 1;
+      renderQuestion();
+      updateClassicInfo();
+    }, 600);
+  }
+}
+
+function revealNextClue() {
+  const p = queue[qIdx % queue.length];
+  if (cluesRevealed >= p.clues.length) return;
+  cluesRevealed++;
+  renderQuestion();
+}
+
+function updateClassicInfo() {
+  document.getElementById('classic-counter').textContent = `Round ${Math.min(qIdx+1, 10)} / 10`;
+  document.getElementById('classic-pts-live').textContent = `${classicPts} pts`;
+}
+
+/* ═══ BLITZ HUD ═══ */
+function renderHUD() {
+  document.getElementById('hud-pts').textContent = pts;
+  document.getElementById('hud-answered').textContent = answered;
+  document.getElementById('hud-streak').textContent = streak > 1 ? `🔥 ${streak} streak` : '';
+  document.getElementById('timer-num').textContent = timeLeft;
+
+  const frac = timeLeft / 60;
+  const offset = CIRC * (1 - frac);
+  const ring = document.getElementById('timer-ring');
+  ring.style.strokeDashoffset = offset;
+  if (timeLeft <= 10) {
+    ring.style.stroke = '#ef4444';
+    document.getElementById('timer-num').style.color = '#ef4444';
+  } else if (timeLeft <= 20) {
+    ring.style.stroke = '#f59e0b';
+    document.getElementById('timer-num').style.color = '#f59e0b';
+  } else {
+    ring.style.stroke = '#FF8C00';
+    document.getElementById('timer-num').style.color = 'var(--t1)';
+  }
+}
+
+function tick() {
+  timeLeft--;
+  renderHUD();
+  if (timeLeft <= 0) {
+    clearInterval(timerHandle);
+    gameActive = false;
+    setTimeout(endGame, 400);
+  }
+}
+
+/* ═══ END GAME ═══ */
+function endGame() {
+  clearInterval(timerHandle);
+  gameActive = false;
+
+  document.getElementById('game-wrap').style.display = 'none';
+  document.getElementById('results-wrap').style.display = 'block';
+
+  document.getElementById('res-score').textContent = pts;
+  document.getElementById('res-label').textContent = mode === 'blitz' ? 'POINTS IN 60 SECONDS' : 'POINTS — CLASSIC MODE';
+  document.getElementById('res-correct').textContent = correct;
+  document.getElementById('res-wrong').textContent = wrong;
+  document.getElementById('res-total').textContent = answered;
+  document.getElementById('res-streak').textContent = bestStreak;
+
+  // Grade
+  const gradeMap = mode === 'blitz'
+    ? [[30,'S','LEGENDARY'],[22,'A+','ELITE'],[16,'A','EXCELLENT'],[11,'B','SOLID'],[7,'C','DECENT'],[3,'D','KEEP TRYING'],[0,'F','JUST WARMING UP']]
+    : [[28,'S','FLAWLESS'],[22,'A+','ELITE'],[17,'A','EXCELLENT'],[12,'B','SOLID'],[7,'C','DECENT'],[3,'D','KEEP TRYING'],[0,'F','JUST WARMING UP']];
+
+  let grade='F', gradeText='JUST WARMING UP';
+  for (const [thresh, g, t] of gradeMap) {
+    if (pts >= thresh) { grade = g; gradeText = t; break; }
+  }
+  const gradeColors = {S:'#FFD700','A+':'#4ade80',A:'#4ade80',B:'#60a5fa',C:'#facc15',D:'#fb923c',F:'#f87171'};
+  const gColor = gradeColors[grade] || '#f87171';
+  const gradeEl = document.getElementById('res-grade');
+  gradeEl.textContent = `${grade} — ${gradeText}`;
+  gradeEl.style.background = gColor + '22';
+  gradeEl.style.border = `1.5px solid ${gColor}`;
+  gradeEl.style.color = gColor;
+
+  // Streak box (blitz only)
+  document.getElementById('res-streak-box').style.display = mode === 'blitz' ? 'block' : 'none';
+
+  const sportLabel = SPORT_LABELS[selectedSport] || selectedSport;
+  const modeLabel = mode === 'blitz' ? '60 Sec Blitz' : 'Classic';
+  const shareText = `Nosebleed Sports — Guess the Player\n` +
+    `Mode: ${modeLabel} | Sport: ${sportLabel}\n` +
+    `───────────────────────\n` +
+    `Score: ${pts} pts\n` +
+    `Correct: ${correct}/${answered}\n` +
+    (mode === 'blitz' ? `Best Streak: ${bestStreak}\n` : '') +
+    `Grade: ${grade} (${gradeText})\n` +
+    `───────────────────────\n` +
+    `nosebleed.com/trivia`;
+  document.getElementById('share-box').textContent = shareText;
+  window._shareText = shareText;
+
+  document.getElementById('play-again-btn').textContent = mode === 'blitz' ? '⚡ Play Again' : '🏆 Play Again';
+}
+
+function playAgain() {
+  startMode(mode);
+}
+
+function goLobby() {
+  clearInterval(timerHandle);
+  gameActive = false;
+  document.getElementById('results-wrap').style.display = 'none';
+  document.getElementById('game-wrap').style.display = 'none';
+  document.getElementById('lobby').style.display = 'block';
+}
+
+function copyResult() {
+  const text = window._shareText || '';
+  if (navigator.clipboard) {
+    navigator.clipboard.writeText(text).then(() => {
+      const btn = document.querySelector('.copy-btn');
+      btn.textContent = '✅ Copied!';
+      setTimeout(() => { btn.textContent = '📋 Copy Result'; }, 2000);
+    });
+  }
+}
+
+function shuffle(arr) {
+  const a = [...arr];
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
+/* ═══ INIT ═══ */
+buildLobby();
+</script>
+</body>
+</html>

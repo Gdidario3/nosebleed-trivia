@@ -1,0 +1,1633 @@
+[
+  {
+    "q": "I threw 7 no-hitters in my MLB career, more than any pitcher in history. Who am I?",
+    "a": "Nolan Ryan",
+    "choices": ["Nolan Ryan", "Sandy Koufax", "Bob Feller", "Justin Verlander"],
+    "sport": "baseball",
+    "difficulty": "easy"
+  },
+  {
+    "q": "This player holds the MLB record with 4,256 career hits. Name him.",
+    "a": "Pete Rose",
+    "choices": ["Pete Rose", "Ty Cobb", "Hank Aaron", "Stan Musial"],
+    "sport": "baseball",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Called 'The Sultan of Swat', this Yankees legend changed baseball forever. Name him.",
+    "a": "Babe Ruth",
+    "choices": ["Babe Ruth", "Lou Gehrig", "Joe DiMaggio", "Mickey Mantle"],
+    "sport": "baseball",
+    "difficulty": "easy"
+  },
+  {
+    "q": "I played 2,632 consecutive games, breaking Lou Gehrig's record. Who am I?",
+    "a": "Cal Ripken Jr.",
+    "choices": ["Cal Ripken Jr.", "Derek Jeter", "Robin Yount", "Ernie Banks"],
+    "sport": "baseball",
+    "difficulty": "easy"
+  },
+  {
+    "q": "He hit 73 home runs in 2001, setting the single-season MLB record. Who was he?",
+    "a": "Barry Bonds",
+    "choices": ["Barry Bonds", "Mark McGwire", "Sammy Sosa", "Ken Griffey Jr."],
+    "sport": "baseball",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Called 'The Kid', this Seattle Mariners outfielder was known for his sweet left-handed swing. Name him.",
+    "a": "Ken Griffey Jr.",
+    "choices": ["Ken Griffey Jr.", "Alex Rodriguez", "Ichiro Suzuki", "Edgar Martinez"],
+    "sport": "baseball",
+    "difficulty": "easy"
+  },
+  {
+    "q": "This player holds the all-time MLB record with 762 career home runs. Name him.",
+    "a": "Barry Bonds",
+    "choices": ["Barry Bonds", "Hank Aaron", "Babe Ruth", "Alex Rodriguez"],
+    "sport": "baseball",
+    "difficulty": "easy"
+  },
+  {
+    "q": "I hit a walk-off home run in the bottom of the 9th to win Game 7 of the 1960 World Series for the Pirates. Who am I?",
+    "a": "Bill Mazeroski",
+    "choices": ["Bill Mazeroski", "Roberto Clemente", "Willie Stargell", "Ralph Kiner"],
+    "sport": "baseball",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Called 'The Iron Horse', this Yankees first baseman played 2,130 consecutive games. Name him.",
+    "a": "Lou Gehrig",
+    "choices": ["Lou Gehrig", "Babe Ruth", "Joe DiMaggio", "Bill Dickey"],
+    "sport": "baseball",
+    "difficulty": "easy"
+  },
+  {
+    "q": "This Dodgers pitcher threw a perfect game in 1965 and won three Cy Young Awards. Name him.",
+    "a": "Sandy Koufax",
+    "choices": ["Sandy Koufax", "Don Drysdale", "Fernando Valenzuela", "Orel Hershiser"],
+    "sport": "baseball",
+    "difficulty": "easy"
+  },
+  {
+    "q": "I broke the color barrier in Major League Baseball when I debuted for the Brooklyn Dodgers on April 15, 1947. Who am I?",
+    "a": "Jackie Robinson",
+    "choices": ["Jackie Robinson", "Larry Doby", "Satchel Paige", "Roy Campanella"],
+    "sport": "baseball",
+    "difficulty": "easy"
+  },
+  {
+    "q": "This pitcher holds the all-time MLB record with 5,714 career strikeouts. Name him.",
+    "a": "Nolan Ryan",
+    "choices": ["Nolan Ryan", "Roger Clemens", "Randy Johnson", "Steve Carlton"],
+    "sport": "baseball",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Called 'The Say Hey Kid', this Giants center fielder made one of baseball's most famous catches in the 1954 World Series. Name him.",
+    "a": "Willie Mays",
+    "choices": ["Willie Mays", "Willie McCovey", "Orlando Cepeda", "Juan Marichal"],
+    "sport": "baseball",
+    "difficulty": "easy"
+  },
+  {
+    "q": "This manager led the Chicago Cubs to their first World Series title in 108 years in 2016. Who was he?",
+    "a": "Joe Maddon",
+    "choices": ["Joe Maddon", "Dusty Baker", "Lou Piniella", "Mike Quade"],
+    "sport": "baseball",
+    "difficulty": "medium"
+  },
+  {
+    "q": "I played 20 seasons for the New York Yankees and finished with 3,465 career hits. Who am I?",
+    "a": "Derek Jeter",
+    "choices": ["Derek Jeter", "Bernie Williams", "Don Mattingly", "Lou Gehrig"],
+    "sport": "baseball",
+    "difficulty": "easy"
+  },
+  {
+    "q": "This Dodgers outfielder hit a pinch-hit walk-off home run in Game 1 of the 1988 World Series despite barely being able to walk. Name him.",
+    "a": "Kirk Gibson",
+    "choices": ["Kirk Gibson", "Orel Hershiser", "Mike Scioscia", "Steve Sax"],
+    "sport": "baseball",
+    "difficulty": "medium"
+  },
+  {
+    "q": "He holds the MLB record with 56 consecutive games with a hit, set in 1941. Who was he?",
+    "a": "Joe DiMaggio",
+    "choices": ["Joe DiMaggio", "Ted Williams", "Pete Rose", "Ty Cobb"],
+    "sport": "baseball",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Called 'Hammerin' Hank', this outfielder held the career home run record with 755 for over 30 years. Name him.",
+    "a": "Hank Aaron",
+    "choices": ["Hank Aaron", "Willie Mays", "Frank Robinson", "Ernie Banks"],
+    "sport": "baseball",
+    "difficulty": "easy"
+  },
+  {
+    "q": "This pitcher holds the record for most career wins in MLB history with 511. Name him.",
+    "a": "Cy Young",
+    "choices": ["Cy Young", "Walter Johnson", "Christy Mathewson", "Grover Cleveland Alexander"],
+    "sport": "baseball",
+    "difficulty": "medium"
+  },
+  {
+    "q": "I was the first player in MLB history to hit 60 home runs in a season, doing so in 1927. Who am I?",
+    "a": "Babe Ruth",
+    "choices": ["Babe Ruth", "Lou Gehrig", "Jimmie Foxx", "Hank Greenberg"],
+    "sport": "baseball",
+    "difficulty": "easy"
+  },
+  {
+    "q": "This Red Sox outfielder batted .406 in 1941, the last player to hit over .400 in a season. Name him.",
+    "a": "Ted Williams",
+    "choices": ["Ted Williams", "Joe DiMaggio", "Jimmie Foxx", "Bobby Doerr"],
+    "sport": "baseball",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Called 'The Big Unit', this 6-foot-10 left-hander struck out 4,875 batters in his career. Name him.",
+    "a": "Randy Johnson",
+    "choices": ["Randy Johnson", "Roger Clemens", "Nolan Ryan", "Steve Carlton"],
+    "sport": "baseball",
+    "difficulty": "easy"
+  },
+  {
+    "q": "This Red Sox designated hitter hit a walk-off home run in the 12th inning of Game 4 of the 2004 ALCS against the Yankees. Name him.",
+    "a": "David Ortiz",
+    "choices": ["David Ortiz", "Manny Ramirez", "Kevin Millar", "Jason Varitek"],
+    "sport": "baseball",
+    "difficulty": "medium"
+  },
+  {
+    "q": "I stole 1,406 bases in my career, more than any other player in MLB history. Who am I?",
+    "a": "Rickey Henderson",
+    "choices": ["Rickey Henderson", "Lou Brock", "Tim Raines", "Ty Cobb"],
+    "sport": "baseball",
+    "difficulty": "easy"
+  },
+  {
+    "q": "He recorded 652 career saves, the most in MLB history at the time of his retirement. Who was he?",
+    "a": "Mariano Rivera",
+    "choices": ["Mariano Rivera", "Trevor Hoffman", "Lee Smith", "Dennis Eckersley"],
+    "sport": "baseball",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Called 'Mr. October', this outfielder hit three home runs on three consecutive pitches in Game 6 of the 1977 World Series. Name him.",
+    "a": "Reggie Jackson",
+    "choices": ["Reggie Jackson", "Thurman Munson", "Graig Nettles", "Mickey Rivers"],
+    "sport": "baseball",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This Pittsburgh Pirates outfielder died in a plane crash on New Year's Eve 1972 while delivering aid to earthquake victims in Nicaragua. Name him.",
+    "a": "Roberto Clemente",
+    "choices": ["Roberto Clemente", "Willie Stargell", "Bill Mazeroski", "Dave Parker"],
+    "sport": "baseball",
+    "difficulty": "easy"
+  },
+  {
+    "q": "I threw a perfect game in the 1956 World Series, the only one in postseason history. Who am I?",
+    "a": "Don Larsen",
+    "choices": ["Don Larsen", "Whitey Ford", "Bob Turley", "Johnny Kucks"],
+    "sport": "baseball",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This manager holds the record for most career wins in MLB history with 3,731. Name him.",
+    "a": "Connie Mack",
+    "choices": ["Connie Mack", "John McGraw", "Tony La Russa", "Bobby Cox"],
+    "sport": "baseball",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Called 'Charlie Hustle', this switch-hitter holds the record for most career hits in MLB history. Name him.",
+    "a": "Pete Rose",
+    "choices": ["Pete Rose", "Joe Morgan", "Johnny Bench", "Tony Perez"],
+    "sport": "baseball",
+    "difficulty": "easy"
+  },
+  {
+    "q": "This Braves pitcher won four consecutive Cy Young Awards from 1992 to 1995. Name him.",
+    "a": "Greg Maddux",
+    "choices": ["Greg Maddux", "Tom Glavine", "John Smoltz", "Steve Avery"],
+    "sport": "baseball",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This Cardinals first baseman set the record with 70 home runs in 1998 before Barry Bonds broke it. Name him.",
+    "a": "Mark McGwire",
+    "choices": ["Mark McGwire", "Sammy Sosa", "Albert Pujols", "Jim Edmonds"],
+    "sport": "baseball",
+    "difficulty": "easy"
+  },
+  {
+    "q": "I won the AL Triple Crown in 1967, leading the league in batting average, home runs, and RBIs for the Red Sox. Who am I?",
+    "a": "Carl Yastrzemski",
+    "choices": ["Carl Yastrzemski", "Ted Williams", "Jim Rice", "Fred Lynn"],
+    "sport": "baseball",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This Negro Leagues legend was known as the fastest pitcher of his era and finally debuted in the MLB at age 42. Name him.",
+    "a": "Satchel Paige",
+    "choices": ["Satchel Paige", "Josh Gibson", "Cool Papa Bell", "Buck Leonard"],
+    "sport": "baseball",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Called 'The Rocket', this pitcher won seven Cy Young Awards during his career. Name him.",
+    "a": "Roger Clemens",
+    "choices": ["Roger Clemens", "Greg Maddux", "Randy Johnson", "Pedro Martinez"],
+    "sport": "baseball",
+    "difficulty": "easy"
+  },
+  {
+    "q": "This Cubs shortstop hit 512 career home runs and was famous for saying 'Let's play two!' Name him.",
+    "a": "Ernie Banks",
+    "choices": ["Ernie Banks", "Ryne Sandberg", "Ron Santo", "Billy Williams"],
+    "sport": "baseball",
+    "difficulty": "easy"
+  },
+  {
+    "q": "This Angels outfielder has won three AL MVP Awards and is considered one of the greatest players of his generation. Name him.",
+    "a": "Mike Trout",
+    "choices": ["Mike Trout", "Shohei Ohtani", "Albert Pujols", "Vladimir Guerrero"],
+    "sport": "baseball",
+    "difficulty": "easy"
+  },
+  {
+    "q": "This Negro Leagues catcher was called 'the Black Babe Ruth' and reportedly hit nearly 800 home runs in his career. Name him.",
+    "a": "Josh Gibson",
+    "choices": ["Josh Gibson", "Satchel Paige", "Buck Leonard", "Cool Papa Bell"],
+    "sport": "baseball",
+    "difficulty": "medium"
+  },
+  {
+    "q": "He holds the record for most Gold Glove Awards by a pitcher with 18. Who is he?",
+    "a": "Greg Maddux",
+    "choices": ["Greg Maddux", "Jim Kaat", "Bob Gibson", "Kenny Rogers"],
+    "sport": "baseball",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Called 'Big Papi', this designated hitter was the 2013 World Series MVP for the Red Sox. Name him.",
+    "a": "David Ortiz",
+    "choices": ["David Ortiz", "Manny Ramirez", "Dustin Pedroia", "Kevin Youkilis"],
+    "sport": "baseball",
+    "difficulty": "easy"
+  },
+  {
+    "q": "I won the NL MVP Award seven times, more than any other player in history. Who am I?",
+    "a": "Barry Bonds",
+    "choices": ["Barry Bonds", "Hank Aaron", "Willie Mays", "Mike Schmidt"],
+    "sport": "baseball",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This pitcher threw a perfect game on May 18, 2004, for the Arizona Diamondbacks at age 40. Name him.",
+    "a": "Randy Johnson",
+    "choices": ["Randy Johnson", "Curt Schilling", "Brandon Webb", "Miguel Batista"],
+    "sport": "baseball",
+    "difficulty": "hard"
+  },
+  {
+    "q": "He managed the Yankees to seven World Series titles between 1949 and 1960. Who was he?",
+    "a": "Casey Stengel",
+    "choices": ["Casey Stengel", "Joe McCarthy", "Miller Huggins", "Ralph Houk"],
+    "sport": "baseball",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This Cardinals pitcher had a 1.12 ERA in 1968, the lowest in the live-ball era. Name him.",
+    "a": "Bob Gibson",
+    "choices": ["Bob Gibson", "Steve Carlton", "Dizzy Dean", "Bob Forsch"],
+    "sport": "baseball",
+    "difficulty": "medium"
+  },
+  {
+    "q": "I collected 262 hits in 2004, breaking George Sisler's single-season record. Who am I?",
+    "a": "Ichiro Suzuki",
+    "choices": ["Ichiro Suzuki", "Pete Rose", "Wade Boggs", "Tony Gwynn"],
+    "sport": "baseball",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This third baseman won 16 consecutive Gold Glove Awards from 1960 to 1975. Name him.",
+    "a": "Brooks Robinson",
+    "choices": ["Brooks Robinson", "Mike Schmidt", "Ron Santo", "Graig Nettles"],
+    "sport": "baseball",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Called 'The Wizard of Oz', this Cardinals shortstop was famous for his acrobatic defense. Name him.",
+    "a": "Ozzie Smith",
+    "choices": ["Ozzie Smith", "Cal Ripken Jr.", "Barry Larkin", "Alan Trammell"],
+    "sport": "baseball",
+    "difficulty": "easy"
+  },
+  {
+    "q": "This Padres outfielder won eight NL batting titles and finished with a career .338 batting average. Name him.",
+    "a": "Tony Gwynn",
+    "choices": ["Tony Gwynn", "Dave Winfield", "Steve Garvey", "Rickey Henderson"],
+    "sport": "baseball",
+    "difficulty": "easy"
+  },
+  {
+    "q": "I pitched the 'Bloody Sock' game in the 2004 ALCS, defeating the Yankees in Game 6 with a sutured ankle tendon. Who am I?",
+    "a": "Curt Schilling",
+    "choices": ["Curt Schilling", "Pedro Martinez", "Derek Lowe", "Tim Wakefield"],
+    "sport": "baseball",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This catcher holds the record for most games caught in MLB history with 2,427. Name him.",
+    "a": "Ivan Rodriguez",
+    "choices": ["Ivan Rodriguez", "Carlton Fisk", "Johnny Bench", "Mike Piazza"],
+    "sport": "baseball",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Called 'The Georgia Peach', this outfielder retired with a .366 career batting average, the highest in MLB history. Name him.",
+    "a": "Ty Cobb",
+    "choices": ["Ty Cobb", "Rogers Hornsby", "Honus Wagner", "Joe Jackson"],
+    "sport": "baseball",
+    "difficulty": "medium"
+  },
+  {
+    "q": "He pitched 59.1 consecutive scoreless innings in the regular season in 1988, breaking Don Drysdale's record. Who was he?",
+    "a": "Orel Hershiser",
+    "choices": ["Orel Hershiser", "Don Drysdale", "Bob Gibson", "Sandy Koufax"],
+    "sport": "baseball",
+    "difficulty": "hard"
+  },
+  {
+    "q": "This Red Sox catcher's home run off the left field foul pole in Game 6 of the 1975 World Series is one of baseball's most iconic moments. Name him.",
+    "a": "Carlton Fisk",
+    "choices": ["Carlton Fisk", "Carl Yastrzemski", "Fred Lynn", "Dwight Evans"],
+    "sport": "baseball",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This outfielder holds the record for most career walks in MLB history with 2,558. Name him.",
+    "a": "Barry Bonds",
+    "choices": ["Barry Bonds", "Rickey Henderson", "Babe Ruth", "Ted Williams"],
+    "sport": "baseball",
+    "difficulty": "medium"
+  },
+  {
+    "q": "He threw a no-hitter at age 44, making him the oldest pitcher to accomplish the feat in MLB history. Who was he?",
+    "a": "Nolan Ryan",
+    "choices": ["Nolan Ryan", "Phil Niekro", "Roger Clemens", "Randy Johnson"],
+    "sport": "baseball",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This Phillies third baseman won back-to-back NL MVP Awards in 1980 and 1981. Name him.",
+    "a": "Mike Schmidt",
+    "choices": ["Mike Schmidt", "Pete Rose", "Steve Carlton", "Greg Luzinski"],
+    "sport": "baseball",
+    "difficulty": "medium"
+  },
+  {
+    "q": "I hit a game-winning single in the bottom of the 9th in Game 7 of the 2001 World Series against Mariano Rivera. Who am I?",
+    "a": "Luis Gonzalez",
+    "choices": ["Luis Gonzalez", "Matt Williams", "Curt Schilling", "Craig Counsell"],
+    "sport": "baseball",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Called 'The Big Hurt', this first baseman won back-to-back AL MVP Awards in 1993 and 1994 for the White Sox. Name him.",
+    "a": "Frank Thomas",
+    "choices": ["Frank Thomas", "Albert Belle", "Mo Vaughn", "Jeff Bagwell"],
+    "sport": "baseball",
+    "difficulty": "medium"
+  },
+  {
+    "q": "He hit 660 career home runs and won two NL MVP Awards while playing for the Giants. Who was he?",
+    "a": "Willie Mays",
+    "choices": ["Willie Mays", "Barry Bonds", "Willie McCovey", "Orlando Cepeda"],
+    "sport": "baseball",
+    "difficulty": "easy"
+  },
+  {
+    "q": "This Cardinals pitcher struck out 17 batters in Game 1 of the 1968 World Series. Name him.",
+    "a": "Bob Gibson",
+    "choices": ["Bob Gibson", "Steve Carlton", "Dizzy Dean", "Chris Carpenter"],
+    "sport": "baseball",
+    "difficulty": "hard"
+  },
+  {
+    "q": "This pitcher was the first player unanimously elected to the Baseball Hall of Fame, receiving all 425 votes in 2019. Name him.",
+    "a": "Mariano Rivera",
+    "choices": ["Mariano Rivera", "Derek Jeter", "Ken Griffey Jr.", "Tom Seaver"],
+    "sport": "baseball",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Called 'Yogi', this Yankees catcher won three AL MVP Awards and appeared in 14 World Series. Name him.",
+    "a": "Yogi Berra",
+    "choices": ["Yogi Berra", "Bill Dickey", "Elston Howard", "Thurman Munson"],
+    "sport": "baseball",
+    "difficulty": "easy"
+  },
+  {
+    "q": "He won the AL Cy Young Award in 1999 and 2000 while pitching for the Red Sox, with ERAs of 2.07 and 1.74. Who was he?",
+    "a": "Pedro Martinez",
+    "choices": ["Pedro Martinez", "Roger Clemens", "Curt Schilling", "Derek Lowe"],
+    "sport": "baseball",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This Cubs pitcher struck out 20 batters in a nine-inning game on May 6, 1998, tying the MLB record. Name him.",
+    "a": "Kerry Wood",
+    "choices": ["Kerry Wood", "Mark Prior", "Greg Maddux", "Carlos Zambrano"],
+    "sport": "baseball",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Called 'Shoeless Joe', this outfielder was banned from baseball for his alleged role in the 1919 Black Sox scandal. Name him.",
+    "a": "Joe Jackson",
+    "choices": ["Joe Jackson", "Eddie Cicotte", "Chick Gandil", "Buck Weaver"],
+    "sport": "baseball",
+    "difficulty": "easy"
+  },
+  {
+    "q": "This manager led the Yankees to four World Series titles in five years from 1996 to 2000. Name him.",
+    "a": "Joe Torre",
+    "choices": ["Joe Torre", "Billy Martin", "Buck Showalter", "Casey Stengel"],
+    "sport": "baseball",
+    "difficulty": "medium"
+  },
+  {
+    "q": "He stole 130 bases in 1982, setting the single-season MLB record. Who was he?",
+    "a": "Rickey Henderson",
+    "choices": ["Rickey Henderson", "Lou Brock", "Vince Coleman", "Tim Raines"],
+    "sport": "baseball",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Called 'Stan the Man', this Cardinals legend finished his career with 3,630 hits and a .331 batting average. Name him.",
+    "a": "Stan Musial",
+    "choices": ["Stan Musial", "Rogers Hornsby", "Bob Gibson", "Enos Slaughter"],
+    "sport": "baseball",
+    "difficulty": "easy"
+  },
+  {
+    "q": "This player hit 61 home runs in 1961, breaking Babe Ruth's single-season record. Name him.",
+    "a": "Roger Maris",
+    "choices": ["Roger Maris", "Mickey Mantle", "Yogi Berra", "Whitey Ford"],
+    "sport": "baseball",
+    "difficulty": "easy"
+  },
+  {
+    "q": "I struck out 20 batters in a nine-inning game twice in my career, first doing it in 1986 for the Red Sox. Who am I?",
+    "a": "Roger Clemens",
+    "choices": ["Roger Clemens", "Nolan Ryan", "Randy Johnson", "Kerry Wood"],
+    "sport": "baseball",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This Tigers outfielder won the AL Triple Crown in 2012, the first since Yastrzemski in 1967. Name him.",
+    "a": "Miguel Cabrera",
+    "choices": ["Miguel Cabrera", "Prince Fielder", "Justin Verlander", "Victor Martinez"],
+    "sport": "baseball",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This left-handed pitcher won 363 career games, the most by any left-hander in MLB history. Name him.",
+    "a": "Warren Spahn",
+    "choices": ["Warren Spahn", "Steve Carlton", "Eddie Plank", "Whitey Ford"],
+    "sport": "baseball",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Called 'Mr. Cub', this shortstop never played in a postseason game despite a Hall of Fame career. Name him.",
+    "a": "Ernie Banks",
+    "choices": ["Ernie Banks", "Ron Santo", "Billy Williams", "Ferguson Jenkins"],
+    "sport": "baseball",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This player hit the 'Shot Heard Round the World' home run to win the 1951 NL pennant for the New York Giants. Name him.",
+    "a": "Bobby Thomson",
+    "choices": ["Bobby Thomson", "Willie Mays", "Monte Irvin", "Sal Maglie"],
+    "sport": "baseball",
+    "difficulty": "medium"
+  },
+  {
+    "q": "He holds the record for most career doubles in MLB history with 792. Who is he?",
+    "a": "Tris Speaker",
+    "choices": ["Tris Speaker", "Pete Rose", "Stan Musial", "Ty Cobb"],
+    "sport": "baseball",
+    "difficulty": "hard"
+  },
+  {
+    "q": "This pitcher holds the record for most career shutouts in MLB history with 110. Name him.",
+    "a": "Walter Johnson",
+    "choices": ["Walter Johnson", "Cy Young", "Grover Cleveland Alexander", "Christy Mathewson"],
+    "sport": "baseball",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Called 'A-Rod', this shortstop and third baseman hit 696 career home runs. Name him.",
+    "a": "Alex Rodriguez",
+    "choices": ["Alex Rodriguez", "Derek Jeter", "Manny Ramirez", "Ken Griffey Jr."],
+    "sport": "baseball",
+    "difficulty": "easy"
+  },
+  {
+    "q": "I won the NL Cy Young Award three times and held the lowest career ERA among active starters for many years. Who am I?",
+    "a": "Clayton Kershaw",
+    "choices": ["Clayton Kershaw", "Jacob deGrom", "Max Scherzer", "Madison Bumgarner"],
+    "sport": "baseball",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This Hall of Fame shortstop played 21 seasons for the Pittsburgh Pirates and won eight NL batting titles. Name him.",
+    "a": "Honus Wagner",
+    "choices": ["Honus Wagner", "Roberto Clemente", "Arky Vaughan", "Pie Traynor"],
+    "sport": "baseball",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Called 'Pee Wee', this Dodgers shortstop famously put his arm around Jackie Robinson in a show of support. Name him.",
+    "a": "Pee Wee Reese",
+    "choices": ["Pee Wee Reese", "Gil Hodges", "Duke Snider", "Roy Campanella"],
+    "sport": "baseball",
+    "difficulty": "medium"
+  },
+  {
+    "q": "I hold the record for most career grand slams in MLB history with 23. Who am I?",
+    "a": "Alex Rodriguez",
+    "choices": ["Alex Rodriguez", "Lou Gehrig", "Manny Ramirez", "Eddie Murray"],
+    "sport": "baseball",
+    "difficulty": "hard"
+  },
+  {
+    "q": "He holds the record for most career triples in MLB history with 309. Who was he?",
+    "a": "Sam Crawford",
+    "choices": ["Sam Crawford", "Ty Cobb", "Honus Wagner", "Tris Speaker"],
+    "sport": "baseball",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Called 'Tom Terrific', this Mets pitcher won three NL Cy Young Awards and led the Miracle Mets to the 1969 World Series. Name him.",
+    "a": "Tom Seaver",
+    "choices": ["Tom Seaver", "Jerry Koosman", "Nolan Ryan", "Tug McGraw"],
+    "sport": "baseball",
+    "difficulty": "easy"
+  },
+  {
+    "q": "This Cubs outfielder hit 66 home runs in 1998, finishing second to Mark McGwire in the home run race. Name him.",
+    "a": "Sammy Sosa",
+    "choices": ["Sammy Sosa", "Mark Grace", "Kerry Wood", "Moises Alou"],
+    "sport": "baseball",
+    "difficulty": "easy"
+  },
+  {
+    "q": "This Phillies pitcher threw a no-hitter in Game 1 of the 2010 NLDS against the Reds. Name him.",
+    "a": "Roy Halladay",
+    "choices": ["Roy Halladay", "Cole Hamels", "Cliff Lee", "Roy Oswalt"],
+    "sport": "baseball",
+    "difficulty": "hard"
+  },
+  {
+    "q": "He won 10 Gold Glove Awards at third base and hit 548 career home runs for the Phillies. Who was he?",
+    "a": "Mike Schmidt",
+    "choices": ["Mike Schmidt", "Brooks Robinson", "George Brett", "Eddie Mathews"],
+    "sport": "baseball",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Called 'The Big Red Machine', the Reds won back-to-back World Series titles in 1975 and 1976. Who was their Hall of Fame catcher?",
+    "a": "Johnny Bench",
+    "choices": ["Johnny Bench", "Carlton Fisk", "Gary Carter", "Ted Simmons"],
+    "sport": "baseball",
+    "difficulty": "easy"
+  },
+  {
+    "q": "I won the AL MVP Award in 2021 as both a pitcher and designated hitter for the Angels. Who am I?",
+    "a": "Shohei Ohtani",
+    "choices": ["Shohei Ohtani", "Mike Trout", "Vladimir Guerrero Jr.", "Marcus Semien"],
+    "sport": "baseball",
+    "difficulty": "easy"
+  },
+  {
+    "q": "This Tigers pitcher won 31 games in 1968, the last pitcher to win 30 or more in a season. Name him.",
+    "a": "Denny McLain",
+    "choices": ["Denny McLain", "Mickey Lolich", "Bob Gibson", "Juan Marichal"],
+    "sport": "baseball",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Called 'The Captain', this Yankees shortstop made his MLB debut in 1995 and retired after the 2014 season. Name him.",
+    "a": "Derek Jeter",
+    "choices": ["Derek Jeter", "Don Mattingly", "Thurman Munson", "Jorge Posada"],
+    "sport": "baseball",
+    "difficulty": "easy"
+  },
+  {
+    "q": "I hit 714 career home runs and held the all-time record for 39 years until Hank Aaron surpassed me. Who am I?",
+    "a": "Babe Ruth",
+    "choices": ["Babe Ruth", "Hank Aaron", "Willie Mays", "Jimmie Foxx"],
+    "sport": "baseball",
+    "difficulty": "easy"
+  },
+  {
+    "q": "This manager led the Braves to 14 consecutive division titles from 1991 to 2005. Name him.",
+    "a": "Bobby Cox",
+    "choices": ["Bobby Cox", "Joe Torre", "Tony La Russa", "Jim Leyland"],
+    "sport": "baseball",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This first baseman won three NL MVP Awards and hit 475 home runs during his time with the Cardinals. Name him.",
+    "a": "Albert Pujols",
+    "choices": ["Albert Pujols", "Mark McGwire", "Jim Edmonds", "Stan Musial"],
+    "sport": "baseball",
+    "difficulty": "easy"
+  },
+  {
+    "q": "This Reds second baseman won back-to-back NL MVP Awards in 1975 and 1976. Name him.",
+    "a": "Joe Morgan",
+    "choices": ["Joe Morgan", "Pete Rose", "Johnny Bench", "Dave Concepcion"],
+    "sport": "baseball",
+    "difficulty": "medium"
+  },
+  {
+    "q": "He holds the record for most career losses by a pitcher in MLB history with 316. Who was he?",
+    "a": "Cy Young",
+    "choices": ["Cy Young", "Pud Galvin", "Nolan Ryan", "Gaylord Perry"],
+    "sport": "baseball",
+    "difficulty": "hard"
+  },
+  {
+    "q": "This switch-hitting outfielder won the Triple Crown in 1956 with a .353 average, 52 home runs, and 130 RBIs. Name him.",
+    "a": "Mickey Mantle",
+    "choices": ["Mickey Mantle", "Roger Maris", "Yogi Berra", "Whitey Ford"],
+    "sport": "baseball",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Called 'The Pride of the Yankees', this first baseman's farewell speech included the line 'I consider myself the luckiest man on the face of the earth.' Name him.",
+    "a": "Lou Gehrig",
+    "choices": ["Lou Gehrig", "Babe Ruth", "Joe DiMaggio", "Mickey Mantle"],
+    "sport": "baseball",
+    "difficulty": "easy"
+  },
+  {
+    "q": "I hold the record for most career RBIs in MLB history with 2,297. Who am I?",
+    "a": "Hank Aaron",
+    "choices": ["Hank Aaron", "Babe Ruth", "Barry Bonds", "Lou Gehrig"],
+    "sport": "baseball",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This Royals third baseman hit .390 in 1980, the highest batting average since Ted Williams hit .406 in 1941. Name him.",
+    "a": "George Brett",
+    "choices": ["George Brett", "Mike Schmidt", "Robin Yount", "Rod Carew"],
+    "sport": "baseball",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Called 'The Mick', this switch-hitter hit 536 career home runs and won three AL MVP Awards for the Yankees. Name him.",
+    "a": "Mickey Mantle",
+    "choices": ["Mickey Mantle", "Joe DiMaggio", "Roger Maris", "Yogi Berra"],
+    "sport": "baseball",
+    "difficulty": "easy"
+  },
+  {
+    "q": "I won the NL Cy Young Award four times while pitching for the Phillies. Who am I?",
+    "a": "Steve Carlton",
+    "choices": ["Steve Carlton", "Mike Schmidt", "Robin Roberts", "Jim Bunning"],
+    "sport": "baseball",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This Negro Leagues outfielder is considered by many historians to be the greatest all-around player in black baseball history. He played from 1915 to 1941. Name him.",
+    "a": "Oscar Charleston",
+    "choices": ["Oscar Charleston", "Josh Gibson", "Cool Papa Bell", "Turkey Stearnes"],
+    "sport": "baseball",
+    "difficulty": "hard"
+  },
+  {
+    "q": "He won the NL Rookie of the Year in 1947, the first year the award was given. Who was he?",
+    "a": "Jackie Robinson",
+    "choices": ["Jackie Robinson", "Larry Doby", "Sam Jethroe", "Don Newcombe"],
+    "sport": "baseball",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Called 'Donnie Baseball', this Yankees first baseman won the 1985 AL batting title with a .343 average. Name him.",
+    "a": "Don Mattingly",
+    "choices": ["Don Mattingly", "Dave Winfield", "Rickey Henderson", "Willie Randolph"],
+    "sport": "baseball",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This pitcher won the NL Cy Young Award in 2014, 2015, and 2017 while playing for the Nationals. Name him.",
+    "a": "Max Scherzer",
+    "choices": ["Max Scherzer", "Stephen Strasburg", "Clayton Kershaw", "Jacob deGrom"],
+    "sport": "baseball",
+    "difficulty": "medium"
+  },
+  {
+    "q": "He was the first African American player in the American League, debuting for the Cleveland Indians on July 5, 1947. Who was he?",
+    "a": "Larry Doby",
+    "choices": ["Larry Doby", "Jackie Robinson", "Satchel Paige", "Minnie Minoso"],
+    "sport": "baseball",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This Twins center fielder hit a walk-off home run in the 11th inning of Game 6 of the 1991 World Series to force a Game 7. Name him.",
+    "a": "Kirby Puckett",
+    "choices": ["Kirby Puckett", "Kent Hrbek", "Chuck Knoblauch", "Shane Mack"],
+    "sport": "baseball",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Called 'Pudge', this catcher won 13 Gold Glove Awards and the 1999 AL MVP. Name him.",
+    "a": "Ivan Rodriguez",
+    "choices": ["Ivan Rodriguez", "Carlton Fisk", "Johnny Bench", "Mike Piazza"],
+    "sport": "baseball",
+    "difficulty": "medium"
+  },
+  {
+    "q": "I threw a perfect game on May 29, 2010, and also threw a no-hitter in the 2010 NLDS. Who am I?",
+    "a": "Roy Halladay",
+    "choices": ["Roy Halladay", "Cliff Lee", "Cole Hamels", "Ubaldo Jimenez"],
+    "sport": "baseball",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Called 'Joltin' Joe', this Yankees center fielder was married to Marilyn Monroe and won nine World Series rings. Name him.",
+    "a": "Joe DiMaggio",
+    "choices": ["Joe DiMaggio", "Mickey Mantle", "Lou Gehrig", "Babe Ruth"],
+    "sport": "baseball",
+    "difficulty": "easy"
+  },
+  {
+    "q": "This pitcher holds the record for most career complete games in MLB history with 749. Name him.",
+    "a": "Cy Young",
+    "choices": ["Cy Young", "Walter Johnson", "Christy Mathewson", "Pud Galvin"],
+    "sport": "baseball",
+    "difficulty": "hard"
+  },
+  {
+    "q": "I hit a walk-off home run in the bottom of the 9th in Game 6 of the 1993 World Series for the Blue Jays. Who am I?",
+    "a": "Joe Carter",
+    "choices": ["Joe Carter", "Roberto Alomar", "Paul Molitor", "John Olerud"],
+    "sport": "baseball",
+    "difficulty": "medium"
+  },
+  {
+    "q": "He managed the Reds and Tigers to World Series titles, becoming the first manager to win the Fall Classic in both leagues. Who was he?",
+    "a": "Sparky Anderson",
+    "choices": ["Sparky Anderson", "Tony La Russa", "Jim Leyland", "Bobby Cox"],
+    "sport": "baseball",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Called 'Teddy Ballgame', this outfielder homered in his final career at-bat on September 28, 1960. Name him.",
+    "a": "Ted Williams",
+    "choices": ["Ted Williams", "Joe DiMaggio", "Mickey Mantle", "Stan Musial"],
+    "sport": "baseball",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This pitcher won 355 career games and four consecutive Cy Young Awards from 1992 to 1995. Name him.",
+    "a": "Greg Maddux",
+    "choices": ["Greg Maddux", "Tom Glavine", "John Smoltz", "Roger Clemens"],
+    "sport": "baseball",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This pitcher holds the record for most career saves in MLB history with 652. Name him.",
+    "a": "Mariano Rivera",
+    "choices": ["Mariano Rivera", "Trevor Hoffman", "Lee Smith", "Craig Kimbrel"],
+    "sport": "baseball",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Called 'Cool Papa', this Negro Leagues legend was said to be so fast he could turn off the light switch and be in bed before the room went dark. Name him.",
+    "a": "Cool Papa Bell",
+    "choices": ["Cool Papa Bell", "Josh Gibson", "Satchel Paige", "Oscar Charleston"],
+    "sport": "baseball",
+    "difficulty": "medium"
+  },
+  {
+    "q": "He hit 534 career home runs and was a three-time AL MVP, playing primarily for the Philadelphia and Kansas City Athletics. Who was he?",
+    "a": "Jimmie Foxx",
+    "choices": ["Jimmie Foxx", "Hank Greenberg", "Lou Gehrig", "Joe DiMaggio"],
+    "sport": "baseball",
+    "difficulty": "hard"
+  },
+  {
+    "q": "This outfielder won both the NL and AL MVP Awards, the first player to win the MVP in both leagues. Name him.",
+    "a": "Frank Robinson",
+    "choices": ["Frank Robinson", "Hank Aaron", "Willie Mays", "Barry Bonds"],
+    "sport": "baseball",
+    "difficulty": "medium"
+  },
+  {
+    "q": "I won the World Series MVP in 2014 after pitching 21 scoreless innings in the Fall Classic for the Giants. Who am I?",
+    "a": "Madison Bumgarner",
+    "choices": ["Madison Bumgarner", "Tim Lincecum", "Matt Cain", "Tim Hudson"],
+    "sport": "baseball",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This catcher won 10 consecutive Gold Glove Awards from 1968 to 1977. Name him.",
+    "a": "Johnny Bench",
+    "choices": ["Johnny Bench", "Carlton Fisk", "Gary Carter", "Thurman Munson"],
+    "sport": "baseball",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Called 'The Freak', this Giants pitcher won back-to-back NL Cy Young Awards in 2008 and 2009. Name him.",
+    "a": "Tim Lincecum",
+    "choices": ["Tim Lincecum", "Matt Cain", "Madison Bumgarner", "Barry Zito"],
+    "sport": "baseball",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This Pirates outfielder collected exactly 3,000 career hits, getting his final hit in his last regular-season at-bat. Name him.",
+    "a": "Roberto Clemente",
+    "choices": ["Roberto Clemente", "Willie Stargell", "Bill Mazeroski", "Paul Waner"],
+    "sport": "baseball",
+    "difficulty": "medium"
+  },
+  {
+    "q": "He holds the NL record for most consecutive games with a hit, with 44 in 1978. Who was he?",
+    "a": "Pete Rose",
+    "choices": ["Pete Rose", "Tony Gwynn", "Stan Musial", "Joe DiMaggio"],
+    "sport": "baseball",
+    "difficulty": "hard"
+  },
+  {
+    "q": "This Mets pitcher struck out 10 consecutive batters on April 22, 1970, setting an MLB record. Name him.",
+    "a": "Tom Seaver",
+    "choices": ["Tom Seaver", "Nolan Ryan", "Jerry Koosman", "Tug McGraw"],
+    "sport": "baseball",
+    "difficulty": "hard"
+  },
+  {
+    "q": "He was the first player to be named the World Series MVP, winning the award in 1955 for the Brooklyn Dodgers. Who was he?",
+    "a": "Johnny Podres",
+    "choices": ["Johnny Podres", "Duke Snider", "Jackie Robinson", "Roy Campanella"],
+    "sport": "baseball",
+    "difficulty": "hard"
+  },
+  {
+    "q": "This pitcher threw consecutive no-hitters on June 11 and June 15, 1938, the only pitcher ever to accomplish this feat. Name him.",
+    "a": "Johnny Vander Meer",
+    "choices": ["Johnny Vander Meer", "Nolan Ryan", "Sandy Koufax", "Bob Feller"],
+    "sport": "baseball",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Called 'The Splendid Splinter', this outfielder missed nearly five full seasons due to military service in World War II and the Korean War. Name him.",
+    "a": "Ted Williams",
+    "choices": ["Ted Williams", "Joe DiMaggio", "Stan Musial", "Bob Feller"],
+    "sport": "baseball",
+    "difficulty": "medium"
+  },
+  {
+    "q": "He holds the career record for most intentional walks received with 688. Who is he?",
+    "a": "Barry Bonds",
+    "choices": ["Barry Bonds", "Hank Aaron", "Albert Pujols", "Ted Williams"],
+    "sport": "baseball",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Called 'Rapid Robert', this Indians pitcher threw three career no-hitters and missed nearly four full seasons due to military service. Name him.",
+    "a": "Bob Feller",
+    "choices": ["Bob Feller", "Bob Lemon", "Early Wynn", "Herb Score"],
+    "sport": "baseball",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This outfielder holds the record for most career extra-base hits in MLB history with 1,477. Name him.",
+    "a": "Hank Aaron",
+    "choices": ["Hank Aaron", "Barry Bonds", "Babe Ruth", "Stan Musial"],
+    "sport": "baseball",
+    "difficulty": "hard"
+  },
+  {
+    "q": "He was the first African American manager in MLB history, hired by the Cleveland Indians in 1975. Who was he?",
+    "a": "Frank Robinson",
+    "choices": ["Frank Robinson", "Larry Doby", "Maury Wills", "Dusty Baker"],
+    "sport": "baseball",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This pitcher threw 56 consecutive scoreless innings during the regular season in 1968, setting an NL record at the time. Name him.",
+    "a": "Don Drysdale",
+    "choices": ["Don Drysdale", "Bob Gibson", "Sandy Koufax", "Juan Marichal"],
+    "sport": "baseball",
+    "difficulty": "hard"
+  },
+  {
+    "q": "He managed the St. Louis Cardinals to three World Series titles and was inducted into the Hall of Fame as a manager. Who was he?",
+    "a": "Tony La Russa",
+    "choices": ["Tony La Russa", "Whitey Herzog", "Red Schoendienst", "Joe Torre"],
+    "sport": "baseball",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This Phillies slugger hit 58 home runs in 2006, the most in the NL that season. Name him.",
+    "a": "Ryan Howard",
+    "choices": ["Ryan Howard", "Chase Utley", "Jimmy Rollins", "Pat Burrell"],
+    "sport": "baseball",
+    "difficulty": "medium"
+  },
+  {
+    "q": "I hold the record for most career runs scored in MLB history with 2,295. Who am I?",
+    "a": "Rickey Henderson",
+    "choices": ["Rickey Henderson", "Ty Cobb", "Barry Bonds", "Hank Aaron"],
+    "sport": "baseball",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Called 'Chipper', this Braves third baseman was a switch-hitter who won the 1999 NL MVP and finished with a .303 career average. Name him.",
+    "a": "Chipper Jones",
+    "choices": ["Chipper Jones", "Andruw Jones", "Terry Pendleton", "Dale Murphy"],
+    "sport": "baseball",
+    "difficulty": "easy"
+  },
+  {
+    "q": "This Brewers player won the AL MVP in 1982 as a shortstop and again in 1989 as an outfielder. Name him.",
+    "a": "Robin Yount",
+    "choices": ["Robin Yount", "Paul Molitor", "Cecil Cooper", "Gorman Thomas"],
+    "sport": "baseball",
+    "difficulty": "medium"
+  },
+  {
+    "q": "He batted .350 with 242 hits in his rookie season for the Mariners in 2001, winning both AL MVP and Rookie of the Year. Who was he?",
+    "a": "Ichiro Suzuki",
+    "choices": ["Ichiro Suzuki", "Albert Pujols", "Joe DiMaggio", "Ted Williams"],
+    "sport": "baseball",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This third baseman hit a dramatic walk-off home run in the 11th inning of Game 6 of the 2011 World Series for the Cardinals. Name him.",
+    "a": "David Freese",
+    "choices": ["David Freese", "Albert Pujols", "Lance Berkman", "Matt Holliday"],
+    "sport": "baseball",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Called 'The Commerce Comet', this Yankees outfielder hit one of the longest measured home runs in MLB history, estimated at 565 feet. Name him.",
+    "a": "Mickey Mantle",
+    "choices": ["Mickey Mantle", "Babe Ruth", "Roger Maris", "Joe DiMaggio"],
+    "sport": "baseball",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This pitcher won the Cy Young Award in both the AL (2003) and NL (2010). Name him.",
+    "a": "Roy Halladay",
+    "choices": ["Roy Halladay", "Roger Clemens", "Pedro Martinez", "Randy Johnson"],
+    "sport": "baseball",
+    "difficulty": "hard"
+  },
+  {
+    "q": "He threw a complete-game shutout in Game 7 of the 1991 World Series, going all 10 innings in a 1-0 Twins victory. Who was he?",
+    "a": "Jack Morris",
+    "choices": ["Jack Morris", "Kevin Tapani", "Scott Erickson", "Rick Aguilera"],
+    "sport": "baseball",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This player holds the record for most career at-bats in MLB history with 14,053. Name him.",
+    "a": "Pete Rose",
+    "choices": ["Pete Rose", "Hank Aaron", "Carl Yastrzemski", "Cal Ripken Jr."],
+    "sport": "baseball",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Called 'Ichiro', this outfielder collected 3,089 hits in MLB and won 10 consecutive Gold Glove Awards. Name him.",
+    "a": "Ichiro Suzuki",
+    "choices": ["Ichiro Suzuki", "Hideki Matsui", "Hideo Nomo", "Shohei Ohtani"],
+    "sport": "baseball",
+    "difficulty": "easy"
+  },
+  {
+    "q": "He hit 755 career home runs, holding the all-time record from 1974 until 2007. Who was he?",
+    "a": "Hank Aaron",
+    "choices": ["Hank Aaron", "Babe Ruth", "Willie Mays", "Barry Bonds"],
+    "sport": "baseball",
+    "difficulty": "easy"
+  },
+  {
+    "q": "This pitcher won the AL Cy Young and MVP in 2011 with a 24-5 record for the Tigers. Name him.",
+    "a": "Justin Verlander",
+    "choices": ["Justin Verlander", "Max Scherzer", "David Price", "Doug Fister"],
+    "sport": "baseball",
+    "difficulty": "medium"
+  },
+  {
+    "q": "I hold the single-season record for most walks drawn with 232, set in 2004. Who am I?",
+    "a": "Barry Bonds",
+    "choices": ["Barry Bonds", "Ted Williams", "Babe Ruth", "Mark McGwire"],
+    "sport": "baseball",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This player holds the record for most career games played in MLB history with 3,562. Name him.",
+    "a": "Pete Rose",
+    "choices": ["Pete Rose", "Carl Yastrzemski", "Hank Aaron", "Rickey Henderson"],
+    "sport": "baseball",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Called 'Big Mac', this first baseman set the single-season home run record with 70 in 1998. Name him.",
+    "a": "Mark McGwire",
+    "choices": ["Mark McGwire", "Frank Thomas", "Jim Thome", "Jeff Bagwell"],
+    "sport": "baseball",
+    "difficulty": "easy"
+  },
+  {
+    "q": "This Dodgers catcher won the NL MVP three times in 1951, 1953, and 1955. Name him.",
+    "a": "Roy Campanella",
+    "choices": ["Roy Campanella", "Duke Snider", "Gil Hodges", "Jackie Robinson"],
+    "sport": "baseball",
+    "difficulty": "hard"
+  },
+  {
+    "q": "He won the 2017 AL MVP award after hitting .346 with 24 home runs for the Astros. Who was he?",
+    "a": "Jose Altuve",
+    "choices": ["Jose Altuve", "Carlos Correa", "George Springer", "Aaron Judge"],
+    "sport": "baseball",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This player won the NL Rookie of the Year in 2001 for the Cardinals, hitting .329 with 37 home runs. Name him.",
+    "a": "Albert Pujols",
+    "choices": ["Albert Pujols", "Jim Edmonds", "Scott Rolen", "J.D. Drew"],
+    "sport": "baseball",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Called 'The Hawk', this outfielder won the 1987 NL MVP for the Cubs despite the team finishing last in their division. Name him.",
+    "a": "Andre Dawson",
+    "choices": ["Andre Dawson", "Ryne Sandberg", "Mark Grace", "Shawon Dunston"],
+    "sport": "baseball",
+    "difficulty": "medium"
+  },
+  {
+    "q": "I hold the record for most World Series rings as a player with 10, all won with the New York Yankees. Who am I?",
+    "a": "Yogi Berra",
+    "choices": ["Yogi Berra", "Joe DiMaggio", "Mickey Mantle", "Phil Rizzuto"],
+    "sport": "baseball",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This pitcher holds the record for most career innings pitched in MLB history with 7,356. Name him.",
+    "a": "Cy Young",
+    "choices": ["Cy Young", "Nolan Ryan", "Pud Galvin", "Walter Johnson"],
+    "sport": "baseball",
+    "difficulty": "hard"
+  },
+  {
+    "q": "He hit .424 in 1924, the highest single-season batting average in the modern era of baseball. Who was he?",
+    "a": "Rogers Hornsby",
+    "choices": ["Rogers Hornsby", "Ty Cobb", "George Sisler", "Nap Lajoie"],
+    "sport": "baseball",
+    "difficulty": "hard"
+  },
+  {
+    "q": "This Phillies pitcher threw a perfect game on June 21, 1964, a Father's Day gem against the Mets. Name him.",
+    "a": "Jim Bunning",
+    "choices": ["Jim Bunning", "Robin Roberts", "Steve Carlton", "Chris Short"],
+    "sport": "baseball",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Called 'Catfish', this pitcher threw a perfect game in 1968 and won three World Series with the Oakland A's. Name him.",
+    "a": "Catfish Hunter",
+    "choices": ["Catfish Hunter", "Vida Blue", "Rollie Fingers", "Jim Palmer"],
+    "sport": "baseball",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This Mariners designated hitter was inducted into the Hall of Fame in 2019 after winning two AL batting titles. Name him.",
+    "a": "Edgar Martinez",
+    "choices": ["Edgar Martinez", "Ichiro Suzuki", "Ken Griffey Jr.", "Jay Buhner"],
+    "sport": "baseball",
+    "difficulty": "medium"
+  },
+  {
+    "q": "I won the NL Cy Young Award in 1988 after going 23-8 and setting the consecutive scoreless innings record with 59 straight. Who am I?",
+    "a": "Orel Hershiser",
+    "choices": ["Orel Hershiser", "Danny Jackson", "David Cone", "Dwight Gooden"],
+    "sport": "baseball",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This Reds outfielder hit 52 home runs in 1977 and won the NL MVP that season. Name him.",
+    "a": "George Foster",
+    "choices": ["George Foster", "Johnny Bench", "Joe Morgan", "Pete Rose"],
+    "sport": "baseball",
+    "difficulty": "hard"
+  },
+  {
+    "q": "He threw the first perfect game in modern MLB history on May 5, 1904. Who was he?",
+    "a": "Cy Young",
+    "choices": ["Cy Young", "Addie Joss", "Christy Mathewson", "Walter Johnson"],
+    "sport": "baseball",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Called 'Junior', this outfielder was the first overall pick in the 1987 MLB Draft and debuted at age 19 for the Mariners. Name him.",
+    "a": "Ken Griffey Jr.",
+    "choices": ["Ken Griffey Jr.", "Alex Rodriguez", "Chipper Jones", "Derek Jeter"],
+    "sport": "baseball",
+    "difficulty": "easy"
+  },
+  {
+    "q": "This outfielder won 12 AL batting titles during his career, the most in American League history. Name him.",
+    "a": "Ty Cobb",
+    "choices": ["Ty Cobb", "Ted Williams", "Rod Carew", "Wade Boggs"],
+    "sport": "baseball",
+    "difficulty": "medium"
+  },
+  {
+    "q": "He managed the New York Giants to three World Series titles in the early 20th century and won 2,763 career games. Who was he?",
+    "a": "John McGraw",
+    "choices": ["John McGraw", "Connie Mack", "Miller Huggins", "Joe McCarthy"],
+    "sport": "baseball",
+    "difficulty": "hard"
+  },
+  {
+    "q": "This first baseman hit 612 career home runs, the eighth-most in MLB history, playing for the Indians, Phillies, and White Sox among others. Name him.",
+    "a": "Jim Thome",
+    "choices": ["Jim Thome", "Frank Thomas", "Mark McGwire", "Manny Ramirez"],
+    "sport": "baseball",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Called 'Lefty', this Phillies pitcher won the 1972 NL Cy Young Award after going 27-10 for a team that won only 59 games total. Name him.",
+    "a": "Steve Carlton",
+    "choices": ["Steve Carlton", "Jim Bunning", "Robin Roberts", "Tug McGraw"],
+    "sport": "baseball",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This pitcher struck out 4,875 batters in his career, second only to Nolan Ryan on the all-time list. Name him.",
+    "a": "Randy Johnson",
+    "choices": ["Randy Johnson", "Roger Clemens", "Steve Carlton", "Greg Maddux"],
+    "sport": "baseball",
+    "difficulty": "medium"
+  },
+  {
+    "q": "He was the first player born in Japan to play in Major League Baseball, debuting for the Dodgers in 1995. Who was he?",
+    "a": "Hideo Nomo",
+    "choices": ["Hideo Nomo", "Ichiro Suzuki", "Hideki Matsui", "Kazuhiro Sasaki"],
+    "sport": "baseball",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This catcher won the NL MVP in 1970 and 1972 and is widely considered the greatest catcher in baseball history. Name him.",
+    "a": "Johnny Bench",
+    "choices": ["Johnny Bench", "Mike Piazza", "Ivan Rodriguez", "Carlton Fisk"],
+    "sport": "baseball",
+    "difficulty": "easy"
+  },
+  {
+    "q": "This player won the 2016 World Series MVP for the Cubs after driving in the go-ahead run in Game 7. Name him.",
+    "a": "Ben Zobrist",
+    "choices": ["Ben Zobrist", "Kris Bryant", "Anthony Rizzo", "Kyle Schwarber"],
+    "sport": "baseball",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Called 'Mr. Tiger', this outfielder played all 22 seasons for the Detroit Tigers and won the 1955 AL batting title at age 20. Name him.",
+    "a": "Al Kaline",
+    "choices": ["Al Kaline", "Ty Cobb", "Hank Greenberg", "Charlie Gehringer"],
+    "sport": "baseball",
+    "difficulty": "medium"
+  },
+  {
+    "q": "He was the 2019 World Series MVP after going 2-0 with a 2.51 ERA in three starts for the Washington Nationals. Who was he?",
+    "a": "Stephen Strasburg",
+    "choices": ["Stephen Strasburg", "Max Scherzer", "Anthony Rendon", "Howie Kendrick"],
+    "sport": "baseball",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This A's pitcher won both the AL Cy Young and MVP in 1971 at age 21. Name him.",
+    "a": "Vida Blue",
+    "choices": ["Vida Blue", "Catfish Hunter", "Rollie Fingers", "Ken Holtzman"],
+    "sport": "baseball",
+    "difficulty": "hard"
+  },
+  {
+    "q": "I hold the record for most consecutive games reaching base safely, with 84 in 2004. Who am I?",
+    "a": "Barry Bonds",
+    "choices": ["Barry Bonds", "Ted Williams", "Joe DiMaggio", "Todd Helton"],
+    "sport": "baseball",
+    "difficulty": "hard"
+  },
+  {
+    "q": "This Astros second baseman was hit by 285 pitches in his career, setting the modern-era record. Name him.",
+    "a": "Craig Biggio",
+    "choices": ["Craig Biggio", "Jeff Bagwell", "Jose Altuve", "Bill Doran"],
+    "sport": "baseball",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Called 'The Crime Dog', this first baseman hit 493 career home runs and was a five-time All-Star. Name him.",
+    "a": "Fred McGriff",
+    "choices": ["Fred McGriff", "Jeff Bagwell", "Mark Grace", "Rafael Palmeiro"],
+    "sport": "baseball",
+    "difficulty": "hard"
+  },
+  {
+    "q": "This pitcher holds the record for the lowest career ERA in MLB history (minimum 1,500 innings) with 1.82. Name him.",
+    "a": "Ed Walsh",
+    "choices": ["Ed Walsh", "Addie Joss", "Walter Johnson", "Christy Mathewson"],
+    "sport": "baseball",
+    "difficulty": "hard"
+  },
+  {
+    "q": "He played in a record 14 World Series during his career, all with the New York Yankees. Who was he?",
+    "a": "Yogi Berra",
+    "choices": ["Yogi Berra", "Mickey Mantle", "Joe DiMaggio", "Whitey Ford"],
+    "sport": "baseball",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This outfielder won 10 Silver Slugger Awards and hit 630 career home runs, playing for the Mariners, Reds, and White Sox. Name him.",
+    "a": "Ken Griffey Jr.",
+    "choices": ["Ken Griffey Jr.", "Barry Bonds", "Sammy Sosa", "Manny Ramirez"],
+    "sport": "baseball",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Called 'El Duque', this Cuban pitcher won four World Series rings with the Yankees. Name him.",
+    "a": "Orlando Hernandez",
+    "choices": ["Orlando Hernandez", "Mariano Rivera", "Andy Pettitte", "Bernie Williams"],
+    "sport": "baseball",
+    "difficulty": "hard"
+  },
+  {
+    "q": "This Tigers first baseman hit 58 home runs in 1938 and won two AL MVP Awards. Name him.",
+    "a": "Hank Greenberg",
+    "choices": ["Hank Greenberg", "Charlie Gehringer", "Rudy York", "Al Kaline"],
+    "sport": "baseball",
+    "difficulty": "hard"
+  },
+  {
+    "q": "He managed the Brooklyn and Los Angeles Dodgers for 23 seasons, winning four World Series titles. Who was he?",
+    "a": "Walter Alston",
+    "choices": ["Walter Alston", "Tommy Lasorda", "Leo Durocher", "Wilbert Robinson"],
+    "sport": "baseball",
+    "difficulty": "hard"
+  },
+  {
+    "q": "I was the first player to hit 500 career home runs and 3,000 career hits. Who am I?",
+    "a": "Hank Aaron",
+    "choices": ["Hank Aaron", "Willie Mays", "Eddie Murray", "Rafael Palmeiro"],
+    "sport": "baseball",
+    "difficulty": "hard"
+  },
+  {
+    "q": "This White Sox pitcher threw a perfect game on July 23, 2009. Name him.",
+    "a": "Mark Buehrle",
+    "choices": ["Mark Buehrle", "Jon Lester", "Chris Sale", "Jose Contreras"],
+    "sport": "baseball",
+    "difficulty": "hard"
+  },
+  {
+    "q": "This outfielder won the NL MVP in 2015 at age 22 after hitting .330 with 42 home runs for the Nationals. Name him.",
+    "a": "Bryce Harper",
+    "choices": ["Bryce Harper", "Anthony Rendon", "Ryan Zimmerman", "Daniel Murphy"],
+    "sport": "baseball",
+    "difficulty": "easy"
+  },
+  {
+    "q": "He led the American League in ERA nine times during his career, finishing with a 2.17 career ERA over 21 seasons. Who was he?",
+    "a": "Walter Johnson",
+    "choices": ["Walter Johnson", "Cy Young", "Lefty Grove", "Whitey Ford"],
+    "sport": "baseball",
+    "difficulty": "hard"
+  },
+  {
+    "q": "This pitcher was the NL Cy Young Award winner in 2011, 2013, and 2014 for the Dodgers. Name him.",
+    "a": "Clayton Kershaw",
+    "choices": ["Clayton Kershaw", "Zack Greinke", "Tim Lincecum", "Adam Wainwright"],
+    "sport": "baseball",
+    "difficulty": "medium"
+  },
+  {
+    "q": "I am the only pitcher to throw no-hitters in three consecutive seasons (1973, 1974, 1975) while pitching for the Angels. Who am I?",
+    "a": "Nolan Ryan",
+    "choices": ["Nolan Ryan", "Sandy Koufax", "Bob Feller", "Jim Palmer"],
+    "sport": "baseball",
+    "difficulty": "hard"
+  },
+  {
+    "q": "This Yankees closer won the 1999 World Series MVP, dominating with a 0.00 ERA in the Fall Classic. Name him.",
+    "a": "Mariano Rivera",
+    "choices": ["Mariano Rivera", "Derek Jeter", "Andy Pettitte", "Bernie Williams"],
+    "sport": "baseball",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This outfielder set the NL single-season stolen base record with 118 in 1974. Name him.",
+    "a": "Lou Brock",
+    "choices": ["Lou Brock", "Rickey Henderson", "Maury Wills", "Vince Coleman"],
+    "sport": "baseball",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Called 'The Ryan Express', this pitcher played for the Mets, Angels, Astros, and Rangers across 27 seasons. Name him.",
+    "a": "Nolan Ryan",
+    "choices": ["Nolan Ryan", "Steve Carlton", "Roger Clemens", "Randy Johnson"],
+    "sport": "baseball",
+    "difficulty": "easy"
+  },
+  {
+    "q": "This Red Sox pitcher won the 2016 AL Cy Young Award with a 22-4 record. Name him.",
+    "a": "Rick Porcello",
+    "choices": ["Rick Porcello", "David Price", "Chris Sale", "Steven Wright"],
+    "sport": "baseball",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Called 'The Human Rain Delay', this Indians first baseman was known for his meticulous batting routine. Name him.",
+    "a": "Mike Hargrove",
+    "choices": ["Mike Hargrove", "Andre Thornton", "Pat Tabler", "Joe Carter"],
+    "sport": "baseball",
+    "difficulty": "hard"
+  },
+  {
+    "q": "This Royals closer was dominant in the 2015 postseason, helping Kansas City win the World Series. Name him.",
+    "a": "Wade Davis",
+    "choices": ["Wade Davis", "Greg Holland", "Kelvin Herrera", "Danny Duffy"],
+    "sport": "baseball",
+    "difficulty": "hard"
+  },
+  {
+    "q": "He managed the Cincinnati Reds' 'Big Red Machine' to back-to-back World Series titles in 1975 and 1976. Who was he?",
+    "a": "Sparky Anderson",
+    "choices": ["Sparky Anderson", "Pete Rose", "Johnny Bench", "Joe Morgan"],
+    "sport": "baseball",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This outfielder recorded 601 career saves, making him the second-most prolific closer in MLB history at retirement. Name him.",
+    "a": "Trevor Hoffman",
+    "choices": ["Trevor Hoffman", "Lee Smith", "Mariano Rivera", "Billy Wagner"],
+    "sport": "baseball",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This shortstop stole 104 bases in 1962, setting a then-modern single-season record for the Dodgers. Name him.",
+    "a": "Maury Wills",
+    "choices": ["Maury Wills", "Lou Brock", "Rickey Henderson", "Bert Campaneris"],
+    "sport": "baseball",
+    "difficulty": "hard"
+  },
+  {
+    "q": "I won the AL Rookie of the Year and MVP in the same season in 1975 for the Red Sox after hitting .331 with 21 home runs. Who am I?",
+    "a": "Fred Lynn",
+    "choices": ["Fred Lynn", "Jim Rice", "Carl Yastrzemski", "Dwight Evans"],
+    "sport": "baseball",
+    "difficulty": "hard"
+  },
+  {
+    "q": "This knuckleball pitcher won 318 career games and pitched in the majors until age 48. Name him.",
+    "a": "Phil Niekro",
+    "choices": ["Phil Niekro", "Hoyt Wilhelm", "Tim Wakefield", "Charlie Hough"],
+    "sport": "baseball",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Called 'Buck', this Negro Leagues first baseman was often compared to Lou Gehrig and played alongside Josh Gibson on the Homestead Grays. Name him.",
+    "a": "Buck Leonard",
+    "choices": ["Buck Leonard", "Mule Suttles", "Ben Taylor", "George Giles"],
+    "sport": "baseball",
+    "difficulty": "hard"
+  },
+  {
+    "q": "This reliever won the 1984 AL Cy Young Award and MVP while serving as both starter and closer for the Tigers. Name him.",
+    "a": "Willie Hernandez",
+    "choices": ["Willie Hernandez", "Jack Morris", "Dan Petry", "Aurelio Lopez"],
+    "sport": "baseball",
+    "difficulty": "hard"
+  },
+  {
+    "q": "He won the 1992 NL MVP after hitting .311 with 35 home runs and 112 RBIs for the Pittsburgh Pirates. Who was he?",
+    "a": "Barry Bonds",
+    "choices": ["Barry Bonds", "Andy Van Slyke", "Bobby Bonilla", "Jay Bell"],
+    "sport": "baseball",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This right-hander won 300 career games and was known as 'The Chairman of the Board' during his time with the Yankees. Name him.",
+    "a": "Whitey Ford",
+    "choices": ["Whitey Ford", "Allie Reynolds", "Vic Raschi", "Red Ruffing"],
+    "sport": "baseball",
+    "difficulty": "hard"
+  },
+  {
+    "q": "I hold the record for most career sacrifice flies in MLB history with 128. Who am I?",
+    "a": "Hank Aaron",
+    "choices": ["Hank Aaron", "Robin Yount", "Cal Ripken Jr.", "Eddie Murray"],
+    "sport": "baseball",
+    "difficulty": "hard"
+  },
+  {
+    "q": "This Dodgers pitcher threw a no-hitter on June 18, 2014, striking out 15 batters against the Rockies. Name him.",
+    "a": "Clayton Kershaw",
+    "choices": ["Clayton Kershaw", "Zack Greinke", "Hyun-Jin Ryu", "Josh Beckett"],
+    "sport": "baseball",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Called 'The Toy Cannon', this Astros outfielder hit 35 home runs in 1967 despite standing just 5-foot-9. Name him.",
+    "a": "Jimmy Wynn",
+    "choices": ["Jimmy Wynn", "Joe Morgan", "Cesar Cedeno", "Bob Watson"],
+    "sport": "baseball",
+    "difficulty": "hard"
+  },
+  {
+    "q": "This Cardinals pitcher won the NL MVP in 1968 after posting a 1.12 ERA, the lowest in the live-ball era. Name him.",
+    "a": "Bob Gibson",
+    "choices": ["Bob Gibson", "Steve Carlton", "Juan Marichal", "Ferguson Jenkins"],
+    "sport": "baseball",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This Japanese pitcher and hitter won the 2021 AL MVP unanimously after hitting 46 home runs and posting a 3.18 ERA as a starting pitcher for the Angels. Name him.",
+    "a": "Shohei Ohtani",
+    "choices": ["Shohei Ohtani", "Mike Trout", "Aaron Judge", "Mookie Betts"],
+    "sport": "baseball",
+    "difficulty": "easy"
+  },
+  {
+    "q": "This closer recorded 478 career saves and was the first reliever to win the Cy Young Award in the AL, doing so in 1992. Name him.",
+    "a": "Dennis Eckersley",
+    "choices": ["Dennis Eckersley", "Rollie Fingers", "Goose Gossage", "Lee Smith"],
+    "sport": "baseball",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Called 'Wizard', this Padres and Cardinals shortstop won 13 consecutive Gold Glove Awards. Name him.",
+    "a": "Ozzie Smith",
+    "choices": ["Ozzie Smith", "Omar Vizquel", "Barry Larkin", "Cal Ripken Jr."],
+    "sport": "baseball",
+    "difficulty": "easy"
+  },
+  {
+    "q": "This Cardinals brothers duo combined for 49 wins in 1934, leading St. Louis to the World Series title. Name the elder brother who won 30 games that year.",
+    "a": "Dizzy Dean",
+    "choices": ["Dizzy Dean", "Paul Dean", "Grover Cleveland Alexander", "Jesse Haines"],
+    "sport": "baseball",
+    "difficulty": "hard"
+  },
+  {
+    "q": "He won the NL Cy Young Award in 2018 and 2020 while pitching for the Mets, posting historically low ERAs in both seasons. Who was he?",
+    "a": "Jacob deGrom",
+    "choices": ["Jacob deGrom", "Noah Syndergaard", "Max Scherzer", "Clayton Kershaw"],
+    "sport": "baseball",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This manager led the Dodgers from 1976 to 1996, winning two World Series titles and four NL pennants. Name him.",
+    "a": "Tommy Lasorda",
+    "choices": ["Tommy Lasorda", "Walter Alston", "Joe Torre", "Don Mattingly"],
+    "sport": "baseball",
+    "difficulty": "medium"
+  },
+  {
+    "q": "I pitched a no-hitter at Yankee Stadium on July 4, 1983, and finished my career with 324 wins. Who am I?",
+    "a": "Dave Righetti",
+    "choices": ["Nolan Ryan", "Dave Righetti", "Don Sutton", "Phil Niekro"],
+    "sport": "baseball",
+    "difficulty": "hard"
+  },
+  {
+    "q": "This outfielder won the 1979 NL MVP and World Series MVP for the Pittsburgh Pirates, earning the nickname 'Pops'. Name him.",
+    "a": "Willie Stargell",
+    "choices": ["Willie Stargell", "Dave Parker", "Bill Madlock", "Omar Moreno"],
+    "sport": "baseball",
+    "difficulty": "medium"
+  },
+  {
+    "q": "He won the 2006 AL MVP after hitting .347 with 35 home runs for the Minnesota Twins. Who was he?",
+    "a": "Justin Morneau",
+    "choices": ["Justin Morneau", "Joe Mauer", "Torii Hunter", "Johan Santana"],
+    "sport": "baseball",
+    "difficulty": "hard"
+  },
+  {
+    "q": "This reliever was known for his signature handlebar mustache and won the 1981 AL Cy Young and MVP Awards. Name him.",
+    "a": "Rollie Fingers",
+    "choices": ["Rollie Fingers", "Goose Gossage", "Dennis Eckersley", "Bruce Sutter"],
+    "sport": "baseball",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Called 'The Big Train', this pitcher won 417 career games and struck out 3,509 batters, holding the career strikeout record for decades. Name him.",
+    "a": "Walter Johnson",
+    "choices": ["Walter Johnson", "Cy Young", "Christy Mathewson", "Grover Cleveland Alexander"],
+    "sport": "baseball",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This second baseman won the 1984 NL MVP for the Cubs after hitting .314 with 19 home runs and 84 RBIs. Name him.",
+    "a": "Ryne Sandberg",
+    "choices": ["Ryne Sandberg", "Ron Cey", "Larry Bowa", "Keith Moreland"],
+    "sport": "baseball",
+    "difficulty": "medium"
+  },
+  {
+    "q": "He holds the record for most consecutive innings pitched without allowing an earned run during a World Series career, with 33.2 scoreless innings. Who was he?",
+    "a": "Whitey Ford",
+    "choices": ["Whitey Ford", "Sandy Koufax", "Bob Gibson", "Christy Mathewson"],
+    "sport": "baseball",
+    "difficulty": "hard"
+  },
+  {
+    "q": "This Phillies closer invented the split-finger fastball as his out pitch and won the 1979 NL Cy Young Award. Name him.",
+    "a": "Bruce Sutter",
+    "choices": ["Bruce Sutter", "Tug McGraw", "Steve Bedrosian", "Goose Gossage"],
+    "sport": "baseball",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Called 'Double X', this first baseman won the AL Triple Crown in 1933 and was the second player to reach 500 career home runs. Name him.",
+    "a": "Jimmie Foxx",
+    "choices": ["Jimmie Foxx", "Lou Gehrig", "Hank Greenberg", "Joe DiMaggio"],
+    "sport": "baseball",
+    "difficulty": "hard"
+  },
+  {
+    "q": "This pitcher won the 2009 AL Cy Young Award after going 19-8 with a 2.16 ERA and 269 strikeouts for the Royals. Name him.",
+    "a": "Zack Greinke",
+    "choices": ["Zack Greinke", "CC Sabathia", "Felix Hernandez", "Justin Verlander"],
+    "sport": "baseball",
+    "difficulty": "hard"
+  },
+  {
+    "q": "I won back-to-back NL MVP Awards in 1954 and 1955 while catching for the Brooklyn Dodgers. Who am I?",
+    "a": "Roy Campanella",
+    "choices": ["Roy Campanella", "Yogi Berra", "Del Crandall", "Smoky Burgess"],
+    "sport": "baseball",
+    "difficulty": "hard"
+  },
+  {
+    "q": "This Reds outfielder won the NL MVP in 1961 after hitting .323 with 37 home runs and later became the first player to win MVP in both leagues. Name him.",
+    "a": "Frank Robinson",
+    "choices": ["Frank Robinson", "Vada Pinson", "Johnny Bench", "Pete Rose"],
+    "sport": "baseball",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Called 'Goose', this intimidating reliever recorded 310 career saves and was inducted into the Hall of Fame in 2008. Name him.",
+    "a": "Goose Gossage",
+    "choices": ["Goose Gossage", "Rollie Fingers", "Dennis Eckersley", "Bruce Sutter"],
+    "sport": "baseball",
+    "difficulty": "hard"
+  },
+  {
+    "q": "This Twins catcher won three AL batting titles and the 2009 AL MVP Award. Name him.",
+    "a": "Joe Mauer",
+    "choices": ["Joe Mauer", "Justin Morneau", "Jason Kubel", "Torii Hunter"],
+    "sport": "baseball",
+    "difficulty": "medium"
+  },
+  {
+    "q": "I won 373 career games, tied for third on the all-time wins list, and threw two no-hitters for the Phillies. Who am I?",
+    "a": "Grover Cleveland Alexander",
+    "choices": ["Grover Cleveland Alexander", "Christy Mathewson", "Walter Johnson", "Warren Spahn"],
+    "sport": "baseball",
+    "difficulty": "hard"
+  },
+  {
+    "q": "This Yankees pitcher won 236 career games and is the franchise's all-time leader in wins. Name him.",
+    "a": "Whitey Ford",
+    "choices": ["Whitey Ford", "Red Ruffing", "Andy Pettitte", "Ron Guidry"],
+    "sport": "baseball",
+    "difficulty": "hard"
+  },
+  {
+    "q": "This Japanese outfielder was named 2009 World Series MVP after hitting .615 with 3 home runs and 8 RBIs for the Yankees. Name him.",
+    "a": "Hideki Matsui",
+    "choices": ["Hideki Matsui", "Alex Rodriguez", "Derek Jeter", "Mark Teixeira"],
+    "sport": "baseball",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Called 'The Barber', this Giants and Dodgers pitcher won 251 career games and was known for his tight inside pitches. Name him.",
+    "a": "Sal Maglie",
+    "choices": ["Sal Maglie", "Carl Erskine", "Don Newcombe", "Johnny Antonelli"],
+    "sport": "baseball",
+    "difficulty": "hard"
+  }
+]

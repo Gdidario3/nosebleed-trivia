@@ -1,0 +1,3554 @@
+[
+  {
+    "q": "I won 4 Ballon d'Or awards in a row from 2009 to 2012. Who am I?",
+    "a": "Lionel Messi",
+    "choices": [
+      "Cristiano Ronaldo",
+      "Lionel Messi",
+      "Andres Iniesta",
+      "Xavi Hernandez"
+    ],
+    "sport": "soccer",
+    "difficulty": "easy"
+  },
+  {
+    "q": "This French striker scored a hat-trick in the 2022 World Cup final but still finished on the losing side. Name him.",
+    "a": "Kylian Mbappe",
+    "choices": [
+      "Lionel Messi",
+      "Kylian Mbappe",
+      "Antoine Griezmann",
+      "Olivier Giroud"
+    ],
+    "sport": "soccer",
+    "difficulty": "medium"
+  },
+  {
+    "q": "He scored 91 goals in a single calendar year in 2012, breaking Gerd Muller's record. Who was he?",
+    "a": "Lionel Messi",
+    "choices": [
+      "Cristiano Ronaldo",
+      "Lionel Messi",
+      "Robert Lewandowski",
+      "Neymar"
+    ],
+    "sport": "soccer",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This club has won the most La Liga titles in history. Name them.",
+    "a": "Real Madrid",
+    "choices": [
+      "Barcelona",
+      "Real Madrid",
+      "Atletico Madrid",
+      "Athletic Bilbao"
+    ],
+    "sport": "soccer",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Called 'The Black Panther', this striker was the Ballon d'Or winner in 1995. Name him.",
+    "a": "George Weah",
+    "choices": [
+      "George Weah",
+      "Samuel Eto'o",
+      "Didier Drogba",
+      "Roger Milla"
+    ],
+    "sport": "soccer",
+    "difficulty": "hard"
+  },
+  {
+    "q": "This manager won the Champions League three consecutive times with Real Madrid from 2016 to 2018. Who was he?",
+    "a": "Zinedine Zidane",
+    "choices": [
+      "Carlo Ancelotti",
+      "Zinedine Zidane",
+      "Jose Mourinho",
+      "Fabio Capello"
+    ],
+    "sport": "soccer",
+    "difficulty": "medium"
+  },
+  {
+    "q": "I played for Barcelona, PSG, and Inter Miami during my career. Who am I?",
+    "a": "Lionel Messi",
+    "choices": [
+      "Neymar",
+      "Lionel Messi",
+      "Sergio Busquets",
+      "Luis Suarez"
+    ],
+    "sport": "soccer",
+    "difficulty": "easy"
+  },
+  {
+    "q": "This Brazilian is the all-time leading scorer in men's international football with 77 goals in official FIFA matches. Name him.",
+    "a": "Pele",
+    "choices": [
+      "Ronaldo Nazario",
+      "Pele",
+      "Romario",
+      "Neymar"
+    ],
+    "sport": "soccer",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Called 'The Phenomenon', this Brazilian striker won two World Cups and two Ballon d'Or awards. Name him.",
+    "a": "Ronaldo Nazario",
+    "choices": [
+      "Ronaldo Nazario",
+      "Ronaldinho",
+      "Rivaldo",
+      "Romario"
+    ],
+    "sport": "soccer",
+    "difficulty": "easy"
+  },
+  {
+    "q": "This English club became the first to win the treble of Premier League, FA Cup, and Champions League in 1999. Name them.",
+    "a": "Manchester United",
+    "choices": [
+      "Liverpool",
+      "Manchester United",
+      "Arsenal",
+      "Chelsea"
+    ],
+    "sport": "soccer",
+    "difficulty": "easy"
+  },
+  {
+    "q": "I scored the 'Hand of God' goal and the 'Goal of the Century' in the same 1986 World Cup match against England. Who am I?",
+    "a": "Diego Maradona",
+    "choices": [
+      "Diego Maradona",
+      "Pele",
+      "Lionel Messi",
+      "Gabriel Batistuta"
+    ],
+    "sport": "soccer",
+    "difficulty": "easy"
+  },
+  {
+    "q": "This Italian goalkeeper won the 2006 World Cup and the Ballon d'Or the same year. Name him.",
+    "a": "Fabio Cannavaro",
+    "choices": [
+      "Gianluigi Buffon",
+      "Fabio Cannavaro",
+      "Paolo Maldini",
+      "Alessandro Nesta"
+    ],
+    "sport": "soccer",
+    "difficulty": "hard"
+  },
+  {
+    "q": "This Dutch legend introduced the concept of 'Total Football' and won three consecutive European Cups with Ajax from 1971 to 1973. Name him.",
+    "a": "Johan Cruyff",
+    "choices": [
+      "Johan Cruyff",
+      "Marco van Basten",
+      "Ruud Gullit",
+      "Frank Rijkaard"
+    ],
+    "sport": "soccer",
+    "difficulty": "medium"
+  },
+  {
+    "q": "I am the all-time top scorer in Champions League history. Who am I?",
+    "a": "Cristiano Ronaldo",
+    "choices": [
+      "Lionel Messi",
+      "Cristiano Ronaldo",
+      "Robert Lewandowski",
+      "Raul"
+    ],
+    "sport": "soccer",
+    "difficulty": "easy"
+  },
+  {
+    "q": "This manager led Arsenal to an unbeaten Premier League season in 2003-04. Who was he?",
+    "a": "Arsene Wenger",
+    "choices": [
+      "Arsene Wenger",
+      "Alex Ferguson",
+      "Jose Mourinho",
+      "Rafael Benitez"
+    ],
+    "sport": "soccer",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Called 'Il Divin Codino', this Italian playmaker finished runner-up in three World Cup finals. Name him.",
+    "a": "Roberto Baggio",
+    "choices": [
+      "Roberto Baggio",
+      "Alessandro Del Piero",
+      "Francesco Totti",
+      "Andrea Pirlo"
+    ],
+    "sport": "soccer",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This club has won the most Champions League/European Cup titles in history. Name them.",
+    "a": "Real Madrid",
+    "choices": [
+      "AC Milan",
+      "Real Madrid",
+      "Liverpool",
+      "Bayern Munich"
+    ],
+    "sport": "soccer",
+    "difficulty": "easy"
+  },
+  {
+    "q": "I managed Manchester United for 26 years and won 13 Premier League titles. Who am I?",
+    "a": "Alex Ferguson",
+    "choices": [
+      "Alex Ferguson",
+      "Arsene Wenger",
+      "Matt Busby",
+      "Jose Mourinho"
+    ],
+    "sport": "soccer",
+    "difficulty": "easy"
+  },
+  {
+    "q": "This French midfielder scored two headers in the 1998 World Cup final to lead France to their first title. Name him.",
+    "a": "Zinedine Zidane",
+    "choices": [
+      "Zinedine Zidane",
+      "Thierry Henry",
+      "Patrick Vieira",
+      "Didier Deschamps"
+    ],
+    "sport": "soccer",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Called 'The Kaiser', this German defender and midfielder captained West Germany to a World Cup victory in 1974. Name him.",
+    "a": "Franz Beckenbauer",
+    "choices": [
+      "Franz Beckenbauer",
+      "Gerd Muller",
+      "Lothar Matthaus",
+      "Karl-Heinz Rummenigge"
+    ],
+    "sport": "soccer",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This Ukrainian forward won the Ballon d'Or in 2004 while playing for AC Milan. Name him.",
+    "a": "Andriy Shevchenko",
+    "choices": [
+      "Andriy Shevchenko",
+      "Oleg Blokhin",
+      "Serhiy Rebrov",
+      "Oleh Luzhnyi"
+    ],
+    "sport": "soccer",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This Polish striker scored 5 goals in 9 minutes as a substitute for Bayern Munich against Wolfsburg in 2015. Name him.",
+    "a": "Robert Lewandowski",
+    "choices": [
+      "Robert Lewandowski",
+      "Thomas Muller",
+      "Mario Gomez",
+      "Miroslav Klose"
+    ],
+    "sport": "soccer",
+    "difficulty": "medium"
+  },
+  {
+    "q": "I am known as 'CR7' and I have won league titles in England, Spain, and Italy. Who am I?",
+    "a": "Cristiano Ronaldo",
+    "choices": [
+      "Cristiano Ronaldo",
+      "Lionel Messi",
+      "David Beckham",
+      "Zlatan Ibrahimovic"
+    ],
+    "sport": "soccer",
+    "difficulty": "easy"
+  },
+  {
+    "q": "This goalkeeper holds the record for the most clean sheets in Premier League history. Name him.",
+    "a": "Petr Cech",
+    "choices": [
+      "Petr Cech",
+      "Peter Schmeichel",
+      "David De Gea",
+      "Edwin van der Sar"
+    ],
+    "sport": "soccer",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Called 'The Egyptian King', this forward became Liverpool's top Premier League scorer in a single season with 32 goals in 2017-18. Name him.",
+    "a": "Mohamed Salah",
+    "choices": [
+      "Mohamed Salah",
+      "Sadio Mane",
+      "Roberto Firmino",
+      "Luis Suarez"
+    ],
+    "sport": "soccer",
+    "difficulty": "easy"
+  },
+  {
+    "q": "This country won the first ever FIFA World Cup in 1930 as hosts. Name them.",
+    "a": "Uruguay",
+    "choices": [
+      "Brazil",
+      "Argentina",
+      "Uruguay",
+      "Italy"
+    ],
+    "sport": "soccer",
+    "difficulty": "medium"
+  },
+  {
+    "q": "I captained Italy to the 2006 World Cup title and spent my entire career at Juventus. Who am I?",
+    "a": "Gianluigi Buffon",
+    "choices": [
+      "Gianluigi Buffon",
+      "Fabio Cannavaro",
+      "Paolo Maldini",
+      "Andrea Pirlo"
+    ],
+    "sport": "soccer",
+    "difficulty": "hard"
+  },
+  {
+    "q": "This English striker is the all-time top scorer in Premier League history. Name him.",
+    "a": "Alan Shearer",
+    "choices": [
+      "Wayne Rooney",
+      "Alan Shearer",
+      "Andrew Cole",
+      "Thierry Henry"
+    ],
+    "sport": "soccer",
+    "difficulty": "easy"
+  },
+  {
+    "q": "This Spanish club is known as 'Los Blancos' and plays at the Santiago Bernabeu. Name them.",
+    "a": "Real Madrid",
+    "choices": [
+      "Real Madrid",
+      "Barcelona",
+      "Valencia",
+      "Sevilla"
+    ],
+    "sport": "soccer",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Called 'O Rei' (The King), this Brazilian is widely considered the greatest player of all time. Name him.",
+    "a": "Pele",
+    "choices": [
+      "Pele",
+      "Garrincha",
+      "Ronaldo Nazario",
+      "Ronaldinho"
+    ],
+    "sport": "soccer",
+    "difficulty": "easy"
+  },
+  {
+    "q": "This manager won the Champions League with Porto in 2004 and later with Inter Milan in 2010. Who was he?",
+    "a": "Jose Mourinho",
+    "choices": [
+      "Jose Mourinho",
+      "Carlo Ancelotti",
+      "Rafael Benitez",
+      "Louis van Gaal"
+    ],
+    "sport": "soccer",
+    "difficulty": "medium"
+  },
+  {
+    "q": "I scored a famous volley in the 2002 Champions League final for Real Madrid against Bayer Leverkusen. Who am I?",
+    "a": "Zinedine Zidane",
+    "choices": [
+      "Zinedine Zidane",
+      "Raul",
+      "Roberto Carlos",
+      "Luis Figo"
+    ],
+    "sport": "soccer",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This German striker holds the record for most goals in a single Bundesliga season with 41 in 2020-21. Name him.",
+    "a": "Robert Lewandowski",
+    "choices": [
+      "Robert Lewandowski",
+      "Gerd Muller",
+      "Pierre-Emerick Aubameyang",
+      "Erling Haaland"
+    ],
+    "sport": "soccer",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Called 'El Pibe de Oro' (The Golden Boy), this Argentine legend wore the number 10 for Napoli. Name him.",
+    "a": "Diego Maradona",
+    "choices": [
+      "Diego Maradona",
+      "Lionel Messi",
+      "Juan Roman Riquelme",
+      "Gabriel Batistuta"
+    ],
+    "sport": "soccer",
+    "difficulty": "easy"
+  },
+  {
+    "q": "This English club won the Champions League in 2005 after coming back from 3-0 down at halftime against AC Milan. Name them.",
+    "a": "Liverpool",
+    "choices": [
+      "Liverpool",
+      "Manchester United",
+      "Chelsea",
+      "Arsenal"
+    ],
+    "sport": "soccer",
+    "difficulty": "easy"
+  },
+  {
+    "q": "This Brazilian left-back was famous for his powerful free kicks and played for Real Madrid from 1996 to 2007. Name him.",
+    "a": "Roberto Carlos",
+    "choices": [
+      "Roberto Carlos",
+      "Marcelo",
+      "Cafu",
+      "Carlos Alberto"
+    ],
+    "sport": "soccer",
+    "difficulty": "easy"
+  },
+  {
+    "q": "I won the Ballon d'Or in 2007 while playing for AC Milan after moving from Brazil. Who am I?",
+    "a": "Kaka",
+    "choices": [
+      "Kaka",
+      "Ronaldinho",
+      "Rivaldo",
+      "Adriano"
+    ],
+    "sport": "soccer",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This Italian defender spent his entire 25-year career at AC Milan, making over 900 appearances. Name him.",
+    "a": "Paolo Maldini",
+    "choices": [
+      "Paolo Maldini",
+      "Franco Baresi",
+      "Fabio Cannavaro",
+      "Alessandro Nesta"
+    ],
+    "sport": "soccer",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Called 'Der Bomber', this German striker scored 14 goals in a single World Cup tournament in 1970. Name him.",
+    "a": "Gerd Muller",
+    "choices": [
+      "Gerd Muller",
+      "Miroslav Klose",
+      "Jurgen Klinsmann",
+      "Karl-Heinz Rummenigge"
+    ],
+    "sport": "soccer",
+    "difficulty": "hard"
+  },
+  {
+    "q": "This club won six trophies in a single calendar year in 2009, a feat known as 'the sextuple'. Name them.",
+    "a": "Barcelona",
+    "choices": [
+      "Barcelona",
+      "Bayern Munich",
+      "Real Madrid",
+      "Manchester United"
+    ],
+    "sport": "soccer",
+    "difficulty": "medium"
+  },
+  {
+    "q": "I am the all-time top scorer for the Brazil national team with 77 goals. Who am I?",
+    "a": "Neymar",
+    "choices": [
+      "Pele",
+      "Ronaldo Nazario",
+      "Neymar",
+      "Romario"
+    ],
+    "sport": "soccer",
+    "difficulty": "hard"
+  },
+  {
+    "q": "This French defender captained his country and is known for his heading ability. He played for Real Madrid from 2019 and wears number 4. Name him.",
+    "a": "David Alaba",
+    "choices": [
+      "Raphael Varane",
+      "David Alaba",
+      "Sergio Ramos",
+      "Antonio Rudiger"
+    ],
+    "sport": "soccer",
+    "difficulty": "hard"
+  },
+  {
+    "q": "This Swedish striker is known for his acrobatic bicycle kick goal against England in 2012. Name him.",
+    "a": "Zlatan Ibrahimovic",
+    "choices": [
+      "Zlatan Ibrahimovic",
+      "Henrik Larsson",
+      "Freddie Ljungberg",
+      "Marcus Berg"
+    ],
+    "sport": "soccer",
+    "difficulty": "easy"
+  },
+  {
+    "q": "This country has won the most FIFA World Cup titles with five. Name them.",
+    "a": "Brazil",
+    "choices": [
+      "Brazil",
+      "Germany",
+      "Italy",
+      "Argentina"
+    ],
+    "sport": "soccer",
+    "difficulty": "easy"
+  },
+  {
+    "q": "I managed Barcelona and later Manchester City, known for my 'tiki-taka' style of play. Who am I?",
+    "a": "Pep Guardiola",
+    "choices": [
+      "Pep Guardiola",
+      "Luis Enrique",
+      "Johan Cruyff",
+      "Frank Rijkaard"
+    ],
+    "sport": "soccer",
+    "difficulty": "easy"
+  },
+  {
+    "q": "This Ivory Coast striker was Chelsea's all-time leading scorer in the Premier League with 104 goals before being surpassed. Name him.",
+    "a": "Didier Drogba",
+    "choices": [
+      "Didier Drogba",
+      "Frank Lampard",
+      "Jimmy Floyd Hasselbaink",
+      "Gianfranco Zola"
+    ],
+    "sport": "soccer",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Called 'The Galloping Major', this Hungarian scored 84 goals in 85 internationals and starred in the legendary 1954 World Cup. Name him.",
+    "a": "Ferenc Puskas",
+    "choices": [
+      "Ferenc Puskas",
+      "Sandor Kocsis",
+      "Nandor Hidegkuti",
+      "Laszlo Kubala"
+    ],
+    "sport": "soccer",
+    "difficulty": "hard"
+  },
+  {
+    "q": "This English midfielder scored a famous halfway-line goal on the opening day of the 1996-97 Premier League season against Wimbledon. Name him.",
+    "a": "David Beckham",
+    "choices": [
+      "David Beckham",
+      "Paul Scholes",
+      "Steven Gerrard",
+      "Frank Lampard"
+    ],
+    "sport": "soccer",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This German goalkeeper is known for his 'sweeper-keeper' style and played for Bayern Munich and the German national team. Name him.",
+    "a": "Manuel Neuer",
+    "choices": [
+      "Manuel Neuer",
+      "Oliver Kahn",
+      "Marc-Andre ter Stegen",
+      "Jens Lehmann"
+    ],
+    "sport": "soccer",
+    "difficulty": "easy"
+  },
+  {
+    "q": "I scored the winning goal in the 2010 World Cup final for Spain against the Netherlands. Who am I?",
+    "a": "Andres Iniesta",
+    "choices": [
+      "Andres Iniesta",
+      "David Villa",
+      "Xavi Hernandez",
+      "Fernando Torres"
+    ],
+    "sport": "soccer",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This club, based in Turin, is the most successful club in Italian football history by league titles. Name them.",
+    "a": "Juventus",
+    "choices": [
+      "Juventus",
+      "AC Milan",
+      "Inter Milan",
+      "AS Roma"
+    ],
+    "sport": "soccer",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Called 'Le Professeur', this French manager managed Arsenal for 22 years. Name him.",
+    "a": "Arsene Wenger",
+    "choices": [
+      "Arsene Wenger",
+      "Gerard Houllier",
+      "Didier Deschamps",
+      "Zinedine Zidane"
+    ],
+    "sport": "soccer",
+    "difficulty": "easy"
+  },
+  {
+    "q": "This midfielder scored a stunning long-range goal in the 2014 World Cup for James Rodriguez. Which country did he represent?",
+    "a": "Colombia",
+    "choices": [
+      "Colombia",
+      "Brazil",
+      "Uruguay",
+      "Argentina"
+    ],
+    "sport": "soccer",
+    "difficulty": "medium"
+  },
+  {
+    "q": "I held the record for most goals in World Cup history with 16 until it was only recently matched. Who am I?",
+    "a": "Miroslav Klose",
+    "choices": [
+      "Miroslav Klose",
+      "Ronaldo Nazario",
+      "Gerd Muller",
+      "Just Fontaine"
+    ],
+    "sport": "soccer",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This Cameroonian forward is the oldest player to score a goal at a FIFA World Cup, doing so at age 42 in 1994. Name him.",
+    "a": "Roger Milla",
+    "choices": [
+      "Roger Milla",
+      "Samuel Eto'o",
+      "Patrick Mboma",
+      "Rigobert Song"
+    ],
+    "sport": "soccer",
+    "difficulty": "hard"
+  },
+  {
+    "q": "This Spanish midfielder won the Euro 2008, World Cup 2010, and Euro 2012. He spent most of his career at Barcelona. Name him.",
+    "a": "Xavi Hernandez",
+    "choices": [
+      "Xavi Hernandez",
+      "Andres Iniesta",
+      "Sergio Busquets",
+      "Cesc Fabregas"
+    ],
+    "sport": "soccer",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Called 'The Special One', this Portuguese manager won the Premier League with Chelsea in his first season in 2004-05. Name him.",
+    "a": "Jose Mourinho",
+    "choices": [
+      "Jose Mourinho",
+      "Carlo Ancelotti",
+      "Claudio Ranieri",
+      "Antonio Conte"
+    ],
+    "sport": "soccer",
+    "difficulty": "easy"
+  },
+  {
+    "q": "This Cameroonian striker won back-to-back Champions League titles with Barcelona in 2009 and Inter Milan in 2010. Name him.",
+    "a": "Samuel Eto'o",
+    "choices": [
+      "Samuel Eto'o",
+      "Didier Drogba",
+      "Yaya Toure",
+      "Roger Milla"
+    ],
+    "sport": "soccer",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This Argentine forward scored in both the 2014 and 2022 World Cup finals. Name him.",
+    "a": "Lionel Messi",
+    "choices": [
+      "Lionel Messi",
+      "Gonzalo Higuain",
+      "Angel Di Maria",
+      "Paulo Dybala"
+    ],
+    "sport": "soccer",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This English club won the Champions League for the first time in 2012, beating Bayern Munich on penalties. Name them.",
+    "a": "Chelsea",
+    "choices": [
+      "Chelsea",
+      "Manchester City",
+      "Tottenham",
+      "Liverpool"
+    ],
+    "sport": "soccer",
+    "difficulty": "easy"
+  },
+  {
+    "q": "I was known as 'Ronaldinho' and I won the Ballon d'Or in 2005 while playing for Barcelona. Who am I?",
+    "a": "Ronaldinho",
+    "choices": [
+      "Ronaldinho",
+      "Rivaldo",
+      "Ronaldo Nazario",
+      "Kaka"
+    ],
+    "sport": "soccer",
+    "difficulty": "easy"
+  },
+  {
+    "q": "This French striker holds the record for most goals in a single World Cup tournament with 13 goals in 1958. Name him.",
+    "a": "Just Fontaine",
+    "choices": [
+      "Just Fontaine",
+      "Zinedine Zidane",
+      "Michel Platini",
+      "Thierry Henry"
+    ],
+    "sport": "soccer",
+    "difficulty": "hard"
+  },
+  {
+    "q": "This German club went unbeaten through an entire Bundesliga season in 2023-24 under Xabi Alonso. Name them.",
+    "a": "Bayer Leverkusen",
+    "choices": [
+      "Bayer Leverkusen",
+      "Bayern Munich",
+      "Borussia Dortmund",
+      "RB Leipzig"
+    ],
+    "sport": "soccer",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This English midfielder captained Liverpool to their Champions League triumph in 2005, scoring a crucial goal in the comeback against AC Milan. Name him.",
+    "a": "Steven Gerrard",
+    "choices": [
+      "Steven Gerrard",
+      "Xabi Alonso",
+      "Jamie Carragher",
+      "Dietmar Hamann"
+    ],
+    "sport": "soccer",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Called 'The Atomic Ant' for his small stature and explosive play, this Argentine forward starred for Atletico Madrid. Name him.",
+    "a": "Sergio Aguero",
+    "choices": [
+      "Sergio Aguero",
+      "Carlos Tevez",
+      "Diego Forlan",
+      "Radamel Falcao"
+    ],
+    "sport": "soccer",
+    "difficulty": "hard"
+  },
+  {
+    "q": "I scored the winning goal in stoppage time to give Manchester City their first Premier League title in 2012. Who am I?",
+    "a": "Sergio Aguero",
+    "choices": [
+      "Sergio Aguero",
+      "Carlos Tevez",
+      "Mario Balotelli",
+      "Edin Dzeko"
+    ],
+    "sport": "soccer",
+    "difficulty": "easy"
+  },
+  {
+    "q": "This Italian midfielder was known for his elegance and won the 2006 World Cup. He played for AC Milan and Juventus. Name him.",
+    "a": "Andrea Pirlo",
+    "choices": [
+      "Andrea Pirlo",
+      "Gennaro Gattuso",
+      "Daniele De Rossi",
+      "Francesco Totti"
+    ],
+    "sport": "soccer",
+    "difficulty": "easy"
+  },
+  {
+    "q": "This manager led Leicester City to their shocking Premier League title in 2015-16. Who was he?",
+    "a": "Claudio Ranieri",
+    "choices": [
+      "Claudio Ranieri",
+      "Nigel Pearson",
+      "Brendan Rodgers",
+      "Craig Shakespeare"
+    ],
+    "sport": "soccer",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Called 'Il Capitano', this Roma legend spent his entire career at the club and scored over 300 goals. Name him.",
+    "a": "Francesco Totti",
+    "choices": [
+      "Francesco Totti",
+      "Daniele De Rossi",
+      "Bruno Conti",
+      "Gabriel Batistuta"
+    ],
+    "sport": "soccer",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This Brazilian defender scored a famous header in the 1970 World Cup final. He captained what is often called the greatest team ever. Name him.",
+    "a": "Carlos Alberto",
+    "choices": [
+      "Carlos Alberto",
+      "Pele",
+      "Jairzinho",
+      "Rivelino"
+    ],
+    "sport": "soccer",
+    "difficulty": "hard"
+  },
+  {
+    "q": "I won 5 Ballon d'Or awards in my career and have scored over 800 career goals. I am Portuguese. Who am I?",
+    "a": "Cristiano Ronaldo",
+    "choices": [
+      "Cristiano Ronaldo",
+      "Lionel Messi",
+      "Eusebio",
+      "Luis Figo"
+    ],
+    "sport": "soccer",
+    "difficulty": "easy"
+  },
+  {
+    "q": "This club won the first ever Premier League season in 1992-93. Name them.",
+    "a": "Manchester United",
+    "choices": [
+      "Manchester United",
+      "Arsenal",
+      "Blackburn Rovers",
+      "Liverpool"
+    ],
+    "sport": "soccer",
+    "difficulty": "easy"
+  },
+  {
+    "q": "This Dutch striker won the Ballon d'Or in 1988 and scored a famous volley in the European Championship final the same year. Name him.",
+    "a": "Marco van Basten",
+    "choices": [
+      "Marco van Basten",
+      "Ruud Gullit",
+      "Frank Rijkaard",
+      "Dennis Bergkamp"
+    ],
+    "sport": "soccer",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Called 'The Iceman', this Dutch striker was known for his composure and skill. He scored a legendary goal against Argentina at the 1998 World Cup. Name him.",
+    "a": "Dennis Bergkamp",
+    "choices": [
+      "Dennis Bergkamp",
+      "Ruud van Nistelrooy",
+      "Patrick Kluivert",
+      "Robin van Persie"
+    ],
+    "sport": "soccer",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This German club has won the most Bundesliga titles in history. Name them.",
+    "a": "Bayern Munich",
+    "choices": [
+      "Bayern Munich",
+      "Borussia Dortmund",
+      "Borussia Monchengladbach",
+      "Hamburger SV"
+    ],
+    "sport": "soccer",
+    "difficulty": "easy"
+  },
+  {
+    "q": "I managed AC Milan and Real Madrid, winning the Champions League with both clubs. I am Italian. Who am I?",
+    "a": "Carlo Ancelotti",
+    "choices": [
+      "Carlo Ancelotti",
+      "Fabio Capello",
+      "Marcello Lippi",
+      "Giovanni Trapattoni"
+    ],
+    "sport": "soccer",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This Nigerian forward won the African Footballer of the Year twice and played for Arsenal and Inter Milan. Name him.",
+    "a": "Nwankwo Kanu",
+    "choices": [
+      "Nwankwo Kanu",
+      "Jay-Jay Okocha",
+      "Rashidi Yekini",
+      "Victor Ikpeba"
+    ],
+    "sport": "soccer",
+    "difficulty": "hard"
+  },
+  {
+    "q": "This midfielder was known as 'The Maestro' and played for Juventus, Real Madrid, and Inter Milan. He wore the number 5. Name him.",
+    "a": "Zinedine Zidane",
+    "choices": [
+      "Zinedine Zidane",
+      "Andrea Pirlo",
+      "Michel Platini",
+      "Luka Modric"
+    ],
+    "sport": "soccer",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This country won the European Championship in 1992 despite only qualifying as a late replacement for Yugoslavia. Name them.",
+    "a": "Denmark",
+    "choices": [
+      "Denmark",
+      "Sweden",
+      "Greece",
+      "Netherlands"
+    ],
+    "sport": "soccer",
+    "difficulty": "hard"
+  },
+  {
+    "q": "This Liberian became the first African-born player to win the Ballon d'Or and later became president of his country. Name him.",
+    "a": "George Weah",
+    "choices": [
+      "George Weah",
+      "Samuel Eto'o",
+      "Didier Drogba",
+      "Abedi Pele"
+    ],
+    "sport": "soccer",
+    "difficulty": "medium"
+  },
+  {
+    "q": "I am known for the 'Cruyff Turn', a skill move I popularized at the 1974 World Cup. Who am I?",
+    "a": "Johan Cruyff",
+    "choices": [
+      "Johan Cruyff",
+      "Pele",
+      "Franz Beckenbauer",
+      "Johan Neeskens"
+    ],
+    "sport": "soccer",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This defender scored the decisive penalty in the 2006 World Cup final shootout for Italy against France. Name him.",
+    "a": "Fabio Grosso",
+    "choices": [
+      "Fabio Grosso",
+      "Marco Materazzi",
+      "Fabio Cannavaro",
+      "Andrea Pirlo"
+    ],
+    "sport": "soccer",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Called 'King Kenny', this Scottish striker is a legend at Liverpool and later managed the club twice. Name him.",
+    "a": "Kenny Dalglish",
+    "choices": [
+      "Kenny Dalglish",
+      "Ian Rush",
+      "Graeme Souness",
+      "Alan Hansen"
+    ],
+    "sport": "soccer",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This Portuguese forward was known as 'The Black Pearl' and starred at the 1966 World Cup for Portugal. Name him.",
+    "a": "Eusebio",
+    "choices": [
+      "Eusebio",
+      "Luis Figo",
+      "Rui Costa",
+      "Cristiano Ronaldo"
+    ],
+    "sport": "soccer",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This club won the Champions League in 1999 with two injury-time goals in the final against Bayern Munich. Name them.",
+    "a": "Manchester United",
+    "choices": [
+      "Manchester United",
+      "Real Madrid",
+      "Barcelona",
+      "Juventus"
+    ],
+    "sport": "soccer",
+    "difficulty": "easy"
+  },
+  {
+    "q": "I won the Golden Boot at the 2018 World Cup with 6 goals for England. Who am I?",
+    "a": "Harry Kane",
+    "choices": [
+      "Harry Kane",
+      "Raheem Sterling",
+      "Marcus Rashford",
+      "Jamie Vardy"
+    ],
+    "sport": "soccer",
+    "difficulty": "easy"
+  },
+  {
+    "q": "This Argentine manager led Argentina to the 2022 World Cup title and had previously managed Marseille and Sevilla. Name him.",
+    "a": "Lionel Scaloni",
+    "choices": [
+      "Lionel Scaloni",
+      "Marcelo Bielsa",
+      "Diego Simeone",
+      "Mauricio Pochettino"
+    ],
+    "sport": "soccer",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This Italian club's stadium is called San Siro, which they share with their city rivals. They wear black and blue stripes. Name them.",
+    "a": "Inter Milan",
+    "choices": [
+      "Inter Milan",
+      "AC Milan",
+      "Juventus",
+      "Atalanta"
+    ],
+    "sport": "soccer",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Called 'El Nino', this Spanish striker won the 2008 and 2012 European Championships and the 2010 World Cup. Name him.",
+    "a": "Fernando Torres",
+    "choices": [
+      "Fernando Torres",
+      "David Villa",
+      "Raul",
+      "Diego Costa"
+    ],
+    "sport": "soccer",
+    "difficulty": "easy"
+  },
+  {
+    "q": "This Croatian midfielder won the Ballon d'Or in 2018, breaking the Messi-Ronaldo dominance. Name him.",
+    "a": "Luka Modric",
+    "choices": [
+      "Luka Modric",
+      "Ivan Rakitic",
+      "Mateo Kovacic",
+      "Toni Kroos"
+    ],
+    "sport": "soccer",
+    "difficulty": "easy"
+  },
+  {
+    "q": "This Welsh forward became the most expensive player in history when he moved to Real Madrid in 2013 for 100 million euros. Name him.",
+    "a": "Gareth Bale",
+    "choices": [
+      "Gareth Bale",
+      "Ryan Giggs",
+      "Aaron Ramsey",
+      "Craig Bellamy"
+    ],
+    "sport": "soccer",
+    "difficulty": "easy"
+  },
+  {
+    "q": "I scored a bicycle kick goal in the 2018 Champions League quarterfinal for Real Madrid against Juventus. Who am I?",
+    "a": "Cristiano Ronaldo",
+    "choices": [
+      "Cristiano Ronaldo",
+      "Gareth Bale",
+      "Karim Benzema",
+      "Marco Asensio"
+    ],
+    "sport": "soccer",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This French defender captained France and Manchester United, known for his strong leadership and heading ability. Name him.",
+    "a": "Raphael Varane",
+    "choices": [
+      "Raphael Varane",
+      "Patrice Evra",
+      "Laurent Blanc",
+      "William Gallas"
+    ],
+    "sport": "soccer",
+    "difficulty": "hard"
+  },
+  {
+    "q": "This French midfielder captained Arsenal and won three Premier League titles with the club. He was known for his physical dominance. Name him.",
+    "a": "Patrick Vieira",
+    "choices": [
+      "Patrick Vieira",
+      "Emmanuel Petit",
+      "Robert Pires",
+      "Thierry Henry"
+    ],
+    "sport": "soccer",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Called 'El Guaje', this Spanish striker was the top scorer at the 2010 World Cup qualifying and a key player in Spain's golden era. He played for Valencia and Barcelona. Name him.",
+    "a": "David Villa",
+    "choices": [
+      "David Villa",
+      "Fernando Torres",
+      "Raul",
+      "Pedro"
+    ],
+    "sport": "soccer",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This English winger spent his entire career at Manchester United, making over 900 appearances. Name him.",
+    "a": "Ryan Giggs",
+    "choices": [
+      "Ryan Giggs",
+      "Paul Scholes",
+      "David Beckham",
+      "Gary Neville"
+    ],
+    "sport": "soccer",
+    "difficulty": "easy"
+  },
+  {
+    "q": "This German midfielder was named FIFA World Player of the Year in 1991 and captained West Germany and Germany. Name him.",
+    "a": "Lothar Matthaus",
+    "choices": [
+      "Lothar Matthaus",
+      "Franz Beckenbauer",
+      "Karl-Heinz Rummenigge",
+      "Jurgen Klinsmann"
+    ],
+    "sport": "soccer",
+    "difficulty": "medium"
+  },
+  {
+    "q": "I managed Liverpool and won the Champions League in 2019 after losing the final the year before. Who am I?",
+    "a": "Jurgen Klopp",
+    "choices": [
+      "Jurgen Klopp",
+      "Rafael Benitez",
+      "Brendan Rodgers",
+      "Gerard Houllier"
+    ],
+    "sport": "soccer",
+    "difficulty": "easy"
+  },
+  {
+    "q": "This Brazilian forward scored both goals in the 2002 World Cup final against Germany. Name him.",
+    "a": "Ronaldo Nazario",
+    "choices": [
+      "Ronaldo Nazario",
+      "Rivaldo",
+      "Ronaldinho",
+      "Cafu"
+    ],
+    "sport": "soccer",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This Argentinian club, based in Buenos Aires, is one of the most successful clubs in Copa Libertadores history. Their stadium is 'La Bombonera'. Name them.",
+    "a": "Boca Juniors",
+    "choices": [
+      "Boca Juniors",
+      "River Plate",
+      "Independiente",
+      "Racing Club"
+    ],
+    "sport": "soccer",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Called 'Gigi', this Italian goalkeeper made over 500 Serie A appearances and won the 2006 World Cup. Name him.",
+    "a": "Gianluigi Buffon",
+    "choices": [
+      "Gianluigi Buffon",
+      "Gianluigi Donnarumma",
+      "Dino Zoff",
+      "Walter Zenga"
+    ],
+    "sport": "soccer",
+    "difficulty": "easy"
+  },
+  {
+    "q": "This Spanish club won the Europa League a record seven times. Name them.",
+    "a": "Sevilla",
+    "choices": [
+      "Sevilla",
+      "Atletico Madrid",
+      "Valencia",
+      "Villarreal"
+    ],
+    "sport": "soccer",
+    "difficulty": "medium"
+  },
+  {
+    "q": "I played for AC Milan, Chelsea, and the French national team. I am a defender known as one of the best of my generation. Who am I?",
+    "a": "Marcel Desailly",
+    "choices": [
+      "Marcel Desailly",
+      "Lilian Thuram",
+      "William Gallas",
+      "Laurent Blanc"
+    ],
+    "sport": "soccer",
+    "difficulty": "hard"
+  },
+  {
+    "q": "This Brazilian playmaker won the Ballon d'Or in 1999 and starred for Barcelona and Real Madrid. Name him.",
+    "a": "Rivaldo",
+    "choices": [
+      "Rivaldo",
+      "Ronaldinho",
+      "Ronaldo Nazario",
+      "Kaka"
+    ],
+    "sport": "soccer",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This Togolese striker was the Premier League top scorer in 2018-19 with 22 goals while playing for Arsenal. Name him.",
+    "a": "Pierre-Emerick Aubameyang",
+    "choices": [
+      "Pierre-Emerick Aubameyang",
+      "Mohamed Salah",
+      "Sadio Mane",
+      "Sergio Aguero"
+    ],
+    "sport": "soccer",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This club won the treble of Champions League, Bundesliga, and DFB-Pokal in 2013 under Jupp Heynckes. Name them.",
+    "a": "Bayern Munich",
+    "choices": [
+      "Bayern Munich",
+      "Borussia Dortmund",
+      "Barcelona",
+      "Manchester United"
+    ],
+    "sport": "soccer",
+    "difficulty": "medium"
+  },
+  {
+    "q": "I am a Spanish goalkeeper who made the most appearances in La Liga history. I played for Real Madrid. Who am I?",
+    "a": "Iker Casillas",
+    "choices": [
+      "Iker Casillas",
+      "Victor Valdes",
+      "Santiago Canizares",
+      "Andoni Zubizarreta"
+    ],
+    "sport": "soccer",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This French midfielder was European Footballer of the Year three times in a row from 1983 to 1985. Name him.",
+    "a": "Michel Platini",
+    "choices": [
+      "Michel Platini",
+      "Zinedine Zidane",
+      "Jean-Pierre Papin",
+      "Alain Giresse"
+    ],
+    "sport": "soccer",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Called 'Baby-faced Assassin', this Norwegian striker came off the bench to score the winner in the 1999 Champions League final for Manchester United. Name him.",
+    "a": "Ole Gunnar Solskjaer",
+    "choices": [
+      "Ole Gunnar Solskjaer",
+      "Teddy Sheringham",
+      "Andy Cole",
+      "Dwight Yorke"
+    ],
+    "sport": "soccer",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This country won the European Championship in 2004 as massive underdogs, defeating the hosts in the final. Name them.",
+    "a": "Greece",
+    "choices": [
+      "Greece",
+      "Portugal",
+      "Denmark",
+      "Czech Republic"
+    ],
+    "sport": "soccer",
+    "difficulty": "medium"
+  },
+  {
+    "q": "I am the all-time top scorer for the German national team with 71 goals. Who am I?",
+    "a": "Miroslav Klose",
+    "choices": [
+      "Miroslav Klose",
+      "Gerd Muller",
+      "Lukas Podolski",
+      "Thomas Muller"
+    ],
+    "sport": "soccer",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This English defender captained England at multiple World Cups and played for Manchester United. He was known for his heading and leadership. Name him.",
+    "a": "Rio Ferdinand",
+    "choices": [
+      "Rio Ferdinand",
+      "John Terry",
+      "Gary Neville",
+      "Sol Campbell"
+    ],
+    "sport": "soccer",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Called 'The Non-Flying Dutchman', this Arsenal striker was known for his technical brilliance despite a fear of flying. Name him.",
+    "a": "Dennis Bergkamp",
+    "choices": [
+      "Dennis Bergkamp",
+      "Marc Overmars",
+      "Thierry Henry",
+      "Robin van Persie"
+    ],
+    "sport": "soccer",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This African nation reached the World Cup quarterfinals for the first time in 1990, led by Roger Milla. Name them.",
+    "a": "Cameroon",
+    "choices": [
+      "Cameroon",
+      "Nigeria",
+      "Senegal",
+      "Ghana"
+    ],
+    "sport": "soccer",
+    "difficulty": "medium"
+  },
+  {
+    "q": "I won the Premier League Golden Boot three times while playing for Arsenal. I am French. Who am I?",
+    "a": "Thierry Henry",
+    "choices": [
+      "Thierry Henry",
+      "Nicolas Anelka",
+      "Robert Pires",
+      "Patrick Vieira"
+    ],
+    "sport": "soccer",
+    "difficulty": "easy"
+  },
+  {
+    "q": "This defender is the most capped player in the history of the Spanish national team. Name him.",
+    "a": "Sergio Ramos",
+    "choices": [
+      "Sergio Ramos",
+      "Iker Casillas",
+      "Xavi Hernandez",
+      "Andres Iniesta"
+    ],
+    "sport": "soccer",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This Brazilian club has won the most Copa Libertadores titles. Name them.",
+    "a": "Independiente",
+    "choices": [
+      "Santos",
+      "Sao Paulo",
+      "Flamengo",
+      "Independiente"
+    ],
+    "sport": "soccer",
+    "difficulty": "hard"
+  },
+  {
+    "q": "I was red-carded for headbutting Marco Materazzi in the 2006 World Cup final. Who am I?",
+    "a": "Zinedine Zidane",
+    "choices": [
+      "Zinedine Zidane",
+      "Thierry Henry",
+      "Patrick Vieira",
+      "Claude Makelele"
+    ],
+    "sport": "soccer",
+    "difficulty": "easy"
+  },
+  {
+    "q": "This Mexican goalkeeper is the most capped male international footballer in history. Name him.",
+    "a": "Antonio Carbajal",
+    "choices": [
+      "Antonio Carbajal",
+      "Andres Guardado",
+      "Claudio Suarez",
+      "Jorge Campos"
+    ],
+    "sport": "soccer",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Called 'The Pharaoh', this Egyptian forward joined Liverpool in 2017 and became one of the Premier League's most prolific scorers. Name him.",
+    "a": "Mohamed Salah",
+    "choices": [
+      "Mohamed Salah",
+      "Sadio Mane",
+      "Roberto Firmino",
+      "Mohamed Elneny"
+    ],
+    "sport": "soccer",
+    "difficulty": "easy"
+  },
+  {
+    "q": "This Italian manager led Inter Milan to a treble of Serie A, Coppa Italia, and Champions League in 2010. Name him.",
+    "a": "Jose Mourinho",
+    "choices": [
+      "Jose Mourinho",
+      "Roberto Mancini",
+      "Hector Cuper",
+      "Claudio Ranieri"
+    ],
+    "sport": "soccer",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This Spanish midfielder scored the winning goal in the Euro 2012 final against Italy. Name him.",
+    "a": "David Silva",
+    "choices": [
+      "Andres Iniesta",
+      "Xavi Hernandez",
+      "David Silva",
+      "Juan Mata"
+    ],
+    "sport": "soccer",
+    "difficulty": "hard"
+  },
+  {
+    "q": "This Colombian midfielder won the Golden Boot at the 2014 World Cup with 6 goals. Name him.",
+    "a": "James Rodriguez",
+    "choices": [
+      "James Rodriguez",
+      "Radamel Falcao",
+      "Carlos Bacca",
+      "Juan Cuadrado"
+    ],
+    "sport": "soccer",
+    "difficulty": "medium"
+  },
+  {
+    "q": "I spent my entire career at Barcelona and retired as the club's all-time top scorer before Messi surpassed me. I am Spanish. Who am I?",
+    "a": "Cesar Rodriguez",
+    "choices": [
+      "Cesar Rodriguez",
+      "Rivaldo",
+      "Laszlo Kubala",
+      "Josep Samitier"
+    ],
+    "sport": "soccer",
+    "difficulty": "hard"
+  },
+  {
+    "q": "This Uruguayan striker bit an opponent during the 2014 World Cup against Italy. Name him.",
+    "a": "Luis Suarez",
+    "choices": [
+      "Luis Suarez",
+      "Edinson Cavani",
+      "Diego Forlan",
+      "Diego Godin"
+    ],
+    "sport": "soccer",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Called 'San Iker' (Saint Iker), this Spanish goalkeeper was known for his incredible reflexes and captained Real Madrid. Name him.",
+    "a": "Iker Casillas",
+    "choices": [
+      "Iker Casillas",
+      "Victor Valdes",
+      "David De Gea",
+      "Thibaut Courtois"
+    ],
+    "sport": "soccer",
+    "difficulty": "easy"
+  },
+  {
+    "q": "This French striker won the World Cup, European Championship, Champions League, and Premier League during his career. He played for Arsenal and Barcelona. Name him.",
+    "a": "Thierry Henry",
+    "choices": [
+      "Thierry Henry",
+      "Nicolas Anelka",
+      "David Trezeguet",
+      "Sylvain Wiltord"
+    ],
+    "sport": "soccer",
+    "difficulty": "medium"
+  },
+  {
+    "q": "I am the only player to have scored in two separate Champions League finals, in 2009 and 2011, both for Barcelona. Who am I?",
+    "a": "Lionel Messi",
+    "choices": [
+      "Lionel Messi",
+      "Samuel Eto'o",
+      "Xavi",
+      "Andres Iniesta"
+    ],
+    "sport": "soccer",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This Senegalese striker scored the opening goal as Senegal stunned France in the 2002 World Cup. Name him.",
+    "a": "Papa Bouba Diop",
+    "choices": [
+      "Papa Bouba Diop",
+      "El Hadji Diouf",
+      "Henri Camara",
+      "Khalilou Fadiga"
+    ],
+    "sport": "soccer",
+    "difficulty": "hard"
+  },
+  {
+    "q": "This manager led Borussia Dortmund to back-to-back Bundesliga titles in 2011 and 2012 and the Champions League final in 2013. Who was he?",
+    "a": "Jurgen Klopp",
+    "choices": [
+      "Jurgen Klopp",
+      "Thomas Tuchel",
+      "Ottmar Hitzfeld",
+      "Lucien Favre"
+    ],
+    "sport": "soccer",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This English midfielder scored a famous curling free kick against Greece in 2001 to send England to the 2002 World Cup. Name him.",
+    "a": "David Beckham",
+    "choices": [
+      "David Beckham",
+      "Steven Gerrard",
+      "Frank Lampard",
+      "Paul Scholes"
+    ],
+    "sport": "soccer",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Called 'Der Kaiser', this German won the World Cup both as a player (1974) and as a manager (1990). Name him.",
+    "a": "Franz Beckenbauer",
+    "choices": [
+      "Franz Beckenbauer",
+      "Lothar Matthaus",
+      "Jurgen Klinsmann",
+      "Berti Vogts"
+    ],
+    "sport": "soccer",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This French club reached the Champions League final in 2020 but lost to Bayern Munich 1-0 in Lisbon. Name them.",
+    "a": "Paris Saint-Germain",
+    "choices": [
+      "Paris Saint-Germain",
+      "Olympique Marseille",
+      "AS Monaco",
+      "Olympique Lyon"
+    ],
+    "sport": "soccer",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This Argentinian forward was the top scorer in La Liga for six consecutive seasons from 2009-10 to 2014-15. He played for Barcelona. Name him.",
+    "a": "Lionel Messi",
+    "choices": [
+      "Lionel Messi",
+      "Cristiano Ronaldo",
+      "Luis Suarez",
+      "Neymar"
+    ],
+    "sport": "soccer",
+    "difficulty": "medium"
+  },
+  {
+    "q": "I am an Italian goalkeeper who won the World Cup in 1982 at age 40, the oldest goalkeeper to win the tournament. Who am I?",
+    "a": "Dino Zoff",
+    "choices": [
+      "Dino Zoff",
+      "Gianluigi Buffon",
+      "Walter Zenga",
+      "Gianluca Pagliuca"
+    ],
+    "sport": "soccer",
+    "difficulty": "hard"
+  },
+  {
+    "q": "This Belgian midfielder has been called the best of his generation and starred for Manchester City. He is known for his vision and passing. Name him.",
+    "a": "Kevin De Bruyne",
+    "choices": [
+      "Kevin De Bruyne",
+      "Eden Hazard",
+      "Thibaut Courtois",
+      "Youri Tielemans"
+    ],
+    "sport": "soccer",
+    "difficulty": "easy"
+  },
+  {
+    "q": "This club won the first five European Cup finals from 1956 to 1960. Name them.",
+    "a": "Real Madrid",
+    "choices": [
+      "Real Madrid",
+      "AC Milan",
+      "Benfica",
+      "Barcelona"
+    ],
+    "sport": "soccer",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Called 'The Atomic Flea', this small but explosive Argentine forward played for Barcelona. Name him.",
+    "a": "Lionel Messi",
+    "choices": [
+      "Lionel Messi",
+      "Diego Maradona",
+      "Sergio Aguero",
+      "Javier Saviola"
+    ],
+    "sport": "soccer",
+    "difficulty": "easy"
+  },
+  {
+    "q": "This Portuguese winger won the Ballon d'Or in 2000 and played for Barcelona and Real Madrid. Name him.",
+    "a": "Luis Figo",
+    "choices": [
+      "Luis Figo",
+      "Rui Costa",
+      "Deco",
+      "Cristiano Ronaldo"
+    ],
+    "sport": "soccer",
+    "difficulty": "medium"
+  },
+  {
+    "q": "I managed Chelsea to their first Premier League title in 50 years in 2004-05. Who am I?",
+    "a": "Jose Mourinho",
+    "choices": [
+      "Jose Mourinho",
+      "Claudio Ranieri",
+      "Carlo Ancelotti",
+      "Ruud Gullit"
+    ],
+    "sport": "soccer",
+    "difficulty": "easy"
+  },
+  {
+    "q": "This Ivorian striker scored the winning penalty to clinch Chelsea's first Champions League title in 2012. Name him.",
+    "a": "Didier Drogba",
+    "choices": [
+      "Didier Drogba",
+      "Nicolas Anelka",
+      "Samuel Eto'o",
+      "Salomon Kalou"
+    ],
+    "sport": "soccer",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This Uruguayan forward won the Golden Ball at the 2010 World Cup. Name him.",
+    "a": "Diego Forlan",
+    "choices": [
+      "Diego Forlan",
+      "Luis Suarez",
+      "Edinson Cavani",
+      "Diego Godin"
+    ],
+    "sport": "soccer",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Called 'The Divine Ponytail', this Italian striker played for Juventus, Fiorentina, and the Italian national team. He famously missed a penalty in the 1994 World Cup final. Name him.",
+    "a": "Roberto Baggio",
+    "choices": [
+      "Roberto Baggio",
+      "Alessandro Del Piero",
+      "Gianluca Vialli",
+      "Filippo Inzaghi"
+    ],
+    "sport": "soccer",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This country won the 2022 FIFA World Cup, beating France in the final on penalties. Name them.",
+    "a": "Argentina",
+    "choices": [
+      "Argentina",
+      "France",
+      "Brazil",
+      "Croatia"
+    ],
+    "sport": "soccer",
+    "difficulty": "easy"
+  },
+  {
+    "q": "I scored 84 goals in 91 appearances for Hungary and later had the FIFA Best Goal Award named after me. Who am I?",
+    "a": "Ferenc Puskas",
+    "choices": [
+      "Ferenc Puskas",
+      "Sandor Kocsis",
+      "Nandor Hidegkuti",
+      "Florian Albert"
+    ],
+    "sport": "soccer",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This German midfielder scored a long-range goal in the 2014 World Cup final against Argentina, giving Germany the title. Name him.",
+    "a": "Mario Gotze",
+    "choices": [
+      "Mario Gotze",
+      "Thomas Muller",
+      "Mesut Ozil",
+      "Toni Kroos"
+    ],
+    "sport": "soccer",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This English manager led Nottingham Forest to back-to-back European Cup victories in 1979 and 1980. Name him.",
+    "a": "Brian Clough",
+    "choices": [
+      "Brian Clough",
+      "Bob Paisley",
+      "Bill Shankly",
+      "Matt Busby"
+    ],
+    "sport": "soccer",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Called 'Ibra', this Swedish striker played for Ajax, Juventus, Inter, Barcelona, Milan, PSG, and Manchester United. Name him.",
+    "a": "Zlatan Ibrahimovic",
+    "choices": [
+      "Zlatan Ibrahimovic",
+      "Henrik Larsson",
+      "Freddie Ljungberg",
+      "Marcus Allback"
+    ],
+    "sport": "soccer",
+    "difficulty": "easy"
+  },
+  {
+    "q": "This South Korean midfielder became the first Asian player to win the Champions League when he triumphed with Manchester United in 2008. Name him.",
+    "a": "Park Ji-sung",
+    "choices": [
+      "Park Ji-sung",
+      "Son Heung-min",
+      "Lee Young-pyo",
+      "Cha Bum-kun"
+    ],
+    "sport": "soccer",
+    "difficulty": "medium"
+  },
+  {
+    "q": "I am a Brazilian who won the World Cup in 2002 and scored in every round of the tournament, including the final. Who am I?",
+    "a": "Ronaldo Nazario",
+    "choices": [
+      "Ronaldo Nazario",
+      "Rivaldo",
+      "Ronaldinho",
+      "Cafu"
+    ],
+    "sport": "soccer",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This club won the Champions League in 2021, beating Manchester City in the final. It was their second Champions League title. Name them.",
+    "a": "Chelsea",
+    "choices": [
+      "Chelsea",
+      "Real Madrid",
+      "Bayern Munich",
+      "Liverpool"
+    ],
+    "sport": "soccer",
+    "difficulty": "easy"
+  },
+  {
+    "q": "This manager won the Premier League with Manchester City using a distinctive possession-based style. He has won league titles in Spain, Germany, and England. Name him.",
+    "a": "Pep Guardiola",
+    "choices": [
+      "Pep Guardiola",
+      "Jurgen Klopp",
+      "Jose Mourinho",
+      "Antonio Conte"
+    ],
+    "sport": "soccer",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Called 'Kun', this Argentine striker is Manchester City's all-time top scorer. Name him.",
+    "a": "Sergio Aguero",
+    "choices": [
+      "Sergio Aguero",
+      "Carlos Tevez",
+      "Edin Dzeko",
+      "Raheem Sterling"
+    ],
+    "sport": "soccer",
+    "difficulty": "easy"
+  },
+  {
+    "q": "This Dutch midfielder won the Champions League with both Ajax (1995) and Real Madrid (2002). He also played for Inter Milan and Barcelona. Name him.",
+    "a": "Clarence Seedorf",
+    "choices": [
+      "Clarence Seedorf",
+      "Edgar Davids",
+      "Frank de Boer",
+      "Patrick Kluivert"
+    ],
+    "sport": "soccer",
+    "difficulty": "hard"
+  },
+  {
+    "q": "This Japanese club has won the most J-League titles. Name them.",
+    "a": "Kashima Antlers",
+    "choices": [
+      "Kashima Antlers",
+      "Urawa Red Diamonds",
+      "Yokohama F. Marinos",
+      "Sanfrecce Hiroshima"
+    ],
+    "sport": "soccer",
+    "difficulty": "hard"
+  },
+  {
+    "q": "I am the only player to score in three different World Cup finals. I scored in 1998, 2002 (did not), and 2006. Actually, who scored in the most World Cup finals?",
+    "a": "Pele",
+    "choices": [
+      "Pele",
+      "Zinedine Zidane",
+      "Vava",
+      "Kylian Mbappe"
+    ],
+    "sport": "soccer",
+    "difficulty": "hard"
+  },
+  {
+    "q": "This Spanish club, based in Madrid, is known for its defensive style and is nicknamed 'Los Colchoneros'. Name them.",
+    "a": "Atletico Madrid",
+    "choices": [
+      "Atletico Madrid",
+      "Real Madrid",
+      "Getafe",
+      "Rayo Vallecano"
+    ],
+    "sport": "soccer",
+    "difficulty": "easy"
+  },
+  {
+    "q": "This English forward scored 49 goals for England, a record that stood for decades until Wayne Rooney surpassed it. Name him.",
+    "a": "Bobby Charlton",
+    "choices": [
+      "Bobby Charlton",
+      "Gary Lineker",
+      "Jimmy Greaves",
+      "Michael Owen"
+    ],
+    "sport": "soccer",
+    "difficulty": "medium"
+  },
+  {
+    "q": "I won the Ballon d'Or in 2006 and played for AC Milan and Italy. I am a defender. Who am I?",
+    "a": "Fabio Cannavaro",
+    "choices": [
+      "Fabio Cannavaro",
+      "Paolo Maldini",
+      "Alessandro Nesta",
+      "Marco Materazzi"
+    ],
+    "sport": "soccer",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This Nigerian forward won Olympic gold in 1996 and played for Inter Milan, Arsenal, and Portsmouth. Name him.",
+    "a": "Nwankwo Kanu",
+    "choices": [
+      "Nwankwo Kanu",
+      "Jay-Jay Okocha",
+      "Rashidi Yekini",
+      "Daniel Amokachi"
+    ],
+    "sport": "soccer",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This club won the Serie A title in 2024 for the first time in 33 years. Name them.",
+    "a": "Inter Milan",
+    "choices": [
+      "Inter Milan",
+      "AC Milan",
+      "Napoli",
+      "Roma"
+    ],
+    "sport": "soccer",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Called 'The Magician', this Brazilian playmaker dazzled fans with his skill at Barcelona from 2003 to 2008. Name him.",
+    "a": "Ronaldinho",
+    "choices": [
+      "Ronaldinho",
+      "Rivaldo",
+      "Kaka",
+      "Neymar"
+    ],
+    "sport": "soccer",
+    "difficulty": "easy"
+  },
+  {
+    "q": "This Danish goalkeeper famously saved a penalty from Lionel Messi in the 2018 World Cup group stage. Name him.",
+    "a": "Kasper Schmeichel",
+    "choices": [
+      "Kasper Schmeichel",
+      "Peter Schmeichel",
+      "Jonas Lossl",
+      "Frederik Ronnow"
+    ],
+    "sport": "soccer",
+    "difficulty": "hard"
+  },
+  {
+    "q": "This manager led Italy to the 2006 World Cup title and also managed Inter Milan and Juventus. Name him.",
+    "a": "Marcello Lippi",
+    "choices": [
+      "Marcello Lippi",
+      "Fabio Capello",
+      "Carlo Ancelotti",
+      "Giovanni Trapattoni"
+    ],
+    "sport": "soccer",
+    "difficulty": "medium"
+  },
+  {
+    "q": "I played for Manchester United, Real Madrid, LA Galaxy, AC Milan, and PSG during my career. I wore the number 7 and was known for my free kicks. Who am I?",
+    "a": "David Beckham",
+    "choices": [
+      "David Beckham",
+      "Cristiano Ronaldo",
+      "Eric Cantona",
+      "Ryan Giggs"
+    ],
+    "sport": "soccer",
+    "difficulty": "easy"
+  },
+  {
+    "q": "This French forward is the all-time top scorer for the French national team and also Arsenal's all-time top scorer. Name him.",
+    "a": "Thierry Henry",
+    "choices": [
+      "Thierry Henry",
+      "Michel Platini",
+      "Olivier Giroud",
+      "Just Fontaine"
+    ],
+    "sport": "soccer",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This Italian club won six consecutive Serie A titles from 2011-12 to 2016-17. Name them.",
+    "a": "Juventus",
+    "choices": [
+      "Juventus",
+      "AC Milan",
+      "Inter Milan",
+      "Napoli"
+    ],
+    "sport": "soccer",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Called 'Butragueno', this Spanish forward was nicknamed 'The Vulture' and was a Real Madrid legend who scored 4 goals against Denmark at the 1986 World Cup. Name him.",
+    "a": "Emilio Butragueno",
+    "choices": [
+      "Emilio Butragueno",
+      "Hugo Sanchez",
+      "Michel",
+      "Rafael Martin Vazquez"
+    ],
+    "sport": "soccer",
+    "difficulty": "hard"
+  },
+  {
+    "q": "This South American country won the Copa America a record 15 times. Name them.",
+    "a": "Uruguay",
+    "choices": [
+      "Uruguay",
+      "Argentina",
+      "Brazil",
+      "Chile"
+    ],
+    "sport": "soccer",
+    "difficulty": "hard"
+  },
+  {
+    "q": "This English club won the League Cup a record nine times. Name them.",
+    "a": "Liverpool",
+    "choices": [
+      "Liverpool",
+      "Manchester City",
+      "Aston Villa",
+      "Manchester United"
+    ],
+    "sport": "soccer",
+    "difficulty": "hard"
+  },
+  {
+    "q": "I am an Algerian midfielder who was named African Footballer of the Year twice and starred for Leicester City and Manchester City. Who am I?",
+    "a": "Riyad Mahrez",
+    "choices": [
+      "Riyad Mahrez",
+      "Sofiane Feghouli",
+      "Nabil Bentaleb",
+      "Said Benrahma"
+    ],
+    "sport": "soccer",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This country hosted and won the European Championship in 1984, led by Michel Platini who scored 9 goals. Name them.",
+    "a": "France",
+    "choices": [
+      "France",
+      "Spain",
+      "West Germany",
+      "Portugal"
+    ],
+    "sport": "soccer",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Called 'Big Pete', this Danish goalkeeper won the Champions League with Manchester United in 1999. Name him.",
+    "a": "Peter Schmeichel",
+    "choices": [
+      "Peter Schmeichel",
+      "Edwin van der Sar",
+      "Fabien Barthez",
+      "Mark Bosnich"
+    ],
+    "sport": "soccer",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This Mexican forward is the all-time top scorer in CONCACAF Gold Cup history. Name him.",
+    "a": "Landon Donovan",
+    "choices": [
+      "Landon Donovan",
+      "Javier Hernandez",
+      "Carlos Vela",
+      "Clint Dempsey"
+    ],
+    "sport": "soccer",
+    "difficulty": "hard"
+  },
+  {
+    "q": "This Spanish manager won three consecutive Champions League titles with Real Madrid. Name him.",
+    "a": "Zinedine Zidane",
+    "choices": [
+      "Zinedine Zidane",
+      "Carlo Ancelotti",
+      "Vicente del Bosque",
+      "Fabio Capello"
+    ],
+    "sport": "soccer",
+    "difficulty": "medium"
+  },
+  {
+    "q": "I am an English midfielder who scored a stunning 40-yard goal against Wimbledon in 1996 as a 21-year-old. Who am I?",
+    "a": "David Beckham",
+    "choices": [
+      "David Beckham",
+      "Paul Scholes",
+      "Steven Gerrard",
+      "Matt Le Tissier"
+    ],
+    "sport": "soccer",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This Croatian forward won the Golden Boot at the 1998 World Cup with 6 goals. Name him.",
+    "a": "Davor Suker",
+    "choices": [
+      "Davor Suker",
+      "Zvonimir Boban",
+      "Robert Prosinecki",
+      "Mario Mandzukic"
+    ],
+    "sport": "soccer",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This goalkeeper saved three penalties in the 2006 World Cup final shootout for Italy. Name him.",
+    "a": "Gianluigi Buffon",
+    "choices": [
+      "Gianluigi Buffon",
+      "Fabien Barthez",
+      "Iker Casillas",
+      "Dino Zoff"
+    ],
+    "sport": "soccer",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Called 'Pippo', this Italian striker was known for his poacher's instinct and won two Champions Leagues with AC Milan. Name him.",
+    "a": "Filippo Inzaghi",
+    "choices": [
+      "Filippo Inzaghi",
+      "Alessandro Del Piero",
+      "Christian Vieri",
+      "Luca Toni"
+    ],
+    "sport": "soccer",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This club won back-to-back Champions League titles in 1989 and 1990. Name them.",
+    "a": "AC Milan",
+    "choices": [
+      "AC Milan",
+      "Real Madrid",
+      "Juventus",
+      "Barcelona"
+    ],
+    "sport": "soccer",
+    "difficulty": "medium"
+  },
+  {
+    "q": "I am a Welsh winger who played for Manchester United and won 13 Premier League titles, a club record. Who am I?",
+    "a": "Ryan Giggs",
+    "choices": [
+      "Ryan Giggs",
+      "Mark Hughes",
+      "Gareth Bale",
+      "Ian Rush"
+    ],
+    "sport": "soccer",
+    "difficulty": "easy"
+  },
+  {
+    "q": "This Egyptian forward broke the Premier League single-season scoring record with 32 goals in 2017-18, sharing it with others at the time. Name him.",
+    "a": "Mohamed Salah",
+    "choices": [
+      "Mohamed Salah",
+      "Thierry Henry",
+      "Alan Shearer",
+      "Cristiano Ronaldo"
+    ],
+    "sport": "soccer",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This South Korean forward became the first Asian player to score a Champions League hat-trick. Name him.",
+    "a": "Son Heung-min",
+    "choices": [
+      "Son Heung-min",
+      "Park Ji-sung",
+      "Cha Bum-kun",
+      "Lee Dong-gook"
+    ],
+    "sport": "soccer",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This Croatian midfielder scored an extra-time goal in the 2018 World Cup semifinal against England, sending Croatia to their first ever final. Name him.",
+    "a": "Mario Mandzukic",
+    "choices": [
+      "Mario Mandzukic",
+      "Ivan Perisic",
+      "Luka Modric",
+      "Ivan Rakitic"
+    ],
+    "sport": "soccer",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Called 'The Pitbull', this Argentine midfielder was known for his tenacious tackling and played for Atletico Madrid and Inter Milan. Name him.",
+    "a": "Diego Simeone",
+    "choices": [
+      "Diego Simeone",
+      "Javier Mascherano",
+      "Javier Zanetti",
+      "Juan Sebastian Veron"
+    ],
+    "sport": "soccer",
+    "difficulty": "hard"
+  },
+  {
+    "q": "This Portuguese club won the Champions League in 2004 under Jose Mourinho. Name them.",
+    "a": "Porto",
+    "choices": [
+      "Porto",
+      "Benfica",
+      "Sporting CP",
+      "Braga"
+    ],
+    "sport": "soccer",
+    "difficulty": "easy"
+  },
+  {
+    "q": "This French striker was the 2022 World Cup top scorer with 8 goals. Name him.",
+    "a": "Kylian Mbappe",
+    "choices": [
+      "Kylian Mbappe",
+      "Lionel Messi",
+      "Olivier Giroud",
+      "Julian Alvarez"
+    ],
+    "sport": "soccer",
+    "difficulty": "medium"
+  },
+  {
+    "q": "I played for Ajax, Juventus, and AC Milan. I was part of the legendary Dutch trio. I won the Ballon d'Or in 1987. Who am I?",
+    "a": "Ruud Gullit",
+    "choices": [
+      "Ruud Gullit",
+      "Marco van Basten",
+      "Frank Rijkaard",
+      "Ronald Koeman"
+    ],
+    "sport": "soccer",
+    "difficulty": "hard"
+  },
+  {
+    "q": "This manager led Spain to their first World Cup title in 2010. Name him.",
+    "a": "Vicente del Bosque",
+    "choices": [
+      "Vicente del Bosque",
+      "Luis Aragones",
+      "Fernando Hierro",
+      "Javier Clemente"
+    ],
+    "sport": "soccer",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This English forward won the European Golden Shoe in 2019-20 while playing for Leicester City. Name him.",
+    "a": "Jamie Vardy",
+    "choices": [
+      "Jamie Vardy",
+      "Harry Kane",
+      "Pierre-Emerick Aubameyang",
+      "Mohamed Salah"
+    ],
+    "sport": "soccer",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Called 'Platini', this French midfielder scored 9 goals at Euro 1984, a record for a single European Championship. Name him.",
+    "a": "Michel Platini",
+    "choices": [
+      "Michel Platini",
+      "Zinedine Zidane",
+      "Thierry Henry",
+      "Jean-Pierre Papin"
+    ],
+    "sport": "soccer",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This Argentine defender captained Inter Milan for over a decade and made more than 600 appearances for the club. Name him.",
+    "a": "Javier Zanetti",
+    "choices": [
+      "Javier Zanetti",
+      "Walter Samuel",
+      "Diego Milito",
+      "Nicolas Burdisso"
+    ],
+    "sport": "soccer",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This Norwegian striker scored 23 goals in his first 22 Champions League appearances, one of the best ratios in history. Name him.",
+    "a": "Erling Haaland",
+    "choices": [
+      "Erling Haaland",
+      "Ole Gunnar Solskjaer",
+      "John Carew",
+      "Tore Andre Flo"
+    ],
+    "sport": "soccer",
+    "difficulty": "easy"
+  },
+  {
+    "q": "I managed Real Madrid, Everton, and Bayern Munich. I am Italian and I have won the Champions League four times as a manager. Who am I?",
+    "a": "Carlo Ancelotti",
+    "choices": [
+      "Carlo Ancelotti",
+      "Fabio Capello",
+      "Giovanni Trapattoni",
+      "Arrigo Sacchi"
+    ],
+    "sport": "soccer",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This club won the Copa Libertadores and the Intercontinental Cup in 1962 and 1963. They are from Brazil. Name them.",
+    "a": "Santos",
+    "choices": [
+      "Santos",
+      "Sao Paulo",
+      "Flamengo",
+      "Palmeiras"
+    ],
+    "sport": "soccer",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Called 'The Wall', this German goalkeeper was known for his fiery temperament and captained Bayern Munich. Name him.",
+    "a": "Oliver Kahn",
+    "choices": [
+      "Oliver Kahn",
+      "Manuel Neuer",
+      "Jens Lehmann",
+      "Sepp Maier"
+    ],
+    "sport": "soccer",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This French club won nine consecutive Ligue 1 titles from 2012-13 to 2021-22 (with one exception in 2016-17 when Monaco won). Name them.",
+    "a": "Paris Saint-Germain",
+    "choices": [
+      "Paris Saint-Germain",
+      "Olympique Marseille",
+      "Lyon",
+      "Monaco"
+    ],
+    "sport": "soccer",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This Welsh forward scored a bicycle kick goal in the 2018 Champions League final against Liverpool. Name him.",
+    "a": "Gareth Bale",
+    "choices": [
+      "Gareth Bale",
+      "Cristiano Ronaldo",
+      "Karim Benzema",
+      "Isco"
+    ],
+    "sport": "soccer",
+    "difficulty": "medium"
+  },
+  {
+    "q": "I am an English midfielder who played for Chelsea and England. I am the Premier League's all-time top-scoring midfielder. Who am I?",
+    "a": "Frank Lampard",
+    "choices": [
+      "Frank Lampard",
+      "Steven Gerrard",
+      "Paul Scholes",
+      "David Beckham"
+    ],
+    "sport": "soccer",
+    "difficulty": "easy"
+  },
+  {
+    "q": "This club, based in Glasgow, has won the most Scottish league titles in history. Name them.",
+    "a": "Rangers",
+    "choices": [
+      "Rangers",
+      "Celtic",
+      "Aberdeen",
+      "Hearts"
+    ],
+    "sport": "soccer",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Called 'Titi', this French striker was Arsenal's record scorer with 228 goals before that record was adjusted. Name him.",
+    "a": "Thierry Henry",
+    "choices": [
+      "Thierry Henry",
+      "Ian Wright",
+      "Dennis Bergkamp",
+      "Robin van Persie"
+    ],
+    "sport": "soccer",
+    "difficulty": "easy"
+  },
+  {
+    "q": "This African country reached the World Cup semifinal for the first time in 2010. Name them.",
+    "a": "Ghana",
+    "choices": [
+      "Ghana",
+      "Cameroon",
+      "Senegal",
+      "Nigeria"
+    ],
+    "sport": "soccer",
+    "difficulty": "hard"
+  },
+  {
+    "q": "This Italian manager revolutionized football tactics with his pressing approach at AC Milan, winning back-to-back European Cups in 1989 and 1990. Name him.",
+    "a": "Arrigo Sacchi",
+    "choices": [
+      "Arrigo Sacchi",
+      "Fabio Capello",
+      "Carlo Ancelotti",
+      "Giovanni Trapattoni"
+    ],
+    "sport": "soccer",
+    "difficulty": "hard"
+  },
+  {
+    "q": "I am a German midfielder who won the 2014 World Cup and was known for my creativity and vision. I played for Werder Bremen, Real Madrid, and Arsenal. Who am I?",
+    "a": "Mesut Ozil",
+    "choices": [
+      "Mesut Ozil",
+      "Toni Kroos",
+      "Bastian Schweinsteiger",
+      "Thomas Muller"
+    ],
+    "sport": "soccer",
+    "difficulty": "easy"
+  },
+  {
+    "q": "This Serbian/Yugoslav midfielder was named European Footballer of the Year in 1991. He played for Red Star Belgrade and later Sampdoria. Name him.",
+    "a": "Dejan Savicevic",
+    "choices": [
+      "Dejan Savicevic",
+      "Dragan Stojkovic",
+      "Robert Prosinecki",
+      "Sinisa Mihajlovic"
+    ],
+    "sport": "soccer",
+    "difficulty": "hard"
+  },
+  {
+    "q": "This club became the first English team to win the European Cup in 1968. Name them.",
+    "a": "Manchester United",
+    "choices": [
+      "Manchester United",
+      "Liverpool",
+      "Nottingham Forest",
+      "Aston Villa"
+    ],
+    "sport": "soccer",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Called 'El Fenomeno', this Brazilian forward won two World Cups and scored 15 goals in World Cup tournaments. Name him.",
+    "a": "Ronaldo Nazario",
+    "choices": [
+      "Ronaldo Nazario",
+      "Romario",
+      "Pele",
+      "Rivaldo"
+    ],
+    "sport": "soccer",
+    "difficulty": "easy"
+  },
+  {
+    "q": "This Cameroon striker won four consecutive African Footballer of the Year awards from 2003 to 2006 while at Real Mallorca, Barcelona, and Inter Milan. Name him.",
+    "a": "Samuel Eto'o",
+    "choices": [
+      "Samuel Eto'o",
+      "Didier Drogba",
+      "Roger Milla",
+      "Patrick Mboma"
+    ],
+    "sport": "soccer",
+    "difficulty": "medium"
+  },
+  {
+    "q": "I won the Champions League with Marseille in 1993, the only French club to ever win the competition. I was the manager. Who am I?",
+    "a": "Raymond Goethals",
+    "choices": [
+      "Raymond Goethals",
+      "Didier Deschamps",
+      "Bernard Tapie",
+      "Gerard Houllier"
+    ],
+    "sport": "soccer",
+    "difficulty": "hard"
+  },
+  {
+    "q": "This Dutch defender scored the winning goal for Barcelona in the 1992 European Cup final against Sampdoria with a famous free kick. Name him.",
+    "a": "Ronald Koeman",
+    "choices": [
+      "Ronald Koeman",
+      "Frank Rijkaard",
+      "Ruud Gullit",
+      "Frank de Boer"
+    ],
+    "sport": "soccer",
+    "difficulty": "hard"
+  },
+  {
+    "q": "This German forward won the Golden Boot at the 2010 World Cup and later became a manager. Name him.",
+    "a": "Thomas Muller",
+    "choices": [
+      "Thomas Muller",
+      "Miroslav Klose",
+      "Lukas Podolski",
+      "Mario Gomez"
+    ],
+    "sport": "soccer",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This English club won the FA Cup a record 14 times. Name them.",
+    "a": "Arsenal",
+    "choices": [
+      "Arsenal",
+      "Manchester United",
+      "Chelsea",
+      "Liverpool"
+    ],
+    "sport": "soccer",
+    "difficulty": "medium"
+  },
+  {
+    "q": "I am a Brazilian who won the World Cup in 1958 at age 17, becoming the youngest player to win the tournament. Who am I?",
+    "a": "Pele",
+    "choices": [
+      "Pele",
+      "Garrincha",
+      "Vava",
+      "Didi"
+    ],
+    "sport": "soccer",
+    "difficulty": "easy"
+  },
+  {
+    "q": "This club won the 2023 Champions League, completing a historic treble of Premier League, FA Cup, and Champions League. Name them.",
+    "a": "Manchester City",
+    "choices": [
+      "Manchester City",
+      "Manchester United",
+      "Real Madrid",
+      "Liverpool"
+    ],
+    "sport": "soccer",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Called 'Big Dunc', this Scottish striker was known for his heading ability and physicality at Everton. Name him.",
+    "a": "Duncan Ferguson",
+    "choices": [
+      "Duncan Ferguson",
+      "Graeme Sharp",
+      "Andy Gray",
+      "Kevin Campbell"
+    ],
+    "sport": "soccer",
+    "difficulty": "hard"
+  },
+  {
+    "q": "This Argentine midfielder was nicknamed 'El Burrito' and played for Manchester United and Argentina. Name him.",
+    "a": "Angel Di Maria",
+    "choices": [
+      "Angel Di Maria",
+      "Carlos Tevez",
+      "Juan Sebastian Veron",
+      "Javier Mascherano"
+    ],
+    "sport": "soccer",
+    "difficulty": "hard"
+  },
+  {
+    "q": "This club from the Netherlands has produced legends like Cruyff, Van Basten, and Bergkamp through their famous youth academy. Name them.",
+    "a": "Ajax",
+    "choices": [
+      "Ajax",
+      "PSV Eindhoven",
+      "Feyenoord",
+      "AZ Alkmaar"
+    ],
+    "sport": "soccer",
+    "difficulty": "easy"
+  },
+  {
+    "q": "I scored a controversial goal with my hand against England in the 1986 World Cup quarterfinal. In the same game, I scored what FIFA called the 'Goal of the Century'. Who am I?",
+    "a": "Diego Maradona",
+    "choices": [
+      "Diego Maradona",
+      "Jorge Valdano",
+      "Jorge Burruchaga",
+      "Claudio Caniggia"
+    ],
+    "sport": "soccer",
+    "difficulty": "easy"
+  },
+  {
+    "q": "This Ivory Coast midfielder was named PFA Players' Player of the Year in 2013-14 while playing for Manchester City. Name him.",
+    "a": "Yaya Toure",
+    "choices": [
+      "Yaya Toure",
+      "Fernandinho",
+      "David Silva",
+      "Sergio Aguero"
+    ],
+    "sport": "soccer",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This Spanish manager led Spain to their first European Championship title in 44 years in 2008. Name him.",
+    "a": "Luis Aragones",
+    "choices": [
+      "Luis Aragones",
+      "Vicente del Bosque",
+      "Javier Clemente",
+      "Jose Antonio Camacho"
+    ],
+    "sport": "soccer",
+    "difficulty": "hard"
+  },
+  {
+    "q": "This Brazilian right-back captained Brazil to the 2002 World Cup title and is considered one of the greatest full-backs ever. Name him.",
+    "a": "Cafu",
+    "choices": [
+      "Cafu",
+      "Roberto Carlos",
+      "Dani Alves",
+      "Maicon"
+    ],
+    "sport": "soccer",
+    "difficulty": "medium"
+  },
+  {
+    "q": "I am a German midfielder who won the World Cup in 2014 and spent most of my career at Bayern Munich and Real Madrid. I retired in 2023. Who am I?",
+    "a": "Toni Kroos",
+    "choices": [
+      "Toni Kroos",
+      "Bastian Schweinsteiger",
+      "Mesut Ozil",
+      "Sami Khedira"
+    ],
+    "sport": "soccer",
+    "difficulty": "easy"
+  },
+  {
+    "q": "This club won their first ever Serie A title in 2022-23. It was a historic achievement for this southern Italian club. Name them.",
+    "a": "Napoli",
+    "choices": [
+      "Napoli",
+      "Atalanta",
+      "Lazio",
+      "Fiorentina"
+    ],
+    "sport": "soccer",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Called 'Golden Boy', this Swedish striker won the Ballon d'Or in 2005 while playing for... wait, no Swede won it in 2005. This Swedish striker won the FIFA Best Male Player Award. Actually, let me change this question. This Argentine forward won the Golden Boy award in 2005 while playing for Barcelona. Name him.",
+    "a": "Lionel Messi",
+    "choices": [
+      "Lionel Messi",
+      "Carlos Tevez",
+      "Sergio Aguero",
+      "Javier Saviola"
+    ],
+    "sport": "soccer",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This manager was the first to win the Champions League, the old European Cup, and the now-defunct Cup Winners' Cup. He managed Ajax and Barcelona. Name him.",
+    "a": "Johan Cruyff",
+    "choices": [
+      "Johan Cruyff",
+      "Louis van Gaal",
+      "Rinus Michels",
+      "Frank Rijkaard"
+    ],
+    "sport": "soccer",
+    "difficulty": "hard"
+  },
+  {
+    "q": "This English club won the European Cup in 1982, beating Bayern Munich in the final. Name them.",
+    "a": "Aston Villa",
+    "choices": [
+      "Aston Villa",
+      "Nottingham Forest",
+      "Liverpool",
+      "Leeds United"
+    ],
+    "sport": "soccer",
+    "difficulty": "hard"
+  },
+  {
+    "q": "I am a French midfielder who won the World Cup in 2018 and played for Manchester United and Juventus. Who am I?",
+    "a": "Paul Pogba",
+    "choices": [
+      "Paul Pogba",
+      "N'Golo Kante",
+      "Antoine Griezmann",
+      "Blaise Matuidi"
+    ],
+    "sport": "soccer",
+    "difficulty": "easy"
+  },
+  {
+    "q": "This German midfielder was named the best young player at the 2010 World Cup and later became one of the world's best. Name him.",
+    "a": "Thomas Muller",
+    "choices": [
+      "Thomas Muller",
+      "Mesut Ozil",
+      "Toni Kroos",
+      "Mario Gotze"
+    ],
+    "sport": "soccer",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This English defender made 66 appearances for England and was known as 'Mr. Chelsea' for his long service to the club. Name him.",
+    "a": "John Terry",
+    "choices": [
+      "John Terry",
+      "Frank Lampard",
+      "Ashley Cole",
+      "Gary Cahill"
+    ],
+    "sport": "soccer",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Called 'The Little General', this French midfielder captained the 1998 World Cup winning team. Name him.",
+    "a": "Didier Deschamps",
+    "choices": [
+      "Didier Deschamps",
+      "Zinedine Zidane",
+      "Patrick Vieira",
+      "Emmanuel Petit"
+    ],
+    "sport": "soccer",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This Italian club won the Champions League in 2010 under Jose Mourinho, completing a treble. Name them.",
+    "a": "Inter Milan",
+    "choices": [
+      "Inter Milan",
+      "AC Milan",
+      "Juventus",
+      "Roma"
+    ],
+    "sport": "soccer",
+    "difficulty": "easy"
+  },
+  {
+    "q": "This Brazilian forward was the joint top scorer at the 1998 World Cup and won the Ballon d'Or in 1999. Name him.",
+    "a": "Rivaldo",
+    "choices": [
+      "Rivaldo",
+      "Ronaldo Nazario",
+      "Bebeto",
+      "Romario"
+    ],
+    "sport": "soccer",
+    "difficulty": "hard"
+  },
+  {
+    "q": "I scored the fastest hat-trick in Premier League history in just 2 minutes and 56 seconds. Who am I?",
+    "a": "Sadio Mane",
+    "choices": [
+      "Sadio Mane",
+      "Robbie Fowler",
+      "Mohamed Salah",
+      "Sergio Aguero"
+    ],
+    "sport": "soccer",
+    "difficulty": "hard"
+  },
+  {
+    "q": "This manager managed Barcelona from 2008 to 2012 and won 14 trophies in four seasons. Name him.",
+    "a": "Pep Guardiola",
+    "choices": [
+      "Pep Guardiola",
+      "Luis Enrique",
+      "Tito Vilanova",
+      "Frank Rijkaard"
+    ],
+    "sport": "soccer",
+    "difficulty": "easy"
+  },
+  {
+    "q": "This Chilean forward played for Barcelona and Arsenal and was known for his work rate and finishing. Name him.",
+    "a": "Alexis Sanchez",
+    "choices": [
+      "Alexis Sanchez",
+      "Arturo Vidal",
+      "Ivan Zamorano",
+      "Marcelo Salas"
+    ],
+    "sport": "soccer",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Called 'Le Roi' (The King), this French forward wore the famous number 14 at Arsenal. Name him.",
+    "a": "Thierry Henry",
+    "choices": [
+      "Thierry Henry",
+      "Patrick Vieira",
+      "Robert Pires",
+      "Dennis Bergkamp"
+    ],
+    "sport": "soccer",
+    "difficulty": "easy"
+  },
+  {
+    "q": "This club won their first and only Champions League title in 2011-12 under Roberto Di Matteo. Name them.",
+    "a": "Chelsea",
+    "choices": [
+      "Chelsea",
+      "Tottenham",
+      "Manchester City",
+      "Borussia Dortmund"
+    ],
+    "sport": "soccer",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This Serbian defender was known as one of the toughest centre-backs in Serie A and played for Roma, Inter Milan, and Real Madrid. Name him.",
+    "a": "Walter Samuel",
+    "choices": [
+      "Walter Samuel",
+      "Nemanja Vidic",
+      "Sinisa Mihajlovic",
+      "Dejan Lovren"
+    ],
+    "sport": "soccer",
+    "difficulty": "hard"
+  },
+  {
+    "q": "I am the all-time top scorer for the English national team with 53 goals. Who am I?",
+    "a": "Wayne Rooney",
+    "choices": [
+      "Wayne Rooney",
+      "Bobby Charlton",
+      "Gary Lineker",
+      "Harry Kane"
+    ],
+    "sport": "soccer",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This Brazilian defender-turned-manager won the World Cup as a player in 1994 and managed the Brazil national team. Name him.",
+    "a": "Dunga",
+    "choices": [
+      "Dunga",
+      "Cafu",
+      "Roberto Carlos",
+      "Carlos Alberto Parreira"
+    ],
+    "sport": "soccer",
+    "difficulty": "hard"
+  },
+  {
+    "q": "This English club won six league titles and three European Cups under manager Bob Paisley. Name them.",
+    "a": "Liverpool",
+    "choices": [
+      "Liverpool",
+      "Manchester United",
+      "Nottingham Forest",
+      "Everton"
+    ],
+    "sport": "soccer",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Called 'The Baby-Faced Assassin', this English striker scored a crucial Champions League final goal for Manchester United in 1999. Name him.",
+    "a": "Ole Gunnar Solskjaer",
+    "choices": [
+      "Ole Gunnar Solskjaer",
+      "Teddy Sheringham",
+      "Andy Cole",
+      "David Beckham"
+    ],
+    "sport": "soccer",
+    "difficulty": "hard"
+  },
+  {
+    "q": "This club is the only team from outside Europe or South America to win the FIFA Club World Cup. Name them.",
+    "a": "Corinthians",
+    "choices": [
+      "Corinthians",
+      "Al Ahly",
+      "Kashima Antlers",
+      "Auckland City"
+    ],
+    "sport": "soccer",
+    "difficulty": "hard"
+  },
+  {
+    "q": "This French goalkeeper holds the record for the most consecutive minutes without conceding in World Cup finals history. Name him.",
+    "a": "Fabien Barthez",
+    "choices": [
+      "Fabien Barthez",
+      "Hugo Lloris",
+      "Bixente Lizarazu",
+      "Gregory Coupet"
+    ],
+    "sport": "soccer",
+    "difficulty": "hard"
+  },
+  {
+    "q": "I am the manager who led France to both the 1998 World Cup and Euro 2000 titles. Who am I?",
+    "a": "Aime Jacquet",
+    "choices": [
+      "Aime Jacquet",
+      "Roger Lemerre",
+      "Didier Deschamps",
+      "Laurent Blanc"
+    ],
+    "sport": "soccer",
+    "difficulty": "hard"
+  },
+  {
+    "q": "This German forward scored the fastest Bundesliga hat-trick ever (5 goals in 9 minutes against Wolfsburg in 2015). Name him.",
+    "a": "Robert Lewandowski",
+    "choices": [
+      "Robert Lewandowski",
+      "Thomas Muller",
+      "Mario Gomez",
+      "Miroslav Klose"
+    ],
+    "sport": "soccer",
+    "difficulty": "hard"
+  },
+  {
+    "q": "This club won the treble of Champions League, La Liga, and Copa del Rey in 2008-09 under Pep Guardiola. Name them.",
+    "a": "Barcelona",
+    "choices": [
+      "Barcelona",
+      "Real Madrid",
+      "Bayern Munich",
+      "Manchester United"
+    ],
+    "sport": "soccer",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Called 'King Eric', this French forward was known for his collar-up style and philosophical quotes at Manchester United. Name him.",
+    "a": "Eric Cantona",
+    "choices": [
+      "Eric Cantona",
+      "Thierry Henry",
+      "David Ginola",
+      "Nicolas Anelka"
+    ],
+    "sport": "soccer",
+    "difficulty": "hard"
+  },
+  {
+    "q": "This Argentine forward scored a 96th-minute goal to win the 2014 Champions League final for Real Madrid, making it 'La Decima'. Name him.",
+    "a": "Sergio Ramos",
+    "choices": [
+      "Sergio Ramos",
+      "Cristiano Ronaldo",
+      "Gareth Bale",
+      "Angel Di Maria"
+    ],
+    "sport": "soccer",
+    "difficulty": "medium"
+  },
+  {
+    "q": "I played as a left-back for Chelsea, Arsenal, and Roma. I am widely considered one of the best full-backs of my generation. I am English. Who am I?",
+    "a": "Ashley Cole",
+    "choices": [
+      "Ashley Cole",
+      "Gael Clichy",
+      "Wayne Bridge",
+      "Patrice Evra"
+    ],
+    "sport": "soccer",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This Ivory Coast midfielder won the Premier League title three times with Manchester City and also won the Champions League with Barcelona. Name him.",
+    "a": "Yaya Toure",
+    "choices": [
+      "Yaya Toure",
+      "Didier Drogba",
+      "Kolo Toure",
+      "Wilfried Bony"
+    ],
+    "sport": "soccer",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This country won the European Championship in 2016 for the first time. Name them.",
+    "a": "Portugal",
+    "choices": [
+      "Portugal",
+      "France",
+      "Germany",
+      "Spain"
+    ],
+    "sport": "soccer",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Called 'La Pulga' (The Flea), this diminutive Argentine forward spent over 20 years at Barcelona. Name him.",
+    "a": "Lionel Messi",
+    "choices": [
+      "Lionel Messi",
+      "Diego Maradona",
+      "Sergio Aguero",
+      "Javier Saviola"
+    ],
+    "sport": "soccer",
+    "difficulty": "hard"
+  },
+  {
+    "q": "This Italian defender missed the decisive penalty in the 1994 World Cup final shootout against Brazil. Name him.",
+    "a": "Franco Baresi",
+    "choices": [
+      "Franco Baresi",
+      "Roberto Baggio",
+      "Paolo Maldini",
+      "Daniele Massaro"
+    ],
+    "sport": "soccer",
+    "difficulty": "hard"
+  },
+  {
+    "q": "This French forward scored the golden goal in the Euro 2000 final against Italy. Name him.",
+    "a": "David Trezeguet",
+    "choices": [
+      "David Trezeguet",
+      "Thierry Henry",
+      "Zinedine Zidane",
+      "Sylvain Wiltord"
+    ],
+    "sport": "soccer",
+    "difficulty": "hard"
+  },
+  {
+    "q": "This English club won their only league title in 1994-95 under Kenny Dalglish. Name them.",
+    "a": "Blackburn Rovers",
+    "choices": [
+      "Blackburn Rovers",
+      "Newcastle United",
+      "Leeds United",
+      "Nottingham Forest"
+    ],
+    "sport": "soccer",
+    "difficulty": "medium"
+  },
+  {
+    "q": "I am a French midfielder known as 'N'Golo', I won the World Cup in 2018, and the Champions League with Chelsea in 2021. Who am I?",
+    "a": "N'Golo Kante",
+    "choices": [
+      "N'Golo Kante",
+      "Paul Pogba",
+      "Blaise Matuidi",
+      "Adrien Rabiot"
+    ],
+    "sport": "soccer",
+    "difficulty": "hard"
+  },
+  {
+    "q": "This Portuguese club has won the most league titles in Portuguese football. Name them.",
+    "a": "Benfica",
+    "choices": [
+      "Benfica",
+      "Porto",
+      "Sporting CP",
+      "Braga"
+    ],
+    "sport": "soccer",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This Argentinian manager is known for his intense pressing style and managed Athletic Bilbao, Marseille, and Leeds United. Name him.",
+    "a": "Marcelo Bielsa",
+    "choices": [
+      "Marcelo Bielsa",
+      "Diego Simeone",
+      "Mauricio Pochettino",
+      "Jorge Sampaoli"
+    ],
+    "sport": "soccer",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Called 'Psycho', this English defender was known for his tough tackling at Nottingham Forest. Name him.",
+    "a": "Stuart Pearce",
+    "choices": [
+      "Stuart Pearce",
+      "Terry Butcher",
+      "Tony Adams",
+      "Martin Keown"
+    ],
+    "sport": "soccer",
+    "difficulty": "hard"
+  },
+  {
+    "q": "This Brazilian playmaker won two FIFA World Player of the Year awards and was known for his dribbling and free kicks at Barcelona. Name him.",
+    "a": "Ronaldinho",
+    "choices": [
+      "Ronaldinho",
+      "Rivaldo",
+      "Neymar",
+      "Kaka"
+    ],
+    "sport": "soccer",
+    "difficulty": "hard"
+  },
+  {
+    "q": "I am an Algerian forward who scored the famous solo goal against South Korea at the 2014 World Cup, and I played for Leicester City. Who am I?",
+    "a": "Islam Slimani",
+    "choices": [
+      "Islam Slimani",
+      "Riyad Mahrez",
+      "Sofiane Feghouli",
+      "Yacine Brahimi"
+    ],
+    "sport": "soccer",
+    "difficulty": "hard"
+  },
+  {
+    "q": "This German club won the Champions League in 1997 under Ottmar Hitzfeld. Name them.",
+    "a": "Borussia Dortmund",
+    "choices": [
+      "Borussia Dortmund",
+      "Bayern Munich",
+      "Bayer Leverkusen",
+      "Schalke 04"
+    ],
+    "sport": "soccer",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This club won the first ever FIFA Club World Cup in 2000. Name them.",
+    "a": "Corinthians",
+    "choices": [
+      "Corinthians",
+      "Real Madrid",
+      "Manchester United",
+      "Boca Juniors"
+    ],
+    "sport": "soccer",
+    "difficulty": "hard"
+  },
+  {
+    "q": "This English forward won the Ballon d'Or in 2001 while playing for Liverpool. Name him.",
+    "a": "Michael Owen",
+    "choices": [
+      "Michael Owen",
+      "Steven Gerrard",
+      "Robbie Fowler",
+      "Emile Heskey"
+    ],
+    "sport": "soccer",
+    "difficulty": "medium"
+  },
+  {
+    "q": "I am an Argentine manager who has managed Atletico Madrid since 2011 and led them to the La Liga title in 2013-14. Who am I?",
+    "a": "Diego Simeone",
+    "choices": [
+      "Diego Simeone",
+      "Marcelo Bielsa",
+      "Mauricio Pochettino",
+      "Hernan Crespo"
+    ],
+    "sport": "soccer",
+    "difficulty": "hard"
+  },
+  {
+    "q": "This French defender scored in both the 1998 World Cup final and the Euro 2000 final. He played for Parma and Juventus. Name him.",
+    "a": "Lilian Thuram",
+    "choices": [
+      "Lilian Thuram",
+      "Marcel Desailly",
+      "Laurent Blanc",
+      "Bixente Lizarazu"
+    ],
+    "sport": "soccer",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Called 'Chicharito', this Mexican striker played for Manchester United, Real Madrid, and Bayer Leverkusen. Name him.",
+    "a": "Javier Hernandez",
+    "choices": [
+      "Javier Hernandez",
+      "Carlos Vela",
+      "Hugo Sanchez",
+      "Rafael Marquez"
+    ],
+    "sport": "soccer",
+    "difficulty": "hard"
+  },
+  {
+    "q": "This club won their third Champions League title in five years in 2018, beating Liverpool in the final. Name them.",
+    "a": "Real Madrid",
+    "choices": [
+      "Real Madrid",
+      "Barcelona",
+      "Bayern Munich",
+      "Juventus"
+    ],
+    "sport": "soccer",
+    "difficulty": "hard"
+  },
+  {
+    "q": "This Senegalese forward became the African Player of the Year in 2019 and won the Champions League with Liverpool. Name him.",
+    "a": "Sadio Mane",
+    "choices": [
+      "Sadio Mane",
+      "Mohamed Salah",
+      "Pierre-Emerick Aubameyang",
+      "Riyad Mahrez"
+    ],
+    "sport": "soccer",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This Argentine forward scored 672 goals for Barcelona in 778 appearances, making him the club's all-time top scorer. Name him.",
+    "a": "Lionel Messi",
+    "choices": [
+      "Lionel Messi",
+      "Cesar Rodriguez",
+      "Laszlo Kubala",
+      "Luis Suarez"
+    ],
+    "sport": "soccer",
+    "difficulty": "easy"
+  },
+  {
+    "q": "This club won back-to-back European Cups in 1979 and 1980 under Brian Clough. Name them.",
+    "a": "Nottingham Forest",
+    "choices": [
+      "Nottingham Forest",
+      "Liverpool",
+      "Aston Villa",
+      "Leeds United"
+    ],
+    "sport": "soccer",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This Spanish forward is the all-time top scorer for the Spanish national team. Name him.",
+    "a": "David Villa",
+    "choices": [
+      "David Villa",
+      "Raul",
+      "Fernando Torres",
+      "Fernando Morientes"
+    ],
+    "sport": "soccer",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Called 'O Fenomeno', this player scored 8 goals at the 2002 World Cup, winning both the Golden Boot and the tournament. Name him.",
+    "a": "Ronaldo Nazario",
+    "choices": [
+      "Ronaldo Nazario",
+      "Rivaldo",
+      "Ronaldinho",
+      "Roberto Carlos"
+    ],
+    "sport": "soccer",
+    "difficulty": "hard"
+  },
+  {
+    "q": "This English club won the Premier League in 2015-16 at 5000-1 odds, one of the greatest upsets in sporting history. Name them.",
+    "a": "Leicester City",
+    "choices": [
+      "Leicester City",
+      "Southampton",
+      "West Ham",
+      "Burnley"
+    ],
+    "sport": "soccer",
+    "difficulty": "hard"
+  },
+  {
+    "q": "This French forward equaled the World Cup final goal-scoring record with a hat-trick in the 2022 final. Name him.",
+    "a": "Kylian Mbappe",
+    "choices": [
+      "Kylian Mbappe",
+      "Lionel Messi",
+      "Antoine Griezmann",
+      "Olivier Giroud"
+    ],
+    "sport": "soccer",
+    "difficulty": "hard"
+  },
+  {
+    "q": "I am a Dutch manager who managed Barcelona, Bayern Munich, and Manchester United. I am known for my 'total football' philosophy. Who am I?",
+    "a": "Louis van Gaal",
+    "choices": [
+      "Louis van Gaal",
+      "Frank Rijkaard",
+      "Ronald Koeman",
+      "Dick Advocaat"
+    ],
+    "sport": "soccer",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This Austrian forward was one of the greatest goalscorers of his era and played for Real Madrid alongside Alfredo Di Stefano. Name him.",
+    "a": "Ferenc Puskas",
+    "choices": [
+      "Ferenc Puskas",
+      "Fritz Walter",
+      "Ernst Happel",
+      "Helmut Haller"
+    ],
+    "sport": "soccer",
+    "difficulty": "hard"
+  },
+  {
+    "q": "This English club became the first London team to win the Champions League in 2012. Name them.",
+    "a": "Chelsea",
+    "choices": [
+      "Chelsea",
+      "Arsenal",
+      "Tottenham",
+      "West Ham"
+    ],
+    "sport": "soccer",
+    "difficulty": "hard"
+  },
+  {
+    "q": "This Argentine forward scored the 'Goal of the Century' with a 60-meter solo run against England in 1986. Name him.",
+    "a": "Diego Maradona",
+    "choices": [
+      "Diego Maradona",
+      "Gabriel Batistuta",
+      "Claudio Caniggia",
+      "Jorge Valdano"
+    ],
+    "sport": "soccer",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Called 'Gattuso' or 'Rino', this Italian midfielder was known for his aggressive style and partnered Pirlo at AC Milan. Name him.",
+    "a": "Gennaro Gattuso",
+    "choices": [
+      "Gennaro Gattuso",
+      "Massimo Ambrosini",
+      "Andrea Pirlo",
+      "Clarence Seedorf"
+    ],
+    "sport": "soccer",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This Italian manager won the Champions League with both AC Milan (2003, 2007) and Real Madrid (2014, 2022). Name him.",
+    "a": "Carlo Ancelotti",
+    "choices": [
+      "Carlo Ancelotti",
+      "Marcello Lippi",
+      "Fabio Capello",
+      "Arrigo Sacchi"
+    ],
+    "sport": "soccer",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This Ghanaian midfielder scored a crucial goal in the 2010 World Cup quarterfinal before the infamous Suarez handball. Name him.",
+    "a": "Asamoah Gyan",
+    "choices": [
+      "Asamoah Gyan",
+      "Michael Essien",
+      "Sulley Muntari",
+      "Kevin-Prince Boateng"
+    ],
+    "sport": "soccer",
+    "difficulty": "hard"
+  },
+  {
+    "q": "This club has won the most Eredivisie titles in Dutch football. Name them.",
+    "a": "Ajax",
+    "choices": [
+      "Ajax",
+      "PSV Eindhoven",
+      "Feyenoord",
+      "AZ Alkmaar"
+    ],
+    "sport": "soccer",
+    "difficulty": "hard"
+  },
+  {
+    "q": "This Colombian goalkeeper was famous for his 'scorpion kick' save against England in a 1995 friendly at Wembley. Name him.",
+    "a": "Rene Higuita",
+    "choices": [
+      "Rene Higuita",
+      "Oscar Cordoba",
+      "Faryd Mondragon",
+      "David Ospina"
+    ],
+    "sport": "soccer",
+    "difficulty": "hard"
+  },
+  {
+    "q": "This English midfielder scored one of the greatest Champions League final goals with a long-range strike for Liverpool against AC Milan in 2005. Name him.",
+    "a": "Steven Gerrard",
+    "choices": [
+      "Steven Gerrard",
+      "Xabi Alonso",
+      "Vladimir Smicer",
+      "Dietmar Hamann"
+    ],
+    "sport": "soccer",
+    "difficulty": "hard"
+  },
+  {
+    "q": "This French club is the only French team to have won the Champions League. Name them.",
+    "a": "Olympique Marseille",
+    "choices": [
+      "Olympique Marseille",
+      "Paris Saint-Germain",
+      "Lyon",
+      "Monaco"
+    ],
+    "sport": "soccer",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Called 'Batigol', this Argentine striker scored 54 goals in 78 appearances for Argentina and was famous for his powerful shooting. Name him.",
+    "a": "Gabriel Batistuta",
+    "choices": [
+      "Gabriel Batistuta",
+      "Hernan Crespo",
+      "Claudio Lopez",
+      "Diego Milito"
+    ],
+    "sport": "soccer",
+    "difficulty": "hard"
+  },
+  {
+    "q": "This country won the European Championship in 2020 (played in 2021) for the first time in their history, beating England in the final at Wembley. Name them.",
+    "a": "Italy",
+    "choices": [
+      "Italy",
+      "Spain",
+      "Denmark",
+      "England"
+    ],
+    "sport": "soccer",
+    "difficulty": "hard"
+  },
+  {
+    "q": "This German forward spent his entire career at Bayern Munich and scored 365 Bundesliga goals, a record that stood for decades. Name him.",
+    "a": "Gerd Muller",
+    "choices": [
+      "Gerd Muller",
+      "Karl-Heinz Rummenigge",
+      "Franz Beckenbauer",
+      "Robert Lewandowski"
+    ],
+    "sport": "soccer",
+    "difficulty": "hard"
+  },
+  {
+    "q": "I am a Spanish goalkeeper who made a crucial save in the 2010 World Cup final. I played for Villarreal and Real Madrid. Who am I?",
+    "a": "Iker Casillas",
+    "choices": [
+      "Iker Casillas",
+      "Pepe Reina",
+      "Victor Valdes",
+      "David De Gea"
+    ],
+    "sport": "soccer",
+    "difficulty": "hard"
+  },
+  {
+    "q": "This Moroccan defender captained his country to the 2022 World Cup semifinals, the first African nation to reach that stage. Name him.",
+    "a": "Romain Saiss",
+    "choices": [
+      "Romain Saiss",
+      "Achraf Hakimi",
+      "Nayef Aguerd",
+      "Hakim Ziyech"
+    ],
+    "sport": "soccer",
+    "difficulty": "hard"
+  },
+  {
+    "q": "This manager has won the Premier League title with Manchester City four times in a row from 2020-21 to 2023-24. Name him.",
+    "a": "Pep Guardiola",
+    "choices": [
+      "Pep Guardiola",
+      "Roberto Mancini",
+      "Manuel Pellegrini",
+      "Jurgen Klopp"
+    ],
+    "sport": "soccer",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Called 'The Rock', this English defender captained Chelsea and England and was known for his aerial ability. Name him.",
+    "a": "John Terry",
+    "choices": [
+      "John Terry",
+      "Rio Ferdinand",
+      "Sol Campbell",
+      "Gary Cahill"
+    ],
+    "sport": "soccer",
+    "difficulty": "hard"
+  },
+  {
+    "q": "This Ghanaian midfielder captained his club to the Premier League title and also won the Champions League with Chelsea. Name him.",
+    "a": "Michael Essien",
+    "choices": [
+      "Michael Essien",
+      "Sulley Muntari",
+      "Asamoah Gyan",
+      "Thomas Partey"
+    ],
+    "sport": "soccer",
+    "difficulty": "hard"
+  },
+  {
+    "q": "This country has won the most Africa Cup of Nations titles. Name them.",
+    "a": "Egypt",
+    "choices": [
+      "Egypt",
+      "Cameroon",
+      "Ghana",
+      "Nigeria"
+    ],
+    "sport": "soccer",
+    "difficulty": "hard"
+  }
+]

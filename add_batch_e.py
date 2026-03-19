@@ -1,0 +1,111 @@
+import json
+
+new_questions = [
+# ── BASKETBALL ──
+{"q":"Which NBA team relocated from Seattle to Oklahoma City in 2008?","a":"Seattle SuperSonics","choices":["Seattle SuperSonics","Vancouver Grizzlies","New Jersey Nets","Charlotte Hornets"],"sport":"basketball","difficulty":"easy"},
+{"q":"What year did Kareem Abdul-Jabbar win his sixth and final NBA MVP award?","a":"1980","choices":["1980","1977","1982","1975"],"sport":"basketball","difficulty":"hard"},
+{"q":"Who was the first international player to be drafted first overall in the NBA?","a":"Hakeem Olajuwon (Nigeria) in 1984","choices":["Hakeem Olajuwon (Nigeria) in 1984","Patrick Ewing","Yao Ming","Andrea Bargnani"],"sport":"basketball","difficulty":"hard"},
+{"q":"Which player popularized the finger roll shot in the NBA?","a":"George Gervin","choices":["George Gervin","Connie Hawkins","Julius Erving","Tiny Nate Archibald"],"sport":"basketball","difficulty":"hard"},
+{"q":"How many personal fouls is a player allowed before fouling out in the NBA?","a":"6","choices":["6","5","4","7"],"sport":"basketball","difficulty":"easy"},
+{"q":"Which player won the NBA championship with three different teams?","a":"Robert Horry (Rockets, Lakers, Spurs)","choices":["Robert Horry (Rockets, Lakers, Spurs)","LeBron James","Dennis Rodman","John Salley"],"sport":"basketball","difficulty":"hard"},
+{"q":"What team did Dwyane Wade play for his entire career before briefly leaving?","a":"Miami Heat","choices":["Miami Heat","Chicago Bulls","Cleveland Cavaliers","Memphis Grizzlies"],"sport":"basketball","difficulty":"easy"},
+{"q":"Which player won NBA Finals MVP in 2018?","a":"Kevin Durant","choices":["Kevin Durant","Stephen Curry","Klay Thompson","Draymond Green"],"sport":"basketball","difficulty":"medium"},
+{"q":"What is the backcourt violation in basketball?","a":"When the offense returns the ball past the half-court line after crossing it","choices":["When the offense returns the ball past the half-court line after crossing it","When a player bounces the ball off his own foot","A player stepping out of bounds","When a player double-dribbles"],"sport":"basketball","difficulty":"medium"},
+{"q":"Who holds the all-time NBA career rebounds record?","a":"Wilt Chamberlain (23,924)","choices":["Wilt Chamberlain (23,924)","Bill Russell","Kareem Abdul-Jabbar","Moses Malone"],"sport":"basketball","difficulty":"hard"},
+{"q":"Which player won the first NBA Most Valuable Player award in 1956?","a":"Bob Pettit","choices":["Bob Pettit","Bill Russell","Wilt Chamberlain","Oscar Robertson"],"sport":"basketball","difficulty":"hard"},
+{"q":"What arena do the Atlanta Hawks play in?","a":"State Farm Arena","choices":["State Farm Arena","Philips Arena","Mercedes-Benz Stadium","Delta Center"],"sport":"basketball","difficulty":"medium"},
+{"q":"Who was the first player to win NBA MVP as a rookie?","a":"Wes Unseld (1969)","choices":["Wes Unseld (1969)","Dave Cowens","Ralph Sampson","LeBron James"],"sport":"basketball","difficulty":"hard"},
+{"q":"Which team did Kevin Garnett win his only NBA championship with?","a":"Boston Celtics","choices":["Boston Celtics","Minnesota Timberwolves","Brooklyn Nets","Oklahoma City Thunder"],"sport":"basketball","difficulty":"easy"},
+{"q":"What is the name of the NBA award for the best player in the community?","a":"J. Walter Kennedy Citizenship Award","choices":["J. Walter Kennedy Citizenship Award","Sportsmanship Award","Joe Dumars Trophy","Community Champion Award"],"sport":"basketball","difficulty":"hard"},
+{"q":"Who won back-to-back NBA MVP awards in 2019 and 2020?","a":"Giannis Antetokounmpo","choices":["Giannis Antetokounmpo","LeBron James","James Harden","Stephen Curry"],"sport":"basketball","difficulty":"medium"},
+{"q":"Which player has the most triple-doubles in NBA history?","a":"Russell Westbrook","choices":["Russell Westbrook","Magic Johnson","Oscar Robertson","Jason Kidd"],"sport":"basketball","difficulty":"medium"},
+{"q":"What is zone defense in basketball?","a":"A defensive scheme where players guard areas rather than specific players","choices":["A defensive scheme where players guard areas rather than specific players","Man-to-man defense with help side","A full-court press","A 2-3 trap at half court"],"sport":"basketball","difficulty":"easy"},
+{"q":"Which player scored 63 points against the Celtics in a 1986 playoff game?","a":"Michael Jordan","choices":["Michael Jordan","Dominique Wilkins","Larry Bird","Charles Barkley"],"sport":"basketball","difficulty":"medium"},
+{"q":"Who was the first player to win NBA Finals MVP with two different teams?","a":"LeBron James (Heat 2012-13, Cavaliers 2016)","choices":["LeBron James (Heat 2012-13, Cavaliers 2016)","Kareem Abdul-Jabbar","Shaquille O'Neal","Magic Johnson"],"sport":"basketball","difficulty":"hard"},
+{"q":"Which team is known for the 'Twin Towers' of David Robinson and Tim Duncan?","a":"San Antonio Spurs","choices":["San Antonio Spurs","Houston Rockets","Orlando Magic","Utah Jazz"],"sport":"basketball","difficulty":"medium"},
+{"q":"What is the NBA record for most points scored by a losing team?","a":"184 points (Denver Nuggets in 3OT loss, 1983)","choices":["184 points (Denver Nuggets in 3OT loss, 1983)","165 points","175 points","170 points"],"sport":"basketball","difficulty":"hard"},
+{"q":"Which player averaged a triple-double in the 2020-21 season?","a":"Russell Westbrook","choices":["Russell Westbrook","Nikola Jokic","Luka Doncic","James Harden"],"sport":"basketball","difficulty":"medium"},
+{"q":"What city do the Pacers play in?","a":"Indianapolis","choices":["Indianapolis","Cincinnati","Louisville","Columbus"],"sport":"basketball","difficulty":"easy"},
+{"q":"Who won the NBA Sportsmanship Award in 2023?","a":"Chris Paul","choices":["Chris Paul","Udoka Azubuike","Seth Curry","Rudy Gobert"],"sport":"basketball","difficulty":"hard"},
+{"q":"Which player was the first to win three straight NBA scoring titles in the modern era?","a":"Michael Jordan","choices":["Michael Jordan","Kareem Abdul-Jabbar","George Gervin","Allen Iverson"],"sport":"basketball","difficulty":"hard"},
+{"q":"What team drafted Penny Hardaway in the 1993 NBA Draft?","a":"Golden State Warriors (traded to Orlando)","choices":["Golden State Warriors (traded to Orlando)","Orlando Magic","Phoenix Suns","Dallas Mavericks"],"sport":"basketball","difficulty":"hard"},
+{"q":"Who is the all-time leading scorer in NBA playoff history?","a":"LeBron James","choices":["LeBron James","Michael Jordan","Kareem Abdul-Jabbar","Kobe Bryant"],"sport":"basketball","difficulty":"medium"},
+{"q":"Which player wore number 6 for the Boston Celtics and had his number retired?","a":"Bill Russell","choices":["Bill Russell","Bob Cousy","Dave Cowens","John Havlicek"],"sport":"basketball","difficulty":"medium"},
+{"q":"What year did the Warriors win 73 regular season games?","a":"2015-16","choices":["2015-16","2016-17","2014-15","2017-18"],"sport":"basketball","difficulty":"medium"},
+
+# ── FOOTBALL ──
+{"q":"Which player won the Heisman Trophy in 2020?","a":"DeVonta Smith","choices":["DeVonta Smith","Mac Jones","Kyle Trask","Najee Harris"],"sport":"football","difficulty":"medium"},
+{"q":"What is a quarterback sneak?","a":"When the QB runs forward immediately after the snap behind his offensive linemen","choices":["When the QB runs forward immediately after the snap behind his offensive linemen","When the QB hands off on a fake play","A trick play where the QB lines up at receiver","A draw play run by the QB"],"sport":"football","difficulty":"easy"},
+{"q":"Who was the first pick in the 2021 NFL Draft?","a":"Trevor Lawrence","choices":["Trevor Lawrence","Zach Wilson","Trey Lance","Justin Fields"],"sport":"football","difficulty":"medium"},
+{"q":"Which team won the first Super Bowl played at the new Allegiant Stadium?","a":"Los Angeles Rams (Super Bowl LVI was in Inglewood)","choices":["The Super Bowl has not been played at Allegiant Stadium as of 2024","Las Vegas Raiders","Kansas City Chiefs","San Francisco 49ers"],"sport":"football","difficulty":"hard"},
+{"q":"What is a pick-six in football?","a":"When a defensive player intercepts a pass and returns it for a touchdown","choices":["When a defensive player intercepts a pass and returns it for a touchdown","A six-play series starting with a screen","A successful two-point conversion attempt","A field goal blocked and returned for a TD"],"sport":"football","difficulty":"easy"},
+{"q":"Who holds the record for most touchdowns scored in NFL playoff history?","a":"Jerry Rice (22 TDs)","choices":["Jerry Rice (22 TDs)","Tom Brady","Emmitt Smith","Thurman Thomas"],"sport":"football","difficulty":"hard"},
+{"q":"Which team drafted Patrick Mahomes in the 2017 NFL Draft?","a":"Kansas City Chiefs","choices":["Kansas City Chiefs","Dallas Cowboys","New England Patriots","Los Angeles Rams"],"sport":"football","difficulty":"easy"},
+{"q":"What is a coffin corner kick in football?","a":"A punt aimed to go out of bounds near the opponent's goal line","choices":["A punt aimed to go out of bounds near the opponent's goal line","A kick from the corner of the field","An onside kick attempt","A squib kick"],"sport":"football","difficulty":"medium"},
+{"q":"Which player was the first to rush for 2,000 yards in an NFL season?","a":"O.J. Simpson (2,003 yards in 1973)","choices":["O.J. Simpson (2,003 yards in 1973)","Eric Dickerson","Barry Sanders","Walter Payton"],"sport":"football","difficulty":"hard"},
+{"q":"What team plays at Arrowhead Stadium?","a":"Kansas City Chiefs","choices":["Kansas City Chiefs","Los Angeles Rams","Denver Broncos","Oakland Raiders"],"sport":"football","difficulty":"easy"},
+{"q":"Who was MVP of Super Bowl XLII?","a":"Eli Manning","choices":["Eli Manning","David Tyree","Plaxico Burress","Amani Toomer"],"sport":"football","difficulty":"medium"},
+{"q":"How long is a standard NFL overtime period since the 2022 rule change?","a":"10 minutes","choices":["10 minutes","15 minutes","5 minutes","Sudden death - no time limit"],"sport":"football","difficulty":"medium"},
+{"q":"Which team won Super Bowl XLIX?","a":"New England Patriots","choices":["New England Patriots","Seattle Seahawks","Green Bay Packers","Indianapolis Colts"],"sport":"football","difficulty":"medium"},
+{"q":"What is a touchback called when it occurs on a kickoff?","a":"Still called a touchback","choices":["Still called a touchback","A free kick","A dead ball foul","A special touchback"],"sport":"football","difficulty":"easy"},
+{"q":"Who won the Offensive Rookie of the Year award in 2022?","a":"Garrett Wilson","choices":["Garrett Wilson","Drake London","Breece Hall","Chris Olave"],"sport":"football","difficulty":"hard"},
+{"q":"Which team drafted Calvin Johnson in the 2007 NFL Draft?","a":"Detroit Lions","choices":["Detroit Lions","Green Bay Packers","Pittsburgh Steelers","Tampa Bay Buccaneers"],"sport":"football","difficulty":"medium"},
+{"q":"What city do the Falcons play in?","a":"Atlanta","choices":["Atlanta","Charlotte","Jacksonville","Nashville"],"sport":"football","difficulty":"easy"},
+{"q":"Which player returned two kickoffs for touchdowns in Super Bowl XLIV?","a":"No player returned two kickoff TDs in SB XLIV - Devin Hester had one in SB XLI","choices":["No player has returned two kickoffs for TDs in one Super Bowl","Devin Hester","Jacoby Jones","Desmond Howard"],"sport":"football","difficulty":"hard"},
+{"q":"Who was the first wide receiver selected first overall in the NFL Draft?","a":"Keyshawn Johnson (1996)","choices":["Keyshawn Johnson (1996)","Calvin Johnson","Larry Fitzgerald","Randy Moss"],"sport":"football","difficulty":"hard"},
+{"q":"What is the Wildcat formation in football?","a":"A direct snap to a running back or receiver instead of the quarterback","choices":["A direct snap to a running back or receiver instead of the quarterback","A formation with four wide receivers","A defensive alignment with five pass rushers","A spread formation with no tight end"],"sport":"football","difficulty":"medium"},
+{"q":"Which player won the NFL Defensive Player of the Year in 2023?","a":"Myles Garrett","choices":["Myles Garrett","Micah Parsons","Maxx Crosby","DeMarcus Lawrence"],"sport":"football","difficulty":"medium"},
+{"q":"What team does Justin Jefferson play for?","a":"Minnesota Vikings","choices":["Minnesota Vikings","Green Bay Packers","Chicago Bears","Detroit Lions"],"sport":"football","difficulty":"easy"},
+{"q":"Which quarterback threw for 5,477 yards in 2011, the second-most in NFL history at the time?","a":"Drew Brees","choices":["Drew Brees","Tom Brady","Matthew Stafford","Eli Manning"],"sport":"football","difficulty":"hard"},
+{"q":"How many Super Bowls did Joe Montana win?","a":"4","choices":["4","3","5","2"],"sport":"football","difficulty":"easy"},
+{"q":"What city do the Saints play in?","a":"New Orleans","choices":["New Orleans","Baton Rouge","Houston","Jacksonville"],"sport":"football","difficulty":"easy"},
+{"q":"Which player won four Super Bowl rings with the Pittsburgh Steelers in the 1970s?","a":"Terry Bradshaw","choices":["Terry Bradshaw","Lynn Swann","Franco Harris","Mean Joe Greene"],"sport":"football","difficulty":"medium"},
+{"q":"What is the play clock rule - how many seconds between plays?","a":"40 seconds from end of previous play (25 after penalties/timeouts)","choices":["40 seconds from end of previous play (25 after penalties/timeouts)","30 seconds always","20 seconds always","45 seconds"],"sport":"football","difficulty":"medium"},
+{"q":"Who holds the record for most rushing yards in a single NFL game?","a":"Adrian Peterson (296 yards in 2007)","choices":["Adrian Peterson (296 yards in 2007)","Jamal Lewis","Walter Payton","OJ Simpson"],"sport":"football","difficulty":"hard"},
+{"q":"Which team drafted CJ Stroud in the 2023 NFL Draft?","a":"Houston Texans","choices":["Houston Texans","Indianapolis Colts","Arizona Cardinals","Chicago Bears"],"sport":"football","difficulty":"medium"},
+{"q":"What is the hail mary pass named after?","a":"A prayer - the QB throws it up hoping for a miracle catch","choices":["A prayer - the QB throws it up hoping for a miracle catch","A play drawn up by Roger Staubach named after the Hail Mary prayer","A famous Catholic player who invented it","A Notre Dame play from the 1960s"],"sport":"football","difficulty":"medium"},
+
+# ── SOCCER ──
+{"q":"Which club has won the most La Liga titles?","a":"Real Madrid","choices":["Real Madrid","Barcelona","Atletico Madrid","Valencia"],"sport":"soccer","difficulty":"medium"},
+{"q":"Who scored the fastest goal in World Cup history?","a":"Hakan Sukur (11 seconds) in 2002","choices":["Hakan Sukur (11 seconds) in 2002","Josip Skoblar","Bryan Robson","Pele"],"sport":"soccer","difficulty":"hard"},
+{"q":"Which nation won Euro 2016?","a":"Portugal","choices":["Portugal","France","Germany","Wales"],"sport":"soccer","difficulty":"medium"},
+{"q":"Who is the all-time top scorer for Argentina's national team?","a":"Lionel Messi","choices":["Lionel Messi","Gabriel Batistuta","Diego Maradona","Hernan Crespo"],"sport":"soccer","difficulty":"easy"},
+{"q":"What is the name of the annual award given to the best European club team?","a":"UEFA Champions League","choices":["UEFA Champions League","Europa League","Super Cup","Intercontinental Cup"],"sport":"soccer","difficulty":"easy"},
+{"q":"Which player holds the record for most goals in a single Premier League season?","a":"Mo Salah (32 goals in 2017-18)","choices":["Mo Salah (32 goals in 2017-18)","Thierry Henry","Alan Shearer","Andrew Cole"],"sport":"soccer","difficulty":"hard"},
+{"q":"In what country was the 2010 FIFA World Cup held?","a":"South Africa","choices":["South Africa","Nigeria","Egypt","Morocco"],"sport":"soccer","difficulty":"easy"},
+{"q":"Which manager won the Champions League with three different clubs?","a":"No manager has won the CL with three different clubs","choices":["No manager has won the CL with three different clubs","Jose Mourinho (Porto, Inter, Real Madrid had one each)","Pep Guardiola","Carlo Ancelotti"],"sport":"soccer","difficulty":"hard"},
+{"q":"Who won the Ballon d'Or in 2022?","a":"Karim Benzema","choices":["Karim Benzema","Lionel Messi","Kylian Mbappe","Sadio Mane"],"sport":"soccer","difficulty":"medium"},
+{"q":"Which English club plays at Goodison Park?","a":"Everton","choices":["Everton","Liverpool","Blackburn Rovers","Bolton Wanderers"],"sport":"soccer","difficulty":"medium"},
+{"q":"How many substitutes are allowed on the bench in a standard FIFA World Cup match?","a":"12 substitutes on the bench (5 can play)","choices":["12 substitutes on the bench (5 can play)","7 substitutes","9 substitutes","15 substitutes"],"sport":"soccer","difficulty":"hard"},
+{"q":"Who scored the winning penalty for France in the 2022 World Cup final shootout?","a":"France lost the 2022 final to Argentina in penalties","choices":["France lost the 2022 final to Argentina in penalties","Kylian Mbappe","Antoine Griezmann","Olivier Giroud"],"sport":"soccer","difficulty":"hard"},
+{"q":"Which club won the first Champions League title in 1956?","a":"Real Madrid","choices":["Real Madrid","Barcelona","AC Milan","Ajax"],"sport":"soccer","difficulty":"hard"},
+{"q":"What country does Manchester City's manager Pep Guardiola come from?","a":"Spain","choices":["Spain","Germany","Italy","France"],"sport":"soccer","difficulty":"easy"},
+{"q":"Who was the top scorer at the 2014 FIFA World Cup?","a":"James Rodriguez (6 goals)","choices":["James Rodriguez (6 goals)","Thomas Muller","Neymar","Lionel Messi"],"sport":"soccer","difficulty":"hard"},
+{"q":"Which stadium is known as the 'Theatre of Dreams'?","a":"Old Trafford","choices":["Old Trafford","Wembley","Anfield","Tottenham Hotspur Stadium"],"sport":"soccer","difficulty":"easy"},
+{"q":"What is a clean sheet in soccer?","a":"When a goalkeeper does not concede any goals in a match","choices":["When a goalkeeper does not concede any goals in a match","When a team wins without committing any fouls","A match with no yellow or red cards","A 0-0 draw"],"sport":"soccer","difficulty":"easy"},
+{"q":"Which country won the first Women's FIFA World Cup in 1991?","a":"United States","choices":["United States","Germany","Norway","China"],"sport":"soccer","difficulty":"medium"},
+{"q":"Who won the Ballon d'Or in 2023?","a":"Lionel Messi","choices":["Lionel Messi","Erling Haaland","Kylian Mbappe","Vinicius Jr"],"sport":"soccer","difficulty":"medium"},
+{"q":"What country does Erling Haaland play for internationally?","a":"Norway","choices":["Norway","Sweden","Denmark","Finland"],"sport":"soccer","difficulty":"easy"},
+{"q":"Which English city has two Premier League clubs - City and United?","a":"Manchester","choices":["Manchester","London","Birmingham","Sheffield"],"sport":"soccer","difficulty":"easy"},
+{"q":"How many times has Italy won the FIFA World Cup?","a":"4","choices":["4","3","5","2"],"sport":"soccer","difficulty":"medium"},
+{"q":"Who won Euro 2024?","a":"Spain","choices":["Spain","England","Germany","France"],"sport":"soccer","difficulty":"medium"},
+{"q":"Which club did Zinedine Zidane famously head-butt Marco Materazzi for in the 2006 World Cup final?","a":"Zidane played for France - the headbutt was in the World Cup final","choices":["The incident was in the 2006 World Cup final (France vs Italy) not a club match","Real Madrid","Juventus","Marseille"],"sport":"soccer","difficulty":"medium"},
+{"q":"What year was the Premier League founded?","a":"1992","choices":["1992","1985","1988","1995"],"sport":"soccer","difficulty":"medium"},
+{"q":"Which player scored a hat-trick in the 2014 World Cup semifinals?","a":"Thomas Muller scored four (not three) - no player had a hat-trick in the semis","choices":["No player scored a hat-trick in the 2014 World Cup semifinals","Thomas Muller","Miroslav Klose","Toni Kroos"],"sport":"soccer","difficulty":"hard"},
+{"q":"Who is the all-time top scorer for England's national team?","a":"Wayne Rooney","choices":["Wayne Rooney","Bobby Charlton","Gary Lineker","Jimmy Greaves"],"sport":"soccer","difficulty":"medium"},
+{"q":"Which club plays at Stamford Bridge?","a":"Chelsea","choices":["Chelsea","Arsenal","Fulham","Queens Park Rangers"],"sport":"soccer","difficulty":"easy"},
+{"q":"Who won the 2023-24 Premier League title?","a":"Manchester City","choices":["Manchester City","Arsenal","Liverpool","Tottenham"],"sport":"soccer","difficulty":"medium"},
+{"q":"Which country has hosted the World Cup the most times?","a":"Mexico (1970, 1986, and co-host 2026 - tied with others at 2 solo)","choices":["Brazil and Mexico (both hosted twice)","Brazil","Germany","Italy"],"sport":"soccer","difficulty":"hard"},
+]
+
+with open('questions.json') as f:
+    existing = json.load(f)
+
+existing_set = set(q['q'].strip().lower() for q in existing)
+added = [q for q in new_questions if q['q'].strip().lower() not in existing_set]
+existing.extend(added)
+
+with open('questions.json', 'w') as f:
+    json.dump(existing, f, indent=2)
+
+print(f"Added {len(added)} questions. Total now: {len(existing)}")

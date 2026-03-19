@@ -1,0 +1,112 @@
+import json
+
+new_questions = [
+# ── BASKETBALL — college / history / deeper ──
+{"q":"Which college team has won the most NCAA Men's Basketball championships?","a":"UCLA (11 titles)","choices":["UCLA (11 titles)","Kentucky","North Carolina","Duke"],"sport":"basketball","difficulty":"medium"},
+{"q":"Who coached UCLA to 10 NCAA basketball titles?","a":"John Wooden","choices":["John Wooden","Larry Brown","Dean Smith","Bob Knight"],"sport":"basketball","difficulty":"medium"},
+{"q":"Which player hit the buzzer-beater to send the 2016 NCAA championship game to overtime?","a":"Kris Jenkins (Villanova, to WIN the title)","choices":["Kris Jenkins (Villanova, to win the championship)","Ryan Arcidiacono","Mikal Bridges","Phil Booth"],"sport":"basketball","difficulty":"hard"},
+{"q":"What school did Michael Jordan attend before being drafted?","a":"University of North Carolina","choices":["University of North Carolina","Duke","NC State","Georgetown"],"sport":"basketball","difficulty":"medium"},
+{"q":"Which team won the 2022 NCAA Men's Basketball championship?","a":"Kansas Jayhawks","choices":["Kansas Jayhawks","North Carolina Tar Heels","Duke Blue Devils","Villanova Wildcats"],"sport":"basketball","difficulty":"medium"},
+{"q":"Who was the first player to score 4,000 career points in college basketball?","a":"Pete Maravich (LSU, 3,667 - no one has 4,000)","choices":["Pete Maravich holds the college scoring record","Oscar Robertson","Danny Manning","Alphonso Ford"],"sport":"basketball","difficulty":"hard"},
+{"q":"Which university did LeBron James attend?","a":"LeBron James did not attend college - he went directly from high school to the NBA","choices":["LeBron James did not attend college","Ohio State","Kentucky","Akron"],"sport":"basketball","difficulty":"medium"},
+{"q":"Who holds the NCAA Men's Basketball career scoring record?","a":"Pete Maravich (3,667 points)","choices":["Pete Maravich (3,667 points)","Kevan Mims","Freeman Williams","Harry Kelly"],"sport":"basketball","difficulty":"hard"},
+{"q":"Which team did UConn beat to win the 2023 NCAA Men's Basketball title?","a":"San Diego State Aztecs","choices":["San Diego State Aztecs","Miami Hurricanes","Florida Atlantic Owls","Gonzaga Bulldogs"],"sport":"basketball","difficulty":"medium"},
+{"q":"What is a charge in basketball?","a":"When an offensive player collides with a stationary defender, resulting in an offensive foul","choices":["When an offensive player collides with a stationary defender, resulting in an offensive foul","Any physical contact between players","A blocking foul on the defense","When the ball carrier runs over a defender"],"sport":"basketball","difficulty":"medium"},
+{"q":"Which team won the most WNBA championships?","a":"Houston Comets (4 titles, 1997-2000)","choices":["Houston Comets (4 titles, 1997-2000)","Los Angeles Sparks","Seattle Storm","Minnesota Lynx"],"sport":"basketball","difficulty":"hard"},
+{"q":"Who is the WNBA all-time leading scorer?","a":"Tina Thompson","choices":["Tina Thompson","Tamika Catchings","Diana Taurasi","Candace Parker"],"sport":"basketball","difficulty":"hard"},
+{"q":"What number did Larry Bird wear?","a":"33","choices":["33","22","44","11"],"sport":"basketball","difficulty":"medium"},
+{"q":"Which player is considered the first great center in NBA history?","a":"George Mikan","choices":["George Mikan","Bob Cousy","Dolph Schayes","Bob Pettit"],"sport":"basketball","difficulty":"hard"},
+{"q":"Who was the head coach of the US Men's Olympic basketball team at the 2008 Beijing Olympics?","a":"Mike Krzyzewski","choices":["Mike Krzyzewski","Larry Brown","Greg Popovich","Doc Rivers"],"sport":"basketball","difficulty":"medium"},
+{"q":"Which arena do the Phoenix Suns play in?","a":"Footprint Center","choices":["Footprint Center","US Airways Center","America West Arena","Chase Field"],"sport":"basketball","difficulty":"medium"},
+{"q":"What is a pump fake in basketball?","a":"A fake shot motion to get the defender to jump before the offensive player shoots or drives","choices":["A fake shot motion to get the defender to jump before the offensive player shoots or drives","A dribble move","A pass fake","A crossover dribble"],"sport":"basketball","difficulty":"easy"},
+{"q":"Who won the NBA championship in 2013?","a":"Miami Heat","choices":["Miami Heat","San Antonio Spurs","Indiana Pacers","Chicago Bulls"],"sport":"basketball","difficulty":"medium"},
+{"q":"Which player was selected second overall in the 2020 NBA Draft?","a":"James Wiseman","choices":["James Wiseman","Anthony Edwards","LaMelo Ball","Obi Toppin"],"sport":"basketball","difficulty":"hard"},
+{"q":"Who is known as 'The Process' about the Philadelphia 76ers team-building strategy?","a":"The phrase refers to Sam Hinkie's rebuild strategy - Joel Embiid is the face of it","choices":["Joel Embiid is the face of 'The Process'","Ben Simmons","Markelle Fultz","Jahlil Okafor"],"sport":"basketball","difficulty":"medium"},
+{"q":"Which franchise has the most playoff appearances without winning a championship?","a":"Utah Jazz","choices":["Utah Jazz","Phoenix Suns","Denver Nuggets","Indiana Pacers"],"sport":"basketball","difficulty":"hard"},
+{"q":"What is the name of the basket in basketball including the backboard support and hoop?","a":"The goal or basket assembly","choices":["The goal or basket assembly","The net","The rim","The board"],"sport":"basketball","difficulty":"easy"},
+{"q":"Who coached the Detroit Pistons to back-to-back championships in 1989 and 1990?","a":"Chuck Daly","choices":["Chuck Daly","Isiah Thomas","Don Chaney","Bill Laimbeer"],"sport":"basketball","difficulty":"medium"},
+{"q":"Which player won NBA Rookie of the Year in 2019?","a":"Luka Doncic","choices":["Luka Doncic","Trae Young","Deandre Ayton","Marvin Bagley III"],"sport":"basketball","difficulty":"medium"},
+{"q":"What college did Stephen Curry attend?","a":"Davidson College","choices":["Davidson College","Duke","North Carolina","Virginia"],"sport":"basketball","difficulty":"medium"},
+{"q":"Who was the NBA Finals MVP in 2024?","a":"Jaylen Brown","choices":["Jaylen Brown","Jayson Tatum","Kristaps Porzingis","Al Horford"],"sport":"basketball","difficulty":"medium"},
+{"q":"Which player won Rookie of the Year in 2020?","a":"Ja Morant","choices":["Ja Morant","Zion Williamson","Tyler Herro","Kendrick Nunn"],"sport":"basketball","difficulty":"medium"},
+{"q":"What team plays at Gainbridge Fieldhouse?","a":"Indiana Pacers","choices":["Indiana Pacers","Milwaukee Bucks","Cleveland Cavaliers","Memphis Grizzlies"],"sport":"basketball","difficulty":"medium"},
+{"q":"Who was the coach of the 2016 NBA champion Cleveland Cavaliers?","a":"Tyronn Lue","choices":["Tyronn Lue","David Blatt","Larry Drew","Chris Jent"],"sport":"basketball","difficulty":"medium"},
+{"q":"Which player scored the most points in a single NBA Finals game?","a":"Elgin Baylor (61 points in 1962)","choices":["Elgin Baylor (61 points in 1962)","Michael Jordan","LeBron James","Jerry West"],"sport":"basketball","difficulty":"hard"},
+
+# ── FOOTBALL — college, history, deeper ──
+{"q":"Which college team has won the most national football championships?","a":"Alabama (with various counting methods)","choices":["Alabama (with various counting methods)","Ohio State","Notre Dame","Oklahoma"],"sport":"football","difficulty":"medium"},
+{"q":"Who won the 2023 College Football Playoff National Championship?","a":"Georgia Bulldogs","choices":["Georgia Bulldogs","TCU Horned Frogs","Ohio State Buckeyes","Michigan Wolverines"],"sport":"football","difficulty":"medium"},
+{"q":"What does the BCS stand for in college football?","a":"Bowl Championship Series","choices":["Bowl Championship Series","Bowl College System","Bowl Collective Series","Best College System"],"sport":"football","difficulty":"easy"},
+{"q":"Which player won the Heisman Trophy in 2021?","a":"Bryce Young","choices":["Bryce Young","Matt Corral","Kenny Pickett","C.J. Stroud"],"sport":"football","difficulty":"medium"},
+{"q":"Who holds the record for most career rushing yards in college football history?","a":"Ron Dayne (7,125 yards at Wisconsin)","choices":["Ron Dayne (7,125 yards at Wisconsin)","Ricky Williams","Charles White","Barry Sanders"],"sport":"football","difficulty":"hard"},
+{"q":"Which school did Peyton Manning quarterback before the NFL?","a":"University of Tennessee","choices":["University of Tennessee","Florida","Alabama","Ole Miss"],"sport":"football","difficulty":"medium"},
+{"q":"What is the Rose Bowl?","a":"The annual college football bowl game played in Pasadena, California on New Year's Day","choices":["The annual college football bowl game played in Pasadena, California on New Year's Day","A trophy given to the best offensive lineman","The name of the stadium in Columbus Ohio","The Super Bowl of college football"],"sport":"football","difficulty":"easy"},
+{"q":"Which school does the 'Fighting Irish' nickname belong to?","a":"Notre Dame","choices":["Notre Dame","Boston College","Fordham","Holy Cross"],"sport":"football","difficulty":"easy"},
+{"q":"Who won the Heisman Trophy in 2022?","a":"Caleb Williams","choices":["Caleb Williams","C.J. Stroud","Hendon Hooker","Stetson Bennett"],"sport":"football","difficulty":"medium"},
+{"q":"What is the longest field goal ever kicked in an NFL game?","a":"66 yards (Matt Prater, 2013 and Brett Maher, 2023)","choices":["66 yards (Matt Prater, 2013 and tied by Brett Maher, 2023)","63 yards","65 yards","70 yards"],"sport":"football","difficulty":"hard"},
+{"q":"Which team was the first to win three Super Bowls?","a":"Pittsburgh Steelers (won Super Bowls IX, X, XIII)","choices":["Pittsburgh Steelers (won Super Bowls IX, X, XIII)","Dallas Cowboys","San Francisco 49ers","Oakland Raiders"],"sport":"football","difficulty":"hard"},
+{"q":"Who was the starting quarterback for the New Orleans Saints in their first Super Bowl win?","a":"Drew Brees","choices":["Drew Brees","Aaron Brooks","Marc Bulger","Jake Delhomme"],"sport":"football","difficulty":"easy"},
+{"q":"Which player holds the record for most consecutive games with a touchdown pass?","a":"Drew Brees (54 games)","choices":["Drew Brees (54 games)","Peyton Manning","Tom Brady","Aaron Rodgers"],"sport":"football","difficulty":"hard"},
+{"q":"What college did Tom Brady attend?","a":"University of Michigan","choices":["University of Michigan","Penn State","Ohio State","Notre Dame"],"sport":"football","difficulty":"medium"},
+{"q":"Which NFL team drafted Marshawn Lynch in the first round of the 2007 Draft?","a":"Buffalo Bills","choices":["Buffalo Bills","Seattle Seahawks","Oakland Raiders","Green Bay Packers"],"sport":"football","difficulty":"hard"},
+{"q":"What year did the NFL introduce instant replay for officiating?","a":"1986 (permanently in 1999)","choices":["1986 (permanently in 1999)","1978","1994","2000"],"sport":"football","difficulty":"hard"},
+{"q":"Which player is known for the 'Immaculate Reception' in 1972?","a":"Franco Harris","choices":["Franco Harris","John Fuqua","Frenchy Fuqua","Terry Bradshaw"],"sport":"football","difficulty":"medium"},
+{"q":"What is a 'gadget play' in football?","a":"A trick or unusual play designed to surprise the defense","choices":["A trick or unusual play designed to surprise the defense","A formation with no running backs","A quarterback scramble","A no-huddle series"],"sport":"football","difficulty":"easy"},
+{"q":"Who won the 2020 Heisman Trophy?","a":"DeVonta Smith","choices":["DeVonta Smith","Kyle Trask","Mac Jones","Najee Harris"],"sport":"football","difficulty":"medium"},
+{"q":"Which team plays home games at FirstEnergy Stadium (now Huntington Bank Field)?","a":"Cleveland Browns","choices":["Cleveland Browns","Pittsburgh Steelers","Baltimore Ravens","Cincinnati Bengals"],"sport":"football","difficulty":"medium"},
+{"q":"What is the term for when the offensive line opens a gap for the running back?","a":"Creating a hole or gap","choices":["Creating a hole or gap","A screen","A pulling technique","A drive block"],"sport":"football","difficulty":"easy"},
+{"q":"Which NFL team is nicknamed the 'Purple People Eaters' for their 1970s defense?","a":"Minnesota Vikings","choices":["Minnesota Vikings","Baltimore Ravens","New Orleans Saints","Seattle Seahawks"],"sport":"football","difficulty":"medium"},
+{"q":"Who was selected first overall in the 2024 NFL Draft?","a":"Caleb Williams","choices":["Caleb Williams","Jayden Daniels","Drake Maye","Marvin Harrison Jr."],"sport":"football","difficulty":"medium"},
+{"q":"What city are the Cardinals from (NFL)?","a":"Glendale (Arizona)","choices":["Glendale (Arizona)","Phoenix","Tempe","Tucson"],"sport":"football","difficulty":"medium"},
+{"q":"Which player was the first to return two punts for touchdowns in one Super Bowl?","a":"Desmond Howard (1997, Super Bowl XXXI)","choices":["Desmond Howard (1997, Super Bowl XXXI)","Devin Hester","Jacoby Jones","Deion Sanders"],"sport":"football","difficulty":"hard"},
+{"q":"What school did Joe Montana play college football at?","a":"Notre Dame","choices":["Notre Dame","San Jose State","UCLA","USC"],"sport":"football","difficulty":"medium"},
+{"q":"Which running back set the NFL single-game rushing record in 2003 with 295 yards?","a":"Jamal Lewis","choices":["Jamal Lewis","LaDainian Tomlinson","Eric Dickerson","Tiki Barber"],"sport":"football","difficulty":"hard"},
+{"q":"Who won the NFL Offensive Player of the Year in 2022?","a":"Justin Jefferson","choices":["Justin Jefferson","Patrick Mahomes","Cooper Kupp","Josh Allen"],"sport":"football","difficulty":"medium"},
+{"q":"Which team plays at Empower Field at Mile High?","a":"Denver Broncos","choices":["Denver Broncos","Kansas City Chiefs","Minnesota Vikings","Seattle Seahawks"],"sport":"football","difficulty":"easy"},
+{"q":"What is a zone blitz in football?","a":"When some pass rushers drop into coverage while unexpected defenders rush the QB","choices":["When some pass rushers drop into coverage while unexpected defenders rush the QB","An all-out zone defense","A coverage scheme preventing vertical routes","A blitz from the safety position only"],"sport":"football","difficulty":"hard"},
+
+# ── BASEBALL — stats, history, deeper ──
+{"q":"Who holds the MLB record for most career walks?","a":"Barry Bonds (2,558)","choices":["Barry Bonds (2,558)","Babe Ruth","Ted Williams","Rickey Henderson"],"sport":"baseball","difficulty":"hard"},
+{"q":"Which pitcher won the most Cy Young Awards in the American League?","a":"Roger Clemens (7 total - 6 in AL)","choices":["Roger Clemens (7 total - 6 in AL)","Randy Johnson","Pedro Martinez","Nolan Ryan"],"sport":"baseball","difficulty":"hard"},
+{"q":"What is a WHIP under 1.0 in baseball considered?","a":"Excellent - means the pitcher allows fewer than 1 baserunner per inning","choices":["Excellent - means the pitcher allows fewer than 1 baserunner per inning","Average performance","Below average","Elite but unachievable"],"sport":"baseball","difficulty":"medium"},
+{"q":"Which team plays at T-Mobile Park?","a":"Seattle Mariners","choices":["Seattle Mariners","Portland Beavers","Tacoma Rainiers","Oakland Athletics"],"sport":"baseball","difficulty":"medium"},
+{"q":"Who holds the MLB record for most consecutive games with at least one hit?","a":"Joe DiMaggio (56 games in 1941)","choices":["Joe DiMaggio (56 games in 1941)","Pete Rose","Ty Cobb","Wee Willie Keeler"],"sport":"baseball","difficulty":"medium"},
+{"q":"What does the infield shift accomplish?","a":"It moves infielders to one side of the field to defend against pull hitters","choices":["It moves infielders to one side of the field to defend against pull hitters","It opens up the first base line","It protects against bunts","It places all four infielders behind second base"],"sport":"baseball","difficulty":"medium"},
+{"q":"Which team plays at PNC Park?","a":"Pittsburgh Pirates","choices":["Pittsburgh Pirates","Cleveland Guardians","Cincinnati Reds","Milwaukee Brewers"],"sport":"baseball","difficulty":"medium"},
+{"q":"Who was the first player to hit 500 home runs and steal 500 bases?","a":"No player has hit 500 HR and stolen 500 bases","choices":["No player has hit 500 HR and stolen 500 bases","Barry Bonds","Willie Mays","Bobby Bonds"],"sport":"baseball","difficulty":"hard"},
+{"q":"What city do the Royals play in?","a":"Kansas City","choices":["Kansas City","Omaha","St. Louis","Wichita"],"sport":"baseball","difficulty":"easy"},
+{"q":"Which manager has the most career wins in MLB history?","a":"Connie Mack (3,731)","choices":["Connie Mack (3,731)","John McGraw","Tony La Russa","Joe Torre"],"sport":"baseball","difficulty":"hard"},
+{"q":"What year did MLB adopt the designated hitter rule in the American League?","a":"1973","choices":["1973","1968","1977","1970"],"sport":"baseball","difficulty":"hard"},
+{"q":"Who won the World Series in 2017?","a":"Houston Astros","choices":["Houston Astros","Los Angeles Dodgers","Chicago Cubs","Cleveland Indians"],"sport":"baseball","difficulty":"medium"},
+{"q":"Which player holds the record for most career RBI in MLB history?","a":"Hank Aaron (2,297)","choices":["Hank Aaron (2,297)","Babe Ruth","Cap Anson","Barry Bonds"],"sport":"baseball","difficulty":"hard"},
+{"q":"What is a quality start in baseball?","a":"When a starting pitcher goes at least 6 innings and allows 3 or fewer earned runs","choices":["When a starting pitcher goes at least 6 innings and allows 3 or fewer earned runs","A complete game shutout","Any start where the team wins","Pitching at least 7 innings"],"sport":"baseball","difficulty":"medium"},
+{"q":"Who was the first player to win the Triple Crown in batting twice?","a":"Ted Williams (1942 and 1947)","choices":["Ted Williams (1942 and 1947)","Rogers Hornsby","Ty Cobb","Lou Gehrig"],"sport":"baseball","difficulty":"hard"},
+{"q":"What team plays at American Family Field?","a":"Milwaukee Brewers","choices":["Milwaukee Brewers","Minnesota Twins","Cleveland Guardians","Kansas City Royals"],"sport":"baseball","difficulty":"medium"},
+{"q":"Who was the first to collect 3,000 MLB career hits?","a":"Cap Anson","choices":["Cap Anson","Ty Cobb","Honus Wagner","Nap Lajoie"],"sport":"baseball","difficulty":"hard"},
+{"q":"Which pitcher threw a no-hitter at age 44?","a":"Nolan Ryan (in 1991, his 7th no-hitter)","choices":["Nolan Ryan (in 1991, his 7th no-hitter)","Randy Johnson","Phil Niekro","Tommy John"],"sport":"baseball","difficulty":"hard"},
+{"q":"What does ERA+ measure in baseball?","a":"ERA adjusted for ballpark and league, where 100 is average","choices":["ERA adjusted for ballpark and league, where 100 is average","Total earned runs vs opponents","Earned runs per appearance","ERA in extra innings"],"sport":"baseball","difficulty":"hard"},
+{"q":"Who won the 2014 World Series?","a":"San Francisco Giants","choices":["San Francisco Giants","Kansas City Royals","St. Louis Cardinals","Oakland Athletics"],"sport":"baseball","difficulty":"medium"},
+{"q":"Which team plays at Busch Stadium?","a":"St. Louis Cardinals","choices":["St. Louis Cardinals","Cincinnati Reds","Chicago Cubs","Milwaukee Brewers"],"sport":"baseball","difficulty":"medium"},
+{"q":"Who was the youngest player to hit 600 career home runs?","a":"Alex Rodriguez (32 years, 8 months)","choices":["Alex Rodriguez (32 years, 8 months)","Babe Ruth","Ken Griffey Jr.","Barry Bonds"],"sport":"baseball","difficulty":"hard"},
+{"q":"What city do the Twins play in?","a":"Minneapolis (Target Field)","choices":["Minneapolis (Target Field)","St. Paul","Bloomington","Rochester"],"sport":"baseball","difficulty":"easy"},
+{"q":"Which player hit a home run in his final MLB at-bat?","a":"Ted Williams","choices":["Ted Williams","Babe Ruth","Mickey Mantle","Stan Musial"],"sport":"baseball","difficulty":"hard"},
+{"q":"What year did the World Series begin?","a":"1903","choices":["1903","1898","1910","1905"],"sport":"baseball","difficulty":"hard"},
+{"q":"Who led the AL in ERA in 2022?","a":"Justin Verlander (1.75 ERA)","choices":["Justin Verlander (1.75 ERA)","Gerrit Cole","Shane McClanahan","Framber Valdez"],"sport":"baseball","difficulty":"hard"},
+{"q":"Which team plays at Petco Park?","a":"San Diego Padres","choices":["San Diego Padres","Los Angeles Dodgers","Anaheim Angels","San Francisco Giants"],"sport":"baseball","difficulty":"medium"},
+{"q":"What is a cycle in baseball?","a":"When a batter hits a single, double, triple, and home run in the same game","choices":["When a batter hits a single, double, triple, and home run in the same game","Going 4-for-4 in a game","Hitting three home runs in a game","A complete pitching rotation in a series"],"sport":"baseball","difficulty":"easy"},
+{"q":"Who was the first pitcher inducted into the Baseball Hall of Fame?","a":"Walter Johnson, Christy Mathewson, Cy Young (1936 class)","choices":["Cy Young was among the first Hall of Fame inductees in 1937","Babe Ruth","Walter Johnson","Honus Wagner"],"sport":"baseball","difficulty":"hard"},
+{"q":"What city do the Indians (now Guardians) play in?","a":"Cleveland","choices":["Cleveland","Cincinnati","Columbus","Toledo"],"sport":"baseball","difficulty":"easy"},
+{"q":"Which pitcher won three Cy Young Awards with the Houston Astros?","a":"Roger Clemens won one with Houston; Justin Verlander won multiple elsewhere","choices":["No pitcher won 3 Cy Young Awards with Houston","Roger Clemens","Justin Verlander","Roy Oswalt"],"sport":"baseball","difficulty":"hard"},
+]
+
+with open('questions.json') as f:
+    existing = json.load(f)
+
+existing_set = set(q['q'].strip().lower() for q in existing)
+added = [q for q in new_questions if q['q'].strip().lower() not in existing_set]
+existing.extend(added)
+
+with open('questions.json', 'w') as f:
+    json.dump(existing, f, indent=2)
+
+print(f"Added {len(added)} questions. Total now: {len(existing)}")

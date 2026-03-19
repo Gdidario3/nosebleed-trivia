@@ -1,0 +1,776 @@
+[
+  {
+    "index": 9,
+    "q": "Kareem Abdul-Jabbar held the NBA's all-time scoring record before LeBron James broke it. How many career points did Kareem score?",
+    "a": "38,387",
+    "sport": "basketball"
+  },
+  {
+    "index": 143,
+    "q": "Which player wore jersey number 33 for the Lakers and retired as all-time leading scorer?",
+    "a": "Kareem Abdul-Jabbar",
+    "sport": "basketball"
+  },
+  {
+    "index": 323,
+    "q": "The Buffalo Bills lost 4 consecutive Super Bowls from 1991 to 1994. Their record was?",
+    "a": "0-4",
+    "sport": "football"
+  },
+  {
+    "index": 515,
+    "q": "Wayne Gretzky's career points record is how many?",
+    "a": "2,857",
+    "sport": "hockey"
+  },
+  {
+    "index": 662,
+    "q": "Who is the all-time leading scorer in the UEFA Champions League?",
+    "a": "Cristiano Ronaldo",
+    "sport": "soccer"
+  },
+  {
+    "index": 999,
+    "q": "Bjorn Borg won 5 consecutive Wimbledon titles from 1976 to 1980. He retired at what age?",
+    "a": "26",
+    "sport": "tennis"
+  },
+  {
+    "index": 1107,
+    "q": "Jack Nicklaus won how many major championships (the all-time record)?",
+    "a": "18",
+    "sport": "golf"
+  },
+  {
+    "index": 2347,
+    "q": "Who is the all-time leading scorer in Premier League history?",
+    "a": "Alan Shearer",
+    "sport": "soccer"
+  },
+  {
+    "index": 2391,
+    "q": "Who was the first player to win the 'Tiger Slam' (4 consecutive Majors)?",
+    "a": "Tiger Woods (2000-2001)",
+    "sport": "golf"
+  },
+  {
+    "index": 4209,
+    "q": "Stephen Curry set the NBA single-season record for 3-pointers made with how many in 2015-16?",
+    "a": "402",
+    "sport": "basketball"
+  },
+  {
+    "index": 4236,
+    "q": "Shaquille O'Neal won 3 consecutive championships with which team?",
+    "a": "Los Angeles Lakers",
+    "sport": "basketball"
+  },
+  {
+    "index": 4606,
+    "q": "Bill Russell's Boston Celtics won 8 consecutive NBA championships from which years?",
+    "a": "1959 to 1966",
+    "sport": "basketball"
+  },
+  {
+    "index": 4645,
+    "q": "Who holds the NFL single-season record for passing touchdowns with 55?",
+    "a": "Peyton Manning",
+    "sport": "football"
+  },
+  {
+    "index": 4655,
+    "q": "Emmitt Smith holds the NFL career rushing yards record. How many yards did he rush for?",
+    "a": "18,355",
+    "sport": "football"
+  },
+  {
+    "index": 4712,
+    "q": "Which team was beaten when Adam Vinatieri hit a 48-yard field goal as time expired in Super Bowl XXXVI?",
+    "a": "St. Louis Rams",
+    "sport": "football"
+  },
+  {
+    "index": 4847,
+    "q": "Michael Strahan holds the NFL single-season record for sacks with:",
+    "a": "22.5",
+    "sport": "football"
+  },
+  {
+    "index": 5148,
+    "q": "The Tampa Bay Lightning went to 3 consecutive Stanley Cup Finals winning 2 of them. Those years were:",
+    "a": "2020 and 2021 wins, 2022 Finals loss",
+    "sport": "hockey"
+  },
+  {
+    "index": 5161,
+    "q": "Barry Bonds holds the all-time MLB home run record with how many?",
+    "a": "762",
+    "sport": "baseball"
+  },
+  {
+    "index": 5301,
+    "q": "Pete Rose holds the MLB all-time record for career hits with:",
+    "a": "4,256",
+    "sport": "baseball"
+  },
+  {
+    "index": 5391,
+    "q": "Thierry Henry is France's all-time leading scorer. He played for which English club?",
+    "a": "Arsenal",
+    "sport": "soccer"
+  },
+  {
+    "index": 5473,
+    "q": "Harry Kane is England's all-time leading scorer. He is from:",
+    "a": "England",
+    "sport": "soccer"
+  },
+  {
+    "index": 5648,
+    "q": "Who is the NBA's all-time leading scorer as of 2023?",
+    "a": "LeBron James",
+    "sport": "basketball"
+  },
+  {
+    "index": 5843,
+    "q": "Which player set the NBA record for most points in a season (4,029 in 1961-62)?",
+    "a": "Wilt Chamberlain",
+    "sport": "basketball"
+  },
+  {
+    "index": 5887,
+    "q": "Which player set the all-time NFL record for career punting average?",
+    "a": "Shane Lechler",
+    "sport": "football"
+  },
+  {
+    "index": 5928,
+    "q": "Who hit 61 home runs in 1961 to break Babe Ruth's single-season record?",
+    "a": "Roger Maris",
+    "sport": "baseball"
+  },
+  {
+    "index": 6030,
+    "q": "Which player holds the single-season record for strikeouts by a pitcher?",
+    "a": "Nolan Ryan (383 in 1973)",
+    "sport": "baseball"
+  },
+  {
+    "index": 6132,
+    "q": "Which Yankees outfielder played 2,130 consecutive games to set a then-record?",
+    "a": "Lou Gehrig",
+    "sport": "baseball"
+  },
+  {
+    "index": 6143,
+    "q": "Who holds the all-time NBA career rebounds record?",
+    "a": "Wilt Chamberlain (23,924)",
+    "sport": "basketball"
+  },
+  {
+    "index": 6161,
+    "q": "Who is the all-time leading scorer in NBA playoff history?",
+    "a": "LeBron James",
+    "sport": "basketball"
+  },
+  {
+    "index": 6238,
+    "q": "Which player is the Portland Trail Blazers all-time leading scorer?",
+    "a": "Damian Lillard",
+    "sport": "basketball"
+  },
+  {
+    "index": 6293,
+    "q": "Who holds the NCAA Men's Basketball career scoring record?",
+    "a": "Pete Maravich (3,667 points)",
+    "sport": "basketball"
+  },
+  {
+    "index": 6297,
+    "q": "Who is the WNBA all-time leading scorer?",
+    "a": "Tina Thompson",
+    "sport": "basketball"
+  },
+  {
+    "index": 6380,
+    "q": "Which player holds the NBA record for most points in a single postseason?",
+    "a": "Michael Jordan (759 in 1992)",
+    "sport": "basketball"
+  },
+  {
+    "index": 6381,
+    "q": "Which NBA franchise holds the record for worst single-season record?",
+    "a": "Charlotte Bobcats (7-59 in lockout-shortened 2011-12 season)",
+    "sport": "basketball"
+  },
+  {
+    "index": 6395,
+    "q": "Which team scored 62 points in a single regular season NFL game in 2023?",
+    "a": "Miami Dolphins beat the Denver Broncos 70-20 in 2023",
+    "sport": "football"
+  },
+  {
+    "index": 6587,
+    "q": "Which pitcher had a perfect 511 career wins record?",
+    "a": "Cy Young (511 wins)",
+    "sport": "baseball"
+  },
+  {
+    "index": 6916,
+    "q": "Which club does Wayne Rooney hold the all-time goalscoring record for?",
+    "a": "Manchester United",
+    "sport": "soccer"
+  },
+  {
+    "index": 8279,
+    "q": "Who was the ABA's all-time leading scorer?",
+    "a": "Louie Dampier",
+    "sport": "basketball"
+  },
+  {
+    "index": 8302,
+    "q": "Who is the all-time leading scorer in EuroLeague history?",
+    "a": "Juan Carlos Navarro",
+    "sport": "basketball"
+  },
+  {
+    "index": 8312,
+    "q": "Who is the WNBA's all-time leading scorer?",
+    "a": "Diana Taurasi",
+    "sport": "basketball"
+  },
+  {
+    "index": 8434,
+    "q": "Which head coach had the longest active winning season streak in NFL history at 19 consecutive winning seasons?",
+    "a": "Bill Belichick",
+    "sport": "football"
+  },
+  {
+    "index": 8469,
+    "q": "Which college football team holds the record for the longest winning streak at 47 consecutive games from 1953 to 1957?",
+    "a": "Oklahoma Sooners",
+    "sport": "football"
+  },
+  {
+    "index": 8525,
+    "q": "Which kicker is the NFL's all-time leading scorer?",
+    "a": "Adam Vinatieri",
+    "sport": "football"
+  },
+  {
+    "index": 8534,
+    "q": "Which kicker made an NFL-record 44 consecutive field goals from 2015 to 2016?",
+    "a": "Adam Vinatieri",
+    "sport": "football"
+  },
+  {
+    "index": 8575,
+    "q": "Which NPB legend hit 868 career home runs, the all-time professional record worldwide?",
+    "a": "Sadaharu Oh",
+    "sport": "baseball"
+  },
+  {
+    "index": 8668,
+    "q": "Which manager holds the all-time record for most managerial wins with 3,731?",
+    "a": "Connie Mack",
+    "sport": "baseball"
+  },
+  {
+    "index": 8785,
+    "q": "Mark Eaton holds the single-season record for blocks per game. What was his average in 1984-85?",
+    "a": "5.56",
+    "sport": "basketball"
+  },
+  {
+    "index": 8788,
+    "q": "Tom Gola holds the NCAA Tournament career rebounding record with how many total rebounds?",
+    "a": "118",
+    "sport": "basketball"
+  },
+  {
+    "index": 8833,
+    "q": "Which team won 21 consecutive regular-season games from 2003 to 2004?",
+    "a": "New England Patriots",
+    "sport": "football"
+  },
+  {
+    "index": 8836,
+    "q": "Which kicker made a then-record 42 consecutive field goals for the Colts in 2003?",
+    "a": "Mike Vanderjagt",
+    "sport": "football"
+  },
+  {
+    "index": 8841,
+    "q": "Which quarterback threw a touchdown pass in 54 consecutive games, an NFL record?",
+    "a": "Drew Brees",
+    "sport": "football"
+  },
+  {
+    "index": 8865,
+    "q": "Which team set the NFL record for most points scored in a regular season with 606 in 2013?",
+    "a": "Denver Broncos",
+    "sport": "football"
+  },
+  {
+    "index": 8868,
+    "q": "Which defensive end recorded 22.5 sacks in the 2001 season, setting the single-season record?",
+    "a": "Michael Strahan",
+    "sport": "football"
+  },
+  {
+    "index": 8870,
+    "q": "Who holds the single-season record for most total touchdowns with 31 in 2006?",
+    "a": "LaDainian Tomlinson",
+    "sport": "football"
+  },
+  {
+    "index": 8871,
+    "q": "Which quarterback passed for 5,477 yards in 2013, setting a single-season record?",
+    "a": "Peyton Manning",
+    "sport": "football"
+  },
+  {
+    "index": 8875,
+    "q": "The 2007 Patriots set the record for most points scored in a season with how many (before the Broncos broke it)?",
+    "a": "589",
+    "sport": "football"
+  },
+  {
+    "index": 8950,
+    "q": "Which pitcher holds the career record for most strikeouts with 5,714?",
+    "a": "Nolan Ryan",
+    "sport": "baseball"
+  },
+  {
+    "index": 8956,
+    "q": "Who holds the career record for most hits in MLB history with 4,256?",
+    "a": "Pete Rose",
+    "sport": "baseball"
+  },
+  {
+    "index": 8982,
+    "q": "Who hit 73 home runs in the 2001 MLB season, setting the single-season record?",
+    "a": "Barry Bonds",
+    "sport": "baseball"
+  },
+  {
+    "index": 9003,
+    "q": "Known as 'King James,' this forward became the NBA's all-time leading scorer in February 2023, surpassing Kareem Abdul-Jabbar. Who is he?",
+    "a": "LeBron James",
+    "sport": "basketball"
+  },
+  {
+    "index": 9012,
+    "q": "This point guard holds the NBA career record for assists and steals, having played 19 seasons with the Utah Jazz. Who is he?",
+    "a": "John Stockton",
+    "sport": "basketball"
+  },
+  {
+    "index": 9021,
+    "q": "This WNBA player, selected first overall by the Phoenix Mercury in 2004, holds the league's all-time scoring record. Who is she?",
+    "a": "Diana Taurasi",
+    "sport": "basketball"
+  },
+  {
+    "index": 9025,
+    "q": "This center patented the 'skyhook' and retired as the NBA's all-time leading scorer in 1989 with 38,387 points. Who is he?",
+    "a": "Kareem Abdul-Jabbar",
+    "sport": "basketball"
+  },
+  {
+    "index": 9036,
+    "q": "This guard played in a record 10 consecutive NBA Finals from 2011 to 2020, winning four of them. Name him.",
+    "a": "LeBron James",
+    "sport": "basketball"
+  },
+  {
+    "index": 9080,
+    "q": "We set the NCAA record with 88 consecutive wins from 1971 to 1974 under coach John Wooden. Which university were we?",
+    "a": "UCLA",
+    "sport": "basketball"
+  },
+  {
+    "index": 9125,
+    "q": "I led the league in scoring 10 times, more than any other player in NBA history, and held the all-time scoring record for over 35 years. Who am I?",
+    "a": "Michael Jordan",
+    "sport": "basketball"
+  },
+  {
+    "index": 9161,
+    "q": "I threw for 55 touchdowns in 2013, setting an NFL single-season record at the time. Who am I?",
+    "a": "Peyton Manning",
+    "sport": "football"
+  },
+  {
+    "index": 9162,
+    "q": "This running back rushed for 2,105 yards in 2012, coming within 9 yards of the single-season record. Name him.",
+    "a": "Adrian Peterson",
+    "sport": "football"
+  },
+  {
+    "index": 9164,
+    "q": "Known as 'Sweetness', this running back held the NFL's all-time rushing record from 1984 to 2002. Who is he?",
+    "a": "Walter Payton",
+    "sport": "football"
+  },
+  {
+    "index": 9166,
+    "q": "This defensive end holds the NFL's all-time sack record with 200 career sacks. Name him.",
+    "a": "Bruce Smith",
+    "sport": "football"
+  },
+  {
+    "index": 9196,
+    "q": "I kicked a 66-yard field goal in 2021, the longest in NFL history. Who am I?",
+    "a": "Justin Tucker",
+    "sport": "football"
+  },
+  {
+    "index": 9200,
+    "q": "This placekicker is the NFL's all-time leading scorer with 2,673 career points. Name him.",
+    "a": "Adam Vinatieri",
+    "sport": "football"
+  },
+  {
+    "index": 9202,
+    "q": "I had 336 consecutive starts at quarterback, an NFL ironman record that stood for decades. Who am I?",
+    "a": "Brett Favre",
+    "sport": "football"
+  },
+  {
+    "index": 9209,
+    "q": "This quarterback threw for 5,476 yards in 2013 with the Denver Broncos, setting the NFL single-season record. Name him.",
+    "a": "Peyton Manning",
+    "sport": "football"
+  },
+  {
+    "index": 9219,
+    "q": "Known as 'The Blind Side' subject, this offensive tackle was drafted by the Baltimore Ravens and started 56 consecutive games at left tackle. Name him.",
+    "a": "Michael Oher",
+    "sport": "football"
+  },
+  {
+    "index": 9230,
+    "q": "I held the all-time NFL record for most career passing touchdowns with 539 at my retirement. Who am I?",
+    "a": "Tom Brady",
+    "sport": "football"
+  },
+  {
+    "index": 9233,
+    "q": "This Chargers running back scored 28 touchdowns in 2006, an NFL single-season record. He was also named MVP that year. Name him.",
+    "a": "LaDainian Tomlinson",
+    "sport": "football"
+  },
+  {
+    "index": 9236,
+    "q": "LaDainian Tomlinson scored 186 points in the 2006 NFL season, setting a then-record. What position did he play?",
+    "a": "Running Back",
+    "sport": "football"
+  },
+  {
+    "index": 9242,
+    "q": "I kicked a 63-yard field goal in 1970, setting an NFL record that stood for 43 years. Who am I?",
+    "a": "Tom Dempsey",
+    "sport": "football"
+  },
+  {
+    "index": 9244,
+    "q": "I threw for 49 touchdowns in 2018, tying Peyton Manning's single-season record at the time. Wait \u2014 actually, the 2018 leader was Patrick Mahomes with 50 TDs. Who am I?",
+    "a": "Patrick Mahomes",
+    "sport": "football"
+  },
+  {
+    "index": 9263,
+    "q": "I rushed for 1,000 yards in 16 consecutive seasons, an NFL record. Who am I?",
+    "a": "Emmitt Smith",
+    "sport": "football"
+  },
+  {
+    "index": 9286,
+    "q": "This defensive player holds the NCAA FBS career sack record with 33, compiled at Tennessee from 1996 to 1999. Name him.",
+    "a": "Shaun Ellis",
+    "sport": "football"
+  },
+  {
+    "index": 9303,
+    "q": "This quarterback was named to 7 consecutive Pro Bowls from 2004 to 2010 and spent his career with the San Diego Chargers. Name him.",
+    "a": "Philip Rivers",
+    "sport": "football"
+  },
+  {
+    "index": 9335,
+    "q": "This first baseman played in 2,632 consecutive games, earning the nickname 'The Iron Man'. Name him.",
+    "a": "Cal Ripken Jr.",
+    "sport": "baseball"
+  },
+  {
+    "index": 9336,
+    "q": "On October 1, 1961, this Yankees outfielder hit his 61st home run, breaking Babe Ruth's single-season record. Who was it?",
+    "a": "Roger Maris",
+    "sport": "baseball"
+  },
+  {
+    "index": 9338,
+    "q": "I stole 130 bases in 1982, setting the single-season record that still stands. Who am I?",
+    "a": "Rickey Henderson",
+    "sport": "baseball"
+  },
+  {
+    "index": 9341,
+    "q": "I hit 73 home runs in the 2001 season, setting the all-time single-season record. Who am I?",
+    "a": "Barry Bonds",
+    "sport": "baseball"
+  },
+  {
+    "index": 9351,
+    "q": "We won 116 games in the 2001 regular season, tying the all-time record, but lost the ALCS to the Yankees. Which team were we?",
+    "a": "Seattle Mariners",
+    "sport": "baseball"
+  },
+  {
+    "index": 9353,
+    "q": "This switch-hitting shortstop won 13 consecutive Gold Glove Awards and was famous for his backflip before Opening Day games. Name him.",
+    "a": "Ozzie Smith",
+    "sport": "baseball"
+  },
+  {
+    "index": 9377,
+    "q": "We pulled off the 'Moneyball' strategy in 2002, winning 20 consecutive games despite one of baseball's smallest payrolls. Which team were we?",
+    "a": "Oakland Athletics",
+    "sport": "baseball"
+  },
+  {
+    "index": 9378,
+    "q": "This catcher won 10 consecutive Gold Glove Awards with the Texas Rangers from 1992 to 2001. Name him.",
+    "a": "Ivan Rodriguez",
+    "sport": "baseball"
+  },
+  {
+    "index": 9383,
+    "q": "Known as 'Charlie Hustle', I hold the all-time record for career hits with 4,256. Who am I?",
+    "a": "Pete Rose",
+    "sport": "baseball"
+  },
+  {
+    "index": 9384,
+    "q": "This outfielder collected 262 hits in 2004, breaking George Sisler's 84-year-old single-season record. Name him.",
+    "a": "Ichiro Suzuki",
+    "sport": "baseball"
+  },
+  {
+    "index": 9404,
+    "q": "On May 26, 1959, this Pirates left-hander retired 36 consecutive batters \u2014 12 perfect innings \u2014 but lost in the 13th on an error, a sacrifice, and a hit. Name him.",
+    "a": "Harvey Haddix",
+    "sport": "baseball"
+  },
+  {
+    "index": 9418,
+    "q": "I won the AL MVP in 2022 while hitting 62 home runs, breaking Roger Maris's AL single-season record. Who am I?",
+    "a": "Aaron Judge",
+    "sport": "baseball"
+  },
+  {
+    "index": 9428,
+    "q": "On April 22, 1970, this Mets right-hander struck out 19 batters, including a then-record 10 consecutive, against the Padres. Who was he?",
+    "a": "Tom Seaver",
+    "sport": "baseball"
+  },
+  {
+    "index": 9434,
+    "q": "I held the all-time home run record with 755 for 33 years. My career .555 slugging percentage ranks seventh in MLB history. Who am I?",
+    "a": "Hank Aaron",
+    "sport": "baseball"
+  },
+  {
+    "index": 9446,
+    "q": "I won the 1988 NL Cy Young Award with a record 59 consecutive scoreless innings during the regular season, breaking Don Drysdale's mark. Who am I?",
+    "a": "Orel Hershiser",
+    "sport": "baseball"
+  },
+  {
+    "index": 9453,
+    "q": "This pitcher won 24 consecutive decisions across the 1912 and 1913 seasons, a record that stood for over a century. He finished with 373 wins. Name him.",
+    "a": "Rube Marquard",
+    "sport": "baseball"
+  },
+  {
+    "index": 9534,
+    "q": "I hold the single-season record for most saves by a left-handed pitcher with 54, closing games for the Los Angeles Dodgers. Who am I?",
+    "a": "Eric Gagne",
+    "sport": "baseball"
+  },
+  {
+    "index": 9556,
+    "q": "I pitched in a record 24 consecutive World Series games for the Yankees from 1996 to 2003. Who am I?",
+    "a": "Mariano Rivera",
+    "sport": "baseball"
+  },
+  {
+    "index": 9561,
+    "q": "I hold the all-time record for most career hit-by-pitches with 287. Who am I?",
+    "a": "Hughie Jennings",
+    "sport": "baseball"
+  },
+  {
+    "index": 9563,
+    "q": "The 2002 Oakland A's won 20 consecutive games, an American League record at the time. Which team finally beat them to end the streak?",
+    "a": "Minnesota Twins",
+    "sport": "baseball"
+  },
+  {
+    "index": 9572,
+    "q": "This Panamanian shortstop played in a record 2,216 consecutive games before Cal Ripken Jr. broke his streak. Wait - that's wrong. Who actually held the consecutive games record before Ripken?",
+    "a": "Lou Gehrig",
+    "sport": "baseball"
+  },
+  {
+    "index": 9582,
+    "q": "This defenseman revolutionized the position, winning 8 consecutive Norris Trophies from 1968 to 1975 with the Boston Bruins. Name him.",
+    "a": "Bobby Orr",
+    "sport": "hockey"
+  },
+  {
+    "index": 9583,
+    "q": "I scored 92 goals in a single NHL season, a record that has stood for over four decades. I also hold the career goals record with 894. Who am I?",
+    "a": "Wayne Gretzky",
+    "sport": "hockey"
+  },
+  {
+    "index": 9589,
+    "q": "Stat riddle: I hold the NHL record for most assists in a single season with 163. I also hold the career assists record with 1,963. Who am I?",
+    "a": "Wayne Gretzky",
+    "sport": "hockey"
+  },
+  {
+    "index": 9590,
+    "q": "We won 5 consecutive Stanley Cups from 1956 to 1960, a feat never matched before or since. Which team were we?",
+    "a": "Montreal Canadiens",
+    "sport": "hockey"
+  },
+  {
+    "index": 9605,
+    "q": "On October 15, 1989, this Oilers great scored his 1,851st career point, surpassing Gordie Howe's all-time record. Who was it?",
+    "a": "Wayne Gretzky",
+    "sport": "hockey"
+  },
+  {
+    "index": 9609,
+    "q": "This player recorded 215 points in a single NHL season in 1985-86, an all-time record. Who is he?",
+    "a": "Wayne Gretzky",
+    "sport": "hockey"
+  },
+  {
+    "index": 9612,
+    "q": "Known as 'The Flower', this Canadiens winger won 5 Stanley Cups and 3 consecutive Art Ross Trophies from 1976 to 1978. Who is he?",
+    "a": "Guy Lafleur",
+    "sport": "hockey"
+  },
+  {
+    "index": 9639,
+    "q": "Stat riddle: I hold the record for most points by a defenseman in a single NHL season with 139, and I also hold the career record for points by a defenseman. Who am I?",
+    "a": "Paul Coffey",
+    "sport": "hockey"
+  },
+  {
+    "index": 9645,
+    "q": "This player holds the career record for most playoff assists with 260. Who is he?",
+    "a": "Wayne Gretzky",
+    "sport": "hockey"
+  },
+  {
+    "index": 9651,
+    "q": "We set an NHL record by going unbeaten for 35 consecutive games (25-0-10) during the 1979-80 season. Which team were we?",
+    "a": "Philadelphia Flyers",
+    "sport": "hockey"
+  },
+  {
+    "index": 9665,
+    "q": "I played in 1,767 consecutive NHL games, an ironman record that stood until 2024. Who am I?",
+    "a": "Doug Jarvis",
+    "sport": "hockey"
+  },
+  {
+    "index": 9673,
+    "q": "I hold the single-season record for most points by a rookie in the NHL with 132, and I later won the Hart Trophy twice. Who am I?",
+    "a": "Teemu Selanne",
+    "sport": "hockey"
+  },
+  {
+    "index": 9675,
+    "q": "On October 5, 2022, this Oilers captain surpassed Wayne Gretzky's record for most 4-goal games in franchise history. But which player holds the all-time NHL record for most career overtime goals?",
+    "a": "Alexander Ovechkin",
+    "sport": "hockey"
+  },
+  {
+    "index": 9679,
+    "q": "This player scored 13 shorthanded goals in 1983-84, an all-time single-season record. Who is he?",
+    "a": "Wayne Gretzky",
+    "sport": "hockey"
+  },
+  {
+    "index": 9688,
+    "q": "I was a 6th-round draft pick who won the Hart Trophy and became the Tampa Bay Lightning's all-time leading scorer. Who am I?",
+    "a": "Martin St-Louis",
+    "sport": "hockey"
+  },
+  {
+    "index": 9712,
+    "q": "This golfer won 11 consecutive PGA Tour events in 1945, a record that still stands. Who achieved this remarkable streak?",
+    "a": "Byron Nelson",
+    "sport": "golf"
+  },
+  {
+    "index": 9752,
+    "q": "I won 82 PGA Tour events, tying the all-time record, including 15 major championships. My last major came at the 2019 Masters. Who am I?",
+    "a": "Tiger Woods",
+    "sport": "golf"
+  },
+  {
+    "index": 9773,
+    "q": "This Australian golfer won seven major championships on the LPGA Tour and was the number one ranked player for 104 consecutive weeks from 1999 to 2001. Who is she?",
+    "a": "Karrie Webb",
+    "sport": "golf"
+  },
+  {
+    "index": 9838,
+    "q": "This German driver won 4 consecutive World Championships from 2010 to 2013 with Red Bull Racing. Name him.",
+    "a": "Sebastian Vettel",
+    "sport": "f1"
+  },
+  {
+    "index": 9841,
+    "q": "This constructor won 8 consecutive Constructors' Championships from 2014 to 2021, a record streak in F1 history. Which team?",
+    "a": "Mercedes",
+    "sport": "f1"
+  },
+  {
+    "index": 9847,
+    "q": "Known as 'The Professor', this French driver won 4 World Championships (1985, 1986, 1989, 1993) and held the all-time wins record until Schumacher broke it. Who is he?",
+    "a": "Alain Prost",
+    "sport": "f1"
+  },
+  {
+    "index": 9907,
+    "q": "I drove for Ferrari from 1996 to 2006, winning 5 consecutive World Championships from 2000 to 2004. Who am I?",
+    "a": "Michael Schumacher",
+    "sport": "f1"
+  },
+  {
+    "index": 9959,
+    "q": "In the 2023 season, how many race wins did Max Verstappen achieve, setting a new all-time record?",
+    "a": "19",
+    "sport": "f1"
+  },
+  {
+    "index": 9995,
+    "q": "This Swiss player won 8 Wimbledon men's singles titles, including 5 consecutive from 2003 to 2007. Name him.",
+    "a": "Roger Federer",
+    "sport": "tennis"
+  },
+  {
+    "index": 9997,
+    "q": "This player won 18 Grand Slam singles titles over her career, including a record 9 Wimbledon singles titles, and was known for her serve-and-volley style. Who is she?",
+    "a": "Martina Navratilova",
+    "sport": "tennis"
+  }
+]

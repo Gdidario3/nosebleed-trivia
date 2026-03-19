@@ -1,0 +1,548 @@
+[
+  {
+    "q": "I won 18 major championships, more than any golfer in history. Who am I?",
+    "a": "Jack Nicklaus",
+    "choices": ["Jack Nicklaus", "Tiger Woods", "Arnold Palmer", "Ben Hogan"],
+    "sport": "golf",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Called 'The King', this golfer helped popularize the sport on television and built a massive fan base known as 'Arnie's Army.' Name him.",
+    "a": "Arnold Palmer",
+    "choices": ["Arnold Palmer", "Jack Nicklaus", "Gary Player", "Sam Snead"],
+    "sport": "golf",
+    "difficulty": "easy"
+  },
+  {
+    "q": "This golfer won the 2000 U.S. Open at Pebble Beach by a record 15 strokes. Name him.",
+    "a": "Tiger Woods",
+    "choices": ["Tiger Woods", "Jack Nicklaus", "Brooks Koepka", "Rory McIlroy"],
+    "sport": "golf",
+    "difficulty": "easy"
+  },
+  {
+    "q": "I won the career Grand Slam before age 25 and returned from spinal fusion surgery to win the 2019 Masters. Who am I?",
+    "a": "Tiger Woods",
+    "choices": ["Tiger Woods", "Rory McIlroy", "Jack Nicklaus", "Phil Mickelson"],
+    "sport": "golf",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Called 'The Golden Bear', this golfer dominated the majors across four decades. Name him.",
+    "a": "Jack Nicklaus",
+    "choices": ["Jack Nicklaus", "Tom Watson", "Arnold Palmer", "Gary Player"],
+    "sport": "golf",
+    "difficulty": "easy"
+  },
+  {
+    "q": "This golfer chipped in on the 16th hole at Augusta National during the final round of the 2005 Masters, producing one of golf's most iconic shots as the ball paused on the lip before dropping. Name him.",
+    "a": "Tiger Woods",
+    "choices": ["Tiger Woods", "Phil Mickelson", "Jack Nicklaus", "Vijay Singh"],
+    "sport": "golf",
+    "difficulty": "easy"
+  },
+  {
+    "q": "He won 82 PGA Tour events, tying Sam Snead's all-time record. Who is he?",
+    "a": "Tiger Woods",
+    "choices": ["Tiger Woods", "Jack Nicklaus", "Arnold Palmer", "Phil Mickelson"],
+    "sport": "golf",
+    "difficulty": "easy"
+  },
+  {
+    "q": "This golfer holds the record for most consecutive cuts made on the PGA Tour with 142. Name him.",
+    "a": "Tiger Woods",
+    "choices": ["Tiger Woods", "Jack Nicklaus", "Byron Nelson", "Phil Mickelson"],
+    "sport": "golf",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Known as 'The Black Knight', this South African won nine major championships and is one of only five golfers to complete the career Grand Slam. Name him.",
+    "a": "Gary Player",
+    "choices": ["Gary Player", "Ernie Els", "Nick Price", "Retief Goosen"],
+    "sport": "golf",
+    "difficulty": "medium"
+  },
+  {
+    "q": "I am the only golfer to win all four major championships in the same calendar year, accomplishing the feat in 1930 before retiring at age 28. Who am I?",
+    "a": "Bobby Jones",
+    "choices": ["Bobby Jones", "Ben Hogan", "Walter Hagen", "Gene Sarazen"],
+    "sport": "golf",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This golfer won 11 consecutive PGA Tour tournaments in 1945, a streak that remains the longest in tour history. Name him.",
+    "a": "Byron Nelson",
+    "choices": ["Byron Nelson", "Ben Hogan", "Sam Snead", "Arnold Palmer"],
+    "sport": "golf",
+    "difficulty": "medium"
+  },
+  {
+    "q": "He won three major championships in a single season after a near-fatal car accident, capturing the 1953 Masters, U.S. Open, and Open Championship. Who was he?",
+    "a": "Ben Hogan",
+    "choices": ["Ben Hogan", "Sam Snead", "Byron Nelson", "Bobby Jones"],
+    "sport": "golf",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This Spanish golfer won five major championships and was known for his swashbuckling style, incredible short game, and thrilling Ryder Cup performances. Name him.",
+    "a": "Seve Ballesteros",
+    "choices": ["Seve Ballesteros", "Jose Maria Olazabal", "Sergio Garcia", "Jon Rahm"],
+    "sport": "golf",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Called 'Lefty', this golfer won six major championships including the 2021 PGA Championship at age 50, becoming the oldest major champion in modern history. Name him.",
+    "a": "Phil Mickelson",
+    "choices": ["Phil Mickelson", "Bubba Watson", "Mike Weir", "Bob Charles"],
+    "sport": "golf",
+    "difficulty": "easy"
+  },
+  {
+    "q": "This Northern Irish golfer won the U.S. Open by eight strokes at Congressional Country Club at age 22. Name him.",
+    "a": "Rory McIlroy",
+    "choices": ["Rory McIlroy", "Graeme McDowell", "Darren Clarke", "Padraig Harrington"],
+    "sport": "golf",
+    "difficulty": "easy"
+  },
+  {
+    "q": "He won back-to-back U.S. Opens in 2017 and 2018 and back-to-back PGA Championships in 2018 and 2019, amassing four majors before age 30. Who is he?",
+    "a": "Brooks Koepka",
+    "choices": ["Brooks Koepka", "Dustin Johnson", "Jordan Spieth", "Justin Thomas"],
+    "sport": "golf",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This golfer won the Masters in both 2022 and 2024, quickly establishing himself as the world's top-ranked player. Name him.",
+    "a": "Scottie Scheffler",
+    "choices": ["Scottie Scheffler", "Jon Rahm", "Rory McIlroy", "Collin Morikawa"],
+    "sport": "golf",
+    "difficulty": "easy"
+  },
+  {
+    "q": "I won six Open Championships, more than any other golfer in history, and have a trophy named after me that is awarded at each Open. Who am I?",
+    "a": "Harry Vardon",
+    "choices": ["Harry Vardon", "Tom Watson", "Jack Nicklaus", "Bobby Jones"],
+    "sport": "golf",
+    "difficulty": "hard"
+  },
+  {
+    "q": "The famous par-3 12th hole at Augusta National, known as Golden Bell, plays over this body of water. Name it.",
+    "a": "Rae's Creek",
+    "choices": ["Rae's Creek", "Hogan's Bridge Creek", "Magnolia Pond", "Eisenhower Lake"],
+    "sport": "golf",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This par-3 island green hole at TPC Sawgrass is one of the most famous holes in golf. What is its number?",
+    "a": "17th",
+    "choices": ["17th", "16th", "12th", "15th"],
+    "sport": "golf",
+    "difficulty": "easy"
+  },
+  {
+    "q": "He holed a 4-wood for a double eagle on the 15th hole at Augusta National in the 1935 Masters, a shot often called 'the shot heard round the world.' Who was he?",
+    "a": "Gene Sarazen",
+    "choices": ["Gene Sarazen", "Bobby Jones", "Walter Hagen", "Byron Nelson"],
+    "sport": "golf",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Tom Watson nearly won a record-tying sixth Open Championship at this links course in 2009 at age 59, losing in a playoff to Stewart Cink. Name the course.",
+    "a": "Turnberry",
+    "choices": ["Turnberry", "St Andrews", "Royal Birkdale", "Muirfield"],
+    "sport": "golf",
+    "difficulty": "hard"
+  },
+  {
+    "q": "This golfer won the 1986 Masters at age 46, shooting a final-round 65 to claim his 18th and final major championship. Name him.",
+    "a": "Jack Nicklaus",
+    "choices": ["Jack Nicklaus", "Tom Watson", "Seve Ballesteros", "Arnold Palmer"],
+    "sport": "golf",
+    "difficulty": "easy"
+  },
+  {
+    "q": "He won 18 PGA Tour events in a single season in 1945, a record that still stands. Who was he?",
+    "a": "Byron Nelson",
+    "choices": ["Byron Nelson", "Ben Hogan", "Sam Snead", "Tiger Woods"],
+    "sport": "golf",
+    "difficulty": "hard"
+  },
+  {
+    "q": "The Ryder Cup pits a team from the United States against a team from where?",
+    "a": "Europe",
+    "choices": ["Europe", "Great Britain and Ireland", "Great Britain", "The Rest of the World"],
+    "sport": "golf",
+    "difficulty": "easy"
+  },
+  {
+    "q": "I became the youngest Masters champion in history when I won the green jacket at age 21 in 1997. Who am I?",
+    "a": "Tiger Woods",
+    "choices": ["Tiger Woods", "Jordan Spieth", "Rory McIlroy", "Scottie Scheffler"],
+    "sport": "golf",
+    "difficulty": "easy"
+  },
+  {
+    "q": "This golfer famously made 'The Concession' at the 1969 Ryder Cup, conceding a short putt to Jack Nicklaus on the final hole to halve their singles match and tie the overall competition. Name him.",
+    "a": "Tony Jacklin",
+    "choices": ["Tony Jacklin", "Peter Alliss", "Brian Huggett", "Bernard Hunt"],
+    "sport": "golf",
+    "difficulty": "hard"
+  },
+  {
+    "q": "He holds the record for the largest margin of victory in Masters history, winning by 12 strokes in 1997. Who is he?",
+    "a": "Tiger Woods",
+    "choices": ["Tiger Woods", "Jordan Spieth", "Jack Nicklaus", "Phil Mickelson"],
+    "sport": "golf",
+    "difficulty": "medium"
+  },
+  {
+    "q": "The Road Hole bunker is a famous hazard on the 17th hole at which legendary links course?",
+    "a": "St Andrews Old Course",
+    "choices": ["St Andrews Old Course", "Royal Troon", "Carnoustie", "Royal St George's"],
+    "sport": "golf",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Called 'The Hawk', this golfer was known for his relentless ball-striking precision and won nine major championships. Name him.",
+    "a": "Ben Hogan",
+    "choices": ["Ben Hogan", "Sam Snead", "Byron Nelson", "Arnold Palmer"],
+    "sport": "golf",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This South African golfer shot 62 at the 2017 Open Championship at Royal Birkdale, the first score of 62 or better in men's major championship history. Name him.",
+    "a": "Branden Grace",
+    "choices": ["Branden Grace", "Phil Mickelson", "Henrik Stenson", "Rory McIlroy"],
+    "sport": "golf",
+    "difficulty": "hard"
+  },
+  {
+    "q": "He won two consecutive U.S. Open titles in 2017 and 2018, becoming the first golfer to do so since Curtis Strange. Who is he?",
+    "a": "Brooks Koepka",
+    "choices": ["Brooks Koepka", "Dustin Johnson", "Tiger Woods", "Jordan Spieth"],
+    "sport": "golf",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Amen Corner at Augusta National consists of the second half of the 11th hole, all of the 12th hole, and the first half of which hole?",
+    "a": "13th",
+    "choices": ["13th", "14th", "10th", "15th"],
+    "sport": "golf",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Bobby Jones co-founded Augusta National Golf Club and helped create the Masters Tournament with this club chairman. Name the chairman.",
+    "a": "Clifford Roberts",
+    "choices": ["Clifford Roberts", "Dwight Eisenhower", "Alister MacKenzie", "Hord Hardin"],
+    "sport": "golf",
+    "difficulty": "hard"
+  },
+  {
+    "q": "This golfer won the 2016 Open Championship at Royal Troon in a historic duel with Phil Mickelson, finishing at 20-under par. Name him.",
+    "a": "Henrik Stenson",
+    "choices": ["Henrik Stenson", "Rory McIlroy", "Jordan Spieth", "Ernie Els"],
+    "sport": "golf",
+    "difficulty": "medium"
+  },
+  {
+    "q": "He won five PGA Championships, more than any other golfer in the stroke-play era. Who is he?",
+    "a": "Jack Nicklaus",
+    "choices": ["Jack Nicklaus", "Tiger Woods", "Walter Hagen", "Ben Hogan"],
+    "sport": "golf",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Called 'The Big Easy' for his smooth, effortless swing, this South African won four major championships. Name him.",
+    "a": "Ernie Els",
+    "choices": ["Ernie Els", "Gary Player", "Retief Goosen", "Louis Oosthuizen"],
+    "sport": "golf",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This Fijian golfer won three major championships, including back-to-back PGA Tour money titles in 2003 and 2004. Name him.",
+    "a": "Vijay Singh",
+    "choices": ["Vijay Singh", "Ernie Els", "Adam Scott", "Jason Day"],
+    "sport": "golf",
+    "difficulty": "hard"
+  },
+  {
+    "q": "I am the only golfer to hold all four professional major championship trophies at the same time, a feat called the 'Tiger Slam.' Who am I?",
+    "a": "Tiger Woods",
+    "choices": ["Tiger Woods", "Jack Nicklaus", "Ben Hogan", "Bobby Jones"],
+    "sport": "golf",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This Scottish golfer became the first British player to win the Masters when he captured the green jacket in 1988. Name him.",
+    "a": "Sandy Lyle",
+    "choices": ["Sandy Lyle", "Nick Faldo", "Ian Woosnam", "Colin Montgomerie"],
+    "sport": "golf",
+    "difficulty": "hard"
+  },
+  {
+    "q": "He won six Masters titles, more than any other golfer in history. Who is he?",
+    "a": "Jack Nicklaus",
+    "choices": ["Jack Nicklaus", "Tiger Woods", "Arnold Palmer", "Ben Hogan"],
+    "sport": "golf",
+    "difficulty": "easy"
+  },
+  {
+    "q": "The Swilcan Bridge is a famous landmark on the 18th hole of which iconic golf course?",
+    "a": "St Andrews Old Course",
+    "choices": ["St Andrews Old Course", "Royal Troon", "Muirfield", "Carnoustie"],
+    "sport": "golf",
+    "difficulty": "easy"
+  },
+  {
+    "q": "This Englishman won three Open Championships and three Masters titles, totaling six major victories, and was known for his meticulous course management. Name him.",
+    "a": "Nick Faldo",
+    "choices": ["Nick Faldo", "Tony Jacklin", "Sandy Lyle", "Lee Westwood"],
+    "sport": "golf",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This Australian became the first from his country to win the Masters when he captured the green jacket in 2013. Name him.",
+    "a": "Adam Scott",
+    "choices": ["Adam Scott", "Jason Day", "Greg Norman", "Geoff Ogilvy"],
+    "sport": "golf",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Known as 'The Great White Shark', this Australian golfer was world number one for 331 weeks but is remembered for heartbreaking major losses. Name him.",
+    "a": "Greg Norman",
+    "choices": ["Greg Norman", "Adam Scott", "Peter Thomson", "David Graham"],
+    "sport": "golf",
+    "difficulty": "easy"
+  },
+  {
+    "q": "This course, located in Georgia, hosts the Masters Tournament every year and is famous for its azaleas and Magnolia Lane. Name it.",
+    "a": "Augusta National Golf Club",
+    "choices": ["Augusta National Golf Club", "Pinehurst No. 2", "Pebble Beach Golf Links", "Bethpage Black"],
+    "sport": "golf",
+    "difficulty": "easy"
+  },
+  {
+    "q": "He hit one of golf's most famous shots, a 1-iron to the 18th green at Merion in the final round of the 1950 U.S. Open, just 16 months after a near-fatal car accident. Who was he?",
+    "a": "Ben Hogan",
+    "choices": ["Ben Hogan", "Sam Snead", "Byron Nelson", "Bobby Jones"],
+    "sport": "golf",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This left-handed golfer from New Zealand was the first lefty to win a major championship, taking the 1963 Open Championship. Name him.",
+    "a": "Bob Charles",
+    "choices": ["Bob Charles", "Mike Weir", "Phil Mickelson", "Bubba Watson"],
+    "sport": "golf",
+    "difficulty": "hard"
+  },
+  {
+    "q": "He won the 2012 Masters by holing a miraculous hook shot from deep in the trees on the second playoff hole. Who is he?",
+    "a": "Bubba Watson",
+    "choices": ["Bubba Watson", "Phil Mickelson", "Adam Scott", "Zach Johnson"],
+    "sport": "golf",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Tom Watson won five Open Championships. At which course did he win his most famous, beating Jack Nicklaus in the 'Duel in the Sun' in 1977?",
+    "a": "Turnberry",
+    "choices": ["Turnberry", "St Andrews", "Royal Birkdale", "Muirfield"],
+    "sport": "golf",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This golfer won the 2020 Masters in November (delayed due to COVID-19), finishing at a record 20-under par. Name him.",
+    "a": "Dustin Johnson",
+    "choices": ["Dustin Johnson", "Jon Rahm", "Bryson DeChambeau", "Collin Morikawa"],
+    "sport": "golf",
+    "difficulty": "medium"
+  },
+  {
+    "q": "He won the 2021 U.S. Open at Torrey Pines for his first major championship, finishing one stroke ahead of Louis Oosthuizen. Who is he?",
+    "a": "Jon Rahm",
+    "choices": ["Jon Rahm", "Bryson DeChambeau", "Collin Morikawa", "Brooks Koepka"],
+    "sport": "golf",
+    "difficulty": "medium"
+  },
+  {
+    "q": "He famously blew a six-stroke lead on the final day of the 1996 Masters, losing to Nick Faldo by five strokes. Who was he?",
+    "a": "Greg Norman",
+    "choices": ["Greg Norman", "Nick Price", "Tom Lehman", "Phil Mickelson"],
+    "sport": "golf",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This golfer won the 2020 U.S. Open at Winged Foot, overpowering the course after a dramatic physical transformation. Name him.",
+    "a": "Bryson DeChambeau",
+    "choices": ["Bryson DeChambeau", "Dustin Johnson", "Matthew Wolff", "Collin Morikawa"],
+    "sport": "golf",
+    "difficulty": "medium"
+  },
+  {
+    "q": "He won the 2020 PGA Championship in his first ever PGA Championship start at TPC Harding Park. Who is he?",
+    "a": "Collin Morikawa",
+    "choices": ["Collin Morikawa", "Bryson DeChambeau", "Dustin Johnson", "Jon Rahm"],
+    "sport": "golf",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Known as 'Slammin' Sam', this golfer won 82 PGA Tour events but never won the U.S. Open despite finishing runner-up four times. Name him.",
+    "a": "Sam Snead",
+    "choices": ["Sam Snead", "Ben Hogan", "Byron Nelson", "Arnold Palmer"],
+    "sport": "golf",
+    "difficulty": "medium"
+  },
+  {
+    "q": "The Solheim Cup is the women's equivalent of the Ryder Cup. It pits the United States against a team from where?",
+    "a": "Europe",
+    "choices": ["Europe", "Great Britain", "Great Britain and Ireland", "The Rest of the World"],
+    "sport": "golf",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This German golfer won the Masters twice (1985 and 1993) and became one of Europe's most successful Ryder Cup captains. Name him.",
+    "a": "Bernhard Langer",
+    "choices": ["Bernhard Langer", "Martin Kaymer", "Nick Faldo", "Seve Ballesteros"],
+    "sport": "golf",
+    "difficulty": "medium"
+  },
+  {
+    "q": "The 'Church Pews' bunker is a famous hazard found between the 3rd and 4th holes at which major championship venue?",
+    "a": "Oakmont Country Club",
+    "choices": ["Oakmont Country Club", "Shinnecock Hills", "Winged Foot", "Merion"],
+    "sport": "golf",
+    "difficulty": "hard"
+  },
+  {
+    "q": "He won the 2015 Open Championship at St Andrews in a playoff, his second major title. Who is he?",
+    "a": "Zach Johnson",
+    "choices": ["Zach Johnson", "Jordan Spieth", "Dustin Johnson", "Louis Oosthuizen"],
+    "sport": "golf",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Jim Furyk holds the record for the lowest single-round score in PGA Tour history. What was that score?",
+    "a": "58",
+    "choices": ["58", "59", "57", "60"],
+    "sport": "golf",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Arnold Palmer charged from seven strokes back in the final round to win the 1960 U.S. Open at this course. Name the course.",
+    "a": "Cherry Hills Country Club",
+    "choices": ["Cherry Hills Country Club", "Oakmont Country Club", "Augusta National", "Winged Foot"],
+    "sport": "golf",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This golfer won the 2010 Open Championship at St Andrews by seven strokes in his first major victory. Name him.",
+    "a": "Louis Oosthuizen",
+    "choices": ["Louis Oosthuizen", "Ernie Els", "Charl Schwartzel", "Retief Goosen"],
+    "sport": "golf",
+    "difficulty": "hard"
+  },
+  {
+    "q": "He won the 1995 Open Championship at St Andrews, one of his two major titles, and was known for his wild, grip-it-and-rip-it style. Who was he?",
+    "a": "John Daly",
+    "choices": ["John Daly", "Nick Price", "Tom Lehman", "Corey Pavin"],
+    "sport": "golf",
+    "difficulty": "hard"
+  },
+  {
+    "q": "The par-5 13th hole at Augusta National, called Azalea, is part of Amen Corner. What type of dogleg is it?",
+    "a": "Dogleg left",
+    "choices": ["Dogleg left", "Dogleg right", "Double dogleg", "Straight"],
+    "sport": "golf",
+    "difficulty": "medium"
+  },
+  {
+    "q": "He made the clinching putt for Europe at the 2012 Ryder Cup at Medinah, completing the 'Miracle at Medinah' comeback from a 10-6 deficit. Who was he?",
+    "a": "Martin Kaymer",
+    "choices": ["Martin Kaymer", "Ian Poulter", "Sergio Garcia", "Rory McIlroy"],
+    "sport": "golf",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Called 'The Postman' for always delivering at the Ryder Cup, this Englishman is famous for his intense match-play performances for Europe. Name him.",
+    "a": "Ian Poulter",
+    "choices": ["Ian Poulter", "Lee Westwood", "Luke Donald", "Justin Rose"],
+    "sport": "golf",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This golfer won the 2013 U.S. Open at Merion and the 2016 Olympic gold medal in golf's return to the Games. Name him.",
+    "a": "Justin Rose",
+    "choices": ["Justin Rose", "Adam Scott", "Phil Mickelson", "Jason Day"],
+    "sport": "golf",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Walter Hagen won five PGA Championships, all in the match-play format. How many of those five were consecutive?",
+    "a": "Four",
+    "choices": ["Four", "Three", "Five", "Two"],
+    "sport": "golf",
+    "difficulty": "hard"
+  },
+  {
+    "q": "I won the 2015 Masters and the 2015 U.S. Open in the same year and nearly won the calendar-year Grand Slam. Who am I?",
+    "a": "Jordan Spieth",
+    "choices": ["Jordan Spieth", "Rory McIlroy", "Tiger Woods", "Dustin Johnson"],
+    "sport": "golf",
+    "difficulty": "easy"
+  },
+  {
+    "q": "This golfer won the 2011 Masters by birdieing the final four holes of regulation to beat Jason Day and Adam Scott by two strokes. Name him.",
+    "a": "Charl Schwartzel",
+    "choices": ["Charl Schwartzel", "Adam Scott", "Phil Mickelson", "Tiger Woods"],
+    "sport": "golf",
+    "difficulty": "hard"
+  },
+  {
+    "q": "He won 15 major championships, second only to Jack Nicklaus on the all-time list. Who is he?",
+    "a": "Tiger Woods",
+    "choices": ["Tiger Woods", "Tom Watson", "Phil Mickelson", "Arnold Palmer"],
+    "sport": "golf",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Called 'El Nino', this Spanish golfer won the 2017 Masters for his first major title after years of near-misses. Name him.",
+    "a": "Sergio Garcia",
+    "choices": ["Sergio Garcia", "Jon Rahm", "Seve Ballesteros", "Jose Maria Olazabal"],
+    "sport": "golf",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This course, nicknamed 'The Monster', hosted the 2002 and 2008 U.S. Opens and is located on Long Island. Name it.",
+    "a": "Bethpage Black",
+    "choices": ["Bethpage Black", "Shinnecock Hills", "Winged Foot", "Baltusrol"],
+    "sport": "golf",
+    "difficulty": "hard"
+  },
+  {
+    "q": "He entered the 1991 PGA Championship at Crooked Stick as a ninth alternate and stunned the golf world by winning it. Who was he?",
+    "a": "John Daly",
+    "choices": ["John Daly", "Rich Beem", "Shaun Micheel", "Bob Tway"],
+    "sport": "golf",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This golfer famously holed a bunker shot on the 18th hole to win the 1986 PGA Championship, beating Greg Norman. Name him.",
+    "a": "Bob Tway",
+    "choices": ["Bob Tway", "Larry Mize", "Payne Stewart", "David Toms"],
+    "sport": "golf",
+    "difficulty": "hard"
+  },
+  {
+    "q": "He chipped in on the second playoff hole to win the 1987 Masters, breaking Greg Norman's heart again. Who was he?",
+    "a": "Larry Mize",
+    "choices": ["Larry Mize", "Bob Tway", "Nick Faldo", "Sandy Lyle"],
+    "sport": "golf",
+    "difficulty": "hard"
+  },
+  {
+    "q": "The 'Bear Trap' is a notoriously difficult three-hole stretch (15th through 17th) at which PGA Tour venue?",
+    "a": "PGA National",
+    "choices": ["PGA National", "TPC Sawgrass", "Bay Hill", "Quail Hollow"],
+    "sport": "golf",
+    "difficulty": "hard"
+  }
+]

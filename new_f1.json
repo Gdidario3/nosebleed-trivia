@@ -1,0 +1,79 @@
+[
+  {
+    "q": "This driver holds the record for most F1 World Championship titles with 7, first achieved in 2004. Name him.",
+    "a": "Michael Schumacher",
+    "choices": ["Michael Schumacher", "Lewis Hamilton", "Ayrton Senna", "Alain Prost"],
+    "sport": "f1",
+    "difficulty": "easy"
+  },
+  {
+    "q": "I won 7 F1 World Championships driving for Mercedes, equaling Michael Schumacher's record. Who am I?",
+    "a": "Lewis Hamilton",
+    "choices": ["Lewis Hamilton", "Sebastian Vettel", "Nico Rosberg", "Max Verstappen"],
+    "sport": "f1",
+    "difficulty": "easy"
+  },
+  {
+    "q": "This Brazilian driver, widely regarded as one of the greatest ever, tragically died at the 1994 San Marino Grand Prix at Imola. Name him.",
+    "a": "Ayrton Senna",
+    "choices": ["Ayrton Senna", "Nelson Piquet", "Emerson Fittipaldi", "Rubens Barrichello"],
+    "sport": "f1",
+    "difficulty": "easy"
+  },
+  {
+    "q": "I hold the F1 record for most race wins in a single season with 19, set during the 2023 season driving for Red Bull. Who am I?",
+    "a": "Max Verstappen",
+    "choices": ["Max Verstappen", "Sebastian Vettel", "Lewis Hamilton", "Michael Schumacher"],
+    "sport": "f1",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This French driver won 4 F1 World Championships and was known for his fierce rivalry with Ayrton Senna. Name him.",
+    "a": "Alain Prost",
+    "choices": ["Alain Prost", "Jacques Villeneuve", "Rene Arnoux", "Jean Alesi"],
+    "sport": "f1",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This Argentine driver won 5 World Championships between 1951 and 1957, a record that stood for 46 years. Name him.",
+    "a": "Juan Manuel Fangio",
+    "choices": ["Juan Manuel Fangio", "Carlos Reutemann", "Jose Froilan Gonzalez", "Stirling Moss"],
+    "sport": "f1",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Ferrari holds the record for most Constructors' Championships in F1 history. How many have they won as of the end of 2024?",
+    "a": "16",
+    "choices": ["16", "14", "18", "12"],
+    "sport": "f1",
+    "difficulty": "medium"
+  },
+  {
+    "q": "I became the youngest F1 World Champion in history at age 23, winning my first title in 2010 with Red Bull. Who am I?",
+    "a": "Sebastian Vettel",
+    "choices": ["Sebastian Vettel", "Max Verstappen", "Lewis Hamilton", "Fernando Alonso"],
+    "sport": "f1",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This British driver won the F1 World Championship in 2009 driving for Brawn GP, the team's only season in F1. Name him.",
+    "a": "Jenson Button",
+    "choices": ["Jenson Button", "David Coulthard", "Damon Hill", "Nigel Mansell"],
+    "sport": "f1",
+    "difficulty": "hard"
+  },
+  {
+    "q": "I hold the record for most F1 Grand Prix starts without a race win, accumulating over 200 starts. I drove for teams including Sauber and Force India. Who am I?",
+    "a": "Nico Hulkenberg",
+    "choices": ["Nico Hulkenberg", "Adrian Sutil", "Marcus Ericsson", "Romain Grosjean"],
+    "sport": "f1",
+    "difficulty": "hard"
+  },
+  {
+    "q": "This Finnish driver, nicknamed 'The Iceman,' won his sole F1 World Championship in 2007 driving for Ferrari. Name him.",
+    "a": "Kimi Raikkonen",
+    "choices": ["Kimi Raikkonen", "Mika Hakkinen", "Valtteri Bottas", "Heikki Kovalainen"],
+    "sport": "f1",
+    "difficulty": "hard"
+  }
+]

@@ -1,0 +1,646 @@
+[
+  {
+    "q": "I scored 100 points in a single NBA game on March 2, 1962. Who am I?",
+    "a": "Wilt Chamberlain",
+    "choices": ["Wilt Chamberlain", "Bill Russell", "Jerry West", "Elgin Baylor"],
+    "sport": "basketball",
+    "difficulty": "easy"
+  },
+  {
+    "q": "This Bulls guard hit 'The Last Shot' over Bryon Russell to win the 1998 NBA Finals. Name him.",
+    "a": "Michael Jordan",
+    "choices": ["Michael Jordan", "Scottie Pippen", "Steve Kerr", "Dennis Rodman"],
+    "sport": "basketball",
+    "difficulty": "easy"
+  },
+  {
+    "q": "He averaged a triple-double for an entire NBA season in 2016-17. Who was he?",
+    "a": "Russell Westbrook",
+    "choices": ["Russell Westbrook", "James Harden", "LeBron James", "Kevin Durant"],
+    "sport": "basketball",
+    "difficulty": "easy"
+  },
+  {
+    "q": "This player holds the NBA record for most career points scored with 40,474. Name him.",
+    "a": "LeBron James",
+    "choices": ["LeBron James", "Kareem Abdul-Jabbar", "Karl Malone", "Kobe Bryant"],
+    "sport": "basketball",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Called 'The Answer', this 76ers guard won MVP in 2001. Name him.",
+    "a": "Allen Iverson",
+    "choices": ["Allen Iverson", "Tracy McGrady", "Vince Carter", "Ray Allen"],
+    "sport": "basketball",
+    "difficulty": "easy"
+  },
+  {
+    "q": "This legendary coach won nine NBA championships with the Boston Celtics. Who was he?",
+    "a": "Red Auerbach",
+    "choices": ["Red Auerbach", "Phil Jackson", "Pat Riley", "John Kundla"],
+    "sport": "basketball",
+    "difficulty": "medium"
+  },
+  {
+    "q": "I was drafted by the Cavaliers, won titles in Miami, then returned to Cleveland before joining the Lakers. Who am I?",
+    "a": "LeBron James",
+    "choices": ["LeBron James", "Kyrie Irving", "Dwyane Wade", "Kevin Love"],
+    "sport": "basketball",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Known as 'The Big Aristotle', this dominant center won three consecutive Finals MVP awards from 2000 to 2002. Name him.",
+    "a": "Shaquille O'Neal",
+    "choices": ["Shaquille O'Neal", "Hakeem Olajuwon", "Patrick Ewing", "David Robinson"],
+    "sport": "basketball",
+    "difficulty": "easy"
+  },
+  {
+    "q": "This Celtics legend won three consecutive MVP awards from 1984 to 1986 and was known for his sharpshooting. Name him.",
+    "a": "Larry Bird",
+    "choices": ["Larry Bird", "Kevin McHale", "Robert Parish", "Bill Walton"],
+    "sport": "basketball",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Called 'Magic', this Lakers point guard recorded 42 points, 15 rebounds, and 7 assists in Game 6 of the 1980 Finals while playing center as a rookie. Name him.",
+    "a": "Magic Johnson",
+    "choices": ["Magic Johnson", "Kareem Abdul-Jabbar", "James Worthy", "Byron Scott"],
+    "sport": "basketball",
+    "difficulty": "easy"
+  },
+  {
+    "q": "This player holds the NBA record for most assists in a career with 15,806. Name him.",
+    "a": "John Stockton",
+    "choices": ["John Stockton", "Jason Kidd", "Magic Johnson", "Steve Nash"],
+    "sport": "basketball",
+    "difficulty": "medium"
+  },
+  {
+    "q": "I invented a signature skyhook shot and retired as the NBA's all-time leading scorer before LeBron James broke my record. Who am I?",
+    "a": "Kareem Abdul-Jabbar",
+    "choices": ["Kareem Abdul-Jabbar", "Wilt Chamberlain", "Moses Malone", "Hakeem Olajuwon"],
+    "sport": "basketball",
+    "difficulty": "easy"
+  },
+  {
+    "q": "This Spurs coach holds the record for most wins with a single NBA franchise. Name him.",
+    "a": "Gregg Popovich",
+    "choices": ["Gregg Popovich", "Phil Jackson", "Pat Riley", "Jerry Sloan"],
+    "sport": "basketball",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Known as 'The Dream', this Rockets center won back-to-back Finals MVP awards in 1994 and 1995. Name him.",
+    "a": "Hakeem Olajuwon",
+    "choices": ["Hakeem Olajuwon", "Ralph Sampson", "David Robinson", "Patrick Ewing"],
+    "sport": "basketball",
+    "difficulty": "easy"
+  },
+  {
+    "q": "This player scored 81 points against the Toronto Raptors on January 22, 2006. Name him.",
+    "a": "Kobe Bryant",
+    "choices": ["Kobe Bryant", "Shaquille O'Neal", "Tracy McGrady", "Allen Iverson"],
+    "sport": "basketball",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Called 'The Big Fundamental', this power forward spent his entire 19-year career with the San Antonio Spurs. Name him.",
+    "a": "Tim Duncan",
+    "choices": ["Tim Duncan", "David Robinson", "Manu Ginobili", "Tony Parker"],
+    "sport": "basketball",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Phil Jackson won a total of how many NBA championships as a head coach?",
+    "a": "11",
+    "choices": ["9", "10", "11", "13"],
+    "sport": "basketball",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This Warriors guard set the NBA single-season record with 402 three-pointers made in 2015-16. Name him.",
+    "a": "Stephen Curry",
+    "choices": ["Stephen Curry", "Klay Thompson", "Ray Allen", "Reggie Miller"],
+    "sport": "basketball",
+    "difficulty": "easy"
+  },
+  {
+    "q": "I was nicknamed 'The Mailman' and played most of my career with the Utah Jazz alongside John Stockton. Who am I?",
+    "a": "Karl Malone",
+    "choices": ["Karl Malone", "John Stockton", "Jeff Hornacek", "Andrei Kirilenko"],
+    "sport": "basketball",
+    "difficulty": "easy"
+  },
+  {
+    "q": "This WNBA player holds the league's all-time scoring record. Name her.",
+    "a": "Diana Taurasi",
+    "choices": ["Diana Taurasi", "Tina Thompson", "Lisa Leslie", "Tamika Catchings"],
+    "sport": "basketball",
+    "difficulty": "medium"
+  },
+  {
+    "q": "In 1992, a group of NBA superstars represented the United States at the Barcelona Olympics and became known as 'The Dream Team'. Who coached them?",
+    "a": "Chuck Daly",
+    "choices": ["Chuck Daly", "Pat Riley", "Phil Jackson", "Lenny Wilkens"],
+    "sport": "basketball",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This player holds the NBA record for most rebounds in a single game with 55. Name him.",
+    "a": "Wilt Chamberlain",
+    "choices": ["Wilt Chamberlain", "Bill Russell", "Dennis Rodman", "Moses Malone"],
+    "sport": "basketball",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Called 'The Glove', this Sonics guard was named Defensive Player of the Year in 1996. Name him.",
+    "a": "Gary Payton",
+    "choices": ["Gary Payton", "John Stockton", "Mookie Blaylock", "Tim Hardaway"],
+    "sport": "basketball",
+    "difficulty": "medium"
+  },
+  {
+    "q": "He hit 'The Shot' over Craig Ehlo to eliminate the Cavaliers in the 1989 NBA Playoffs. Name him.",
+    "a": "Michael Jordan",
+    "choices": ["Michael Jordan", "Scottie Pippen", "Horace Grant", "John Paxson"],
+    "sport": "basketball",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This player holds the NBA record for most steals in a career with 3,265. Name him.",
+    "a": "John Stockton",
+    "choices": ["John Stockton", "Michael Jordan", "Gary Payton", "Scottie Pippen"],
+    "sport": "basketball",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Known as 'The Iceman', this Spurs guard won four scoring titles during the late 1970s and early 1980s. Name him.",
+    "a": "George Gervin",
+    "choices": ["George Gervin", "David Thompson", "Julius Erving", "Pete Maravich"],
+    "sport": "basketball",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This coach led the 1995-96 Chicago Bulls to a then-record 72-10 regular season record. Name him.",
+    "a": "Phil Jackson",
+    "choices": ["Phil Jackson", "Pat Riley", "Red Auerbach", "Gregg Popovich"],
+    "sport": "basketball",
+    "difficulty": "easy"
+  },
+  {
+    "q": "I was known as 'Dr. J' and helped popularize the slam dunk in professional basketball. Who am I?",
+    "a": "Julius Erving",
+    "choices": ["Julius Erving", "George Gervin", "Dominique Wilkins", "Darryl Dawkins"],
+    "sport": "basketball",
+    "difficulty": "easy"
+  },
+  {
+    "q": "This center blocked a record 3,830 shots in his NBA career, the most in league history. Name him.",
+    "a": "Hakeem Olajuwon",
+    "choices": ["Hakeem Olajuwon", "Dikembe Mutombo", "Kareem Abdul-Jabbar", "Mark Eaton"],
+    "sport": "basketball",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Reggie Miller scored eight points in 8.9 seconds against the Knicks in Game 1 of the 1995 Eastern Conference Semifinals. What team did he play for?",
+    "a": "Indiana Pacers",
+    "choices": ["Indiana Pacers", "New York Knicks", "Chicago Bulls", "Cleveland Cavaliers"],
+    "sport": "basketball",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Called 'The Round Mound of Rebound', this power forward won the 1993 MVP award while playing for the Phoenix Suns. Name him.",
+    "a": "Charles Barkley",
+    "choices": ["Charles Barkley", "Karl Malone", "Kevin Johnson", "Tom Chambers"],
+    "sport": "basketball",
+    "difficulty": "easy"
+  },
+  {
+    "q": "This Celtics center won 11 NBA championships as a player, the most in league history. Name him.",
+    "a": "Bill Russell",
+    "choices": ["Bill Russell", "Bob Cousy", "John Havlicek", "Sam Jones"],
+    "sport": "basketball",
+    "difficulty": "easy"
+  },
+  {
+    "q": "He was named to the NBA All-Defensive First Team multiple times and was known for his finger-wagging block celebration. Name him.",
+    "a": "Dikembe Mutombo",
+    "choices": ["Dikembe Mutombo", "Alonzo Mourning", "Ben Wallace", "Marcus Camby"],
+    "sport": "basketball",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This player hit the game-winning three-pointer in Game 7 of the 2016 NBA Finals for the Cavaliers. Name him.",
+    "a": "Kyrie Irving",
+    "choices": ["Kyrie Irving", "LeBron James", "Kevin Love", "J.R. Smith"],
+    "sport": "basketball",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This WNBA star was the first player to dunk in a WNBA game, doing so on July 30, 2002. Name her.",
+    "a": "Lisa Leslie",
+    "choices": ["Lisa Leslie", "Diana Taurasi", "Sheryl Swoopes", "Candace Parker"],
+    "sport": "basketball",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Known as 'Pistol Pete', this guard averaged 44.2 points per game during his college career at LSU. Name him.",
+    "a": "Pete Maravich",
+    "choices": ["Pete Maravich", "Jerry West", "Oscar Robertson", "Bob Cousy"],
+    "sport": "basketball",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This player averaged a triple-double for the entire 1961-62 NBA season, recording 30.8 points, 12.5 rebounds, and 11.4 assists per game. Name him.",
+    "a": "Oscar Robertson",
+    "choices": ["Oscar Robertson", "Wilt Chamberlain", "Jerry West", "Elgin Baylor"],
+    "sport": "basketball",
+    "difficulty": "medium"
+  },
+  {
+    "q": "He won Defensive Player of the Year four times, including in 2002, 2003, 2005, and 2006. Name him.",
+    "a": "Ben Wallace",
+    "choices": ["Ben Wallace", "Rasheed Wallace", "Dikembe Mutombo", "Dwight Howard"],
+    "sport": "basketball",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This coach won four NBA championships with the Los Angeles Lakers during the Showtime era. Name him.",
+    "a": "Pat Riley",
+    "choices": ["Pat Riley", "Phil Jackson", "Red Auerbach", "Chuck Daly"],
+    "sport": "basketball",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Called 'The Human Highlight Film', this Hawks forward was one of the greatest dunkers in NBA history and a nine-time All-Star. Name him.",
+    "a": "Dominique Wilkins",
+    "choices": ["Dominique Wilkins", "Michael Jordan", "Spud Webb", "Clyde Drexler"],
+    "sport": "basketball",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Wilt Chamberlain averaged this many points per game during the 1961-62 season, an NBA record. What was the number?",
+    "a": "50.4",
+    "choices": ["44.8", "48.5", "50.4", "52.1"],
+    "sport": "basketball",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Known as 'The Worm', this rebounding specialist led the NBA in rebounds per game for seven consecutive seasons from 1991-92 to 1997-98. Name him.",
+    "a": "Dennis Rodman",
+    "choices": ["Dennis Rodman", "Charles Barkley", "Karl Malone", "Shaquille O'Neal"],
+    "sport": "basketball",
+    "difficulty": "easy"
+  },
+  {
+    "q": "He won six NBA championships and six Finals MVP awards, all with the Chicago Bulls. Name him.",
+    "a": "Michael Jordan",
+    "choices": ["Michael Jordan", "Scottie Pippen", "Phil Jackson", "Dennis Rodman"],
+    "sport": "basketball",
+    "difficulty": "easy"
+  },
+  {
+    "q": "This point guard holds the NBA record for most three-pointers made in a career. Name him.",
+    "a": "Stephen Curry",
+    "choices": ["Stephen Curry", "Ray Allen", "Reggie Miller", "James Harden"],
+    "sport": "basketball",
+    "difficulty": "easy"
+  },
+  {
+    "q": "In the 1980 NBA Finals, Magic Johnson famously started at center in Game 6 to replace an injured teammate. Who was that injured teammate?",
+    "a": "Kareem Abdul-Jabbar",
+    "choices": ["Kareem Abdul-Jabbar", "Jamaal Wilkes", "Norm Nixon", "Michael Cooper"],
+    "sport": "basketball",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This Knicks center was known for his fierce rivalry with Hakeem Olajuwon and was selected first overall in the 1985 NBA Draft. Name him.",
+    "a": "Patrick Ewing",
+    "choices": ["Patrick Ewing", "Hakeem Olajuwon", "David Robinson", "Ralph Sampson"],
+    "sport": "basketball",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Called 'The Truth', this Celtics forward won Finals MVP in 2008. Name him.",
+    "a": "Paul Pierce",
+    "choices": ["Paul Pierce", "Kevin Garnett", "Ray Allen", "Rajon Rondo"],
+    "sport": "basketball",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This player won seven consecutive NBA scoring titles from 1986-87 through 1992-93 with the Chicago Bulls. Name him.",
+    "a": "Michael Jordan",
+    "choices": ["Michael Jordan", "Wilt Chamberlain", "Kobe Bryant", "Allen Iverson"],
+    "sport": "basketball",
+    "difficulty": "hard"
+  },
+  {
+    "q": "He was the first overall pick in the 1979 NBA Draft by the Los Angeles Lakers. Name him.",
+    "a": "Magic Johnson",
+    "choices": ["Magic Johnson", "Larry Bird", "Sidney Moncrief", "Bill Cartwright"],
+    "sport": "basketball",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This Timberwolves and Celtics star won the MVP award in 2004 and was known as 'The Big Ticket'. Name him.",
+    "a": "Kevin Garnett",
+    "choices": ["Kevin Garnett", "Paul Pierce", "Ray Allen", "Tim Duncan"],
+    "sport": "basketball",
+    "difficulty": "medium"
+  },
+  {
+    "q": "I played 20 seasons in the NBA, won five championships with the Lakers, and wore numbers 8 and 24. Who am I?",
+    "a": "Kobe Bryant",
+    "choices": ["Kobe Bryant", "Shaquille O'Neal", "Magic Johnson", "Jerry West"],
+    "sport": "basketball",
+    "difficulty": "easy"
+  },
+  {
+    "q": "This Mavericks forward won his only NBA championship and Finals MVP in 2011. Name him.",
+    "a": "Dirk Nowitzki",
+    "choices": ["Dirk Nowitzki", "Jason Kidd", "Jason Terry", "Tyson Chandler"],
+    "sport": "basketball",
+    "difficulty": "medium"
+  },
+  {
+    "q": "He was selected first overall in the 1984 NBA Draft by the Houston Rockets, one pick ahead of Sam Bowie and Michael Jordan. Name him.",
+    "a": "Hakeem Olajuwon",
+    "choices": ["Hakeem Olajuwon", "Sam Bowie", "Charles Barkley", "Patrick Ewing"],
+    "sport": "basketball",
+    "difficulty": "hard"
+  },
+  {
+    "q": "This guard was named NBA Finals MVP in 1969 despite his team losing the series, the only player to receive the award from a losing team. Name him.",
+    "a": "Jerry West",
+    "choices": ["Jerry West", "Wilt Chamberlain", "Elgin Baylor", "Gail Goodrich"],
+    "sport": "basketball",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Known as 'The Greek Freak', this Bucks forward won back-to-back MVP awards in 2019 and 2020. Name him.",
+    "a": "Giannis Antetokounmpo",
+    "choices": ["Giannis Antetokounmpo", "Nikola Jokic", "Joel Embiid", "Luka Doncic"],
+    "sport": "basketball",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Ray Allen hit a clutch corner three-pointer to tie Game 6 of the 2013 NBA Finals, saving his team from elimination. Which team was he playing for?",
+    "a": "Miami Heat",
+    "choices": ["Miami Heat", "Boston Celtics", "Milwaukee Bucks", "Seattle SuperSonics"],
+    "sport": "basketball",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This coach led the Detroit Pistons 'Bad Boys' to back-to-back NBA championships in 1989 and 1990. Name him.",
+    "a": "Chuck Daly",
+    "choices": ["Chuck Daly", "Pat Riley", "Rick Mahorn", "Isiah Thomas"],
+    "sport": "basketball",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Called 'Zeke', this Pistons point guard was named Finals MVP in 1990 after leading Detroit to its second consecutive title. Name him.",
+    "a": "Isiah Thomas",
+    "choices": ["Isiah Thomas", "Joe Dumars", "Bill Laimbeer", "Dennis Rodman"],
+    "sport": "basketball",
+    "difficulty": "medium"
+  },
+  {
+    "q": "He scored 13 points in 33 seconds against the San Antonio Spurs on December 9, 2004, completing one of the greatest comebacks in NBA history. Name him.",
+    "a": "Tracy McGrady",
+    "choices": ["Tracy McGrady", "Reggie Miller", "Kobe Bryant", "Allen Iverson"],
+    "sport": "basketball",
+    "difficulty": "hard"
+  },
+  {
+    "q": "This player holds the NBA record for most consecutive games played with 1,192. Name him.",
+    "a": "A.C. Green",
+    "choices": ["A.C. Green", "John Stockton", "Karl Malone", "Robert Parish"],
+    "sport": "basketball",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Known as 'The Joker', this Nuggets center won three consecutive MVP awards from 2021 through 2024. Name him.",
+    "a": "Nikola Jokic",
+    "choices": ["Nikola Jokic", "Giannis Antetokounmpo", "Joel Embiid", "Luka Doncic"],
+    "sport": "basketball",
+    "difficulty": "medium"
+  },
+  {
+    "q": "He was known as 'Penny' and formed a dominant duo with Shaquille O'Neal on the Orlando Magic in the mid-1990s. Name him.",
+    "a": "Anfernee Hardaway",
+    "choices": ["Anfernee Hardaway", "Nick Anderson", "Dennis Scott", "Horace Grant"],
+    "sport": "basketball",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This player holds the NBA record for most free throws made in a career with 9,787. Name him.",
+    "a": "Karl Malone",
+    "choices": ["Karl Malone", "Moses Malone", "Michael Jordan", "Kobe Bryant"],
+    "sport": "basketball",
+    "difficulty": "hard"
+  },
+  {
+    "q": "I was nicknamed 'The Stifle Tower' and won three Defensive Player of the Year awards with the Utah Jazz. Who am I?",
+    "a": "Rudy Gobert",
+    "choices": ["Rudy Gobert", "Dikembe Mutombo", "Mark Eaton", "Ben Wallace"],
+    "sport": "basketball",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This forward was named Finals MVP when the Toronto Raptors won their first championship in 2019. Name him.",
+    "a": "Kawhi Leonard",
+    "choices": ["Kawhi Leonard", "Kyle Lowry", "Pascal Siakam", "Fred VanVleet"],
+    "sport": "basketball",
+    "difficulty": "medium"
+  },
+  {
+    "q": "He scored 71 points against the Chicago Bulls on January 2, 2023, the most in a game since Kobe Bryant's 81. Name him.",
+    "a": "Donovan Mitchell",
+    "choices": ["Donovan Mitchell", "Devin Booker", "Luka Doncic", "Damian Lillard"],
+    "sport": "basketball",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Called 'The Admiral', this Spurs center won the MVP award in 1995. Name him.",
+    "a": "David Robinson",
+    "choices": ["David Robinson", "Tim Duncan", "Hakeem Olajuwon", "Shaquille O'Neal"],
+    "sport": "basketball",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This guard hit a 37-foot three-pointer to send the Portland Trail Blazers past the Oklahoma City Thunder in the first round of the 2019 playoffs. Name him.",
+    "a": "Damian Lillard",
+    "choices": ["Damian Lillard", "CJ McCollum", "Russell Westbrook", "Paul George"],
+    "sport": "basketball",
+    "difficulty": "medium"
+  },
+  {
+    "q": "She won four WNBA championships and four Finals MVP awards with the Houston Comets from 1997 to 2000. Name her.",
+    "a": "Cynthia Cooper",
+    "choices": ["Cynthia Cooper", "Sheryl Swoopes", "Lisa Leslie", "Tina Thompson"],
+    "sport": "basketball",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Known as 'King James', this player has been selected to the most All-Star Games in NBA history. Name him.",
+    "a": "LeBron James",
+    "choices": ["LeBron James", "Michael Jordan", "Kobe Bryant", "Karl Malone"],
+    "sport": "basketball",
+    "difficulty": "easy"
+  },
+  {
+    "q": "This Celtics guard was known as 'Hondo' and holds the franchise record for most points scored in a career with 26,395. Name him.",
+    "a": "John Havlicek",
+    "choices": ["John Havlicek", "Larry Bird", "Bob Cousy", "Paul Pierce"],
+    "sport": "basketball",
+    "difficulty": "hard"
+  },
+  {
+    "q": "He was the head coach of the Los Angeles Lakers during their Showtime era in the 1980s. Name him.",
+    "a": "Pat Riley",
+    "choices": ["Pat Riley", "Phil Jackson", "Paul Westhead", "Jerry West"],
+    "sport": "basketball",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This Warriors guard scored 60 points in just 29 minutes against the Indiana Pacers on the final day of the 2015-16 regular season. Name him.",
+    "a": "Klay Thompson",
+    "choices": ["Klay Thompson", "Stephen Curry", "Kevin Durant", "Draymond Green"],
+    "sport": "basketball",
+    "difficulty": "hard"
+  },
+  {
+    "q": "I was drafted 13th overall in 1996 by the Charlotte Hornets and was immediately traded to the Los Angeles Lakers, where I spent my entire career. Who am I?",
+    "a": "Kobe Bryant",
+    "choices": ["Kobe Bryant", "Shaquille O'Neal", "Vlade Divac", "Eddie Jones"],
+    "sport": "basketball",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This player won both MVP and Defensive Player of the Year in the 2019-20 season while playing for the Milwaukee Bucks. Name him.",
+    "a": "Giannis Antetokounmpo",
+    "choices": ["Giannis Antetokounmpo", "LeBron James", "Kawhi Leonard", "Joel Embiid"],
+    "sport": "basketball",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Called 'Pistol Pete', this player holds the NCAA Division I career scoring record with 3,667 points. Name him.",
+    "a": "Pete Maravich",
+    "choices": ["Pete Maravich", "Oscar Robertson", "Freeman Williams", "Lionel Simmons"],
+    "sport": "basketball",
+    "difficulty": "medium"
+  },
+  {
+    "q": "She was named WNBA Finals MVP in 2018 and 2020 while winning championships with the Seattle Storm. Name her.",
+    "a": "Breanna Stewart",
+    "choices": ["Breanna Stewart", "Sue Bird", "Diana Taurasi", "A'ja Wilson"],
+    "sport": "basketball",
+    "difficulty": "hard"
+  },
+  {
+    "q": "This coach led the Miami Heat to its first NBA championship in 2006. Name him.",
+    "a": "Pat Riley",
+    "choices": ["Pat Riley", "Erik Spoelstra", "Stan Van Gundy", "Phil Jackson"],
+    "sport": "basketball",
+    "difficulty": "hard"
+  },
+  {
+    "q": "He was the NBA logo silhouette model and was nicknamed 'Mr. Clutch'. Name him.",
+    "a": "Jerry West",
+    "choices": ["Jerry West", "Oscar Robertson", "Elgin Baylor", "Bob Cousy"],
+    "sport": "basketball",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This player won three Sixth Man of the Year awards, the most in NBA history. Name him.",
+    "a": "Jamal Crawford",
+    "choices": ["Jamal Crawford", "Manu Ginobili", "Lou Williams", "Kevin McHale"],
+    "sport": "basketball",
+    "difficulty": "hard"
+  },
+  {
+    "q": "He recorded a quadruple-double with 18 points, 16 rebounds, 10 assists, and 11 blocks on March 29, 1990. Name him.",
+    "a": "Hakeem Olajuwon",
+    "choices": ["Hakeem Olajuwon", "David Robinson", "Kareem Abdul-Jabbar", "Shaquille O'Neal"],
+    "sport": "basketball",
+    "difficulty": "hard"
+  },
+  {
+    "q": "I was nicknamed 'Spud' and won the 1986 Slam Dunk Contest despite being only 5 feet 7 inches tall. Who am I?",
+    "a": "Spud Webb",
+    "choices": ["Spud Webb", "Muggsy Bogues", "Nate Robinson", "Earl Boykins"],
+    "sport": "basketball",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This player scored a then-record 63 points in an NBA playoff game against the Boston Celtics on April 20, 1986. Name him.",
+    "a": "Michael Jordan",
+    "choices": ["Michael Jordan", "LeBron James", "Elgin Baylor", "Wilt Chamberlain"],
+    "sport": "basketball",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Known as 'CP3', this point guard has led the NBA in assists five times and in steals six times. Name him.",
+    "a": "Chris Paul",
+    "choices": ["Chris Paul", "Steve Nash", "Jason Kidd", "Russell Westbrook"],
+    "sport": "basketball",
+    "difficulty": "medium"
+  },
+  {
+    "q": "The NBA retired the number 6 league-wide in 2022 in honor of this legendary player. Name him.",
+    "a": "Bill Russell",
+    "choices": ["Bill Russell", "Michael Jordan", "Wilt Chamberlain", "Kareem Abdul-Jabbar"],
+    "sport": "basketball",
+    "difficulty": "medium"
+  },
+  {
+    "q": "He won back-to-back MVP awards in 2005 and 2006 and was known for his brilliant playmaking with the Phoenix Suns. Name him.",
+    "a": "Steve Nash",
+    "choices": ["Steve Nash", "Chris Paul", "Jason Kidd", "Allen Iverson"],
+    "sport": "basketball",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Called 'Flash', this guard won Finals MVP in 2006 while leading the Miami Heat to their first title. Name him.",
+    "a": "Dwyane Wade",
+    "choices": ["Dwyane Wade", "LeBron James", "Shaquille O'Neal", "Alonzo Mourning"],
+    "sport": "basketball",
+    "difficulty": "medium"
+  },
+  {
+    "q": "She won consecutive WNBA MVP awards in 2022 and 2023 and led the Las Vegas Aces to back-to-back championships. Name her.",
+    "a": "A'ja Wilson",
+    "choices": ["A'ja Wilson", "Breanna Stewart", "Diana Taurasi", "Candace Parker"],
+    "sport": "basketball",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This head coach holds the NBA record for most career regular-season wins. Name him.",
+    "a": "Gregg Popovich",
+    "choices": ["Gregg Popovich", "Don Nelson", "Lenny Wilkens", "Phil Jackson"],
+    "sport": "basketball",
+    "difficulty": "hard"
+  },
+  {
+    "q": "He scored 70 points for the Phoenix Suns against the Boston Celtics on March 24, 2017. Name him.",
+    "a": "Devin Booker",
+    "choices": ["Devin Booker", "Steve Nash", "Amar'e Stoudemire", "Kobe Bryant"],
+    "sport": "basketball",
+    "difficulty": "hard"
+  },
+  {
+    "q": "This player was the youngest in NBA history to score 10,000 career points when he reached the milestone at age 23. Name him.",
+    "a": "LeBron James",
+    "choices": ["LeBron James", "Kobe Bryant", "Kevin Durant", "Luka Doncic"],
+    "sport": "basketball",
+    "difficulty": "hard"
+  },
+  {
+    "q": "This player scored 61 points in Game 5 of the 1962 NBA Finals, a Finals scoring record that stood for decades. Name him.",
+    "a": "Elgin Baylor",
+    "choices": ["Elgin Baylor", "Wilt Chamberlain", "Jerry West", "Bob Pettit"],
+    "sport": "basketball",
+    "difficulty": "hard"
+  }
+]

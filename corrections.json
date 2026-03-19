@@ -1,0 +1,302 @@
+[
+  {
+    "index": 5391,
+    "fixed_q": {
+      "q": "Thierry Henry was France's all-time leading scorer before Olivier Giroud surpassed him. Henry played for which English club?",
+      "a": "Arsenal",
+      "choices": [
+        "Arsenal",
+        "Chelsea",
+        "Manchester United",
+        "Liverpool"
+      ],
+      "sport": "soccer",
+      "difficulty": "medium"
+    }
+  },
+  {
+    "index": 6132,
+    "fixed_q": {
+      "q": "Which Yankees first baseman played 2,130 consecutive games to set a then-record?",
+      "a": "Lou Gehrig",
+      "choices": [
+        "Lou Gehrig",
+        "Joe DiMaggio",
+        "Babe Ruth",
+        "Mickey Mantle"
+      ],
+      "sport": "baseball",
+      "difficulty": "medium"
+    }
+  },
+  {
+    "index": 6297,
+    "fixed_q": {
+      "q": "Who is the WNBA all-time leading scorer?",
+      "a": "Diana Taurasi",
+      "choices": [
+        "Diana Taurasi",
+        "Tamika Catchings",
+        "Tina Thompson",
+        "Candace Parker"
+      ],
+      "sport": "basketball",
+      "difficulty": "hard"
+    }
+  },
+  {
+    "index": 6395,
+    "fixed_q": {
+      "q": "Which team scored 70 points in a single regular season NFL game in 2023?",
+      "a": "Miami Dolphins beat the Denver Broncos 70-20 in 2023",
+      "choices": [
+        "Miami Dolphins beat the Denver Broncos 70-20 in 2023",
+        "San Francisco 49ers",
+        "Dallas Cowboys",
+        "Washington Commanders"
+      ],
+      "sport": "football",
+      "difficulty": "hard"
+    }
+  },
+  {
+    "index": 8534,
+    "fixed_q": {
+      "q": "Which kicker made an NFL-record 44 consecutive field goals from 2015 to 2016?",
+      "a": "Justin Tucker",
+      "choices": [
+        "Justin Tucker",
+        "Adam Vinatieri",
+        "Stephen Gostkowski",
+        "Dan Bailey"
+      ],
+      "sport": "football",
+      "difficulty": "hard"
+    }
+  },
+  {
+    "index": 9036,
+    "fixed_q": {
+      "q": "This forward played in a record 8 consecutive NBA Finals from 2011 to 2018, winning three of them. Name him.",
+      "a": "LeBron James",
+      "choices": [
+        "LeBron James",
+        "Stephen Curry",
+        "Kevin Durant",
+        "Dwyane Wade"
+      ],
+      "sport": "basketball",
+      "difficulty": "medium"
+    }
+  },
+  {
+    "index": 9125,
+    "fixed_q": {
+      "q": "I led the league in scoring 10 times, more than any other player in NBA history, and hold the record for the highest career scoring average at 30.12 points per game. Who am I?",
+      "a": "Michael Jordan",
+      "choices": [
+        "Michael Jordan",
+        "Wilt Chamberlain",
+        "Kareem Abdul-Jabbar",
+        "LeBron James"
+      ],
+      "sport": "basketball",
+      "difficulty": "hard"
+    }
+  },
+  {
+    "index": 9162,
+    "fixed_q": {
+      "q": "This running back rushed for 2,097 yards in 2012, coming within 8 yards of the single-season record. Name him.",
+      "a": "Adrian Peterson",
+      "choices": [
+        "Adrian Peterson",
+        "LaDainian Tomlinson",
+        "Marshawn Lynch",
+        "Chris Johnson"
+      ],
+      "sport": "football",
+      "difficulty": "medium"
+    }
+  },
+  {
+    "index": 9202,
+    "fixed_q": {
+      "q": "I had 297 consecutive regular-season starts at quarterback, an NFL ironman record that stood for decades. Who am I?",
+      "a": "Brett Favre",
+      "choices": [
+        "Brett Favre",
+        "Peyton Manning",
+        "Eli Manning",
+        "Philip Rivers"
+      ],
+      "sport": "football",
+      "difficulty": "medium"
+    }
+  },
+  {
+    "index": 9209,
+    "fixed_q": {
+      "q": "This quarterback threw for 5,477 yards in 2013 with the Denver Broncos, setting the NFL single-season record. Name him.",
+      "a": "Peyton Manning",
+      "choices": [
+        "Peyton Manning",
+        "Drew Brees",
+        "Tom Brady",
+        "Aaron Rodgers"
+      ],
+      "sport": "football",
+      "difficulty": "medium"
+    }
+  },
+  {
+    "index": 9230,
+    "fixed_q": {
+      "q": "I held the all-time NFL record for most career passing touchdowns with 649 at my retirement. Who am I?",
+      "a": "Tom Brady",
+      "choices": [
+        "Tom Brady",
+        "Drew Brees",
+        "Peyton Manning",
+        "Brett Favre"
+      ],
+      "sport": "football",
+      "difficulty": "medium"
+    }
+  },
+  {
+    "index": 9263,
+    "fixed_q": {
+      "q": "I rushed for 1,000 yards in 11 consecutive seasons, an NFL record. Who am I?",
+      "a": "Emmitt Smith",
+      "choices": [
+        "Emmitt Smith",
+        "Walter Payton",
+        "Barry Sanders",
+        "Curtis Martin"
+      ],
+      "sport": "football",
+      "difficulty": "hard"
+    }
+  },
+  {
+    "index": 9303,
+    "fixed_q": {
+      "q": "This quarterback was named to 8 Pro Bowls during his career and spent most of his career with the San Diego Chargers. Name him.",
+      "a": "Philip Rivers",
+      "choices": [
+        "Philip Rivers",
+        "Drew Brees",
+        "Eli Manning",
+        "Ben Roethlisberger"
+      ],
+      "sport": "football",
+      "difficulty": "hard"
+    }
+  },
+  {
+    "index": 9453,
+    "fixed_q": {
+      "q": "This pitcher won 19 consecutive decisions in the 1912 season, a record that stood for decades. He finished with 201 career wins. Name him.",
+      "a": "Rube Marquard",
+      "choices": [
+        "Rube Marquard",
+        "Christy Mathewson",
+        "Grover Cleveland Alexander",
+        "Walter Johnson"
+      ],
+      "sport": "baseball",
+      "difficulty": "hard"
+    }
+  },
+  {
+    "index": 9534,
+    "fixed_q": {
+      "q": "I set a then-record with 55 saves in a season and converted 84 consecutive save opportunities while closing for the Los Angeles Dodgers. Who am I?",
+      "a": "Eric Gagne",
+      "choices": [
+        "Eric Gagne",
+        "Billy Wagner",
+        "Aroldis Chapman",
+        "John Franco"
+      ],
+      "sport": "baseball",
+      "difficulty": "hard"
+    }
+  },
+  {
+    "index": 9639,
+    "fixed_q": {
+      "q": "Stat riddle: I hold the record for most points by a defenseman in a single NHL season with 139 in 1970-71, and I won 8 consecutive Norris Trophies. Who am I?",
+      "a": "Bobby Orr",
+      "choices": [
+        "Bobby Orr",
+        "Paul Coffey",
+        "Ray Bourque",
+        "Brian Leetch"
+      ],
+      "sport": "hockey",
+      "difficulty": "hard"
+    }
+  },
+  {
+    "index": 9665,
+    "fixed_q": {
+      "q": "I played in 964 consecutive NHL games, an ironman record that stood for decades until Keith Yandle broke it. Who am I?",
+      "a": "Doug Jarvis",
+      "choices": [
+        "Doug Jarvis",
+        "Keith Yandle",
+        "Phil Kessel",
+        "Patrick Marleau"
+      ],
+      "sport": "hockey",
+      "difficulty": "medium"
+    }
+  },
+  {
+    "index": 9673,
+    "fixed_q": {
+      "q": "I hold the single-season record for most points by a rookie in the NHL with 132, and I won the Calder Trophy that year. Who am I?",
+      "a": "Teemu Selanne",
+      "choices": [
+        "Teemu Selanne",
+        "Mario Lemieux",
+        "Peter Stastny",
+        "Joe Juneau"
+      ],
+      "sport": "hockey",
+      "difficulty": "hard"
+    }
+  },
+  {
+    "index": 9679,
+    "fixed_q": {
+      "q": "This player scored 13 shorthanded goals in 1988-89, an all-time single-season record. Who is he?",
+      "a": "Mario Lemieux",
+      "choices": [
+        "Mario Lemieux",
+        "Wayne Gretzky",
+        "Mark Messier",
+        "Dirk Graham"
+      ],
+      "sport": "hockey",
+      "difficulty": "medium"
+    }
+  },
+  {
+    "index": 9688,
+    "fixed_q": {
+      "q": "I was an undrafted free agent who won the Hart Trophy and became one of the Tampa Bay Lightning's all-time great scorers. Who am I?",
+      "a": "Martin St-Louis",
+      "choices": [
+        "Martin St-Louis",
+        "Vincent Lecavalier",
+        "Steven Stamkos",
+        "Brad Richards"
+      ],
+      "sport": "hockey",
+      "difficulty": "medium"
+    }
+  }
+]

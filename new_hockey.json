@@ -1,0 +1,51 @@
+[
+  {
+    "q": "Called 'The Great One,' this hockey legend scored 894 career NHL goals and holds the record for most career points with 2,857. Name him.",
+    "a": "Wayne Gretzky",
+    "choices": ["Wayne Gretzky", "Mario Lemieux", "Gordie Howe", "Mark Messier"],
+    "sport": "hockey",
+    "difficulty": "easy"
+  },
+  {
+    "q": "I hold the NHL record for most goals in a single season with 92, set during the 1981-82 season. Who am I?",
+    "a": "Wayne Gretzky",
+    "choices": ["Wayne Gretzky", "Mario Lemieux", "Brett Hull", "Alexander Ovechkin"],
+    "sport": "hockey",
+    "difficulty": "easy"
+  },
+  {
+    "q": "This Pittsburgh Penguins legend scored 690 career goals and won 6 Art Ross Trophies despite battling Hodgkin lymphoma and chronic back problems. Name him.",
+    "a": "Mario Lemieux",
+    "choices": ["Mario Lemieux", "Jaromir Jagr", "Sidney Crosby", "Ron Francis"],
+    "sport": "hockey",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Known as 'Mr. Hockey,' this player competed in the NHL across five decades and scored 801 career goals. Name him.",
+    "a": "Gordie Howe",
+    "choices": ["Gordie Howe", "Bobby Hull", "Jean Beliveau", "Maurice Richard"],
+    "sport": "hockey",
+    "difficulty": "medium"
+  },
+  {
+    "q": "I am the only defenseman in NHL history to score 46 goals in a single season, doing so with the Boston Bruins in 1970-71. Who am I?",
+    "a": "Bobby Orr",
+    "choices": ["Bobby Orr", "Ray Bourque", "Paul Coffey", "Denis Potvin"],
+    "sport": "hockey",
+    "difficulty": "medium"
+  },
+  {
+    "q": "This Czech goaltender won the Hart Trophy as NHL MVP twice, in 1997 and 1998, while playing for the Buffalo Sabres. Name him.",
+    "a": "Dominik Hasek",
+    "choices": ["Dominik Hasek", "Patrick Roy", "Martin Brodeur", "Ed Belfour"],
+    "sport": "hockey",
+    "difficulty": "hard"
+  },
+  {
+    "q": "I hold the NHL record for most career playoff game-winning goals with 24, earned across my time with the Edmonton Oilers, Los Angeles Kings, and other teams. Who am I?",
+    "a": "Wayne Gretzky",
+    "choices": ["Wayne Gretzky", "Mark Messier", "Joe Sakic", "Brett Hull"],
+    "sport": "hockey",
+    "difficulty": "hard"
+  }
+]
