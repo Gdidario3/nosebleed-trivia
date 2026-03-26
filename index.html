@@ -663,6 +663,238 @@
   .reveal-ans:hover { border-color: var(--t3); color: var(--t2); }
   .reveal-ans.shown { border: none; padding: 0; font-style: normal; font-weight: 600; cursor: default; }
 
+  /* ── DAILY CHALLENGE ── */
+  .daily-view { max-width: 700px; margin: 0 auto; padding: 24px 20px 40px; }
+
+  .daily-intro { text-align: center; padding: 32px 20px; }
+  .daily-intro-icon { font-size: 52px; margin-bottom: 12px; }
+  .daily-intro-title {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 38px; font-weight: 900; letter-spacing: 1px; text-transform: uppercase;
+    color: var(--t1); margin-bottom: 6px;
+  }
+  .daily-intro-date {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 16px; font-weight: 700; letter-spacing: 3px; text-transform: uppercase;
+    color: var(--t4); margin-bottom: 20px;
+  }
+  .daily-rules {
+    display: flex; justify-content: center; gap: 16px; flex-wrap: wrap;
+    margin-bottom: 28px;
+  }
+  .daily-rule-chip {
+    background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.10);
+    border-radius: 10px; padding: 10px 18px;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 14px; font-weight: 700; letter-spacing: 0.5px;
+    color: var(--t2); text-align: center;
+  }
+  .daily-rule-chip span { display: block; font-size: 11px; color: var(--t4); letter-spacing: 1.5px; text-transform: uppercase; margin-top: 2px; }
+  .btn-start-daily {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 22px; font-weight: 900; letter-spacing: 1.5px; text-transform: uppercase;
+    padding: 18px 52px; border-radius: 50px; border: none; cursor: pointer;
+    background: linear-gradient(135deg, #FF8C00, #FFD700);
+    color: #08101A; box-shadow: 0 6px 24px rgba(255,165,0,0.4);
+    transition: all 0.18s;
+  }
+  .btn-start-daily:hover { transform: translateY(-2px); box-shadow: 0 10px 32px rgba(255,165,0,0.55); }
+
+  /* Already played */
+  .daily-done-card {
+    background: var(--bg-card); border: 1px solid rgba(255,255,255,0.08);
+    border-radius: 20px; padding: 36px 28px; text-align: center; margin-bottom: 20px;
+    position: relative; overflow: hidden;
+  }
+  .daily-done-card::before {
+    content: ''; position: absolute; top: 0; left: 0; right: 0; height: 3px;
+    background: linear-gradient(90deg, #FF2D4B, #FF8C00, #FFD700, #00D966, #00B8F0, #9B5CF6);
+  }
+  .daily-done-score {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 80px; font-weight: 900; line-height: 1;
+    background: linear-gradient(135deg, #FFD700, #FF9900);
+    -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;
+    filter: drop-shadow(0 0 20px rgba(255,180,0,0.4));
+  }
+  .daily-done-label {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 14px; font-weight: 700; letter-spacing: 3px; text-transform: uppercase;
+    color: var(--t4); margin-bottom: 20px;
+  }
+  .daily-dots { display: flex; justify-content: center; gap: 6px; margin: 16px 0; font-size: 22px; flex-wrap: wrap; }
+  .daily-tomorrow {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 16px; letter-spacing: 2px; text-transform: uppercase;
+    color: var(--t4); margin-top: 16px;
+  }
+
+  /* Question screen */
+  .daily-game { }
+  .daily-progress-bar-wrap {
+    background: rgba(255,255,255,0.06); border-radius: 6px; height: 5px;
+    margin-bottom: 20px; overflow: hidden;
+  }
+  .daily-progress-bar {
+    height: 100%; border-radius: 6px;
+    background: linear-gradient(90deg, #FF8C00, #FFD700);
+    transition: width 0.3s ease;
+  }
+  .daily-meta-row {
+    display: flex; align-items: center; justify-content: space-between;
+    margin-bottom: 14px;
+  }
+  .daily-qnum {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 13px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase;
+    color: var(--t4);
+  }
+  .daily-score-live {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 20px; font-weight: 900;
+    color: var(--gold, #FFD700);
+  }
+  .daily-streak-badge {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 14px; font-weight: 800; letter-spacing: 1px;
+    padding: 3px 12px; border-radius: 20px;
+    background: rgba(255,215,0,0.15); border: 1px solid rgba(255,215,0,0.3);
+    color: #FFD700; display: none;
+  }
+
+  /* Timer */
+  .daily-timer-wrap {
+    display: flex; justify-content: center; margin-bottom: 18px;
+  }
+  .daily-timer-bar-wrap {
+    width: 100%; background: rgba(255,255,255,0.06); border-radius: 6px; height: 8px;
+    overflow: hidden;
+  }
+  .daily-timer-bar {
+    height: 100%; border-radius: 6px;
+    background: linear-gradient(90deg, #22c55e, #4ade80);
+    transition: width 0.25s linear, background 0.5s;
+  }
+  .daily-timer-bar.warn { background: linear-gradient(90deg, #FF8C00, #FFD700); }
+  .daily-timer-bar.danger { background: linear-gradient(90deg, #ef4444, #FF2D4B); }
+  .daily-timer-secs {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 15px; font-weight: 700; color: var(--t4); white-space: nowrap; margin-left: 10px;
+  }
+
+  /* Q card */
+  .daily-q-card {
+    background: var(--bg-card); border: 1px solid rgba(255,255,255,0.09);
+    border-radius: 20px; padding: 28px 26px 24px; margin-bottom: 18px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.4);
+    position: relative; overflow: hidden;
+  }
+  .daily-q-card::before {
+    content: ''; position: absolute; top: 0; left: 0; right: 0; height: 3px;
+    background: var(--q-accent, rgba(255,255,255,0.1));
+  }
+  .daily-q-sport-badge {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 11px; font-weight: 800; letter-spacing: 1.5px; text-transform: uppercase;
+    padding: 3px 12px; border-radius: 20px; display: inline-block; margin-bottom: 14px;
+  }
+  .daily-q-text {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: clamp(20px, 3vw, 26px); font-weight: 800; line-height: 1.25; color: var(--t1);
+  }
+
+  /* Choice buttons */
+  .daily-choices { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 16px; }
+  .daily-choice-btn {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 17px; font-weight: 700; letter-spacing: 0.5px;
+    padding: 16px 14px; border-radius: 14px;
+    border: 1.5px solid rgba(255,255,255,0.09);
+    background: rgba(255,255,255,0.04);
+    color: var(--t2); cursor: pointer; text-align: left;
+    transition: all 0.15s; line-height: 1.3;
+    display: flex; align-items: center; gap: 10px;
+  }
+  .daily-choice-btn:hover:not(:disabled) {
+    background: rgba(255,255,255,0.09); color: var(--t1); border-color: rgba(255,255,255,0.2);
+    transform: translateY(-1px);
+  }
+  .daily-choice-btn:disabled { cursor: default; transform: none !important; }
+  .daily-choice-btn.correct { background: rgba(34,197,94,0.18); border-color: #22c55e; color: #4ade80; }
+  .daily-choice-btn.wrong   { background: rgba(239,68,68,0.15); border-color: #ef4444; color: #fca5a5; }
+  .daily-choice-btn.dimmed  { opacity: 0.38; }
+  .choice-letter {
+    font-size: 13px; font-weight: 900; letter-spacing: 0.5px;
+    width: 24px; height: 24px; border-radius: 6px; flex-shrink: 0;
+    background: rgba(255,255,255,0.07); display: flex; align-items: center; justify-content: center;
+  }
+  .daily-feedback {
+    text-align: center; font-family: 'Barlow Condensed', sans-serif;
+    font-size: 18px; font-weight: 800; letter-spacing: 1px; height: 26px; margin-bottom: 6px;
+  }
+  .daily-feedback.correct { color: #4ade80; }
+  .daily-feedback.wrong   { color: #f87171; }
+  .daily-pts-flash {
+    text-align: center; font-family: 'Barlow Condensed', sans-serif;
+    font-size: 15px; font-weight: 700; color: #FFD700; height: 22px; margin-bottom: 4px;
+  }
+
+  /* Results */
+  .daily-results-card {
+    background: var(--bg-card); border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 24px; padding: 36px 32px 28px; text-align: center;
+    position: relative; overflow: hidden;
+    box-shadow: 0 16px 48px rgba(0,0,0,0.6);
+  }
+  .daily-results-card::before {
+    content: ''; position: absolute; top: 0; left: 0; right: 0; height: 4px;
+    background: linear-gradient(90deg, #FF2D4B, #FF8C00, #FFD700, #00D966, #00B8F0, #9B5CF6);
+  }
+  .daily-res-label { font-family: 'Barlow Condensed', sans-serif; font-size: 12px; font-weight: 700; letter-spacing: 4px; text-transform: uppercase; color: var(--t4); margin-bottom: 4px; }
+  .daily-res-score {
+    font-family: 'Barlow Condensed', sans-serif; font-size: 96px; font-weight: 900; line-height: 1;
+    background: linear-gradient(135deg, #FFD700, #FF9900);
+    -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;
+    filter: drop-shadow(0 0 24px rgba(255,180,0,0.45));
+  }
+  .daily-res-sub { font-family: 'Barlow Condensed', sans-serif; font-size: 14px; font-weight: 700; letter-spacing: 3px; text-transform: uppercase; color: var(--t4); margin-bottom: 18px; }
+  .daily-res-dots { display: flex; justify-content: center; gap: 6px; margin: 0 0 22px; font-size: 24px; flex-wrap: wrap; }
+  .daily-res-stats {
+    display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin-bottom: 22px;
+  }
+  .daily-res-stat {
+    background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.07);
+    border-radius: 12px; padding: 12px 8px;
+  }
+  .daily-res-stat-val { font-family: 'Barlow Condensed', sans-serif; font-size: 26px; font-weight: 900; color: var(--t1); }
+  .daily-res-stat-lbl { font-family: 'Barlow Condensed', sans-serif; font-size: 10px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; color: var(--t4); margin-top: 2px; }
+  .daily-res-grade {
+    font-family: 'Barlow Condensed', sans-serif; font-size: 22px; font-weight: 900; letter-spacing: 1px;
+    padding: 10px 28px; border-radius: 50px; display: inline-block; margin-bottom: 24px;
+  }
+  .daily-res-actions { display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; }
+  .btn-daily-share {
+    font-family: 'Barlow Condensed', sans-serif; font-size: 19px; font-weight: 800; letter-spacing: 1px; text-transform: uppercase;
+    padding: 14px 32px; border-radius: 50px; border: none; cursor: pointer;
+    background: linear-gradient(135deg, #FF8C00, #FFD700); color: #08101A;
+    box-shadow: 0 4px 20px rgba(255,165,0,0.35); transition: all 0.18s;
+  }
+  .btn-daily-share:hover { transform: translateY(-2px); box-shadow: 0 8px 28px rgba(255,165,0,0.5); }
+  .btn-daily-review {
+    font-family: 'Barlow Condensed', sans-serif; font-size: 19px; font-weight: 700; letter-spacing: 1px; text-transform: uppercase;
+    padding: 14px 24px; border-radius: 50px;
+    border: 1.5px solid rgba(0,184,240,0.3); background: rgba(0,184,240,0.08); color: #00B8F0;
+    cursor: pointer; transition: all 0.18s;
+  }
+  .btn-daily-review:hover { background: rgba(0,184,240,0.18); }
+
+  @media(max-width:540px){
+    .daily-choices { grid-template-columns: 1fr; }
+    .daily-rules { gap: 10px; }
+    .daily-res-stats { grid-template-columns: repeat(3,1fr); }
+    .daily-res-score { font-size: 72px; }
+  }
+
   </style>
   <meta property="og:title" content="Nosebleed Sports Trivia">
   <meta property="og:description" content="10,000+ sports questions across Basketball, Football, Baseball, Hockey, Soccer, F1, Tennis, Golf, Olympics & UFC. Flip cards, score tracker, and more.">
@@ -688,10 +920,11 @@
 
 <div class="main-tabs">
   <button class="main-tab active" id="tab-flashcards" onclick="switchTab('flashcards')">Flashcards</button>
+  <button class="main-tab" id="tab-daily" onclick="switchTab('daily')">🗓 Daily</button>
   <button class="main-tab" id="tab-all" onclick="switchTab('all')">All Questions</button>
 </div>
 
-<div class="filters-bar">
+<div class="filters-bar" id="filters-bar">
   <div class="filter-row" id="sport-filters"></div>
   <div class="filter-row filter-row-meta">
     <div id="diff-filters"></div>
@@ -734,6 +967,82 @@
     <span class="table-page-info" id="tbl-info">Page 1 of 1</span>
     <button class="table-page-btn" id="tbl-next" onclick="tableNext()">Next &rarr;</button>
   </div>
+
+</div>
+
+<!-- Daily Challenge -->
+<div class="daily-view" id="daily-view" style="display:none;">
+
+  <!-- Intro / Already Played -->
+  <div id="daily-intro-screen">
+    <div class="daily-intro">
+      <div class="daily-intro-icon">🗓</div>
+      <div class="daily-intro-title">Daily Challenge</div>
+      <div class="daily-intro-date" id="daily-date-display"></div>
+      <div class="daily-rules">
+        <div class="daily-rule-chip">10 Questions<span>One per sport</span></div>
+        <div class="daily-rule-chip">30 Seconds<span>Per question</span></div>
+        <div class="daily-rule-chip">Speed Bonus<span>Answer fast</span></div>
+        <div class="daily-rule-chip">Streak Bonus<span>3+ in a row</span></div>
+      </div>
+      <button class="btn-start-daily" id="daily-start-btn" onclick="startDailyChallenge()">▶ Start Challenge</button>
+    </div>
+  </div>
+
+  <!-- Game Screen -->
+  <div id="daily-game-screen" style="display:none;" class="daily-game">
+    <div class="daily-progress-bar-wrap">
+      <div class="daily-progress-bar" id="daily-progress-bar" style="width:0%"></div>
+    </div>
+    <div class="daily-meta-row">
+      <div class="daily-qnum" id="daily-qnum">Question 1 of 10</div>
+      <div class="daily-streak-badge" id="daily-streak-badge">🔥 <span id="daily-streak-num">0</span> Streak</div>
+      <div class="daily-score-live" id="daily-score-live">0 pts</div>
+    </div>
+    <div style="display:flex;align-items:center;gap:10px;margin-bottom:16px;">
+      <div class="daily-timer-bar-wrap" style="flex:1;">
+        <div class="daily-timer-bar" id="daily-timer-bar" style="width:100%"></div>
+      </div>
+      <div class="daily-timer-secs" id="daily-timer-secs">30s</div>
+    </div>
+    <div class="daily-q-card" id="daily-q-card">
+      <div class="daily-q-sport-badge" id="daily-q-badge"></div>
+      <div class="daily-q-text" id="daily-q-text"></div>
+    </div>
+    <div class="daily-choices" id="daily-choices"></div>
+    <div class="daily-feedback" id="daily-feedback"></div>
+    <div class="daily-pts-flash" id="daily-pts-flash"></div>
+  </div>
+
+  <!-- Results Screen -->
+  <div id="daily-results-screen" style="display:none;">
+    <div class="daily-results-card">
+      <div class="daily-res-label">Daily Score</div>
+      <div class="daily-res-score" id="daily-res-score">0</div>
+      <div class="daily-res-sub" id="daily-res-date"></div>
+      <div class="daily-res-dots" id="daily-res-dots"></div>
+      <div class="daily-res-stats">
+        <div class="daily-res-stat">
+          <div class="daily-res-stat-val" id="daily-res-correct" style="color:#4ade80">0</div>
+          <div class="daily-res-stat-lbl">Correct</div>
+        </div>
+        <div class="daily-res-stat">
+          <div class="daily-res-stat-val" id="daily-res-wrong" style="color:#f87171">0</div>
+          <div class="daily-res-stat-lbl">Wrong</div>
+        </div>
+        <div class="daily-res-stat">
+          <div class="daily-res-stat-val" id="daily-res-streak">0</div>
+          <div class="daily-res-stat-lbl">Best Streak</div>
+        </div>
+      </div>
+      <div class="daily-res-grade" id="daily-res-grade"></div>
+      <div class="daily-res-actions">
+        <button class="btn-daily-share" onclick="shareDailyScore()">📤 Share Score</button>
+        <button class="btn-daily-review" onclick="switchTab('flashcards')">Study More</button>
+      </div>
+    </div>
+  </div>
+
 </div>
 
   <!-- Active game -->
@@ -855,10 +1164,15 @@ function esc(s) {
 function switchTab(tab) {
   currentTab = tab;
   document.getElementById('tab-flashcards').classList.toggle('active', tab === 'flashcards');
+  document.getElementById('tab-daily').classList.toggle('active', tab === 'daily');
   document.getElementById('tab-all').classList.toggle('active', tab === 'all');
   document.getElementById('flashcard-view').style.display = tab === 'flashcards' ? 'block' : 'none';
+  document.getElementById('daily-view').style.display = tab === 'daily' ? 'block' : 'none';
   document.getElementById('table-view').style.display = tab === 'all' ? 'block' : 'none';
+  document.getElementById('filters-bar') && (document.querySelector('.filters-bar').style.display = tab === 'daily' ? 'none' : '');
+  document.getElementById('scoreBar').style.display = tab === 'daily' ? 'none' : '';
   if (tab === 'all') { tablePage = 1; renderTable(); }
+  if (tab === 'daily') { initDailyView(); }
 }
 
 /* ── FILTERS ── */
@@ -1106,6 +1420,351 @@ function tableNext() {
     el.onclick = null;
   }
 
+
+
+/* ───────────────────────────────────────────
+   DAILY CHALLENGE
+   ─────────────────────────────────────────── */
+
+const DAILY_Q_COUNT = 10;
+const DAILY_SECS = 30;
+const SPORT_LIST = ['basketball','football','baseball','hockey','soccer','f1','tennis','golf','olympics','ufc'];
+
+let dailyQuestions = [];
+let dailyIndex = 0;
+let dailyScore = 0;
+let dailyCorrect = 0;
+let dailyStreak = 0;
+let dailyBestStreak = 0;
+let dailyResults = [];
+let dailyTimerInterval = null;
+let dailyTimeLeft = DAILY_SECS;
+let dailyAnswered = false;
+let _dailyShareText = '';
+
+function dateSeed(dateStr) {
+  let hash = 0;
+  for (let i = 0; i < dateStr.length; i++) {
+    hash = Math.imul(31, hash) + dateStr.charCodeAt(i) | 0;
+  }
+  return Math.abs(hash);
+}
+
+function seededRNG(seed) {
+  let s = seed >>> 0;
+  return function() {
+    s = Math.imul(1664525, s) + 1013904223 >>> 0;
+    return s / 0x100000000;
+  };
+}
+
+function getTodayStr() {
+  const d = new Date();
+  return d.getFullYear() + '-' + String(d.getMonth()+1).padStart(2,'0') + '-' + String(d.getDate()).padStart(2,'0');
+}
+
+function formatDateDisplay(str) {
+  const [y,m,d] = str.split('-').map(Number);
+  const months = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+  return months[m-1] + ' ' + d + ', ' + y;
+}
+
+function getDailyQuestions() {
+  const today = getTodayStr();
+  const rng = seededRNG(dateSeed(today));
+
+  // Try to pick one question per sport (10 sports = 10 questions)
+  const picked = [];
+  const sportOrder = [...SPORT_LIST];
+  // Shuffle sport order with seed so it varies daily
+  for (let i = sportOrder.length - 1; i > 0; i--) {
+    const j = Math.floor(rng() * (i + 1));
+    [sportOrder[i], sportOrder[j]] = [sportOrder[j], sportOrder[i]];
+  }
+
+  for (const sport of sportOrder) {
+    if (picked.length >= DAILY_Q_COUNT) break;
+    const pool = allQuestions.filter(q => q.sport === sport && q.choices && q.choices.length === 4);
+    if (pool.length === 0) continue;
+    const idx = Math.floor(rng() * pool.length);
+    picked.push(pool[idx]);
+  }
+
+  // Fill remaining if any sport had no questions
+  if (picked.length < DAILY_Q_COUNT) {
+    const remaining = allQuestions.filter(q => !picked.includes(q) && q.choices && q.choices.length === 4);
+    for (let i = remaining.length - 1; i > 0; i--) {
+      const j = Math.floor(rng() * (i + 1));
+      [remaining[i], remaining[j]] = [remaining[j], remaining[i]];
+    }
+    while (picked.length < DAILY_Q_COUNT && remaining.length > 0) {
+      picked.push(remaining.shift());
+    }
+  }
+
+  return picked;
+}
+
+function getTodayStorageKey() { return 'daily_result_' + getTodayStr(); }
+
+function initDailyView() {
+  document.getElementById('daily-date-display').textContent = formatDateDisplay(getTodayStr());
+  const existing = localStorage.getItem(getTodayStorageKey());
+  if (existing) {
+    const data = JSON.parse(existing);
+    showDailyAlreadyPlayed(data);
+  } else {
+    document.getElementById('daily-intro-screen').style.display = 'block';
+    document.getElementById('daily-game-screen').style.display = 'none';
+    document.getElementById('daily-results-screen').style.display = 'none';
+    document.getElementById('daily-start-btn').style.display = '';
+  }
+}
+
+function showDailyAlreadyPlayed(data) {
+  // Replace intro with already-played card
+  const intro = document.getElementById('daily-intro-screen');
+  const dots = data.results.map(r => r ? '🟢' : '🔴').join('');
+  intro.innerHTML = `
+    <div class="daily-done-card">
+      <div class="daily-res-label">${formatDateDisplay(getTodayStr())}</div>
+      <div class="daily-done-score">${data.score.toLocaleString()}</div>
+      <div class="daily-done-label">Points — ${data.correct}/10 Correct</div>
+      <div class="daily-dots">${[...data.results.map(r => r ? '🟢' : '🔴')].join('')}</div>
+      <div class="daily-tomorrow">Come back tomorrow for a new challenge!</div>
+    </div>
+    <div style="text-align:center;margin-top:16px;">
+      <button class="btn-daily-share" onclick="shareDailyScore()" style="font-size:17px;padding:13px 28px;">📤 Share Score</button>
+    </div>`;
+  _dailyShareText = buildShareText(data.score, data.correct, data.results, data.bestStreak);
+}
+
+function startDailyChallenge() {
+  if (allQuestions.length === 0) return;
+  dailyQuestions = getDailyQuestions();
+  dailyIndex = 0; dailyScore = 0; dailyCorrect = 0;
+  dailyStreak = 0; dailyBestStreak = 0; dailyResults = [];
+
+  document.getElementById('daily-intro-screen').style.display = 'none';
+  document.getElementById('daily-game-screen').style.display = 'block';
+  document.getElementById('daily-results-screen').style.display = 'none';
+  renderDailyQuestion();
+}
+
+function renderDailyQuestion() {
+  if (dailyIndex >= dailyQuestions.length) { showDailyResults(); return; }
+  const q = dailyQuestions[dailyIndex];
+  dailyAnswered = false;
+
+  // Progress bar
+  document.getElementById('daily-progress-bar').style.width = (dailyIndex / DAILY_Q_COUNT * 100) + '%';
+  document.getElementById('daily-qnum').textContent = 'Question ' + (dailyIndex + 1) + ' of ' + DAILY_Q_COUNT;
+  document.getElementById('daily-score-live').textContent = dailyScore.toLocaleString() + ' pts';
+
+  // Streak badge
+  const sb = document.getElementById('daily-streak-badge');
+  if (dailyStreak >= 3) { sb.style.display = 'inline-block'; document.getElementById('daily-streak-num').textContent = dailyStreak; }
+  else { sb.style.display = 'none'; }
+
+  // Sport badge
+  const raw = accentRaw(q.sport);
+  const badge = document.getElementById('daily-q-badge');
+  badge.textContent = (SPORT_NAMES[q.sport] || q.sport).toUpperCase();
+  badge.style.background = raw + '22';
+  badge.style.color = raw;
+  badge.style.border = '1px solid ' + raw + '55';
+  document.getElementById('daily-q-card').style.setProperty('--q-accent', raw);
+
+  document.getElementById('daily-q-text').textContent = q.q;
+  document.getElementById('daily-feedback').textContent = '';
+  document.getElementById('daily-feedback').className = 'daily-feedback';
+  document.getElementById('daily-pts-flash').textContent = '';
+
+  // Choices
+  const choicesEl = document.getElementById('daily-choices');
+  choicesEl.innerHTML = '';
+  const letters = ['A','B','C','D','E','F'];
+
+  // Build 6 choices: 4 from q.choices + 2 extra decoys from same sport
+  let sixChoices = [...q.choices];
+  const decoyPool = allQuestions.filter(x =>
+    x.sport === q.sport && x.a && !sixChoices.includes(x.a) && x.a !== q.a
+  );
+  // Shuffle decoy pool and pick 2 unique answers
+  for (let i = decoyPool.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [decoyPool[i], decoyPool[j]] = [decoyPool[j], decoyPool[i]];
+  }
+  const extra = [];
+  for (const d of decoyPool) {
+    if (!sixChoices.includes(d.a) && extra.length < 2) extra.push(d.a);
+    if (extra.length === 2) break;
+  }
+  sixChoices = sixChoices.concat(extra);
+  // Shuffle the 6 choices, keeping track of correct answer
+  for (let i = sixChoices.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [sixChoices[i], sixChoices[j]] = [sixChoices[j], sixChoices[i]];
+  }
+
+  // Store shuffled choices on q for answer checking
+  q._sixChoices = sixChoices;
+
+  sixChoices.forEach((c, i) => {
+    const btn = document.createElement('button');
+    btn.className = 'daily-choice-btn';
+    btn.innerHTML = `<span class="choice-letter">${letters[i]}</span>${c}`;
+    btn.onclick = () => handleDailyAnswer(i, q);
+    choicesEl.appendChild(btn);
+  });
+
+  // Timer
+  clearInterval(dailyTimerInterval);
+  dailyTimeLeft = DAILY_SECS;
+  updateTimerBar();
+  dailyTimerInterval = setInterval(() => {
+    dailyTimeLeft--;
+    updateTimerBar();
+    if (dailyTimeLeft <= 0) {
+      clearInterval(dailyTimerInterval);
+      if (!dailyAnswered) handleDailyTimeout(q);
+    }
+  }, 1000);
+}
+
+function updateTimerBar() {
+  const pct = (dailyTimeLeft / DAILY_SECS) * 100;
+  const bar = document.getElementById('daily-timer-bar');
+  bar.style.width = pct + '%';
+  document.getElementById('daily-timer-secs').textContent = dailyTimeLeft + 's';
+  bar.className = 'daily-timer-bar' + (dailyTimeLeft <= 10 ? ' danger' : dailyTimeLeft <= 20 ? ' warn' : '');
+}
+
+function handleDailyAnswer(choiceIdx, q) {
+  if (dailyAnswered) return;
+  dailyAnswered = true;
+  clearInterval(dailyTimerInterval);
+
+  const choices = q._sixChoices || q.choices;
+  const isCorrect = choices[choiceIdx] === q.a;
+  const btns = document.querySelectorAll('.daily-choice-btn');
+
+  btns.forEach((btn, i) => {
+    btn.disabled = true;
+    if (choices[i] === q.a) btn.classList.add('correct');
+    else if (i === choiceIdx && !isCorrect) btn.classList.add('wrong');
+    else btn.classList.add('dimmed');
+  });
+
+  if (isCorrect) {
+    dailyCorrect++;
+    dailyStreak++;
+    if (dailyStreak > dailyBestStreak) dailyBestStreak = dailyStreak;
+    const speedPts = Math.max(100, Math.round(1000 * (dailyTimeLeft / DAILY_SECS)));
+    const streakBonus = dailyStreak >= 3 ? Math.round(speedPts * 0.5) : 0;
+    const totalPts = speedPts + streakBonus;
+    dailyScore += totalPts;
+    dailyResults.push(true);
+    document.getElementById('daily-feedback').textContent = '✓ Correct!';
+    document.getElementById('daily-feedback').className = 'daily-feedback correct';
+    document.getElementById('daily-pts-flash').textContent = '+' + totalPts.toLocaleString() + ' pts' + (streakBonus > 0 ? ' (🔥 streak bonus!)' : '');
+  } else {
+    dailyStreak = 0;
+    dailyResults.push(false);
+    document.getElementById('daily-feedback').textContent = '✗ The answer was: ' + q.a;
+    document.getElementById('daily-feedback').className = 'daily-feedback wrong';
+    document.getElementById('daily-pts-flash').textContent = '';
+  }
+
+  document.getElementById('daily-score-live').textContent = dailyScore.toLocaleString() + ' pts';
+  setTimeout(() => { dailyIndex++; renderDailyQuestion(); }, 1600);
+}
+
+function handleDailyTimeout(q) {
+  dailyAnswered = true;
+  dailyStreak = 0;
+  dailyResults.push(false);
+  const btns = document.querySelectorAll('.daily-choice-btn');
+  const tChoices = q._sixChoices || q.choices;
+  btns.forEach((btn, i) => {
+    btn.disabled = true;
+    if (tChoices[i] === q.a) btn.classList.add('correct');
+    else btn.classList.add('dimmed');
+  });
+  document.getElementById('daily-feedback').textContent = "⏱ Time's up! Answer: " + q.a;
+  document.getElementById('daily-feedback').className = 'daily-feedback wrong';
+  setTimeout(() => { dailyIndex++; renderDailyQuestion(); }, 1800);
+}
+
+function showDailyResults() {
+  document.getElementById('daily-game-screen').style.display = 'none';
+  document.getElementById('daily-results-screen').style.display = 'block';
+
+  document.getElementById('daily-res-score').textContent = dailyScore.toLocaleString();
+  document.getElementById('daily-res-date').textContent = formatDateDisplay(getTodayStr());
+  document.getElementById('daily-res-correct').textContent = dailyCorrect;
+  document.getElementById('daily-res-wrong').textContent = DAILY_Q_COUNT - dailyCorrect;
+  document.getElementById('daily-res-streak').textContent = dailyBestStreak;
+
+  const dots = dailyResults.map(r => r ? '🟢' : '🔴').join('');
+  document.getElementById('daily-res-dots').textContent = dots;
+
+  const grades = [[10,'S','PERFECT'],[9,'A+','ELITE'],[8,'A','EXCELLENT'],[6,'B','SOLID'],[4,'C','DECENT'],[2,'D','KEEP TRYING'],[0,'F','ROUGH START']];
+  let grade = 'F', gradeText = 'ROUGH START';
+  for (const [t,g,txt] of grades) { if (dailyCorrect >= t) { grade = g; gradeText = txt; break; } }
+  const gc = {S:'#FFD700','A+':'#4ADE80',A:'#4ADE80',B:'#60A5FA',C:'#FACC15',D:'#FB923C',F:'#F87171'}[grade] || '#F87171';
+  const gradeEl = document.getElementById('daily-res-grade');
+  gradeEl.textContent = grade + ' — ' + gradeText;
+  gradeEl.style.background = gc + '22'; gradeEl.style.border = '1.5px solid ' + gc; gradeEl.style.color = gc;
+
+  // Save to localStorage
+  const saveData = { score: dailyScore, correct: dailyCorrect, results: dailyResults, bestStreak: dailyBestStreak, date: getTodayStr() };
+  localStorage.setItem(getTodayStorageKey(), JSON.stringify(saveData));
+  _dailyShareText = buildShareText(dailyScore, dailyCorrect, dailyResults, dailyBestStreak);
+}
+
+function buildShareText(score, correct, results, bestStreak) {
+  const dots = results.map(r => r ? '🟢' : '🔴').join('');
+  return `Nosebleed Daily — ${formatDateDisplay(getTodayStr())}\n` +
+    `📊 Score: ${score.toLocaleString()} pts\n` +
+    `✅ ${correct}/10 correct  🔥 Best streak: ${bestStreak}\n` +
+    `${dots}\n` +
+    `nosebleed-trivia.vercel.app`;
+}
+
+function shareDailyScore() {
+  if (navigator.share) {
+    navigator.share({ title: 'Nosebleed Daily', text: _dailyShareText }).catch(()=>{});
+  } else {
+    navigator.clipboard && navigator.clipboard.writeText(_dailyShareText).then(() => {
+      const btns = document.querySelectorAll('.btn-daily-share');
+      btns.forEach(b => { b.textContent = '✅ Copied!'; setTimeout(() => { b.textContent = '📤 Share Score'; }, 2200); });
+    });
+  }
+}
+
+
+/* ── MIDNIGHT AUTO-REFRESH FOR DAILY CHALLENGE ── */
+(function() {
+  function msUntilMidnight() {
+    const now = new Date();
+    const midnight = new Date(now);
+    midnight.setHours(24, 0, 0, 0);
+    return midnight - now;
+  }
+  function scheduleMidnightRefresh() {
+    const ms = msUntilMidnight();
+    setTimeout(() => {
+      // If user is on the daily tab, re-init it with new day's questions
+      if (typeof currentTab !== 'undefined' && currentTab === 'daily') {
+        initDailyView();
+      }
+      // Schedule next midnight check
+      scheduleMidnightRefresh();
+    }, ms + 500); // +500ms buffer after midnight
+  }
+  scheduleMidnightRefresh();
+})();
 
 </script>
 </body>
